@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_not_share_content" android:layout_below="@id/action_bar_layout" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_not_share_content" android:background="@color/thing_theme_color_b6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_44" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b6_n2" android:gravity="center" android:id="@id/tv_not_content" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/number_unshare_device" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_check_content" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/thing_share_details" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_device_to_share" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_200">
+        <ImageView android:id="@id/tv_none_image" android:layout_width="181.0dip" android:layout_height="109.0dip" android:src="@drawable/b0577395057739u057739" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_none_content" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/devicelist_nodevice" />
+    </LinearLayout>
+</RelativeLayout>

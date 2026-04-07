@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/a057739f057739i057739" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:background="@color/themed_toolbar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_layout" app:tabGravity="center" app:tabIndicatorHeight="0.0dip" app:tabPaddingEnd="@dimen/thing_dp_20" app:tabPaddingStart="@dimen/thing_dp_20" app:tabRippleColor="@color/transparent" app:tabSelectedTextColor="@color/thing_theme_color_b1_n1" app:tabTextAppearance="@style/TabLayoutTextAppearance" app:tabTextColor="@color/thing_theme_color_b1_n3">
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tuya Account" />
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Matter Service" />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

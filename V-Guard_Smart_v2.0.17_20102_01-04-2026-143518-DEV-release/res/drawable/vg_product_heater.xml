@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="61.0dip" android:width="61.0dip" android:viewportWidth="61.0" android:viewportHeight="61.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff626262" android:pathData="M30.5,0.788L30.5,0.788A29.5,29.5 0,0 1,60 30.288L60,30.288A29.5,29.5 0,0 1,30.5 59.788L30.5,59.788A29.5,29.5 0,0 1,1 30.288L1,30.288A29.5,29.5 0,0 1,30.5 0.788z" android:fillAlpha="0.05" />
+    <path android:fillColor="@color/product_img_bg_dark" android:pathData="M30.5,26.831C31.959,26.831 33.137,25.653 33.137,24.194V16.167H27.863V24.194C27.863,25.653 29.041,26.831 30.5,26.831ZM29.621,19.8H31.379V25.073H29.621V19.8Z" />
+    <path android:fillColor="@color/product_img_bg_dark" android:pathData="M30.5,32.104C30.008,32.104 29.621,32.491 29.621,32.983C29.621,33.476 30.008,33.862 30.5,33.862C30.992,33.862 31.379,33.476 31.379,32.983C31.379,32.491 30.992,32.104 30.5,32.104Z" />
+    <path android:fillColor="@color/product_img_bg_dark" android:pathData="M38.55,37.993C40.748,31.366 40.748,24.054 38.55,17.427L38.164,16.167H34.894V24.194C34.894,26.62 32.925,28.589 30.5,28.589C28.074,28.589 26.105,26.62 26.105,24.194V16.167H22.836L22.449,17.427C20.251,24.054 20.251,31.366 22.449,37.993L22.836,39.136H38.164L38.55,37.993ZM30.5,35.62C29.041,35.62 27.863,34.442 27.863,32.983C27.863,31.524 29.041,30.347 30.5,30.347C31.959,30.347 33.136,31.524 33.136,32.983C33.136,34.442 31.959,35.62 30.5,35.62Z" />
+    <path android:fillColor="@color/product_img_bg_dark" android:pathData="M24.348,42.651H26.105V44.409H27.863V42.651H29.621V40.894H24.348V42.651Z" />
+    <path android:fillColor="@color/product_img_bg_dark" android:pathData="M31.348,42.651H33.105V44.409H34.863V42.651H36.621V40.894H31.348V42.651Z" />
+    <path android:fillColor="#00000000" android:pathData="M30.5,0.788L30.5,0.788A29.5,29.5 0,0 1,60 30.288L60,30.288A29.5,29.5 0,0 1,30.5 59.788L30.5,59.788A29.5,29.5 0,0 1,1 30.288L1,30.288A29.5,29.5 0,0 1,30.5 0.788z" android:strokeColor="#ff9ea7ac" android:strokeWidth="1.0" android:strokeAlpha="0.25" />
+</vector>

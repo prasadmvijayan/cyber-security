@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_preset_point" android:layout_width="fill_parent" android:layout_height="240.0dip" android:src="@drawable/u057739b057739" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/camera_list_item_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_8" android:text="@string/ipc_settings_preset_point" android:layout_marginStart="@dimen/thing_mg_16" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_preset_point_list" android:background="@color/transparent" style="@style/list_view" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/camera_list_item_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_8" android:text="@string/ipc_settings_preset_guide1" android:layout_marginStart="@dimen/thing_mg_16" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rlTouch" android:paddingRight="@dimen/wh_20" android:layout_width="48.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739f057739s057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tint="@color/thing_theme_color_b6_n4" />
+    </RelativeLayout>
+    <ImageView android:id="@id/imvremove" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginLeft="@dimen/wh_20" android:layout_marginRight="@dimen/thing_mg_12" android:src="@drawable/a057739f057739r057739" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tvRoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_12" android:maxLines="2" android:layout_toLeftOf="@id/tvDevNum" android:layout_toRightOf="@id/imvremove" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t3" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:id="@id/tvDevNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_12" android:maxWidth="@dimen/thing_dp_120" android:maxLines="1" android:layout_toLeftOf="@id/rlTouch" android:layout_centerVertical="true" />
+    <View android:background="@color/thing_theme_color_b1_n7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/rlTouch" />
+</RelativeLayout>

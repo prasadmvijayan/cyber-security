@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/thing_mg_13" android:paddingBottom="@dimen/thing_mg_13" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textColor="#66ffffff" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/scene_start_time" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#66ffffff" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/scene_end_time" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_np" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_10" android:layout_below="@id/ll_time">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_40" android:layout_centerVertical="true">
+            <View android:id="@id/v_line_up" android:background="#19ffffff" android:layout_marginLeft="@dimen/thing_mg_24" android:layout_marginRight="@dimen/thing_mg_24" android:layout_alignParentTop="true" style="@style/line_long" />
+            <View android:id="@id/v_line_down" android:background="#19ffffff" android:layout_marginLeft="@dimen/thing_mg_24" android:layout_marginRight="@dimen/thing_mg_24" android:layout_alignParentBottom="true" style="@style/line_long" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/start_time_mode" android:background="@null" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginLeft="25.0dip" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/start_hour" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/start_minute" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginRight="@dimen/thing_mg_40" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/end_time_mode" android:background="@null" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/end_hour" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginLeft="@dimen/thing_mg_40" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/cameraNumberPickerTheme" android:id="@id/end_minute" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

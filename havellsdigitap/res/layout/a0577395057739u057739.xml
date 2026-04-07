@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/about_list" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:layout_gravity="center" android:id="@id/app_icp_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_12" android:text="@string/ICP_Record" android:layout_above="@id/copyright" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:layout_gravity="center" android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_16" android:text="?about_company_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

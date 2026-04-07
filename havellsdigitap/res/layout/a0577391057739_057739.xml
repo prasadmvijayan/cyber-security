@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_social_channel_icon" android:layout_width="@dimen/thing_mg_45" android:layout_height="@dimen/thing_mg_45" />
+    <TextView android:layout_gravity="center" android:id="@id/tv_social_channel_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

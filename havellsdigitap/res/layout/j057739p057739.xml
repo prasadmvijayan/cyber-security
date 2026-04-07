@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.camera.uiview.view.DrawableTextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_electric" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="@dimen/thing_dp_2" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:id="@id/ll_record" android:background="@color/black_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_32" android:layout_centerInParent="true">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/l057739g057739" />
+        <TextView android:textColor="@color/white" android:id="@id/tv_record_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_camera_play_selector" android:background="@color/black" android:padding="@dimen/thing_mg_16" android:visibility="gone" android:layout_width="@dimen/thing_dp_55" android:layout_height="@dimen/thing_dp_55" android:src="@drawable/t057739o057739" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/thing_mg_80" android:paddingRight="@dimen/thing_mg_80" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.camera.uiview.view.DrawableTextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:gravity="center|right" android:id="@id/tv_temperature" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="@dimen/thing_dp_1" android:layout_weight="1.0" app:leftDrawable="@drawable/x057739f057739" app:leftDrawableHeight="@dimen/thing_dp_20" app:leftDrawableWidth="@dimen/thing_dp_20" />
+        <com.thingclips.smart.camera.uiview.view.DrawableTextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:gravity="center|left" android:id="@id/tv_humidity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="@dimen/thing_dp_1" android:layout_weight="1.0" app:leftDrawable="@drawable/p057739j057739" app:leftDrawableHeight="@dimen/thing_dp_20" app:leftDrawableWidth="@dimen/thing_dp_20" />
+    </LinearLayout>
+</RelativeLayout>

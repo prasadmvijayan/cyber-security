@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_status_light_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_action_button" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_34" android:layout_marginTop="@dimen/thing_dp_46" android:src="@drawable/b05773940577395057739" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_circle_guide" />
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/svp_content" android:layout_width="@dimen/thing_dp_315" android:layout_height="@dimen/thing_dp_424" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_circle_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_20" app:layout_constraintBottom_toBottomOf="@id/svp_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

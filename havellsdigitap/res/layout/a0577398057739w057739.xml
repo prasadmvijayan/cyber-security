@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_20" android:textStyle="bold" android:textColor="@color/white" android:id="@id/homepage_item_alarm_type_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" />
+    <TextView android:textSize="@dimen/thing_dp_13" android:textStyle="bold" android:textColor="@color/white" android:id="@id/homepage_item_alarm_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/homepage_item_alarm_type_tv" />
+</RelativeLayout>

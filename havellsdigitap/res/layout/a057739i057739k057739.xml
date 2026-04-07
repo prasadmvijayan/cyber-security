@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.vas.setting.hosting.widget.TriangleView android:layout_gravity="right" android:layout_width="@dimen/thing_dp_36" android:layout_height="@dimen/thing_dp_16" app:tlv_color="@color/theme_dialog_background" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/b057739g057739e057739" android:paddingLeft="@dimen/thing_dp_18" android:paddingRight="@dimen/thing_dp_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/thing_dp_18">
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/theme_dialog_title" android:gravity="center_horizontal" android:paddingTop="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_simple_confirm_title" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/theme_dialog_description" android:paddingTop="@dimen/thing_dp_16" android:paddingBottom="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hs_relative_camera_sort_notice" />
+    </LinearLayout>
+</LinearLayout>

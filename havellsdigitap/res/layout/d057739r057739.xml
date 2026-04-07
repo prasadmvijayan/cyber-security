@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_ad_image" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/thing_mg_100" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_skip" android:background="@drawable/b0577396057739v057739" android:paddingLeft="@dimen/thing_mg_12" android:paddingTop="@dimen/thing_mg_5" android:paddingRight="@dimen/thing_mg_12" android:paddingBottom="@dimen/thing_mg_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_10" android:layout_marginBottom="@dimen/thing_mg_10" android:layout_alignBottom="@id/iv_ad_image" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_splash_skip_ad" android:alpha="0.7" />
+        <TextView android:textSize="@dimen/ts_13" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_duration_secends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_5" android:text="5" android:alpha="0.7" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_skip" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_100" android:minHeight="@dimen/thing_mg_100" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/a057739" />
+    </LinearLayout>
+</RelativeLayout>

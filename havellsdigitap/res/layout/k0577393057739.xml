@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_message_center_calendar_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="?camera_message_center_tab_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/spline" android:background="?camera_message_center_tab_separator_color" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ai_tags_rv" android:padding="@dimen/thing_dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintHeight_default="wrap" app:layout_constraintHeight_max="@dimen/thing_dp_360" app:layout_constraintTop_toBottomOf="@id/spline" />
+        <View android:id="@id/spline2" android:background="?camera_message_center_tab_separator_color" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toBottomOf="@id/ai_tags_rv" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_54" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/spline2">
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_color" android:gravity="center" android:id="@id/ai_select_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <View android:background="?camera_message_center_tab_separator_color" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/camera_message_confirm" android:gravity="center" android:id="@id/ai_select_confirm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_confirm" android:layout_weight="1.0" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

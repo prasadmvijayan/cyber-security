@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" android:contentDescription="@string/auto_test_add_smart_task">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdv_icon" android:layout_width="@dimen/thing_dp_36" android:layout_height="@dimen/thing_dp_36" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_16" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="8.0dip" android:layout_height="13.0dip" android:layout_marginRight="@dimen/thing_dp_16" android:src="@drawable/b057739e057739r057739" android:tint="@color/thing_theme_color_b4_n6" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.thingclips.smart.uispecs.component.IconView android:id="@id/iv_grey_icon" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_16" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:iv_icon_type="warn" app:iv_theme_color="@color/thing_theme_color_b4_n6" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:singleLine="true" android:layout_toLeftOf="@id/iv_arrow" android:layout_toRightOf="@id/sdv_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

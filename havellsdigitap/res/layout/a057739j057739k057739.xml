@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b057739g057739f057739" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/theme_card_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_image" android:layout_width="@dimen/thing_dp_56" android:layout_height="@dimen/thing_dp_56" app:failureImage="@drawable/b057739h057739o057739" app:placeholderImage="@drawable/b057739h057739o057739" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_card_title" android:id="@id/tv_dev_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_dp_16" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dev_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.thingclips.security.vas.base.widget.ExpandableTextView android:id="@id/etv_remark" android:background="@drawable/b057739g057739d057739" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

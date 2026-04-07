@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a05773930577395057739" android:layout_width="@dimen/thing_dp_315" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_26" android:maxLines="1" />
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b4_n2" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_6" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_15" />
+    <TextView android:textSize="@dimen/thing_dp_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_marginTop="@dimen/thing_dp_6" android:text="@string/cancel" />
+</LinearLayout>

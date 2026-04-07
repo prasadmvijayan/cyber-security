@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/frameLayout" android:background="@drawable/a057739x0577390057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:alpha="0.8">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginTop="@dimen/thing_dp_5" android:layout_marginRight="@dimen/thing_dp_15" android:layout_marginBottom="@dimen/thing_dp_5">
+            <ImageView android:id="@id/left_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/u0577394057739" />
+            <ImageView android:id="@id/center_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginRight="@dimen/thing_dp_15" android:src="@drawable/u0577392057739" />
+            <ImageView android:id="@id/right_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/u0577395057739" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/play_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_20" android:src="@drawable/p057739c057739" />
+</FrameLayout>

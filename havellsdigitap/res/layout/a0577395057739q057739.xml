@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rl_list_background_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_none_data" android:layout_width="@dimen/thing_mg_64" android:layout_height="@dimen/thing_mg_64" android:src="@drawable/a057739s057739v057739" android:layout_centerHorizontal="true" app:tint="@color/thing_theme_color_b1_n2" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/text_color2" android:gravity="center" android:id="@id/tv_none_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/no_timer_data" android:layout_below="@id/iv_none_data" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/tv_empty_func" android:background="@drawable/a057739u057739_057739" android:layout_width="160.0dip" android:layout_height="40.0dip" android:layout_marginTop="30.0dip" android:text="@string/add" android:layout_below="@id/tv_none_content" android:layout_centerHorizontal="true" android:contentDescription="@string/auto_test_add_schedule" />
+</RelativeLayout>

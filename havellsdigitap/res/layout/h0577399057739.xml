@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?camera_panelmore_item_bg" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/door_lock_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:ellipsize="end" android:id="@id/door_lock_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:text="@string/ipc_settings_remote_unlock_sup_dev" android:maxLines="1" />
+</LinearLayout>

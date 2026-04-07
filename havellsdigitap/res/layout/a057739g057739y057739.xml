@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uispecs.component.tab.PagerTab android:id="@id/pagertab" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_78" app:ptIndicatorLineScrollMode="transform" app:ptIndicatorMode="scrollable_center" app:ptIndicatorToBottom="@dimen/thing_mg_12" app:ptSelectIconfontSize="@dimen/thing_dp_20" app:ptSelectTextColor="@color/thing_theme_color_m1" app:ptSelectTextSize="@dimen/uispecs_text_desc_small" app:ptSelectTextStyle="bold" app:ptTabToIndicator="@dimen/thing_mg_4" app:ptUnSelectIconfontSize="@dimen/thing_dp_20" app:ptUnSelectTextColor="@color/thing_theme_color_b4_n4" app:ptUnSelectTextSize="@dimen/uispecs_text_desc_small" app:ptUnSelectTextStyle="normal" />
+    <View android:background="@drawable/b057739f0577395057739" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

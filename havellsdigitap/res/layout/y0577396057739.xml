@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739h0577399057739" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/thing_dp_60" android:layout_below="@id/action_bar_layout">
+        <com.thingclips.smart.light.scene.plug.widget.SceneStepLayout android:orientation="horizontal" android:id="@id/sslLayout" android:paddingTop="@dimen/thing_dp_15" android:paddingBottom="@dimen/thing_dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_dp_32" android:paddingEnd="@dimen/thing_dp_32" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:layout_marginStart="@dimen/thing_dp_10" android:layout_marginEnd="@dimen/thing_dp_10" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_bottom" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_60" android:layout_alignParentBottom="true" android:paddingStart="@dimen/thing_dp_20" android:paddingEnd="@dimen/thing_dp_13">
+        <com.thingclips.smart.uispecs.component.button.ShadowButton android:layout_gravity="center_vertical" android:id="@id/btn_next" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" app:shadowButton_backgroundColor="@color/uispecs_lighting_main_color" app:shadowButton_radius="@dimen/thing_theme_dimen_c1_2" app:shadowButton_text="@string/save" app:shadowButton_textColor="@color/thing_theme_color_m1_n1" app:shadowButton_textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

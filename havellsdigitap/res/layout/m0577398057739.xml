@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <RelativeLayout android:id="@id/rl_siren_choose" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginTop="@dimen/thing_dp_20">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:ellipsize="end" android:id="@id/tv_siren_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxWidth="@dimen/thing_dp_240" android:lines="1" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ts_14" android:textColor="?camera_panelmore_item_subtitle_text_color" android:ellipsize="end" android:gravity="right" android:id="@id/tv_siren_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:lines="1" android:singleLine="true" android:drawableRight="@drawable/l057739_057739" android:drawablePadding="6.0dip" android:layout_toRightOf="@id/tv_siren_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/tv_siren_title" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.thingclips.smart.camera.uiview.view.CameraSeekBarWithTitleLayout android:id="@id/display_bright_Ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20" />
+    <com.thingclips.smart.camera.uiview.view.CameraSeekBarWithTitleLayout android:id="@id/display_contrast_Ll" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

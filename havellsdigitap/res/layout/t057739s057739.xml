@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <RelativeLayout android:id="@id/bottom_ly" android:background="@color/color_2a2a2a" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/more_album_ly" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/more_album" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_gallery_all_img" android:includeFontPadding="false" android:layout_centerVertical="true" android:elevation="10.0dip" />
+            <View android:background="@drawable/b057739c057739c057739" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/more_album" android:layout_alignBottom="@id/more_album" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/pick_confirm_btn" android:background="@drawable/a0577391057739m057739" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/thing_confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/gallery_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_ly" android:layout_below="@id/action_bar_layout" />
+</RelativeLayout>

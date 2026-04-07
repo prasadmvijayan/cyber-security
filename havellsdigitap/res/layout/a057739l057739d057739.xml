@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_theme_dimen_p2" app:thing_common_toolbar_centerTitle="@string/scene_weather_change" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_weather_list" android:background="@drawable/a057739z057739f057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

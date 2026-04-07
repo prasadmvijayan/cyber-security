@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/tv_one_step" android:background="@drawable/b0577392057739k057739" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:text="1" />
+    <View android:layout_gravity="center_vertical" android:id="@id/v_step_one" android:background="@color/thing_theme_color_b1_n7" android:layout_width="@dimen/thing_dp_0" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:id="@id/tv_two_step" android:background="@drawable/b0577392057739h057739" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:text="2" android:layout_marginStart="-1.0dip" />
+    <View android:layout_gravity="center_vertical" android:id="@id/v_step_two" android:background="@color/thing_theme_color_b1_n7" android:layout_width="@dimen/thing_dp_0" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:id="@id/tv_three_step" android:background="@drawable/b0577392057739h057739" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:text="3" />
+    <View android:layout_gravity="center_vertical" android:id="@id/v_step_three" android:background="@color/thing_theme_color_b1_n7" android:visibility="gone" android:layout_width="@dimen/thing_dp_0" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:id="@id/tv_four_step" android:background="@drawable/b0577392057739h057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:text="4" />
+</merge>

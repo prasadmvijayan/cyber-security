@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/h057739g057739" android:layout_width="@dimen/thing_dp_315" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/protection_dialog_title_tv" android:paddingLeft="@dimen/thing_dp_50" android:paddingRight="@dimen/thing_dp_50" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_96" android:text="@string/about" />
+    <RelativeLayout android:id="@id/protection_dialog_content_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/thing_theme_color_b1_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/protection_dialog_cancle_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/thing_cancel" android:layout_weight="1.0" />
+        <View android:id="@id/protection_divide_line_iv" android:background="@color/thing_theme_color_b1_n7" android:layout_width="@dimen/thing_dp_1" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/protection_dialog_certain_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/thing_alert_confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

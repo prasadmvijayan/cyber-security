@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_item" android:background="@color/transparent" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_8" android:layout_width="fill_parent" android:layout_height="36.0dip" android:drawableLeft="@drawable/f057739m057739" android:drawablePadding="@dimen/thing_mg_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

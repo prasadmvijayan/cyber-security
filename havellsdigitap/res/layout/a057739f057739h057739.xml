@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/camera_toolbar_back" android:layout_width="@dimen/thing_dp_46" android:layout_height="@dimen/thing_dp_46" android:src="@drawable/l057739h057739" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:contentDescription="thing_ipc_fullscreen_back" />
+    <RelativeLayout android:id="@id/camera_full_mute_rl" android:layout_width="@dimen/thing_dp_46" android:layout_height="@dimen/thing_dp_46" android:layout_marginRight="@dimen/thing_mg_76" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/camera_full_mute" android:layout_width="@dimen/thing_dp_46" android:layout_height="@dimen/thing_dp_46" android:src="@drawable/r057739d057739" android:scaleType="centerInside" />
+        <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="@dimen/thing_mg_20" android:layout_height="@dimen/thing_mg_20" android:layout_centerInParent="true" style="@style/ThingCameraProgressBar" />
+    </RelativeLayout>
+    <ImageView android:id="@id/camera_full_clarity" android:layout_width="@dimen/thing_dp_46" android:layout_height="@dimen/thing_dp_46" android:layout_marginRight="@dimen/thing_mg_20" android:src="@drawable/v057739z057739" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="#ff4b5eef" android:gravity="center" android:id="@id/camera_full_channel" android:background="@drawable/p057739f057739" android:padding="@dimen/thing_dp_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_24" android:layout_marginTop="@dimen/thing_dp_11" android:layout_marginRight="@dimen/thing_mg_20" android:minWidth="@dimen/thing_dp_40" android:layout_toLeftOf="@id/camera_full_mute_rl" />
+</RelativeLayout>

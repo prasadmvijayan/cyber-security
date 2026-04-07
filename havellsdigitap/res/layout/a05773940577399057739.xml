@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_ota_upgrade_page_container" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llTimeOutTip" android:background="@color/thing_theme_color_m4_alpha_10" android:paddingTop="@dimen/thing_mg_8" android:paddingBottom="@dimen/thing_mg_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/thing_mg_8">
+        <ImageView android:id="@id/ivOTATimeOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739r057739y057739" android:layout_marginStart="@dimen/thing_mg_16" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_m4" android:id="@id/tvOTATimeOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_mg_8" android:layout_marginEnd="@dimen/thing_mg_16" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_ota_top_tip" android:background="@drawable/a057739r057739q057739" android:paddingTop="@dimen/thing_mg_12" android:paddingBottom="@dimen/thing_mg_12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16" android:paddingVertical="@dimen/thing_mg_12">
+        <ImageView android:id="@id/ivOtaTipIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739r057739y057739" android:layout_marginStart="@dimen/thing_mg_16" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b3_n6" android:id="@id/tvOtaTipText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_mg_8" android:layout_marginEnd="@dimen/thing_mg_16" />
+    </LinearLayout>
+    <com.thingclips.smart.ota.ui.kit.widget.FirmwareInfoCard android:id="@id/info_card_ota" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_update_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_mg_16">
+        <RelativeLayout android:id="@id/rl_ota_switch_box" android:background="@drawable/a057739r057739m057739" android:padding="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b3_n1" android:id="@id/tv_ota_switch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_firmware_auto_upgrade_switch_title" android:layout_centerVertical="true" />
+            <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/ota_sb_auto_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:kswBackDrawable="@drawable/a057739s0577394057739" app:kswThumbColor="@color/thing_theme_color_m3_n1" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_ota_switch_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_8" android:text="@string/thing_firmware_auto_upgrade_switch_desc" />
+    </LinearLayout>
+</LinearLayout>

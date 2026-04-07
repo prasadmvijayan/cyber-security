@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.SwitchButton android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/thing_dp_16" android:layout_width="@dimen/thing_dp_56" android:layout_height="@dimen/mg_47"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_sp_13" android:gravity="center" android:id="@id/tv_room_name" android:background="@drawable/a0577396057739t057739" android:paddingLeft="@dimen/thing_mg_20" android:paddingRight="@dimen/thing_mg_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" android:layout_marginRight="@dimen/thing_mg_16" android:minHeight="@dimen/wh_30" android:maxLines="1" android:contentDescription="@string/auto_test_roomset_name" android:paddingStart="@dimen/thing_mg_20" android:paddingEnd="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16" />
+</FrameLayout>

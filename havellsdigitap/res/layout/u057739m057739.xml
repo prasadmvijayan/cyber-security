@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_favorite_empty" android:layout_width="@dimen/thing_dp_230" android:layout_height="@dimen/thing_dp_100" android:layout_marginTop="@dimen/thing_dp_40" android:src="@drawable/b057739a057739k057739" />
+    <TextView android:textSize="@dimen/thing_sp_13" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_favorite_dsc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_12" android:text="@string/hs_no_favorite_device_tips" />
+    <TextView android:textSize="@dimen/thing_sp_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:background="@drawable/a05773990577397057739" android:paddingTop="@dimen/thing_dp_12" android:paddingBottom="@dimen/thing_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_24" android:text="@string/hs_add_favorite" android:layout_below="@id/tv_favorite_dsc" android:paddingStart="@dimen/thing_dp_26" android:paddingEnd="@dimen/thing_dp_26" />
+</LinearLayout>

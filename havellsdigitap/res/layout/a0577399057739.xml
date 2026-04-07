@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <TextView android:textSize="@dimen/ts_24" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n2" android:gravity="center_horizontal" android:id="@id/tv_help_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wh_85" android:text="@string/ipc_qrpair_help_title" />
+    <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b1_n2" android:id="@id/tv_help_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_20" android:layout_marginTop="@dimen/thing_mg_140" android:layout_marginRight="@dimen/thing_mg_20" android:text="@string/ipc_qrpair_help_tip" />
+</RelativeLayout>

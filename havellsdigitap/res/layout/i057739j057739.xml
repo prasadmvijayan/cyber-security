@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lv_dialog_camera_ptz_title" android:background="@drawable/o0577390057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_48"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_10" android:src="@drawable/n057739y057739" />
+</LinearLayout>

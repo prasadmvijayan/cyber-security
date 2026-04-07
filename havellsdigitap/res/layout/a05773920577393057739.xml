@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gzl.smart.gzlminiapp.core.pullrefresh.MiniAppRefreshHeadLayout android:layout_width="fill_parent" android:layout_height="@dimen/uispecs_refresh_pull_offset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/refresh_header" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminateDrawable="@drawable/g0577394057739" />
+</com.gzl.smart.gzlminiapp.core.pullrefresh.MiniAppRefreshHeadLayout>

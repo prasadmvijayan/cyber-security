@@ -1,0 +1,110 @@
+.class public interface abstract Lcom/thingclips/smart/device/list/api/dp/ui/IDpDialogFactory;
+.super Ljava/lang/Object;
+.source "IDpDialogFactory.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000:\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0008f\u0018\u00002\u00020\u0001J.\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00070\u00062\u0006\u0010\n\u001a\u00020\tH&J\"\u0010\u000f\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\r\u001a\u00020\u000bH&J\"\u0010\u0011\u001a\u0004\u0018\u00010\u00102\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\r\u001a\u00020\u000bH&\u00a8\u0006\u0012"
+    }
+    d2 = {
+        "Lcom/thingclips/smart/device/list/api/dp/ui/IDpDialogFactory;",
+        "",
+        "Landroid/content/Context;",
+        "context",
+        "Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;",
+        "uiBean",
+        "",
+        "Lcom/thingclips/smart/uispecs/component/dialog/bean/ContentViewPagerBean;",
+        "data",
+        "Lcom/thingclips/smart/uispecs/component/dialog/IDialogListener;",
+        "listener",
+        "Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;",
+        "b",
+        "content",
+        "Lcom/thingclips/smart/uispecs/component/dialog/ITitleManager;",
+        "a",
+        "Lcom/thingclips/smart/uispecs/component/dialog/IFooterManager;",
+        "c",
+        "device-list-api_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Landroid/content/Context;Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;)Lcom/thingclips/smart/uispecs/component/dialog/ITitleManager;
+    .param p1    # Landroid/content/Context;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+.end method
+
+.method public abstract b(Landroid/content/Context;Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;Ljava/util/List;Lcom/thingclips/smart/uispecs/component/dialog/IDialogListener;)Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;
+    .param p1    # Landroid/content/Context;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/List;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p4    # Lcom/thingclips/smart/uispecs/component/dialog/IDialogListener;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/thingclips/smart/uispecs/component/dialog/bean/ContentViewPagerBean;",
+            ">;",
+            "Lcom/thingclips/smart/uispecs/component/dialog/IDialogListener;",
+            ")",
+            "Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method
+
+.method public abstract c(Landroid/content/Context;Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;)Lcom/thingclips/smart/uispecs/component/dialog/IFooterManager;
+    .param p1    # Landroid/content/Context;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/thingclips/smart/device/list/api/bean/ui/HomeItemUIBean;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Lcom/thingclips/smart/uispecs/component/dialog/ContentViewpagerManager;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+.end method

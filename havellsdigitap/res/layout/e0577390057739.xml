@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_32" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_dp_32" android:layout_below="@id/action_bar_layout" android:layout_marginHorizontal="@dimen/thing_dp_32">
+        <TextView android:textSize="@dimen/thing_sp_22" android:textStyle="bold" android:textColor="@color/thing_theme_color_b3_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_withdraw_consent_title" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b3_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/thing_withdraw_consent_tip1" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b3_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/thing_withdraw_consent_tip2" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b3_n1" android:id="@id/confirm_withdraw_btn" android:background="@drawable/k0577395057739" android:layout_width="@dimen/thing_dp_311" android:layout_height="@dimen/thing_dp_48" android:layout_marginBottom="@dimen/thing_dp_66" android:text="@string/thing_confirm_withdraw" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:stateListAnimator="@null" />
+</RelativeLayout>

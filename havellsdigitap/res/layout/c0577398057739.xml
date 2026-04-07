@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <Button android:id="@id/bt_query_tem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="tem" android:layout_weight="1.0" />
+        <Button android:id="@id/bt_query_hum" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="hum" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+        <Button android:id="@id/bt_query_all" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="TH" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+        <Button android:id="@id/bt_query_sdk" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="SDK" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <Button android:id="@id/bt_clean_tem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="clearT" android:layout_weight="1.0" />
+        <Button android:id="@id/bt_clean_hum" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="clearH" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <Button android:id="@id/bt_hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="hour" android:layout_weight="1.0" />
+        <Button android:id="@id/bt_day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="day" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_week" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="week" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_month" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="month" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="year" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <Button android:id="@id/bt_connect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="connect" />
+        <Button android:id="@id/bt_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c" />
+        <Button android:id="@id/bt_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="f" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <TextView android:id="@id/tv_tem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="tem" android:layout_marginStart="10.0dip" />
+        <TextView android:id="@id/tv_hum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hum" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="@dimen/thing_sp_15" android:textColor="@color/black" android:gravity="start|center" android:id="@id/tem_begin_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/thing_sp_15" android:textColor="@color/black" android:gravity="end" android:layout_gravity="end|center" android:id="@id/tem_end_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_hum_hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="hour" android:layout_weight="1.0" />
+        <Button android:id="@id/bt_hum_day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="day" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_hum_week" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="week" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_hum_month" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="month" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <Button android:id="@id/bt_hum_year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="year" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/thing_theme_dimen_p4" android:paddingTop="@dimen/thing_dp_12" android:paddingRight="@dimen/thing_theme_dimen_p4" android:paddingBottom="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingEditText android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b3_n1" android:textColorHint="@color/thing_theme_color_b3_n4" android:gravity="center|left|top" android:id="@id/et" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:textCursorDrawable="@drawable/b05773990577392057739" />
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b3_n4" android:id="@id/tv_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b3_n4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" />
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b3_n4" android:id="@id/tv_countnum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_debug_lang_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:text="thing_debug_language_tips" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_force_key" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_marginTop="@dimen/thing_mg_8">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_55" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_55">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_debug_language_force_title" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b6_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/thing_debug_language_force_subtitle" />
+        </LinearLayout>
+        <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_boolean" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_16" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackDrawable="@drawable/b0577397057739p057739" app:kswThumbColor="@color/white" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_words_get" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_55" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_55">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_debug_language_fetch_localize" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b6_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/thing_debug_language_fetch_subtitle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_words_look" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_55" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_55">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_debug_language_view_localize" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b6_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/thing_debug_language_view_subtitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_view_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_16" android:src="@drawable/h057739n057739" android:tint="@color/thing_theme_color_b6_n6" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/ll_lang_switch_title" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_42">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:text="@string/thing_debug_language_switch" android:singleLine="true" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16" />
+    </LinearLayout>
+</LinearLayout>

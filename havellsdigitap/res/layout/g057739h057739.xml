@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739h057739j057739" />
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_m4" android:gravity="center|left" android:id="@id/tv_group_create_tx" android:background="@color/thing_theme_color_m4_alpha_10" android:paddingLeft="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_48" android:text="@string/group_control_tip" android:drawableLeft="@drawable/j057739h057739" android:drawablePadding="@dimen/thing_dp_10" android:layout_below="@id/action_bar_layout" app:drawableTint="@color/thing_theme_color_m4" />
+    <View android:id="@id/v_title_down_line" android:layout_below="@id/tv_group_create_tx" style="@style/line_normal" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/srl_group_edit_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_title_down_line">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/lv_group_device_list" android:background="@color/thing_theme_color_b1" android:layout_marginTop="20.0dip" style="@style/list_view" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/a057739e0577395057739" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.camera.uiview.view.RippleGroupView android:id="@id/camera_rgv_single_speaking" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/thing_dp_100" android:layout_height="@dimen/thing_dp_100" android:layout_centerInParent="true" />
+    <com.thingclips.smart.camera.uiview.view.ChronometerLayout android:gravity="center" android:id="@id/camera_record_ly" android:background="@drawable/u057739v057739" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/thing_dp_10" android:paddingEnd="@dimen/thing_dp_10" />
+</RelativeLayout>

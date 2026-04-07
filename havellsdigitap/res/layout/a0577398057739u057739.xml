@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/protection_dialog_device_margin" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_12" />
+    <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/theme_page_description" android:id="@id/tv_name" android:paddingLeft="@dimen/thing_dp_20" android:paddingTop="@dimen/thing_dp_4" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hs_event_recording_link_desc" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?camera_doorbell_manager_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_icon" android:layout_width="@dimen/thing_dp_32" android:layout_height="@dimen/thing_dp_32" android:layout_marginLeft="@dimen/thing_dp_16" android:src="?camera_icon_voice_anim_list" android:scaleType="center" />
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="?camera_panelmore_item_title_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginRight="@dimen/thing_dp_15" android:maxLines="2" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" />
+</LinearLayout>

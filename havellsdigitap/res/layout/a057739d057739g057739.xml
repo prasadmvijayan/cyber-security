@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingImageView android:layout_gravity="end" android:id="@id/closeButton" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:layout_marginTop="@dimen/thing_theme_dimen_p4" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" app:srcCompat="@drawable/b05773990577391057739" app:tint="@color/thing_theme_color_b4_n6" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6_f" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center_horizontal" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginTop="@dimen/thing_theme_dimen_p8" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/customViewContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ScrollView android:id="@id/messageScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p1" android:layout_marginBottom="@dimen/thing_theme_dimen_p6" android:overScrollMode="ifContentScrolls">
+            <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4_f" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center_horizontal" android:id="@id/messageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" />
+        </ScrollView>
+    </LinearLayout>
+    <View android:id="@id/buttonsDivider" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" />
+</LinearLayout>

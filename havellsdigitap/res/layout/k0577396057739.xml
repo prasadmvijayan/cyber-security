@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_message_center_tab_text_normal_color" android:gravity="center" android:id="@id/classify_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_10" android:singleLine="true" />
+</LinearLayout>

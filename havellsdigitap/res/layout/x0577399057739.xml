@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.gallery.preview.widget.draweeview.ZoomableDraweeViewSupport android:id="@id/zd_photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+</RelativeLayout>

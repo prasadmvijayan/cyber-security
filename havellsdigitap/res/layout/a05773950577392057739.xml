@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/footView" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:autoLink="all" android:layout_gravity="center" android:id="@id/tvGatewayTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_30" android:layout_marginBottom="@dimen/thing_dp_30" android:text="@string/galaxy_link_management_list_help_link_title" />
+</LinearLayout>

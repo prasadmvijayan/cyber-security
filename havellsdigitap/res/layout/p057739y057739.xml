@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a05773930577394057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/eSim_tv" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_54" android:text="@string/thing_activator_esim_name" />
+    <View android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_0.5" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/sim_tv" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_54" android:text="@string/thing_activator_sim_name" />
+    <View android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_8" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/cancel_tv" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57" android:text="@string/cancel" />
+</LinearLayout>

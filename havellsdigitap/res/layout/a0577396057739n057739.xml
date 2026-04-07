@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.widget.ThingBadge android:layout_gravity="right" android:id="@id/badge_container_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/thing_theme_dimen_p4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_i3" android:id="@id/tv_menu_setting" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:contentDescription="@string/auto_test_smart_add" />
+</com.thingclips.smart.widget.ThingBadge>

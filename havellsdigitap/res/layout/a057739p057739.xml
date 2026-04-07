@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b_activator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_topbar" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50">
+        <ImageView android:id="@id/iv_back" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:src="@drawable/b057739d057739w057739" android:scaleType="fitXY" android:layout_centerVertical="true" android:onClick="goBack" android:tintMode="src_in" app:tint="@color/thing_theme_color_b_activator_n2" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t7" android:textStyle="bold" android:textColor="@color/thing_theme_color_b_activator_n1" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_11" android:layout_marginRight="@dimen/thing_dp_11" android:text="@string/thing_activator_home_title" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_alignParentRight="true">
+            <RelativeLayout android:id="@id/rl_scan_result" android:visibility="gone" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_50">
+                <ImageView android:id="@id/iv_scan_result" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a057739e0577392057739" android:scaleType="fitXY" android:layout_centerInParent="true" android:onClick="expandAutoScanUI" android:tintMode="src_in" app:tint="@color/thing_theme_color_b_activator_n2" />
+                <TextView android:textSize="@dimen/thing_theme_dimen_t1" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_scan_result_num" android:background="@drawable/y057739d057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_18" android:layout_height="@dimen/thing_dp_18" android:layout_marginTop="@dimen/thing_dp_10" android:text="" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_scan" android:visibility="visible" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_marginLeft="@dimen/thing_dp_10" android:src="@drawable/b057739e0577394057739" android:scaleType="fitXY" android:onClick="openCameraScan" android:tintMode="src_in" app:tint="@color/thing_theme_color_b_activator_n2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_topbar">
+        <com.thingclips.smart.activator.ui.kit.widgets.StickyTopLayout android:orientation="vertical" android:id="@id/styContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.thingclips.smart.activator.ui.kit.widgets.NestedScrollingChild2View android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/rlAutoConfig" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.thingclips.smart.activator.ui.kit.widgets.NestedScrollingChild2View>
+            <FrameLayout android:id="@id/rlManualConfig" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_18" />
+        </com.thingclips.smart.activator.ui.kit.widgets.StickyTopLayout>
+    </RelativeLayout>
+</RelativeLayout>

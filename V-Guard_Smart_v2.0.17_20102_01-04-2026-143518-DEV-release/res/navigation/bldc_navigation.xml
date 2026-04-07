@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/bldc_navigation" app:startDestination="@id/fragment_bldc_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/bldc_fan_label" android:name="com.vguard.smart.view.fan.bldc.BldcDashboardFragment" android:id="@id/fragment_bldc_dashboard">
+        <action android:id="@id/action_fragment_bldc_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+        <action android:id="@id/action_fragment_bldc_dashboard_to_bldcCreateScheduleFragment" app:destination="@id/bldcCreateScheduleFragment" />
+        <action android:id="@id/action_fragment_bldc_dashboard_to_bldcMoodLightFragment" app:destination="@id/bldcMoodLightFragment" />
+        <action android:id="@id/action_fragment_bldc_dashboard_to_bldcGladoFanCreateScheduleFragment" app:destination="@id/bldcGladoFanCreateScheduleFragment" />
+        <action android:id="@id/action_fragment_bldc_dashboard_to_bldcDreamsFanCreateScheduleFragment" app:destination="@id/bldcDreamsFanCreateScheduleFragment" />
+        <action android:id="@id/action_fragment_bldc_dashboard_to_bldcDreamsLightControlFragment" app:destination="@id/bldcDreamsLightControlFragment" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.view.home.myproducts.ProductDetailsFragment" android:id="@id/productDetailsFragment">
+        <action android:id="@id/action_productDetailsFragment_to_productEditFragment" app:destination="@id/productEditFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productShareFragment" app:destination="@id/productShareFragment" />
+    </fragment>
+    <fragment android:label="@string/edit_prod_details" android:name="com.vguard.smart.view.home.myproducts.edit.ProductEditFragment" android:id="@id/productEditFragment" />
+    <fragment android:label="@string/product_settings" android:name="com.vguard.smart.view.home.myproducts.ProductSettingsFragment" android:id="@id/productSettingsFragment" />
+    <fragment android:label="@string/share_product" android:name="com.vguard.smart.view.home.myproducts.ProductShareFragment" android:id="@id/productShareFragment" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.fan.bldc.BldcCreateScheduleFragment" android:id="@id/bldcCreateScheduleFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.fan.bldc.BldcGladoFanMoodLightFragment" android:id="@id/bldcMoodLightFragment" />
+    <fragment android:label="@string/create_schedule" android:name="com.vguard.smart.view.fan.bldc.BldcGladoFanLightCreateScheduleFragment" android:id="@id/bldcGladoFanCreateScheduleFragment" />
+    <fragment android:label="@string/create_schedule" android:name="com.vguard.smart.view.fan.bldc.BldcDreamsFanLightCreateScheduleFragment" android:id="@id/bldcDreamsFanCreateScheduleFragment" />
+    <fragment android:label="@string/light_control_title" android:name="com.vguard.smart.view.fan.bldc.BldcDreamsFanLightControlFragment" android:id="@id/bldcDreamsLightControlFragment" />
+</navigation>

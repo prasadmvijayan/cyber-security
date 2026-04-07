@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/thing_theme_color_b1" />
+    <stroke android:width="1.0px" android:color="#ffdddfe7" />
+</shape>

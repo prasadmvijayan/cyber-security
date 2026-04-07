@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/mini_app_setting_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/wrapper_theme_color_b1" app:cardElevation="0.0dip" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gzl.smart.gzlminiapp.core.view.navigatorbar.GZLNavigationBar android:id="@id/gzlToolbar" android:layout_width="fill_parent" android:layout_height="@dimen/mini_app_navbar_height" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/miniapp_rv_permissions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_above="@id/gzlToolbar" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/miniapp_ll_authinfo" android:background="@color/wrapper_theme_color_b6" android:paddingLeft="16.0dip" android:paddingTop="17.0dip" android:paddingRight="16.0dip" android:paddingBottom="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="17.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/wrapper_theme_color_b6_n1" android:id="@id/miniapp_tv_authinfo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/a057739c057739p057739" android:scaleType="centerInside" android:layout_marginStart="6.0dip" app:tint="@color/wrapper_theme_color_b6_n2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/miniapp_permission_empty" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/miniapp_setting_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" android:src="@drawable/a05773980577394057739" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/wrapper_theme_color_b1_n1" android:gravity="center" android:layout_gravity="center" android:id="@id/miniapp_text_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_centerInParent="true" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/wrapper_theme_color_m4" android:layout_gravity="center_horizontal" android:id="@id/miniapp_tv_view_app_permission" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

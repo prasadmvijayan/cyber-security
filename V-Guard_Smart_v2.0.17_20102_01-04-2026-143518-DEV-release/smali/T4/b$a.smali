@@ -1,0 +1,124 @@
+.class public final LT4/b$a;
+.super LT4/f$a;
+.source "AutoValue_TokenResult.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LT4/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/String;
+
+.field public b:Ljava/lang/Long;
+
+.field public c:LT4/f$b;
+
+
+# virtual methods
+.method public final a()LT4/b;
+    .locals 5
+
+    .line 1
+    const-string v0, ""
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    if-eqz v1, :cond_0
+
+    .line 8
+    .line 9
+    new-instance v0, LT4/b;
+
+    .line 10
+    .line 11
+    iget-object v1, p0, LT4/b$a;->a:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    iget-object v2, p0, LT4/b$a;->b:Ljava/lang/Long;
+
+    .line 14
+    .line 15
+    invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-wide v2
+
+    .line 19
+    iget-object v4, p0, LT4/b$a;->c:LT4/f$b;
+
+    .line 20
+    .line 21
+    invoke-direct {v0, v1, v2, v3, v4}, LT4/b;-><init>(Ljava/lang/String;JLT4/f$b;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-object v0
+
+    .line 25
+    :cond_0
+    new-instance v1, Ljava/lang/IllegalStateException;
+
+    .line 26
+    .line 27
+    const-string v2, "Missing required properties:"
+
+    .line 28
+    .line 29
+    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v0
+
+    .line 33
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    throw v1
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+.end method

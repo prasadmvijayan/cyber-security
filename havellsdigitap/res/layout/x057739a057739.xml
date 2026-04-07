@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_mg_16" android:paddingEnd="@dimen/thing_mg_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.advertisement.banner.BannerView android:id="@id/banner" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/wh_100" />
+    <ImageView android:id="@id/imv_ad_close" android:background="@drawable/h057739y057739" android:padding="@dimen/thing_mg_2" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:layout_marginTop="@dimen/thing_mg_8" android:layout_marginRight="@dimen/thing_mg_8" android:src="@drawable/b057739d057739h057739" android:layout_alignParentEnd="true" app:tint="@color/thing_theme_color_m3_n6" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uibizcomponents.oneClickGo.wrapper.OneClickGoItemViewWrapper android:id="@id/one_click_go_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cmp_stub_id="@id/one_click_go_wrapper" app:componentName="sceneOneClick" app:id="@id/one_click_go_wrapper" />
+</LinearLayout>

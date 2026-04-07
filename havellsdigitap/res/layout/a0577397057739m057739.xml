@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_nodisturb_device_check" android:visibility="gone" android:layout_width="@dimen/thing_mg_24" android:layout_height="wrap_content" android:src="@drawable/a05773970577393057739" android:layout_marginStart="@dimen/thing_mg_16" app:tint="?navbar_font_color" />
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/personal_text_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/iv_" android:visibility="gone" android:layout_width="@dimen/thing_mg_24" android:layout_height="wrap_content" android:src="@drawable/a05773970577393057739" android:layout_marginStart="@dimen/thing_mg_16" app:tint="?navbar_font_color" />
+</RelativeLayout>

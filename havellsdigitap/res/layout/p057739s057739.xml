@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b6_n2" android:id="@id/tv_value_status" android:paddingLeft="@dimen/thing_theme_dimen_p8" android:paddingTop="@dimen/thing_mg_10" android:paddingRight="@dimen/thing_theme_dimen_p8" android:paddingBottom="@dimen/thing_mg_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/thing_theme_dimen_p8" android:paddingVertical="@dimen/thing_mg_10" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

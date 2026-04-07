@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b4" android:padding="@dimen/thing_mg_16" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progress_dialog_bar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:indeterminate="false" android:indeterminateTint="@color/thing_theme_color_m1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/ProgressBar.Normal" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/progress_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/thing_mesh_ble_add_group_tip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/progress_dialog_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

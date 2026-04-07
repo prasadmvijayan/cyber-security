@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:orientation="horizontal" android:background="@drawable/a057739n057739u057739" android:paddingTop="@dimen/thing_theme_dimen_p3" android:paddingBottom="@dimen/thing_theme_dimen_p3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="false" android:textColor="@color/message_delete_text_color" android:gravity="center" android:id="@id/delete" android:background="@drawable/a057739n057739v057739" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="96.0dip" android:text="@string/thing_delete" android:layout_marginEnd="@dimen/thing_theme_dimen_p2" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/read" android:background="@drawable/a057739n057739w057739" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="96.0dip" android:text="@string/thing_message_had_read_all" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" />
+</LinearLayout>

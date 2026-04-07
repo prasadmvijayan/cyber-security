@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_257"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/sdv_situation_anim" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_225" android:layout_marginLeft="@dimen/thing_dp_7" android:layout_marginTop="@dimen/thing_dp_7" android:layout_marginRight="@dimen/thing_dp_7" android:scaleType="centerInside" android:layout_centerHorizontal="true" fresco:lottie_scale="1.5" />
+    <TextView android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_situation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_225" android:maxEms="15" android:singleLine="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/sdv_situation_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_257" android:src="@drawable/b0577392057739j057739" />
+</RelativeLayout>

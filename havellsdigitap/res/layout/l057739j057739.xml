@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_180"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.thingclips.smart.camera.uiview.view.NewUIPTZControlView android:id="@id/ptz_control" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" app:bgDrawable="@drawable/u057739g057739" app:bottomDrawable3="@drawable/r057739m057739" app:leftDrawable3="@drawable/r057739n057739" app:ptzTitle="@string/ipc_panel_direction_tip" app:rightDrawable3="@drawable/r057739o057739" app:topDrawable3="@drawable/r057739p057739" />
+    </LinearLayout>
+    <ImageView android:id="@id/platform_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_30" android:src="@drawable/t057739h057739" android:layout_alignParentRight="true" />
+    <com.thingclips.smart.camera.uiview.view.LinearAnimLayout android:orientation="vertical" android:id="@id/platform_control" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_30">
+        <ImageView android:id="@id/control_enlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/t057739i057739" />
+        <ImageView android:id="@id/control_shrink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:src="@drawable/t057739j057739" />
+    </com.thingclips.smart.camera.uiview.view.LinearAnimLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/wh_64"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t6_f" android:textColor="@color/thing_theme_color_b_login_n1" android:id="@id/tv_region" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_mg_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_arrow" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:src="@drawable/a057739e0577390057739" android:layout_marginEnd="@dimen/thing_mg_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/thing_theme_color_b_login_n6" />
+    <View android:background="@color/thing_theme_color_b_login_n7" android:layout_width="fill_parent" android:layout_height="@dimen/wh_1" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

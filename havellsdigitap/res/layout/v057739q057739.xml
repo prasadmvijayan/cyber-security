@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="@dimen/thing_dp_102" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_14">
+        <androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="@dimen/thing_dp_84" android:layout_height="@dimen/thing_dp_82" android:layout_margin="@dimen/thing_dp_9" app:cardBackgroundColor="@color/thing_theme_color_b4" app:cardCornerRadius="@dimen/thing_dp_8" app:cardElevation="@dimen/thing_dp_8">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/imgDevice" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_44" />
+            <ImageView android:layout_gravity="center" android:id="@id/imgSuccess" android:background="@drawable/a0577390057739x057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a05773910577391057739" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/pbLoading" android:visibility="gone" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:indeterminateDrawable="@drawable/a05773900577390057739" android:indeterminateBehavior="repeat" />
+        </androidx.cardview.widget.CardView>
+        <ImageView android:id="@id/imgCheckState" android:background="@drawable/a0577390057739w057739" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:src="@drawable/z057739m057739" android:layout_alignParentEnd="true" android:elevation="@dimen/thing_dp_8" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b3_n2" android:id="@id/tvDeviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cardView" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

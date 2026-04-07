@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/camera_panelmore_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.thingclips.smart.camera.uiview.view.DrawableTextView android:textSize="@dimen/ts_12" android:textColor="@color/text_color" android:id="@id/dtv_ring_not_exist" android:visibility="gone" android:layout_width="@dimen/wh_95" android:layout_height="@dimen/wh_85" android:text="@string/ipc_settings_ring_empty" android:layout_centerInParent="true" app:topDrawable="@drawable/o057739o057739" app:topDrawableHeight="@dimen/wh_48" app:topDrawableWidth="@dimen/wh_44" />
+    <Button android:textSize="@dimen/ts_14" android:textColor="@color/white" android:id="@id/btn_do_match_ring" android:background="@drawable/q0577396057739" android:visibility="gone" android:layout_width="@dimen/wh_80" android:layout_height="@dimen/wh_32" android:layout_marginTop="@dimen/wh_10" android:text="@string/ipc_setting_ring_add" android:layout_below="@id/dtv_ring_not_exist" android:layout_centerHorizontal="true" />
+    <com.thingclips.smart.camera.uiview.view.DoorBellRecyclerView android:id="@id/rv_ring" android:background="@color/transparent" android:visibility="gone" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout" style="@style/list_view" />
+</RelativeLayout>

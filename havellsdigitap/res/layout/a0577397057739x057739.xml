@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/thing_mg_32">
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_32" android:text="@string/thing_authority_management_title" android:layout_marginStart="@dimen/thing_mg_24" android:layout_marginEnd="@dimen/thing_mg_24" />
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_180" android:layout_marginTop="@dimen/thing_mg_24" app:actualImageResource="@drawable/a057739w057739d057739" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_authority_management_tips" android:layout_marginStart="@dimen/thing_mg_24" android:layout_marginEnd="@dimen/thing_mg_24" />
+    </LinearLayout>
+</FrameLayout>

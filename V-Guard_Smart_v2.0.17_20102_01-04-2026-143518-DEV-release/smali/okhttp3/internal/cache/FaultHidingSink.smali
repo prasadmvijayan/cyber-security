@@ -1,0 +1,179 @@
+.class public Lokhttp3/internal/cache/FaultHidingSink;
+.super LS8/o;
+.source "FaultHidingSink.kt"
+
+
+# instance fields
+.field public b:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final close()V
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    return-void
+
+    .line 6
+    :cond_0
+    :try_start_0
+    invoke-super {p0}, LS8/o;->close()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+
+    .line 10
+    :catch_0
+    const/4 v0, 0x1
+
+    .line 11
+    iput-boolean v0, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    throw v0
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+.method public final flush()V
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    return-void
+
+    .line 6
+    :cond_0
+    :try_start_0
+    invoke-super {p0}, LS8/o;->flush()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+
+    .line 10
+    :catch_0
+    const/4 v0, 0x1
+
+    .line 11
+    iput-boolean v0, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    throw v0
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+.method public final m(LS8/f;J)V
+    .locals 1
+
+    .line 1
+    const-string v0, "source"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-boolean v0, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    invoke-virtual {p1, p2, p3}, LS8/f;->m0(J)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+
+    .line 14
+    :cond_0
+    :try_start_0
+    invoke-super {p0, p1, p2, p3}, LS8/o;->m(LS8/f;J)V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+
+    .line 18
+    :catch_0
+    const/4 p1, 0x1
+
+    .line 19
+    iput-boolean p1, p0, Lokhttp3/internal/cache/FaultHidingSink;->b:Z
+
+    .line 20
+    .line 21
+    const/4 p1, 0x0
+
+    .line 22
+    throw p1
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+.end method

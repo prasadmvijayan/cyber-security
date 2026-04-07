@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.card.banner.dpc.widget.BannerLayout android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.thingclips.smart.card.banner.dpc.widget.BannerCardIndicatorView android:layout_gravity="bottom|center" android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_theme_dimen_p3" app:layout_constraintBottom_toBottomOf="@id/banner" app:layout_constraintEnd_toEndOf="@id/banner" app:layout_constraintStart_toStartOf="@id/banner" style="@style/BannerCardIndicatorStyle" />
+    <ImageView android:id="@id/iv_close" android:background="@drawable/y057739o057739" android:padding="@dimen/thing_mg_2" android:visibility="gone" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:src="@drawable/b057739d057739h057739" app:layout_constraintEnd_toEndOf="@id/banner" app:layout_constraintTop_toTopOf="@id/banner" app:tint="@color/thing_theme_color_m3_n6" />
+</com.thingclips.smart.card.banner.dpc.widget.BannerLayout>

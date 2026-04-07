@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/b05773920577393057739" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:id="@id/tv_done" android:paddingTop="@dimen/thing_mg_20" android:paddingRight="@dimen/thing_mg_16" android:paddingBottom="@dimen/thing_mg_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_delete_all" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" android:text="@string/thing_scene_delete_all" android:layout_alignParentBottom="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_scene_invalid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_delete_all" android:layout_below="@id/tv_done" />
+    </RelativeLayout>
+</RelativeLayout>

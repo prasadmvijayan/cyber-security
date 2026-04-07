@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_set_success" android:background="@drawable/a057739v0577390057739" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/thing_mg_104" android:minWidth="@dimen/thing_mg_104" android:minHeight="@dimen/thing_mg_104" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_gesture_success" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_21" android:src="@drawable/a057739u057739r057739" app:tint="@color/thing_theme_color_b6_n1" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_success_info" android:paddingLeft="@dimen/thing_mg_15" android:paddingRight="@dimen/thing_mg_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_70" android:text="@string/thing_creat_gesture_succ" android:maxLines="1" android:singleLine="true" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:id="@id/tvTagTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_dp_16" android:lines="1" android:singleLine="true" android:layout_marginStart="@dimen/thing_mg_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_rooms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_5" android:layout_marginStart="@dimen/thing_dp_11" android:layout_marginEnd="@dimen/thing_dp_11" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTagTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

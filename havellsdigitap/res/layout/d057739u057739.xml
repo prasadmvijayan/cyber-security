@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/miniapp_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/wrapper_theme_color_b1" app:cardElevation="0.0dip" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_nav" android:layout_width="fill_parent" android:layout_height="@dimen/mini_app_tabbar_height" app:itemIconSize="24.0dip" app:itemTextAppearanceActive="@style/miniapp_bottom_tab_title_active" app:itemTextAppearanceInactive="@style/miniapp_bottom_tab_title_inactive" app:labelVisibilityMode="labeled" app:theme="@style/Theme.GZLMiniApp_Android" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_weekday" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@id/iv_choose" android:layout_width="@dimen/thing_mg_22" android:layout_height="@dimen/thing_mg_22" android:contentDescription="@string/auto_test_date_schedule_repeat" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

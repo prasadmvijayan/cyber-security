@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/thing_mg_25" android:paddingRight="@dimen/thing_mg_20" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdv_icon" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739e057739r057739" android:tint="@color/thing_theme_color_b4_n6" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:tintMode="src_in" />
+    <TextView android:textSize="@dimen/thing_mg_16" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_20" android:layout_marginRight="@dimen/thing_mg_20" android:maxLines="1" android:layout_toLeftOf="@id/iv_arrow" android:layout_toRightOf="@id/sdv_icon" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/size_16" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_16" android:textColor="@color/txt_config_title" android:id="@id/tv_voice_assistance_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="@integer/soleto_md" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/card_text_head" android:id="@id/tv_commands" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_32" android:layout_marginStart="@dimen/activity_vertical_margin_half" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_voice_assistance_title" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_aaaaaa" android:id="@id/tv_note" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_commands" />
+        <Button android:id="@id/bt_configure" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_50" android:text="@string/configure_voice_assistance" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_note" style="@style/VGButtonOrange" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

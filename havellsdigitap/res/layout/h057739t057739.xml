@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_camera_video" android:background="@color/camera_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rv_pic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.video.weiget.draweeview.ZoomableDraweeView android:id="@id/iv_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:id="@id/tv_siren" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_100" android:drawableTop="@drawable/w057739_057739" android:layout_below="@id/iv_pic" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout">
+        <RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/personal_service_item_title_color" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_18" android:layout_marginRight="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_12" android:text="@string/message_dnd_desc" />
+            <RelativeLayout android:id="@id/rl_message_check" android:background="@color/thing_theme_color_b6" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_marginTop="@dimen/thing_dp_16" android:layout_below="@id/tv_title">
+                <com.thingclips.smart.uispecs.component.SwitchButton android:gravity="center_vertical" android:id="@id/sb_message_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_info_no_disturbing" app:kswBackDrawable="@drawable/a057739u057739m057739" app:kswThumbColor="@color/white" />
+                <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_dnd_switch" android:layout_toLeftOf="@id/sb_message_check" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_no_disturb_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_below="@id/rl_message_check" />
+            <RelativeLayout android:id="@id/rl_add" android:background="@color/thing_theme_color_b6" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_marginBottom="@dimen/thing_mg_20" android:layout_below="@id/recycler_no_disturb_list" android:contentDescription="@string/auto_test_info_add_time">
+                <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:id="@id/tv_add_no_disturb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_dnd_add" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

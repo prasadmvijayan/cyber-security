@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t7" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="@dimen/thing_theme_dimen_t7_h" android:lines="1" android:layout_marginStart="@dimen/thing_theme_dimen_p4" android:layout_marginEnd="@dimen/thing_theme_dimen_ic2" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_ic2" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:layout_gravity="end|center" android:id="@id/icon" android:layout_width="@dimen/thing_theme_dimen_ic2" android:layout_height="@dimen/thing_theme_dimen_ic2" />
+</FrameLayout>

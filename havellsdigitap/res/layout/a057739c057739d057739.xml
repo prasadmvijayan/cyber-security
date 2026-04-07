@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_30" android:textColor="@color/white_30" android:id="@id/tvInListening" android:paddingTop="@dimen/wh_150" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speech_in_listening" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llResult" android:paddingTop="@dimen/thing_mg_100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_30" android:layout_marginRight="@dimen/thing_mg_30">
+        <TextView android:textSize="@dimen/ts_17" android:textColor="@color/white_30" android:id="@id/tvInputMsg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="4" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_30" android:textColor="@color/white" android:id="@id/tvOutputMsg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_30" android:lines="4" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

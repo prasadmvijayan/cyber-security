@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_curtain_switch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_curtain" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/size_16" android:src="@drawable/img_curtain" android:scaleType="centerInside" app:layout_constraintBottom_toTopOf="@id/rg_curtain_action" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rg_curtain_action" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <RadioButton android:id="@id/rb_curtain_open" android:text="@string/curtain_open" android:drawableTop="@drawable/curtain_open_bg_selector" style="@style/CurtainActionRadioButtonStyle" />
+        <RadioButton android:id="@id/rb_curtain_stop" android:text="@string/curtain_stop" android:drawableTop="@drawable/curtain_stop_bg_selector" style="@style/CurtainActionRadioButtonStyle" />
+        <RadioButton android:id="@id/rb_curtain_close" android:text="@string/curtain_close" android:drawableTop="@drawable/curtain_close_bg_selector" style="@style/CurtainActionRadioButtonStyle" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

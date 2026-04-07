@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_41">
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_switch" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_switch" android:layout_width="@dimen/thing_mg_66" android:layout_height="@dimen/thing_mg_66" android:src="@drawable/b057739f057739u057739" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/black" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="Mode" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/iv_mode" android:layout_width="@dimen/thing_mg_66" android:layout_height="@dimen/thing_mg_66" android:src="@drawable/a057739_057739a057739" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/black" android:id="@id/tv_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="Mode" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_50">
+        <RelativeLayout android:id="@id/rl_brightness" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_90" android:contentDescription="@string/auto_test_dialog_viewpager_sb_list_item">
+            <ImageView android:id="@id/iv_brightness_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739e057739f057739" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_brightness_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739e057739g057739" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.thingclips.smart.uispecs.component.SeekBar android:id="@id/seek_brightness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_6" android:layout_marginRight="@dimen/thing_mg_6" android:maxHeight="@dimen/thing_mg_5" android:progressDrawable="@drawable/b057739e057739s057739" android:minHeight="@dimen/thing_mg_5" android:thumb="@drawable/b057739e057739v057739" android:layout_toLeftOf="@id/iv_brightness_right" android:layout_toRightOf="@id/iv_brightness_left" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_dialog_viewpager_sb_progress" app:csb_indicatorType="circle" style="@style/Uispec_SeekbarStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_saturation" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_90" android:layout_marginTop="@dimen/thing_dp_27" android:contentDescription="@string/auto_test_dialog_viewpager_sb_list_item">
+            <ImageView android:id="@id/iv_saturation_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739e057739l057739" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_saturation_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739e057739m057739" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.thingclips.smart.uispecs.component.SeekBar android:id="@id/seek_saturation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:maxHeight="@dimen/thing_mg_5" android:minHeight="@dimen/thing_mg_5" android:thumb="@drawable/b057739e057739v057739" android:layout_toLeftOf="@id/iv_saturation_right" android:layout_toRightOf="@id/iv_saturation_left" android:contentDescription="@string/auto_test_dialog_viewpager_sb_progress" app:csb_indicatorType="circle" app:dsb_bgdrawable="@drawable/b05773950577395057739" app:dsb_progressColor="#00ffffff" style="@style/Uispec_SeekbarStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivArrow" android:paddingBottom="@dimen/thing_mg_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/b057739c057739j057739" />
+</LinearLayout>

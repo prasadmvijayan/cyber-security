@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_33" android:layout_centerInParent="true" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/thing_dp_12" app:cardElevation="2.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4">
+            <LinearLayout android:orientation="vertical" android:id="@id/rl_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_60" android:layout_alignParentBottom="true">
+                <com.thingclips.smart.uispecs.component.loadingButton.LoadingButton android:gravity="center" android:id="@id/btn_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_txt_help" app:text="@string/ipc_qrpair_button_next" style="@style/loadingButton_style" />
+                <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_txt_help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p6" android:text="@string/ipc_qrpair_button_help" />
+            </LinearLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/sv_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/rl_frame">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_qrcode" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:scaleType="fitCenter" />
+                    <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/black" android:id="@id/tv_scan_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_ipc_qr_tip_txt" />
+                    <com.thingclips.smart.activator.ui.kit.viewutil.GifPlayView android:layout_gravity="center_horizontal" android:id="@id/iv_scan_tip" android:layout_width="@dimen/thing_dp_280" android:layout_height="@dimen/thing_dp_70" android:layout_marginTop="@dimen/thing_theme_dimen_p4" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

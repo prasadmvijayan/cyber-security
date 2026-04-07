@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_add_ipc_gateway" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:text="@string/add_subDevice" android:layout_alignParentBottom="true" style="@null" />
+    <TextView android:textSize="@dimen/thing_sp_18" android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_devlist_error" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_12" android:text="@string/ipc_settings_gateway_subDevice_none_tip" android:layout_centerInParent="true" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/srl_devicelist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_add_ipc_gateway" android:layout_below="@id/action_bar_layout">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_swipe_gateway_devs" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/ts_12" android:textColor="?camera_panelmore_item_subtitle_text_color" android:id="@id/tv_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_16" android:text="@string/ipc_settings_gateway_added_dev" />
+            <com.thingclips.smart.uispecs.component.recyclerView.swipe.SwipeMenuRecyclerView android:id="@id/rv_swipe_gateway_devs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/thing_dp_56" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

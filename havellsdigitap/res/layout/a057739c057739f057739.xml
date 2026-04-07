@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutSpeechTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/white_60" android:layout_gravity="center" android:id="@id/tvTipPress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_5" android:text="@string/speech_hold_and_talk" android:layout_above="@id/ivArrow1" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivArrow1" android:background="@drawable/b0577396057739e057739" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivArrow2" android:background="@drawable/b0577396057739f057739" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rlCircle" android:background="@drawable/b0577396057739m057739" android:layout_width="@dimen/thing_mg_120" android:layout_height="@dimen/thing_mg_120" android:layout_below="@id/layoutSpeechTip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/ivLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b0577396057739r057739" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivProgress" android:background="@drawable/b0577396057739h057739" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a057739g057739q057739" android:paddingLeft="@dimen/thing_mg_20" android:paddingTop="@dimen/thing_mg_20" android:paddingRight="@dimen/thing_mg_20" android:paddingBottom="@dimen/thing_mg_20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.thingclips.smart.widget.ThingImageView android:id="@id/per_status" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:src="@drawable/a057739u057739d057739" android:tint="@color/thing_theme_color_b1_n2" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/rl_per_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/per_status" android:layout_alignParentLeft="true">
+            <com.thingclips.smart.widget.ThingImageView android:id="@id/per_icon" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:src="@drawable/a057739f0577394057739" />
+            <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/per_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/per_icon" />
+            <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/per_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/per_title" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="#ff1989fa" android:id="@id/per_special_intro" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

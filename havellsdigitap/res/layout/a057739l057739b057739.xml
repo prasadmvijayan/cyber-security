@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_weather_enum" android:background="@drawable/a057739z057739f057739" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:id="@id/tv_humidity_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginTop="@dimen/thing_theme_dimen_p1" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:text="@string/scene_humidity_tip" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" app:layout_constraintTop_toBottomOf="@id/rv_weather_enum" />
+</androidx.constraintlayout.widget.ConstraintLayout>

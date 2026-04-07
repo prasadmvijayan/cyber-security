@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_dashboard_status" android:id="@id/fragment_status" android:title="@string/status" />
+    <item android:icon="@drawable/ic_dashboard_smart" android:id="@id/fragment_smart" android:title="@string/smart" />
+</menu>

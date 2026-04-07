@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/personal_service_item_title_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_20" android:layout_marginTop="@dimen/thing_mg_18" android:layout_marginBottom="@dimen/thing_mg_12" android:text="title" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_below="@id/tv_title">
+        <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/iv_checkimg" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_info_device" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/text_color" android:gravity="left" android:id="@id/tv_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_20" android:text="device_name" android:layout_toLeftOf="@id/iv_checkimg" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

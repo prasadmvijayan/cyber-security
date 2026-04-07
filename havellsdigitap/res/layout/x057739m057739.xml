@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingTabs android:id="@id/pagertab" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_20" android:layout_marginHorizontal="@dimen/thing_dp_20" app:ptSelectTextColor="@color/thing_theme_color_b2_n1" app:ptSelectTextSize="@dimen/thing_theme_dimen_t4" app:ptSelectTextStyle="bold" app:ptUnSelectTextColor="@color/thing_theme_color_b2_n3" app:ptUnSelectTextSize="@dimen/thing_theme_dimen_t4" app:ptUnSelectTextStyle="normal" />
+</LinearLayout>

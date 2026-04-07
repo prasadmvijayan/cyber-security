@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/imv_advertstisement" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_360" android:layout_marginLeft="@dimen/thing_mg_50" android:layout_marginRight="@dimen/thing_mg_50" />
+    <ImageView android:id="@id/imv_close" android:layout_width="@dimen/thing_mg_34" android:layout_height="@dimen/thing_mg_34" android:layout_marginTop="@dimen/thing_mg_32" android:src="@drawable/a057739g057739e057739" />
+</LinearLayout>

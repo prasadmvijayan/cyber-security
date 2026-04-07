@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_np" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/top_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentTop="true">
+        <com.thingclips.smart.camera.uiview.view.PagerSlidingTabStrip android:textSize="@dimen/ts_16" android:textColor="@color/warmGrey" android:layout_gravity="center" android:id="@id/pager_sliding_tab" android:paddingLeft="@dimen/thing_mg_40" android:paddingRight="@dimen/thing_mg_40" android:layout_width="fill_parent" android:layout_height="fill_parent" app:pstsDividerColor="@android:color/transparent" app:pstsIndicatorBottom="@dimen/thing_mg_6" app:pstsIndicatorColor="@color/reddishPink" app:pstsIndicatorHeight="3.0dip" app:pstsShouldExpand="true" app:pstsTabPaddingLeftRight="10.0dip" app:pstsTextAllCaps="false" app:pstsUnderlineColor="@android:color/transparent" app:pstsUnderlineHeight="0.0dip" />
+    </FrameLayout>
+    <View android:id="@id/v_line" android:background="#ffdbdbdb" android:layout_below="@id/top_bar" style="@style/line_long" />
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/pager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_line" />
+</RelativeLayout>

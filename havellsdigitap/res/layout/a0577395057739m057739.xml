@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.thingclips.smart.uispecs.component.simpleLineChart.SimpleLineChart android:id="@id/simpleLineChart" android:layout_width="400.0dip" android:layout_height="200.0dip" />
+    </HorizontalScrollView>
+    <com.thingclips.smart.uispecs.component.simpleLineChart.YAxisView android:id="@id/yAxisView" android:layout_width="400.0dip" android:layout_height="200.0dip" />
+</RelativeLayout>

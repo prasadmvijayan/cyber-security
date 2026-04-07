@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_mb_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.marketing.booth.view.MarketingBoothWrap android:id="@id/ll_mb_show_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/ll_mb_show_wrap" android:background="@drawable/a057739n057739r057739" android:paddingLeft="@dimen/thing_dp_4" android:paddingRight="@dimen/thing_dp_4" android:clickable="true" android:layout_width="@dimen/thing_dp_64" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_130" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_mb_title_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8">
+            <com.thingclips.smart.widget.ThingImageView android:layout_width="@dimen/thing_dp_12" android:layout_height="@dimen/thing_dp_12" android:layout_marginTop="@dimen/thing_dp_3" android:src="@drawable/a057739e057739c057739" />
+            <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_dp_12" android:textColor="#ff516ffb" android:gravity="center_vertical" android:id="@id/tv_mb_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_4" android:text="@string/thing_marketingBooth" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_mb_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_4" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_4" android:dividerHeight="0.0px" android:layout_below="@id/ll_mb_title_wrap" />
+        <View android:id="@id/iv_mb_close" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_mb_hidden_wrap" android:background="@drawable/a057739n057739r057739" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_130" android:layout_alignParentRight="true">
+        <com.thingclips.smart.widget.ThingImageView android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginBottom="@dimen/thing_dp_10" android:src="@drawable/a057739e057739y057739" />
+    </LinearLayout>
+</RelativeLayout>

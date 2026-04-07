@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/armed_mode_device_ipc_dialog_content_tv" android:paddingLeft="@dimen/thing_dp_12" android:paddingRight="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_20" android:text="@string/hs_notice_when_armed_changing_desc" /> /> </RelativeLayout>

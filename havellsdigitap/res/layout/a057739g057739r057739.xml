@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/theme_search_box_desc_color" android:gravity="center" android:id="@id/tv_config_fragment_search_no_device_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:background="@color/theme_search_item_normal_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/lv_search_static_list" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    </LinearLayout>
+</FrameLayout>

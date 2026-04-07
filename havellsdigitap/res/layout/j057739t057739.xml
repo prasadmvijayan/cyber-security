@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/q0577394057739" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_error" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/ts_12" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/blue_158" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_error" android:background="@drawable/q0577393057739" android:layout_width="@dimen/wh_140" android:layout_height="@dimen/wh_40" android:layout_marginTop="16.0dip" android:text="@string/ipc_panel_monitor_retry" android:layout_below="@id/tv_error" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

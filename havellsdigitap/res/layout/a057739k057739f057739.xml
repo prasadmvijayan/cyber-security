@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_content" android:background="@color/theme_list_background" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/theme_list_title" android:id="@id/tv_config_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_16" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/thing_dp_14" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_8" android:src="@drawable/h057739n057739" app:tint="@color/theme_list_arrow" />
+</LinearLayout>

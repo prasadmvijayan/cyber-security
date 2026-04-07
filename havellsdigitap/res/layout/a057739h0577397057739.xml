@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:swipe_style="classic"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uispecs.component.refresh.LightRefreshHeadLayout android:id="@id/swipe_refresh_header" android:layout_width="fill_parent" android:layout_height="@dimen/uispecs_refresh_pull_offset">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_load" android:layout_width="@dimen/wh_30" android:layout_height="@dimen/wh_50" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center|top" android:id="@id/tvRefresh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/iv_load" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </com.thingclips.smart.uispecs.component.refresh.LightRefreshHeadLayout>
+    <View android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_10" />
+</com.thingclips.smart.uispecs.component.SwipeToLoadLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:left="@dimen/thing_dp_2" android:top="@dimen/thing_dp_2" android:right="@dimen/thing_dp_2" android:bottom="@dimen/thing_dp_2">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/thing_theme_dimen_c2_2" />
+                    <solid android:color="@color/thing_theme_color_b3" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

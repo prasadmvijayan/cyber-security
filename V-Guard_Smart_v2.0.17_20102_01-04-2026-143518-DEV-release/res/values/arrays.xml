@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_capacity">
+        <item>80 Ah</item>
+        <item>100 Ah</item>
+        <item>105 Ah</item>
+        <item>135 Ah</item>
+        <item>140 Ah</item>
+        <item>150 Ah</item>
+        <item>152 Ah</item>
+        <item>160 Ah</item>
+        <item>165 Ah</item>
+        <item>170 Ah</item>
+        <item>180 Ah</item>
+        <item>200 Ah</item>
+        <item>230 Ah</item>
+    </string-array>
+    <string-array name="energy_limit_durations">
+        <item>.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="energy_limit_units">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="loop_timer_hours">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="loop_timer_minutes">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+    <integer-array name="pump_water_levels">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="schedule_weekdays">
+        <item>@string/mon</item>
+        <item>@string/tue</item>
+        <item>@string/wed</item>
+        <item>@string/thu</item>
+        <item>@string/fri</item>
+        <item>@string/sat</item>
+        <item>@string/sun</item>
+    </string-array>
+    <string-array name="solar_capacity">
+        <item>200 W</item>
+        <item>300 W</item>
+        <item>400 W</item>
+        <item>500 W</item>
+        <item>600 W</item>
+        <item>700 W</item>
+        <item>750 W</item>
+        <item>800 W</item>
+        <item>900 W</item>
+        <item>1000 W</item>
+        <item>1100 W</item>
+        <item>1200 W</item>
+        <item>1300 W</item>
+        <item>1400 W</item>
+        <item>1500 W</item>
+        <item>1600 W</item>
+        <item>1700 W</item>
+        <item>1800 W</item>
+        <item>1900 W</item>
+        <item>2000 W</item>
+        <item>2100 W</item>
+        <item>2200 W</item>
+        <item>2300 W</item>
+        <item>2400 W</item>
+        <item>2500 W</item>
+        <item>2600 W</item>
+        <item>2700 W</item>
+        <item>2800 W</item>
+        <item>2900 W</item>
+        <item>3000 W</item>
+        <item>3100 W</item>
+        <item>3200 W</item>
+    </string-array>
+    <string-array name="solar_tariff">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <integer-array name="tank_capacity_levels">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>1750</item>
+        <item>2000</item>
+    </integer-array>
+    <string-array name="wifi_secure_options">
+        <item>Secured</item>
+        <item>Not Secured</item>
+    </string-array>
+</resources>

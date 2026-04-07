@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/pb_linking" android:layout_width="@dimen/thing_dp_50" android:layout_height="@dimen/thing_dp_50" android:progressDrawable="@color/gray" app:layout_constraintBottom_toTopOf="@id/textView2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_layout" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/camera_list_item_tip" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ipc_settings_switch_wf_connecting_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pb_linking" />
+    <include android:id="@id/toolbar_layout" layout="@layout/m057739g057739" />
+</androidx.constraintlayout.widget.ConstraintLayout>

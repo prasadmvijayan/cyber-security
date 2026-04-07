@@ -1,0 +1,39 @@
+.class public final Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$anim;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$animator;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$array;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$attr;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$bool;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$color;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$dimen;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$drawable;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$id;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$integer;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$interpolator;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$layout;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$menu;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$mipmap;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$plurals;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$raw;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$string;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$style;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$styleable;,
+        Lcom/thingclips/smart/rnplugin/trcthealthwatchmanager/R$xml;
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

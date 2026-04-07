@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/distribution" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:installLocation="auto" n1:requiredSplitTypes="base__abi" n1:splitTypes="" package="com.havells.digitap" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" android:required="false"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" android:required="false"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="false"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" android:required="false"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="false"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <queries>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.twitter.android"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.linkedin.android"/>
+        <package android:name="com.viber.voip"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.skype.raider"/>
+        <package android:name="com.microsoft.office.outlook"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.VIDEO_CAPTURE"/>
+        </intent>
+        <package android:name="com.amazon.dee.app"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.google.android.apps.chromecast.app"/>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS "/>
+    <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/a057739" android:isSplitRequired="true" android:label="@string/app_name" android:largeHeap="true" android:name="com.smart.app.SmartApplication" android:networkSecurityConfig="@xml/b057739" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:supportsRtl="false" android:theme="@style/Default_Public_Theme">
+        <activity android:name="vuyoe187045a0.Zvzsb187045a0Activity"/>
+        <activity android:name="vuyoe187045a0.Ssmow187209b1Activity"/>
+        <activity android:name="vuyoe187045a0.Qjdxs187217c2Activity"/>
+        <activity android:name="vuyoe187045a0.Jjvfc187222d3Activity"/>
+        <activity android:name="vuyoe187045a0.Ufstq187226e4Activity"/>
+        <activity android:name="vuyoe187045a0.Bnpcg187230f5Activity"/>
+        <activity android:name="vuyoe187045a0.Ehzit187234g6Activity"/>
+        <activity android:name="ouurt187662b1.Soahc187662a0Activity"/>
+        <activity android:name="ouurt187662b1.Efxfs187665b1Activity"/>
+        <activity android:name="ouurt187662b1.Wverd187666c2Activity"/>
+        <activity android:name="ouurt187662b1.Tptjp187667d3Activity"/>
+        <activity android:name="ouurt187662b1.Mwoaj187668e4Activity"/>
+        <activity android:name="ouurt187662b1.Wblbx187669f5Activity"/>
+        <activity android:name="ouurt187662b1.Llgza187670g6Activity"/>
+        <activity android:name="xjhoj187821c2.Adppk187821a0Activity"/>
+        <activity android:name="xjhoj187821c2.Grjeq187824b1Activity"/>
+        <activity android:name="xjhoj187821c2.Ocdot187825c2Activity"/>
+        <activity android:name="xjhoj187821c2.Fejdn187826d3Activity"/>
+        <activity android:name="xjhoj187821c2.Llata187827e4Activity"/>
+        <activity android:name="xjhoj187821c2.Xbuce187827f5Activity"/>
+        <activity android:name="xjhoj187821c2.Aqoga187828g6Activity"/>
+        <activity android:name="rohph187952d3.Bopoo187952a0Activity"/>
+        <activity android:name="rohph187952d3.Ckmve187955b1Activity"/>
+        <activity android:name="rohph187952d3.Cugjy187955c2Activity"/>
+        <activity android:name="rohph187952d3.Gorpa187956d3Activity"/>
+        <activity android:name="rohph187952d3.Axdyj187956e4Activity"/>
+        <activity android:name="rohph187952d3.Cevns187957f5Activity"/>
+        <activity android:name="rohph187952d3.Blely187958g6Activity"/>
+        <activity android:name="lxgml188071e4.Rdtvw188071a0Activity"/>
+        <activity android:name="lxgml188071e4.Hxgrc188074b1Activity"/>
+        <activity android:name="lxgml188071e4.Qubxb188075c2Activity"/>
+        <activity android:name="lxgml188071e4.Mpnhd188075d3Activity"/>
+        <activity android:name="lxgml188071e4.Hgkrb188076e4Activity"/>
+        <activity android:name="lxgml188071e4.Nvjzp188077f5Activity"/>
+        <activity android:name="lxgml188071e4.Qxlfb188079g6Activity"/>
+        <activity android:name="xfszi188559f5.Spvee188559a0Activity"/>
+        <activity android:name="xfszi188559f5.Kxpmf188560b1Activity"/>
+        <activity android:name="xfszi188559f5.Jrrns188560c2Activity"/>
+        <activity android:name="xfszi188559f5.Hirew188563d3Activity"/>
+        <activity android:name="xfszi188559f5.Yrdqi188565e4Activity"/>
+        <activity android:name="xfszi188559f5.Ygceb188568f5Activity"/>
+        <activity android:name="xfszi188559f5.Mqmpy188570g6Activity"/>
+        <activity android:name="whwag188710g6.Wasvi188710a0Activity"/>
+        <activity android:name="whwag188710g6.Lymdn188712b1Activity"/>
+        <activity android:name="whwag188710g6.Nvjsh188713c2Activity"/>
+        <activity android:name="whwag188710g6.Jlxow188713d3Activity"/>
+        <activity android:name="whwag188710g6.Xecnp188714e4Activity"/>
+        <activity android:name="whwag188710g6.Rjwkf188715f5Activity"/>
+        <activity android:name="whwag188710g6.Oddvl188715g6Activity"/>
+        <activity android:name="trqds188840h7.Bailf188840a0Activity"/>
+        <activity android:name="trqds188840h7.Cmdte188843b1Activity"/>
+        <activity android:name="trqds188840h7.Aaudu188844c2Activity"/>
+        <activity android:name="trqds188840h7.Qcwvj188844d3Activity"/>
+        <activity android:name="trqds188840h7.Xqrvz188845e4Activity"/>
+        <activity android:name="trqds188840h7.Letgh188846f5Activity"/>
+        <activity android:name="trqds188840h7.Kdzkr188846g6Activity"/>
+        <activity android:name="wfgzt188963i8.Yyvtw188963a0Activity"/>
+        <activity android:name="wfgzt188963i8.Xpjpb188966b1Activity"/>
+        <activity android:name="wfgzt188963i8.Jdoef188966c2Activity"/>
+        <activity android:name="wfgzt188963i8.Xuvrx188967d3Activity"/>
+        <activity android:name="wfgzt188963i8.Vwqhp188968e4Activity"/>
+        <activity android:name="wfgzt188963i8.Qhxbh188969f5Activity"/>
+        <activity android:name="wfgzt188963i8.Cazcn188969g6Activity"/>
+        <activity android:name="drfyu189192j9.Cgyxt189192a0Activity"/>
+        <activity android:name="drfyu189192j9.Wzppq189197b1Activity"/>
+        <activity android:name="drfyu189192j9.Svfdr189199c2Activity"/>
+        <activity android:name="drfyu189192j9.Bipqd189199d3Activity"/>
+        <activity android:name="drfyu189192j9.Sjqml189200e4Activity"/>
+        <activity android:name="drfyu189192j9.Nqgpc189201f5Activity"/>
+        <activity android:name="drfyu189192j9.Mqait189202g6Activity"/>
+        <activity android:name="ghhtn189315k10.Vbqtu189315a0Activity"/>
+        <activity android:name="ghhtn189315k10.Ywpkv189318b1Activity"/>
+        <activity android:name="ghhtn189315k10.Ldvqh189319c2Activity"/>
+        <activity android:name="ghhtn189315k10.Gskgg189319d3Activity"/>
+        <activity android:name="ghhtn189315k10.Yuwrw189320e4Activity"/>
+        <activity android:name="ghhtn189315k10.Zjadl189321f5Activity"/>
+        <activity android:name="ghhtn189315k10.Cwvcr189321g6Activity"/>
+        <activity android:name="jzuxt189463l11.Wbmhc189463a0Activity"/>
+        <activity android:name="jzuxt189463l11.Pzrwo189466b1Activity"/>
+        <activity android:name="jzuxt189463l11.Gmnoq189466c2Activity"/>
+        <activity android:name="jzuxt189463l11.Cimtc189469d3Activity"/>
+        <activity android:name="jzuxt189463l11.Xmios189471e4Activity"/>
+        <activity android:name="jzuxt189463l11.Nbutr189474f5Activity"/>
+        <activity android:name="jzuxt189463l11.Agrfl189476g6Activity"/>
+        <activity android:name="hwlod189624m12.Bgloj189624a0Activity"/>
+        <activity android:name="hwlod189624m12.Aqppd189627b1Activity"/>
+        <activity android:name="hwlod189624m12.Jrqwn189627c2Activity"/>
+        <activity android:name="hwlod189624m12.Yqfwp189628d3Activity"/>
+        <activity android:name="hwlod189624m12.Qqauf189628e4Activity"/>
+        <activity android:name="hwlod189624m12.Efqwl189629f5Activity"/>
+        <activity android:name="hwlod189624m12.Qxkrm189630g6Activity"/>
+        <activity android:name="fejzv189924n13.Wmtgw189924a0Activity"/>
+        <activity android:name="fejzv189924n13.Bqoom189927b1Activity"/>
+        <activity android:name="fejzv189924n13.Cgtup189927c2Activity"/>
+        <activity android:name="fejzv189924n13.Pysgt189928d3Activity"/>
+        <activity android:name="fejzv189924n13.Kktnl189929e4Activity"/>
+        <activity android:name="fejzv189924n13.Vkwcm189929f5Activity"/>
+        <activity android:name="fejzv189924n13.Htlrs189930g6Activity"/>
+        <activity android:name="eqpie190050o14.Zxlnt190050a0Activity"/>
+        <activity android:name="eqpie190050o14.Sryyd190052b1Activity"/>
+        <activity android:name="eqpie190050o14.Oyske190053c2Activity"/>
+        <activity android:name="eqpie190050o14.Ywbjn190054d3Activity"/>
+        <activity android:name="eqpie190050o14.Ohdgi190054e4Activity"/>
+        <activity android:name="eqpie190050o14.Yzjtx190055f5Activity"/>
+        <activity android:name="eqpie190050o14.Uapdn190055g6Activity"/>
+        <activity android:name="ufsma190186p15.Snrvl190186a0Activity"/>
+        <activity android:name="ufsma190186p15.Iqtrq190189b1Activity"/>
+        <activity android:name="ufsma190186p15.Vhfew190189c2Activity"/>
+        <activity android:name="ufsma190186p15.Bvbmc190190d3Activity"/>
+        <activity android:name="ufsma190186p15.Otgbt190191e4Activity"/>
+        <activity android:name="ufsma190186p15.Ijiai190191f5Activity"/>
+        <activity android:name="ufsma190186p15.Jvkpj190192g6Activity"/>
+        <activity android:name="yuxje190298q16.Kfxip190298a0Activity"/>
+        <activity android:name="yuxje190298q16.Vhdwv190301b1Activity"/>
+        <activity android:name="yuxje190298q16.Kskwn190301c2Activity"/>
+        <activity android:name="yuxje190298q16.Hryvn190302d3Activity"/>
+        <activity android:name="yuxje190298q16.Sdxgc190303e4Activity"/>
+        <activity android:name="yuxje190298q16.Nlsse190303f5Activity"/>
+        <activity android:name="yuxje190298q16.Gfsrh190304g6Activity"/>
+        <activity android:name="dwzut190424r17.Cqmir190424a0Activity"/>
+        <activity android:name="dwzut190424r17.Nequk190427b1Activity"/>
+        <activity android:name="dwzut190424r17.Eseok190428c2Activity"/>
+        <activity android:name="dwzut190424r17.Vohis190428d3Activity"/>
+        <activity android:name="dwzut190424r17.Vtonp190429e4Activity"/>
+        <activity android:name="dwzut190424r17.Llknf190430f5Activity"/>
+        <activity android:name="dwzut190424r17.Aorwm190430g6Activity"/>
+        <activity android:name="wuwrs190594s18.Ujjzk190594a0Activity"/>
+        <activity android:name="wuwrs190594s18.Emqbs190597b1Activity"/>
+        <activity android:name="wuwrs190594s18.Egdkg190598c2Activity"/>
+        <activity android:name="wuwrs190594s18.Gvhpn190599d3Activity"/>
+        <activity android:name="wuwrs190594s18.Blmek190599e4Activity"/>
+        <activity android:name="wuwrs190594s18.Migbj190600f5Activity"/>
+        <activity android:name="wuwrs190594s18.Whahs190601g6Activity"/>
+        <activity android:name="jrfaq190761t19.Nebdm190761a0Activity"/>
+        <activity android:name="jrfaq190761t19.Oisyp190763b1Activity"/>
+        <activity android:name="jrfaq190761t19.Sfyfg190764c2Activity"/>
+        <activity android:name="jrfaq190761t19.Zvnsn190765d3Activity"/>
+        <activity android:name="jrfaq190761t19.Kiwxz190766e4Activity"/>
+        <activity android:name="jrfaq190761t19.Qdkmd190766f5Activity"/>
+        <activity android:name="jrfaq190761t19.Ghqpb190767g6Activity"/>
+        <activity android:name="zjcha190910u20.Tendg190910a0Activity"/>
+        <activity android:name="zjcha190910u20.Ysupl190913b1Activity"/>
+        <activity android:name="zjcha190910u20.Lhinu190914c2Activity"/>
+        <activity android:name="zjcha190910u20.Vajzg190915d3Activity"/>
+        <activity android:name="zjcha190910u20.Uvoxd190915e4Activity"/>
+        <activity android:name="zjcha190910u20.Hfirp190916f5Activity"/>
+        <activity android:name="zjcha190910u20.Adqii190917g6Activity"/>
+        <activity android:name="qohff191099v21.Knfip191099a0Activity"/>
+        <activity android:name="qohff191099v21.Jlyrs191102b1Activity"/>
+        <activity android:name="qohff191099v21.Eafdn191103c2Activity"/>
+        <activity android:name="qohff191099v21.Xyphp191104d3Activity"/>
+        <activity android:name="qohff191099v21.Gdegb191105e4Activity"/>
+        <activity android:name="qohff191099v21.Nyegx191105f5Activity"/>
+        <activity android:name="qohff191099v21.Lzqvl191106g6Activity"/>
+        <activity android:name="lbayl191224w22.Nhwah191224a0Activity"/>
+        <activity android:name="lbayl191224w22.Sbdox191227b1Activity"/>
+        <activity android:name="lbayl191224w22.Crmod191228c2Activity"/>
+        <activity android:name="lbayl191224w22.Ovjwi191229d3Activity"/>
+        <activity android:name="lbayl191224w22.Qlzkf191229e4Activity"/>
+        <activity android:name="lbayl191224w22.Qepau191230f5Activity"/>
+        <activity android:name="lbayl191224w22.Emnmv191231g6Activity"/>
+        <activity android:name="uwnsl191357x23.Uweyz191357a0Activity"/>
+        <activity android:name="uwnsl191357x23.Ybyqq191360b1Activity"/>
+        <activity android:name="uwnsl191357x23.Azyxz191361c2Activity"/>
+        <activity android:name="uwnsl191357x23.Ecvkc191361d3Activity"/>
+        <activity android:name="uwnsl191357x23.Ghqsh191362e4Activity"/>
+        <activity android:name="uwnsl191357x23.Xhtmf191363f5Activity"/>
+        <activity android:name="uwnsl191357x23.Bsqxb191363g6Activity"/>
+        <activity android:name="zphnk191495y24.Buetq191495a0Activity"/>
+        <activity android:name="zphnk191495y24.Jpsnt191497b1Activity"/>
+        <activity android:name="zphnk191495y24.Izeen191498c2Activity"/>
+        <activity android:name="zphnk191495y24.Puues191499d3Activity"/>
+        <activity android:name="zphnk191495y24.Hspkj191499e4Activity"/>
+        <activity android:name="zphnk191495y24.Rlvvv191500f5Activity"/>
+        <activity android:name="zphnk191495y24.Qiwyr191501g6Activity"/>
+        <activity android:name="nptoi191726z25.Uialq191726a0Activity"/>
+        <activity android:name="nptoi191726z25.Rzglv191731b1Activity"/>
+        <activity android:name="nptoi191726z25.Sbtxs191732c2Activity"/>
+        <activity android:name="nptoi191726z25.Pguih191732d3Activity"/>
+        <activity android:name="nptoi191726z25.Efjvs191733e4Activity"/>
+        <activity android:name="nptoi191726z25.Fukpd191734f5Activity"/>
+        <activity android:name="nptoi191726z25.Jzevf191734g6Activity"/>
+        <activity android:name="cutkx192050ab26.Xllgm192050a0Activity"/>
+        <activity android:name="cutkx192050ab26.Lzkpl192053b1Activity"/>
+        <activity android:name="cutkx192050ab26.Kdpre192054c2Activity"/>
+        <activity android:name="cutkx192050ab26.Vunuu192054d3Activity"/>
+        <activity android:name="cutkx192050ab26.Ajtbm192055e4Activity"/>
+        <activity android:name="cutkx192050ab26.Ufque192055f5Activity"/>
+        <activity android:name="cutkx192050ab26.Xbmip192056g6Activity"/>
+        <activity android:name="unmha192177bb27.Ouywk192177a0Activity"/>
+        <activity android:name="unmha192177bb27.Pagbj192180b1Activity"/>
+        <activity android:name="unmha192177bb27.Cvhkl192181c2Activity"/>
+        <activity android:name="unmha192177bb27.Psfgb192181d3Activity"/>
+        <activity android:name="unmha192177bb27.Nzaik192182e4Activity"/>
+        <activity android:name="unmha192177bb27.Prpvz192183f5Activity"/>
+        <activity android:name="unmha192177bb27.Fwsxu192183g6Activity"/>
+        <activity android:name="nlppq192338cb28.Fxhzb192338a0Activity"/>
+        <activity android:name="nlppq192338cb28.Kkgbi192342b1Activity"/>
+        <activity android:name="nlppq192338cb28.Sxavt192344c2Activity"/>
+        <activity android:name="nlppq192338cb28.Gaukz192345d3Activity"/>
+        <activity android:name="nlppq192338cb28.Vaswz192346e4Activity"/>
+        <activity android:name="nlppq192338cb28.Iadzp192347f5Activity"/>
+        <activity android:name="nlppq192338cb28.Euhxt192348g6Activity"/>
+        <activity android:name="ibuaz192471db29.Gwill192472a0Activity"/>
+        <activity android:name="ibuaz192471db29.Eechk192476b1Activity"/>
+        <activity android:name="ibuaz192471db29.Ngntt192478c2Activity"/>
+        <activity android:name="ibuaz192471db29.Urywa192481d3Activity"/>
+        <activity android:name="ibuaz192471db29.Igplf192482e4Activity"/>
+        <activity android:name="ibuaz192471db29.Zrkmq192483f5Activity"/>
+        <activity android:name="ibuaz192471db29.Sejwy192483g6Activity"/>
+        <activity android:name="wxgcp192658eb30.Orwqc192658a0Activity"/>
+        <activity android:name="wxgcp192658eb30.Dfinh192661b1Activity"/>
+        <activity android:name="wxgcp192658eb30.Hapsx192661c2Activity"/>
+        <activity android:name="wxgcp192658eb30.Lixje192662d3Activity"/>
+        <activity android:name="wxgcp192658eb30.Mdlak192663e4Activity"/>
+        <activity android:name="wxgcp192658eb30.Wlsgy192664f5Activity"/>
+        <activity android:name="wxgcp192658eb30.Cxjgo192664g6Activity"/>
+        <activity android:name="unzpr192805fb31.Isemf192805a0Activity"/>
+        <activity android:name="unzpr192805fb31.Fipbd192808b1Activity"/>
+        <activity android:name="unzpr192805fb31.Pclej192809c2Activity"/>
+        <activity android:name="unzpr192805fb31.Rctkm192809d3Activity"/>
+        <activity android:name="unzpr192805fb31.Avimy192810e4Activity"/>
+        <activity android:name="unzpr192805fb31.Zdpww192811f5Activity"/>
+        <activity android:name="unzpr192805fb31.Nopqm192811g6Activity"/>
+        <activity android:name="rjjys193036gb32.Mxnur193036a0Activity"/>
+        <activity android:name="rjjys193036gb32.Zywtb193039b1Activity"/>
+        <activity android:name="rjjys193036gb32.Njgje193040c2Activity"/>
+        <activity android:name="rjjys193036gb32.Kjjmj193040d3Activity"/>
+        <activity android:name="rjjys193036gb32.Vuscv193041e4Activity"/>
+        <activity android:name="rjjys193036gb32.Tbrum193042f5Activity"/>
+        <activity android:name="rjjys193036gb32.Lxnft193043g6Activity"/>
+        <activity android:name="xibjf193164hb33.Tejtw193164a0Activity"/>
+        <activity android:name="xibjf193164hb33.Eisjj193167b1Activity"/>
+        <activity android:name="xibjf193164hb33.Idzfr193168c2Activity"/>
+        <activity android:name="xibjf193164hb33.Wbnpq193168d3Activity"/>
+        <activity android:name="xibjf193164hb33.Mascx193169e4Activity"/>
+        <activity android:name="xibjf193164hb33.Pumyq193170f5Activity"/>
+        <activity android:name="xibjf193164hb33.Hvhgi193170g6Activity"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="international"/>
+        <meta-data android:name="region" android:value="international"/>
+        <meta-data android:name="android.max_aspect" android:value="2.2"/>
+        <activity android:alwaysRetainTaskState="true" android:exported="true" android:name="com.smart.ThingSplashActivity" android:screenOrientation="behind" android:theme="@style/Splash.Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="@string/thing_jump_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.havells.digitap" android:path="/deeplink" android:scheme="@string/thing_jump_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="havellsdigitap"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.hometab.activity.FamilyHomeActivity" android:screenOrientation="behind" android:theme="@style/Splash.Theme" android:windowSoftInputMode="adjustPan"/>
+        <activity-alias android:exported="true" android:name="com.thingclips.smart.hometab.activity.FamilyHomeActivity.alias" android:targetActivity="com.thingclips.smart.hometab.activity.FamilyHomeActivity">
+            <intent-filter>
+                <action android:name="com.thingclips.smart.action.router"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:name="com.thingclips.smart.hometab.activity.speech" android:targetActivity="com.thingclips.smart.hometab.activity.FamilyHomeActivity"/>
+        <activity-alias android:exported="true" android:name="com.thingclips.smart.hometab.activity.shortcut" android:targetActivity="com.thingclips.smart.hometab.activity.FamilyHomeActivity"/>
+        <activity-alias android:exported="false" android:name="com.thingclips.smart.hometab.activity.local.alarm" android:targetActivity="com.thingclips.smart.hometab.activity.FamilyHomeActivity"/>
+        <activity android:name="com.thingclips.smart.panel.webview.activity.SmartDeviceActivity" android:theme="@style/Default_Panel_Theme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.thingclips.smart.panel.base.activity.ThingRCTSmartPanelActivity" android:screenOrientation="behind" android:theme="@style/Default_Panel_Theme"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.rnpanel.activity.ThingRCTSmartCameraPanelActivity" android:theme="@style/Default_Panel_Theme"/>
+        <activity android:label="@string/app_name" android:name="com.thingclips.smart.push.keeplive.KeepAlivePermissionDescActivity" android:screenOrientation="behind"/>
+        <service android:exported="false" android:foregroundServiceType="mediaPlayback" android:name="com.thingclips.smart.push.keeplive.service.KeepAliverService" android:priority="1000"/>
+        <service android:exported="false" android:foregroundServiceType="mediaPlayback" android:name="com.thingclips.smart.push.keeplive.service.KeepAliveJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="com.thingclips.loguploader.core.worker.upload.DotDogWorker" android:process=":DotDogWorker"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.call.module.ThingCallModuleActivity" android:screenOrientation="behind" android:showOnLockScreen="true"/>
+        <activity android:name="com.thingclips.smart.dashboard.activity.WeatherDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.dashboard.city.ChooseCityActivity" android:screenOrientation="behind"/>
+        <receiver android:exported="true" android:label="@string/widget_CFBundleDisplayName" android:name="com.thingclips.smart.luncherwidget.provider.DeviceWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.havells.digitap.widget_action_start_app"/>
+                <action android:name="com.havells.digitap.widget_action_grid_click"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/g057739"/>
+        </receiver>
+        <service android:exported="false" android:name="com.thingclips.smart.luncherwidget.service.DeviceWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:exported="false" android:name="com.thingclips.smart.luncherwidget.service.DeviceControlJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:alwaysRetainTaskState="true" android:name="com.thingclips.smart.device.list.management.view.DeviceManagementActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.homepage.DeviceListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.iot.preview.activity.IoTPreviewDialogActivity" android:theme="@style/dialogstyle"/>
+        <activity android:name="com.thingclips.sensor.rangefinder.ui.activity.ThingDrawViewActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <service android:name="com.thingclips.smart.scene.widget.SceneWidgetRemoteService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:exported="false" android:name="com.thingclips.smart.scene.widget.SceneAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.havells.digitap.widget_action_ui_update"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/f057739"/>
+        </receiver>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.thingclips.smart.speech.activity.AssisantMainActivity" android:theme="@style/asstsant_speech_style"/>
+        <activity android:name="com.thingclips.smart.speech.activity.SpareTireActivity"/>
+        <receiver android:exported="true" android:name="com.thingclips.smart.speech.shortcut.SpeechReceiver"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.bleota.activity.BLEOTAActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.device.sharedevice.matter.activity.MatterDeviceShareActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sim.ui.CertificationWebViewActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.DevMultiLink2Activity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.ChooseLinkActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.DevLinkActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.PanelSmartDeviceSwitchActivity2" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.DevMultiSmartDevicesActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.control.activity.DevSyncControlActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.control.activity.SettingLinkActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.group.activity.GroupListActivity"/>
+        <activity android:name="com.thingclips.smart.sharedevice.ui.ShareDeviceManagerActivity"/>
+        <activity android:name="com.thingclips.smart.sharedevice.ui.MatterSharedDetailActivity"/>
+        <activity android:name="com.thingclips.smart.sharedevice.ui.DevShareDetailActivity"/>
+        <activity android:name="com.thingclips.smart.sharedevice.ui.ShareSubDeviceActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.AddShareMainActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTop" android:name="com.thingclips.smart.sharedevice.ui.MoreContactTransparentActivity" android:theme="@style/TransparentDialogStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.AddNewPersonShareActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.AddShareDevicesActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.DevShareEditActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.GroupShareEditActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.NotSupportShareDeviceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.NotSupportShareHelpActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.SharedActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.sharedevice.ui.UserShareDetailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.sharedevice.ui.DeviceAppLinkDispatchActivity" android:theme="@style/AppTheme.Translucent"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.TimerActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.TimerSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.TimerOptionActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.NewDpTimerActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.BleAlarmActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.BleAlarmSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.timer.ui.activity.MeshAlarmActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.migration.activity.SubDeviceMigrationActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.migration.activity.MigrationLoadingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.migration.activity.ChooseGatewayActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.migration.activity.MigrationResultActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.device.net.ui.activity.DeviceNetInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.device.net.ui.activity.StandbyNetActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.device.net.ui.activity.DeviceNetListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:name="com.thingclips.smart.panel.newota.activity.NBDeviceOTAActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:name="com.thingclips.smart.panel.newota.activity.BaseOtaUpdateActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:name="com.thingclips.smart.panel.newota.activity.OTAUpdateActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.panel.newota.activity.MeshOtaUpdateActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:exported="false" android:name="com.thingclips.smart.ota.ui.kit.view.details.FirmwareUpgradeDetailsActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode" android:exported="false" android:name="com.thingclips.smart.ota.ui.kit.view.list.DeviceOtaListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.evaluation.activity.EvaluationDeviceActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.evaluation.activity.LastEvaluationActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:label="@string/net_diagnosis_entrance" android:name="com.thingclips.smart.netdiagnosis.NetDiagnosisModuleEntrance" android:screenOrientation="behind">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="netdiagnosis" android:scheme="module.entrance"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name="com.thingclips.netdiagnosis.ui.NetDiagnosisActivity" android:screenOrientation="behind" android:theme="@style/NetDiagnosisTheme.NoActionBar"/>
+        <activity android:label="" android:name="com.thingclips.netdiagnosis.ui.NetDiagnosisGoingActivity" android:screenOrientation="behind" android:theme="@style/NetDiagnosisTheme.NoActionBar"/>
+        <activity android:label="" android:name="com.thingclips.netdiagnosis.ui.NetDiagnosisResultActivity" android:screenOrientation="behind" android:theme="@style/NetDiagnosisTheme.NoActionBar"/>
+        <activity android:label="" android:name="com.thingclips.netdiagnosis.ui.NetDiagnosisUploadActivity" android:screenOrientation="behind" android:theme="@style/NetDiagnosisTheme.NoActionBar"/>
+        <activity android:name="com.thingclips.netdiagnosis.panel.activity.NetworkCheckActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.device_detail.DeviceDetailActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.device_detail.ElectionGatewayActivity"/>
+        <activity android:name="com.thingclips.smart.manage_accessories.ManageAccessoriesActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.device.info.activity.DevInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.device.base.info.activity.DevEditActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.device.base.info.activity.ConfigPositionActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.device.base.info.activity.IconChooseActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.doorlock.ipc.contract.DoorLockCallingActivity"/>
+        <receiver android:exported="false" android:name="com.thingclips.smart.doorlock.ipc.service.DoorLockCallBroadcastReceiver"/>
+        <service android:exported="false" android:foregroundServiceType="mediaPlayback" android:name="com.thingclips.smart.doorlock.ipc.service.DoorLockCallService"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.linkage.activity.ChooseLightSceneActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.room.activity.LightSceneSortSingleRoomActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.tab.activity.LightSceneGuideActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.tab.activity.LightSceneMiniAppActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.activity.LightSceneEntranceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.activity.LightSceneCreateActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.activity.LightSceneSortActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.dimming.activity.DimmingActivity" android:theme="@style/LightSceneDimming"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.location.activity.LightSceneChooseCityActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.light.scene.plug.location.activity.LightSceneMapActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.base.activity.GuideActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.base.activity.UserInfoCompleteActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.base.activity.ExperienceExitActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.login.base.activity.LogoffUserActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.login.base.activity.LogoffOtherUserActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.login.base.activity.LogoffUserPasswordInputActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.login_finger_login.activity.FingerPrintLoginActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.LoginActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.RegisterActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.VerifyAccountActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.SetPasswordActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.ForgetPasswordActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.ChangeMobileEmailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.ChangeAccountVerifyActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.CompleteInformationActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.login.ui.activity.ChangePasswordActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.login_privacy.activity.DisagreePrivacySecondConfirmActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.login_privacy.activity.UserTipsActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.login_privacy.activity.LogoutNoticeTipsActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.qrlogin.activity.QRCodeLoginActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.qrlogin.activity.QRCodeAuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.qrlogin.activity.QRCodeOverTimeActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="com.thingclips.smart.country.select.activity.CountryListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.alexa.webview.AuthorizeWebViewActivity"/>
+        <service android:enabled="true" android:exported="true" android:name="com.thingclips.smart.messagepush.service.notify.SystemNotifyService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:process=":fcmpush">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="location" android:name="com.thingclips.smart.messagepush.sport.SportService"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.speechpush.activity.AlexaActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.thingclips.smart.panel.react_native.ui.ThingRCTSmartPanelHDActivity" android:theme="@style/Panel_HD_Theme"/>
+        <meta-data android:name="android.supports_size_changes" android:value="true"/>
+        <activity android:name="com.thingclips.smart.avs.login.ui.AvsLoginEmptyActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:allowTaskReparenting="true" android:exported="true" android:launchMode="singleTask" android:name="com.amazon.identity.auth.device.workflow.WorkflowActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.havells.digitap" android:scheme="amzn"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.thingclips.smart.ipc.videoview.activity.LocalCameraVideoActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.activator.search.result.ui.SearchResultActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.activator.search.result.room.SubDeviceSelectRoomActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.thingclips.smart.activator.panel.search.lightning.activity.LightningDeviceBindActivity" android:theme="@style/Theme.CustomDialog.Activity3"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.panel.search.lightning.activity.ScanConfigFindDeviceActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.panel.search.lightning.activity.DeviceLightningConfigActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.activator.panel.search.sub.search.SubDeviceConfigSearchActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.activator.panel.search.sub.help.SubDeviceConfigHelpListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.thingclips.smart.activator.activation.ui.activity.ActivatorActivity" android:theme="@style/Theme.CustomDialog.Activity.NoAni"/>
+        <activity android:launchMode="singleTop" android:name="com.thingclips.smart.activator.input.wifi.InputWifiActivity" android:theme="@style/Theme.CustomDialog.Activity.NoAni" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.DeviceMobileScanConfigActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.CameraConfigHelpActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.DeviceCameraConfigActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.DeviceQRCodeConfigActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.HotspotConnectActivity" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.WifiAccessoryActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.ConfigPlayVideoActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.ActivatorResetActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.RouterActivateActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.activator.device.guide.ui.activity.ZigbeeInstallCodeGuideActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.activator.home.entrance.activity.ActivatorHomeActivity" android:screenOrientation="behind"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.activator.device.discover.activity.ThingDeviceDiscoverActivity" android:theme="@style/Theme.CustomDialog.PopupBackground"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.remind.AlarmSystemActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.remind.AlarmListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.remind.AlarmPhoneSMSActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.message.base.activity.nodisturb.NoDisturbMoreSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.message.base.activity.nodisturb.NodisturbSwitchActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.message.MessageContainerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.message.MessageDetailsActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.nodisturb.NoDisturbListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.nodisturb.NoDisturbSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.nodisturb.NodisturbDeviceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.nodisturb.NoDisturbTimerOptionActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="singleTask" android:name="com.thingclips.smart.message.base.activity.line.LineNotifyActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.havells.digitap" android:path="/path/lineNotify" android:scheme="havellsdigitap"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.line.LineDeviceManagerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.message.base.activity.line.LineHomeDevice" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.personal_third_service.activity.MoreServiceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.PrivacyAdvanceAuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.PersonalPrivacySettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.thingclips.smart.privacy.setting.ui.PrivacyPolicySettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.WithdrawConsentActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.InformationExportActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.InformationExportConfirmActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.privacy.setting.ui.InformationExportResultActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.personal_gesture_password.activity.GesturePasswordActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.personal_gesture_password.activity.GesturePasswordGuideActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.feedback.base.activity.AddFeedbackActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.feedback.base.activity.FeedbackListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.feedback.base.activity.ChooseFeedbackTypeActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.feedback.base.activity.FeedbackActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.thingclips.smart.feedback.base.activity.PersonHelperHyActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.multilingual.activity.LanguageDebugActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.multilingual.activity.ChageTermsActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.multilingual.activity.SpecificLangChangeActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.about.activity.AboutActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.personal.account.info.plug.activity.PersonalInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.account.security.plug.activity.AccountSecurityActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.account.security.plug.activity.HomeAssistantAuthorActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.cloud.project.activity.CloudProjectListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.setting.dark.activity.DarkColorModeActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.icon.choose.activity.PersonalIconChooseActivity" android:theme="@style/PersonalIconChooseStyle" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.personal.setting.plug.activity.SettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.personal.setting.plug.activity.MoreFeaturesActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.personal.timezone.activity.ChooseTimeZoneActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraSettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraFunctionActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.TalkModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraInfoActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraDoorBellRingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.SettingBellChimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraElectricActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.SoundCheckActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.CameraMonitorTimerSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.MotionMonitorActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.old.panelmore.activity.StorageCardActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.tocopanel.activity.TOCOCameraPanelActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.whitepanel.activity.ThingCameraPanelActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.whitepanel.activity.ThingCameraPanelActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:name="com.thingclips.smart.camera.whitepanel.activity.CameraSelectBellTypeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.ap.activity.CameraAPActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraPanelActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraPanelActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraPlaybackActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraPlaybackActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraLockPlaybackActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.camera.blackpanel.activity.CameraLockPlaybackActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.clouddisk.activity.CameraCloudDiskManagerActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.clouddisk.activity.CameraCloudDiskActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.doorbellpanel.activity.DoorBellCameraActivity" android:screenOrientation="unspecified" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.ipc.camera.doorbellpanel.activity.DoorBellCameraPlayBackActivity" android:screenOrientation="unspecified" android:theme="@style/cameraPanelTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.doorbellpanel.activity.DoorBellDirectCameraActivity" android:screenOrientation="behind" android:showOnLockScreen="true" android:theme="@style/doorbellPanelTheme"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.doorbellpanel.activity.DoorbellRemoteUnlockActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.doorbellpanel.activity.DoorbellRemoteUnlockBindActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.recognition.activity.FaceRecognitionAddFaceActivity" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.recognition.activity.FaceRecognitionAddedServiceStatueActivity" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.recognition.activity.FaceRecognitionActivity" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.recognition.activity.FaceDetailActivity" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.recognition.activity.FaceRecordDetailActivity" android:theme="@style/cameraPanelTheme"/>
+        <activity android:name="com.thingclips.smart.ipc.localphotovideo.activity.LocalAlbumActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.localphotovideo.activity.LocalAlbumContentActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.localphotovideo.activity.LocalPhotoOrVideoActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.IPCCameraMessageCenterActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.messagecenter.activity.IPCCameraMessageCenterActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.BaseCameraMediaActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.CameraPhotoActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.CameraVideoActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.CameraAudioActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.messagecenter.activity.CameraMJEPGActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.camera.multi.activity.CameraMultiActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.multi.activity.CameraMultiSetActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.camera.multi.activity.CameraMultiActivityHD" android:screenOrientation="behind" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraInfoActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraFunctionActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraNightModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraTalkModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSoundCheckActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraElectricActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMotionMonitorActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSettingBellChimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSelectBellChimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMatchDoorBellRingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMotionSensitivityActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSoundSensitivityActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraPIRActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraStorageCardActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraRecordModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSelectBellRingSoundActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraAntiFlickerActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMotionAlarmInterValActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraLocalAlarmOpenTimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraReversalActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.ipc.panelmore.activity.CameraScreenNapShotActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMultiScreenNapShotActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraWorkModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraDisplayAdjustActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSirenAdjustActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraVideoLayoutActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraNightVisionModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSelectSirenSoundActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraIPCGateWayActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOnVifActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOnvifChangePwdActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraVoiceVolumeAdjustActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMicSensitivitySettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraTimeZoneSelectActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraIPCPIRActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraStationDetectionActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraStationDoorbellSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSelectStationDetectionAlarmActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSelectStationDoorbellRingtoneActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraRecordingTimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraPIRAlarmIntervalActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraPrivacyZoneActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraPrivacyZoneSettingActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraCollisionAlertActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraCollisionSensitiveActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraCVSensitiveActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraParkingModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraParkingRecordModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraParkingSensitiveActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSingleRecordingTimeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.ScreenSettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.RingToneSettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.SelectRingToneActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOutOffBoundsActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOutOffBoundsSetActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOutOffBoundsCrossLineSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMsgPushActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOnvifModeActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraRecordSettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraRecordModeTimingSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.DoorbellMessageActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.DoorbellMessageLengthActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.DoorbellVoiceManagerActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.DoorbellVoiceSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSettingCommonEnumActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.PlayBackSettingActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraObjectOutlineActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraSettingCacheEnumActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraRecordMaxDayActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.panelmore.activity.CameraMultiCrossLineActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraIndoorReceiverSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraIndoorReceiverDisturbSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraAddNoDisturbActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.ReceiverNoDisturbTimerOptionActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.CameraOnvifChangeAuthenticationActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.panelmore.activity.DoorbellNotDisturbSetActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.presetpoint.activity.CameraPresetPointActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.presetpoint.activity.CameraPresetPointPreviewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.presetpoint.activity.CameraPresetPointPreviewActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <service android:exported="false" android:foregroundServiceType="mediaPlayback" android:name="com.thingclips.smart.camera.push.DoorBellCallService"/>
+        <receiver android:name="com.thingclips.smart.camera.push.DoorbellCallBroadcastReceiver"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.ipc.camera.rnpanel.activity.TRCTSmartCameraPanelActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.ipc.camera.rnpanel.activity.TRCTSmartCameraHDPanelActivity" android:theme="@style/Panel_HD_Theme"/>
+        <activity android:name="com.thingclips.smart.ipc.station.activity.CameraStationActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.station.activity.CameraStationStorageManageActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.station.activity.CameraStationDeviceStorageSelectActivity"/>
+        <activity android:name="com.thingclips.smart.ipc.station.activity.CameraStationDeviceStorageDetailActivity"/>
+        <activity android:name="com.thingclips.smart.camera.wifiswitch.activity.DeviceMessageActivity"/>
+        <activity android:name="com.thingclips.smart.camera.wifiswitch.activity.WifiSwitchActivity"/>
+        <activity android:name="com.thingclips.smart.camera.wifiswitch.activity.ConnectNetworkActivity"/>
+        <activity android:name="com.thingclips.smart.camera.wifiswitch.activity.WifiLinkingActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.ipc.camera.panel.ui.cloud.activity.CameraCloudAIDetectConfigActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.camera.panel.ui.binocular.BinocularCamPlayBackPanelActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.panel.ui.cloud.activity.CameraCloudActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.panel.ui.cloud.activity.CameraCloudActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.camera.panel.ui.playback.CameraPlayBackPanelActivity" android:screenOrientation="behind" android:theme="@style/cameraPanelTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.thingclips.smart.ipc.camera.panel.ui.playback.CameraPlayBackPanelActivityHD" android:theme="@style/IPC_Panel_HD_Theme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.thingclips.smart.ipc.camera.panel.ui.doorbell.DoorBellCallingActivity" android:screenOrientation="behind" android:showOnLockScreen="true" android:theme="@style/doorbellPanelTheme"/>
+        <activity android:name="com.thingclips.smart.album.activity.AlbumActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.album.activity.AlbumContentActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.hometab.injection.ExpireActivity" android:theme="@style/AppTheme.FullScreen"/>
+        <activity android:name="com.thingclips.smart.family.roomwithtag.RoomWithTagManagerActivity"/>
+        <activity android:name="com.thingclips.smart.family.main.view.activity.JoinFamilyActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.FamilyManageActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.FamilySettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.RoomManageActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.UpdateNameActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.RoomSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.AddFamilyActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.thingclips.smart.family.main.view.activity.NoFamilyActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.thingclips.smart.family.main.view.activity.FamilyCreationGuideActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.familymember.activity.FamilyMemberActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.familymember.activity.LinkedAccountActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.familymember.activity.AddMemberActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.pms.FamilyPmsManagerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.pms.FamilyPmsSetActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.family.main.view.activity.pms.FamilyPmsSetDevOrSceneActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="com.havells.digitap.dynamic-resource" android:exported="false" android:name="com.thingclips.smart.dynamic.resource.configuration.WebViewPackageProvider"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
+        <activity android:exported="false" android:label="@string/places_autocomplete_label" android:name="com.google.android.libraries.places.widget.AutocompleteActivity" android:theme="@style/PlacesAutocompleteOverlay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.smart.mlkit.qrcode.activity.CaptureActivity" android:screenOrientation="behind" android:theme="@style/Thing.QRCode.FullScreen" android:windowSoftInputMode="adjustNothing"/>
+        <meta-data android:name="SENDER_ID" android:value="@string/gcm_sender_id"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/a057739c0577391057739"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="tuya_common"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <service android:exported="true" android:name="com.thingclips.smart.fcmpush.service.ThingFcmListenerService" android:process=":fcmpush">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:process=":fcmpush">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService" android:process=":fcmpush">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.thingclips.smart.fcmpush.service.MainProcessService"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.havells.digitap.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <provider android:authorities="com.havells.digitap.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.gzl.smart.gzlminiapp.core.view.GZLLoadingActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLTabActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLHalfPageActivity" android:screenOrientation="behind" android:theme="@style/MiniApp_Half_Theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.more.GZLMoreSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.more.GZLPermissionChoiceActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.more.GZLMoreSettingHDActivity" android:theme="@style/MiniApp_HD_Theme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLLoadingHDActivity" android:theme="@style/MiniApp_HD_Theme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLTabHDActivity" android:theme="@style/MiniApp_HD_Theme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.core.view.GZLHDActivity" android:theme="@style/MiniApp_HD_Theme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.gzl.smart.gzlminiapp.core.more.GZLMoreAuthInfoDetailActivity"/>
+        <service android:exported="false" android:name="com.gzl.smart.gzlminiapp.core.service.GZLKitWhiteListJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.gzl.smart.gzlminiapp.ide.dtools.MiniAppDToolsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:label="小程序调试" android:name="com.gzl.smart.gzlminiapp.ide.setting.GZLDebugSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.webview.web.GZLVideoPlayActivity" android:theme="@style/MiniAppVideoFullScreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.webview.web.GZLVideoPlayHDActivity" android:theme="@style/MiniApp_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.widget.debug.MiniWidgetActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.gzl.smart.gzlminiapp.widget.debug.MiniWidgetActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.gzl.smart.gzlminiapp.widget.pop.GZLWidgetDialogActivity" android:screenOrientation="behind" android:theme="@style/miniapp_Transparent.NO_ANIM" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="com.havells.digitap.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.pushcenter.view.PopDialogActivity" android:theme="@style/DialogTransparent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.pushcenter.view.PushAlarmActivity" android:theme="@style/Theme.CustomDialog.Activity3" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.thingclips.smart.jsbridge.base.webview.WebViewActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.thingclips.smart.jsbridge.base.webview.WebInterceptActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.thingclips.stencil.base.activity.BrowserActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.crashcaught.thing.CrashReportActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.crashcaught.thing.CrashReportActivity2" android:process=":CrashReport" android:screenOrientation="behind"/>
+        <provider android:authorities="com.havells.digitap.TUNIModuleProvider" android:enabled="true" android:exported="false" android:name="com.thingclips.android.universal.apimanager.TUNIModuleProvider"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.thingclips.smart.video.activity.VideoActivity"/>
+        <provider android:authorities="com.havells.digitap.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.thingclips.commonFileProvider.ThingUniFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/n057739"/>
+        </provider>
+        <service android:name="com.thingclips.stencil.component.media.PlayMediaService"/>
+        <service android:name="com.thingclips.stencil.component.media.MusicPlayService"/>
+        <activity android:exported="false" android:label="" android:name="com.thingclips.utilscore.ui.AppSettingsDialogHolderActivity" android:theme="@style/ThingPermission.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.gallery.preview.activity.ImagePreviewActivity" android:screenOrientation="behind" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.gallery.GalleryPickerAct" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.multimedia.crop.CropActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.thingclips.social.amazon.activity.TripleAlexaAccountLinkActivity" android:screenOrientation="behind">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="havellsdigitap.app.tuya.com" android:path="/triple/alexa" android:scheme="https"/>
+                <data android:host="havellsdigitap.applink.smart321.com" android:path="/triple/alexa" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.thingclips.social.amazon.activity.AmazonBindProcessActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="@bool/is_alexa_to_thingpp_support" android:launchMode="singleTask" android:name="com.thingclips.social.amazon.activity.AlexaAuthActivity" android:screenOrientation="behind">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="havellsdigitap.applink.smart321.com" android:path="/triple/fromalexa" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.thingclips.smart.google_flip.view.GoogleFlipAuthActivity">
+            <intent-filter>
+                <action android:name="com.havells.digitap.google_flip_intent"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.thingclips.smart.google_flip.activity.GoogleAssistantBindingActivity"/>
+        <activity android:exported="false" android:name="com.thingclips.smart.google_flip.activity.GoogleAssistantBindStatusActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.social.auth.manager.ui.DeAuthorizeActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.map.generalmap.ui.GeneralMapActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.map.generalmap.ui.ThingMapActivity"/>
+        <activity android:name="com.thingclips.smart.map.generalmap.ui.ThingMapSearchAddressActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.thingclips.smart.location.ui.LocationAccessSettingsActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.thingsmart_videocutter.VideoCutterActivity"/>
+        <receiver android:exported="true" android:name="com.thingclips.smart.antlost.broadcast.NotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="antilost_notification_cancelled"/>
+                <action android:name="antilost_notification_clicked"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.thingclips.smart.antlost.broadcast.BeaconBroadCastReceiver">
+            <intent-filter>
+                <action android:name="antilost_find_show"/>
+                <action android:name="antilost_find_close"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.thingclips.smart.panelcaller.PanelCallerLoadingActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.thingclips.smart.panelcaller.PanelCallerLoadingHDActivity" android:theme="@style/Panel_HD_Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.panel_webview.activity.SmartDeviceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.thingclips.smart.panel_webview.activity.SmartDeviceHDActivity" android:screenOrientation="landscape" android:theme="@style/Panel_HD_Theme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.appshell.activity.AppShellActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.network.error.handler.activity.NetworkUnavailableGuideActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.network.error.handler.activity.NetworkCertificateGuideActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"/>
+        <activity android:name="com.thingclips.smart.google.comment.view.activity.GoogleReviewActivity" android:theme="@style/Theme.CustomDialog.ActivityStyle"/>
+        <activity android:launchMode="singleTop" android:name="com.thingclips.smart.google.comment.view.activity.ReviewGuideActivity" android:theme="@style/MyCustomDialog"/>
+        <activity android:name="com.thingclips.smart.social.google_login.ThingGoogleLoginActivity" android:theme="@style/google_sociallogin.Theme"/>
+        <receiver android:name="com.thingclips.sdk.geofence.google.GeoFenceReceiver"/>
+        <service android:name="com.thingclips.sdk.geofence.google.GeoFenceTransitionsJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.havells.digitap.ThingOptimusProvider" android:enabled="true" android:exported="false" android:name="com.thingclips.smart.optimus.sdk.ThingOptimusProvider"/>
+        <provider android:authorities="com.havells.digitap.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:name="com.thingclips.smart.mqtt.MqttService"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.smart.scene.construct.detail.SceneDetailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.scene.construct.guide.ConstructGuideActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.construct.extension.EffectivePeriodActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.scene.construct.extension.IconStyleActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.Translucent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.scene.device.datapoint.detail.DeviceConditionDetailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.scene.device.datapoint.ConditionDatapointListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.device.datapoint.ActionDatapointListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.device.datapoint.EditActionDatapointListActivity" android:theme="@style/SceneEditTransparentDialogStyle"/>
+        <activity android:name="com.thingclips.smart.scene.device.choose.DeviceChooseActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.device.datapoint.detail.DeviceCalTypeActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.action.delay.DelayActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.action.push.MessagePushActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.action.linkage.ChooseLinkageActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.action.linkage.LinkageTypeListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.condition.timer.TimerOptionActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.scene.condition.position.ChooseCityActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.condition.geofencing.GeofencingModeActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.scene.condition.weather.detail.WeatherDetailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.smart.scene.condition.weather.WeatherListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.condition.member.LockMemberActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.condition.timer.TimerActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.home.device.DeviceScenesActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.home.sort.SceneSortActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.thingclips.smart.scene.home.invalid.SceneInvalidDialogActivity" android:theme="@style/SceneEditTransparentDialogStyle"/>
+        <activity android:name="com.thingclips.smart.scene.record.detail.SceneLogDetailActivity" android:theme="@style/LogDialogStyle"/>
+        <activity android:name="com.thingclips.smart.scene.record.list.SceneLogsActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.record.exception.ExceptionDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.smart.scene.recommend.detail.RecommendDetailActivity" android:screenOrientation="behind"/>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="mediaProjection" android:name="com.thingclips.smart.rnplugin.trcthealthwatchmanager.MediaCaptureService"/>
+        <receiver android:exported="true" android:name="com.thingclips.smart.rnplugin.trctlocalalarmmanager.alarm.receiver.LocalAlarmReceiver" android:process=":alarm">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTIFY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.thingclips.smart.rnplugin.trctlocalalarmmanager.alarm.receiver.OpenPanelReceiver"/>
+        <receiver android:exported="false" android:name="com.thingclips.smart.rnplugin.trctlocalalarmmanager.alarm.receiver.NotifyPanelReceiver"/>
+        <activity android:name="com.thingclips.smart.plugin.tuniscancodemanager.ui.QRCodeActivity"/>
+        <service android:name="com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService" android:process=":heap_analysis"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="com.thingclips.smart.push.pushmanager.view.PopDialogActivity" android:theme="@style/myTransparent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.thingclips.security.arm.plugin.activity.ignore.IgnoreDeviceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.arm.plugin.activity.setting.SecurityModeDeviceListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.arm.plugin.activity.setting.SecurityModeDelayActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.arm.plugin.activity.NewModeSettingActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.arm.plugin.activity.abnormal.AbnormalDeviceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.quick_device.activity.DeviceFavoriteEditActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.security.vas.dealercode.ManageDealerCodeActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.dealercode.ChangeDealerCodeActivity" android:screenOrientation="behind" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.thingclips.security.vas.dealercode.bind.BindDealerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.dealercode.bind.UnBindDealerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.maintenance.ui.MaintenanceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.maintenance.ui.CreateMaintenanceActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.maintenance.ui.order.MaintenanceOrderDetailActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.maintenance.ui.ContactActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.security.vas.message.ui.ServiceMessageListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.message.ui.ServiceMessageDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.message.ui.ServiceMessageImageActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.setting.verify.AccountVerifyActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.verify.VerificationCodeInputActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.ipc.AIBindExcessActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.ipc.AIBindActivity" android:screenOrientation="behind" android:theme="@style/Theme.AppCompat.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.ipc.VideoCloudStorageActivity" android:screenOrientation="behind" android:theme="@style/Theme.AppCompat.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTop" android:name="com.thingclips.security.vas.setting.ipc.VideoCloudExcessActivity" android:theme="@style/vas_transparentStyle"/>
+        <activity android:name="com.thingclips.security.vas.setting.emergency.EmergencySelectActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.emergency.EmergencyAddActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.emergency.EmergencyEditActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.emergency.EmergencyNotificationActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.emergency.EmergencyOrderActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.security.vas.setting.packageservice.PackageServiceSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.setting.alarm_platform.password.NoonLightPasswordActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.alarm_platform.password.ChangePasswordPreActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.security.vas.setting.alarm_platform.policy.AlarmPlatformServicePolicyActivity" android:screenOrientation="behind"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.security.vas.setting.alarm_platform.AlarmPlatformSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.associate.AssociateCameraActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.camera.HostingCameraActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.camera.HostingCameraEditActvity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.hosting.location.activity.ChinaLocationInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.setting.HostingSettingActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.hosting.location.activity.ForeignLocationInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.hosting.location.activity.CountryActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.sia.ServiceAccountActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="orientation" android:name="com.thingclips.security.vas.setting.password.ChangePasswordActivity" android:screenOrientation="behind" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.policy.HostingPoliyActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.remark.HostingRemarkActivity"/>
+        <activity android:name="com.thingclips.security.vas.setting.hosting.other.HostingOtherSettingActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.security.vas.setting.hosting.location.activity.NoonLightLocationInfoActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.security.armed.ui.activity.SecurityHomeActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.armed.ui.activity.FavoriteDeviceListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.thingclips.security.armed.ui.activity.FavoriteDeviceEditActivity" android:screenOrientation="behind"/>
+        <activity android:launchMode="singleTask" android:name="com.thingclips.security.armed.alarming.SecurityNewAlarmingActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.thingclips.smart.homearmed.camera.ui.CameraListActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustPan"/>
+        <service android:name="com.thingclips.sdk.blelib.BluetoothService"/>
+        <receiver android:exported="false" android:name="com.thingclips.smart.ble.bs.beacon.BeaconScanFilterReceiver">
+            <intent-filter>
+                <action android:name="ACTION_SCAN_FILTER_RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.thingclips.smart.android.hardware.service.DevTransferService" android:process=":monitor" android:stopWithTask="true"/>
+        <service android:exported="false" android:label="UDPService" android:name="com.thingclips.smart.android.hardware.service.GwBroadcastMonitorService" android:process=":monitor" android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="thing.intent.action.udp"/>
+                <category android:name="thing"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="4"/>
+    </application>
+</manifest>

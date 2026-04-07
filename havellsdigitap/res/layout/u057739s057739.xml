@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.hometab.InterceptFitSystemFrameLayout android:id="@id/fl_main" android:background="?app_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/upgrade_block" android:layout="@layout/u057739t057739" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.thingclips.smart.hometab.InterceptFitSystemFrameLayout>

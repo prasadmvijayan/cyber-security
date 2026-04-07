@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <RelativeLayout android:id="@id/rv_motion_model_all" android:background="?camera_panelmore_item_bg" android:padding="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" android:layout_marginTop="@dimen/thing_dp_56">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_motion_mode_allday" />
+        <ImageView android:id="@id/iv_motion_model_all_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_5" android:src="@drawable/m057739k057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rv_motion_model_opentime_select" android:background="?camera_panelmore_item_bg" android:padding="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" android:layout_marginTop="@dimen/thing_dp_6">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_motion_mode_schedule" />
+        <ImageView android:id="@id/iv_motion_model_opentime_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_5" android:src="@drawable/m057739k057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.thingclips.smart.camera.uiview.view.SETimerPicker android:id="@id/motion_timepicker" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

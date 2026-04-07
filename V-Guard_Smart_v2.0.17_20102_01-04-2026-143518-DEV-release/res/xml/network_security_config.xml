@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">smartdev.codelynks.in</domain>
+        <domain includeSubdomains="true">smartqa.codelynks.in</domain>
+        <domain includeSubdomains="true">smartstage.codelynks.in</domain>
+        <domain includeSubdomains="true">nous.codelynks.in</domain>
+        <domain includeSubdomains="true">smart20.vguard.in</domain>
+        <domain includeSubdomains="true">nous20.vguard.in</domain>
+        <domain includeSubdomains="true">vguardbox.com</domain>
+        <domain includeSubdomains="true">api.openweathermap.org</domain>
+    </domain-config>
+</network-security-config>

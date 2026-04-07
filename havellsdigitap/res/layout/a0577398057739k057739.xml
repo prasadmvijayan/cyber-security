@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:background="@drawable/a057739w057739y057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black_50" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_15" android:layout_marginBottom="@dimen/thing_dp_15" android:text="@string/recoding_event_pick" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/line" android:layout_below="@id/tv_title" />
+    <View android:id="@id/line" android:background="@color/gray_5" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_8" android:layout_above="@id/ll_bottom" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_60" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/btn_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/blue_097" android:gravity="center" android:id="@id/btn_confirm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

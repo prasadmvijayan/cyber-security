@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/camera_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <LinearLayout android:gravity="center" android:id="@id/multi_ll" android:background="#ff1b1b1b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/TC_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/multi_tv" android:paddingLeft="@dimen/thing_dp_20" android:paddingRight="@dimen/thing_dp_20" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_48" android:minWidth="@dimen/thing_dp_130" android:text="@string/ipc_bases_mutli_view" android:singleLine="true" android:drawableLeft="@drawable/q057739a057739" android:drawablePadding="@dimen/thing_dp_20" />
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/station_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/multi_ll" android:layout_below="@id/action_bar_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/offline_tip" android:background="@drawable/w057739p057739" android:visibility="gone" android:layout_width="@dimen/thing_mg_120" android:layout_height="@dimen/thing_mg_30" android:layout_margin="@dimen/thing_mg_8">
+                <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_bases_offline" android:drawableLeft="@drawable/u057739u057739" android:drawablePadding="@dimen/thing_dp_5" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/station_list" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_mg_60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="@dimen/thing_dp_72" android:layout_height="@dimen/thing_dp_72" android:layout_marginTop="@dimen/thing_dp_60" android:src="@drawable/b057739f057739s057739" app:tint="@color/thing_theme_color_b1_n4" app:tintMode="src_in" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t5" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_24" android:text="@string/thing_device_upgrade_list_request_fail" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/ota_btn_reload" android:layout_width="@dimen/thing_dp_138" android:layout_height="@dimen/thing_dp_38" android:layout_marginTop="@dimen/thing_mg_28" android:text="@string/reload" />
+</LinearLayout>

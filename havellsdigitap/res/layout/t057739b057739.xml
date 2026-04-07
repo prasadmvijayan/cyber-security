@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/a057739h057739j057739" />
+    <com.thingclips.smart.message.base.activity.remind.view.AlarmRemindTipView android:id="@id/tvAlarmTip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/vp_message" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

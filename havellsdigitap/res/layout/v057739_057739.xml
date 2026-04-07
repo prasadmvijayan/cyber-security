@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a05773970577394057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:src="@drawable/a057739_057739g057739" android:tint="@color/thing_theme_color_b4_n5" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+    <ImageView android:id="@id/iv_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_13" android:src="@drawable/a057739_057739i057739" android:tint="@color/thing_theme_color_b4_n6" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_12" android:text="@string/family_manage" android:layout_toRightOf="@id/iv_icon" android:layout_marginStart="@dimen/thing_mg_12" android:layout_toEndOf="@id/iv_icon" />
+    <View android:id="@id/divider" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/thing_mg_13" android:layout_marginEnd="@dimen/thing_mg_13" />
+</RelativeLayout>

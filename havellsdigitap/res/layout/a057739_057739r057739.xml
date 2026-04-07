@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/b05773920577396057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_room_name" android:paddingLeft="@dimen/thing_dp_16" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_58" android:layout_marginRight="@dimen/thing_dp_5" android:singleLine="true" android:layout_toLeftOf="@id/tv_no_light" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/cba_room_checked" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginRight="@dimen/thing_dp_16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n3" android:id="@id/tv_no_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_16" android:text="@string/thing_light_lamp_add_area_empty" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

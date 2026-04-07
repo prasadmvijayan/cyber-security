@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_construct_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_25" android:layout_marginRight="@dimen/thing_mg_25" android:layout_marginHorizontal="@dimen/thing_mg_25" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <View android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_180" />
+</LinearLayout>

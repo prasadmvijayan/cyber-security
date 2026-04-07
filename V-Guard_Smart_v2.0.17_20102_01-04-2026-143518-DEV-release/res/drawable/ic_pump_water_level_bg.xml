@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="245.0dip" android:width="245.0dip" android:viewportWidth="245.0" android:viewportHeight="245.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#00000000" android:pathData="M122.17,122.17m-115.67,0a115.67,115.67 0,1 1,231.34 0a115.67,115.67 0,1 1,-231.34 0" android:strokeColor="@drawable/$ic_pump_water_level_bg__0" android:strokeWidth="13.0" android:strokeAlpha="0.43" />
+    <path android:fillColor="#ffffffff" android:pathData="M122.17,122.17m-115.57,0a115.57,115.57 0,1 1,231.15 0a115.57,115.57 0,1 1,-231.15 0" android:strokeColor="#fff4f4f4" android:strokeWidth="2.0" />
+    <path android:fillColor="#ffdedede" android:pathData="M122.17,122.17m-106.58,0a106.58,106.58 0,1 1,213.17 0a106.58,106.58 0,1 1,-213.17 0" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_on_off" android:background="@drawable/a057739i057739u057739" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/ll_off" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/light_scene_home_selector_switch_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_off" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_light_operate_all_off" />
+        </FrameLayout>
+        <View android:background="@color/thing_theme_color_b3" android:layout_width="@dimen/thing_dp_1" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/ll_on" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/light_scene_home_selector_switch_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_on" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_light_operate_all_on" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/thing_theme_color_b3" android:layout_width="@dimen/thing_dp_4" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fl_dimming" android:background="@drawable/a057739i057739u057739" android:layout_width="@dimen/wh_56" android:layout_height="@dimen/wh_56">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739i057739i057739" />
+    </FrameLayout>
+</LinearLayout>

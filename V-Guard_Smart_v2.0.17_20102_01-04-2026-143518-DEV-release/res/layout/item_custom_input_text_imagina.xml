@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraint_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/size_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/tl_custom_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/VGTextInputLayout">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/tv_custom_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="25" android:imeOptions="actionDone" style="@style/VGTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button android:textSize="@dimen/text_size_16" android:gravity="center" android:id="@id/bt_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tl_custom_value" style="@style/VGButtonOrange" />
+</androidx.constraintlayout.widget.ConstraintLayout>

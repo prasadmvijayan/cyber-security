@@ -1,0 +1,61 @@
+.class public final Lcom/thingclips/smart/android/base/R$integer;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/android/base/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "integer"
+.end annotation
+
+
+# static fields
+.field public static final abc_config_activityDefaultDur:I = 0x7f0b0000
+
+.field public static final abc_config_activityShortDur:I = 0x7f0b0001
+
+.field public static final anim_duration:I = 0x7f0b0003
+
+.field public static final animation_duration:I = 0x7f0b0004
+
+.field public static final app_bar_elevation_anim_duration:I = 0x7f0b0007
+
+.field public static final bottom_sheet_slide_duration:I = 0x7f0b0008
+
+.field public static final cancel_button_image_alpha:I = 0x7f0b0009
+
+.field public static final change_device_name_limit:I = 0x7f0b000a
+
+.field public static final change_group_name_limit:I = 0x7f0b000b
+
+.field public static final config_tooltipAnimTime:I = 0x7f0b000d
+
+.field public static final design_snackbar_text_max_lines:I = 0x7f0b0012
+
+.field public static final feedback_limit:I = 0x7f0b0016
+
+.field public static final google_play_services_version:I = 0x7f0b0017
+
+.field public static final hide_password_duration:I = 0x7f0b0018
+
+.field public static final show_password_duration:I = 0x7f0b0028
+
+.field public static final slide_in:I = 0x7f0b0029
+
+.field public static final slide_out:I = 0x7f0b002a
+
+.field public static final status_bar_notification_info_maxnum:I = 0x7f0b002b
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

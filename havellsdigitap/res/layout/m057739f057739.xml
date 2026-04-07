@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/video_opera_ll" android:paddingLeft="@dimen/thing_dp_25" android:paddingRight="@dimen/thing_dp_25" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="11.0sp" android:textColor="#ffb0b0b0" android:id="@id/start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_centerVertical="true" />
+        <TextView android:textSize="11.0sp" android:textColor="#ffb0b0b0" android:id="@id/end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/media_controller_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/x057739t057739" android:thumb="@drawable/x057739s057739" android:thumbOffset="1.5dip" android:layout_toLeftOf="@id/end_time" android:layout_toRightOf="@id/start_time" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

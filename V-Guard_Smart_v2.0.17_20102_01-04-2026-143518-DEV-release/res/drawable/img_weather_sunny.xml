@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="31.0dip" android:viewportWidth="31.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#fffdb426" android:pathData="M21.149,10.202m-6.06,0a6.06,6.06 0,1 1,12.12 0a6.06,6.06 0,1 1,-12.12 0" />
+    <path android:fillColor="@drawable/$img_weather_sunny__0" android:pathData="M21.149,10.202m-6.06,0a6.06,6.06 0,1 1,12.12 0a6.06,6.06 0,1 1,-12.12 0" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M10.969,25.858C6.21,25.858 2.353,21.995 2.353,17.23C2.353,12.465 6.21,8.602 10.969,8.602C14.575,8.602 17.664,10.82 18.949,13.968C19.913,13.385 21.043,13.049 22.251,13.049C25.784,13.049 28.647,15.917 28.647,19.454C28.647,22.991 25.784,25.858 22.251,25.858C17.66,25.858 15.817,25.858 10.969,25.858Z" android:strokeAlpha="0.9" android:fillAlpha="0.9" />
+</vector>

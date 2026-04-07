@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/toolbar" android:background="@color/theme_toolbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_16" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/switch_hosting" android:background="@color/theme_list_background" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" app:kswBackDrawable="@drawable/b057739i057739a057739" app:kswThumbColor="@color/white" />
+                <View android:id="@id/view_switch_btn_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/switch_btn" android:layout_alignTop="@id/switch_btn" android:layout_alignRight="@id/switch_btn" android:layout_alignBottom="@id/switch_btn" />
+                <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/theme_list_title" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_16" android:layout_toLeftOf="@id/switch_btn" />
+            </RelativeLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_16" />
+            <include android:id="@id/tv_location" layout="@layout/a057739i057739d057739" />
+            <include android:id="@id/tv_emergency" layout="@layout/a057739i057739d057739" />
+            <include android:id="@id/tv_hs_password" layout="@layout/a057739i057739d057739" />
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_16" />
+            <include android:id="@id/tv_hosting_camera" layout="@layout/a057739i057739d057739" />
+            <include android:id="@id/tv_associate_camera" layout="@layout/a057739i057739d057739" />
+            <ViewStub android:id="@id/stub_sia" android:layout="@layout/a057739i057739d057739" android:inflatedId="@id/tv_sia_account" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_other_setting" android:layout="@layout/a057739i057739d057739" android:inflatedId="@id/tv_other_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/tv_remarks" layout="@layout/a057739i057739d057739" />
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_16" />
+            <include android:id="@id/tv_policy" layout="@layout/a057739i057739d057739" />
+            <ViewStub android:id="@id/stub_privacy_policy" android:layout="@layout/a057739i057739d057739" android:inflatedId="@id/tv_privacy_policy" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

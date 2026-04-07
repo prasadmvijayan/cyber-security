@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="14.0sp" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:gravity="center" android:id="@id/alertTextView" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:maxLines="3" android:paddingHorizontal="15.0dip" />
+    <com.thingclips.smart.widget.ThingTextView android:id="@id/cancelButton" android:text="@string/cancel" style="@style/ActionSheetItem" />
+</LinearLayout>

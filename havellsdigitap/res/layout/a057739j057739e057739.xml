@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_content" android:background="@drawable/b057739g057739z057739" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_dp_8" android:layout_marginBottom="@dimen/thing_dp_8" android:layout_marginStart="@dimen/thing_dp_8" android:layout_marginEnd="@dimen/thing_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="@dimen/thing_dp_23" android:layout_height="@dimen/thing_dp_23" android:src="@drawable/b057739h057739k057739" android:tintMode="src_in" app:tint="@color/thing_theme_color_b1_n1" />
+        <TextView android:textColor="@color/thing_theme_color_b1_n4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_2" android:text="@string/hs_add_image" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

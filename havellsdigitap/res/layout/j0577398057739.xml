@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/thing_dp_15" android:paddingRight="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_15"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.drawee.view.DecryptImageView android:id="@id/iv_collection_snapshot" android:layout_width="@dimen/thing_dp_82" android:layout_height="@dimen/thing_dp_59" fresco:placeholderImage="@color/image_default" fresco:roundedCornerRadius="@dimen/thing_dp_1" />
+    <ImageView android:id="@id/iv_collection_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/m057739b057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_collection_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_30" android:src="@drawable/m057739c057739" android:layout_toLeftOf="@id/iv_collection_delete" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/thing_sp_17" android:textColor="#99ffffff" android:ellipsize="end" android:id="@id/tv_collection_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:maxLines="1" android:layout_toLeftOf="@id/iv_collection_edit" android:layout_toRightOf="@id/iv_collection_snapshot" android:layout_centerVertical="true" />
+</RelativeLayout>

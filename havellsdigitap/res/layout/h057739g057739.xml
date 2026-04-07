@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_camera_video" android:background="#ff0f0f0f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.thingclips.smart.ipc.videoview.wigdet.MGVideoView android:gravity="center" android:id="@id/mg_video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.thingclips.smart.ipc.videoview.wigdet.MGMediaController android:id="@id/mg_video_controller" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_alignParentBottom="true" />
+        <ProgressBar android:id="@id/video_progress_bar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <Button android:gravity="center" android:layout_gravity="center" android:id="@id/play_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.drawee.view.SimpleDraweeView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_pic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="right" android:id="@id/btn_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/l057739u057739" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/action_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_home_empty_tip" android:drawableTop="@drawable/g057739o057739" android:drawablePadding="@dimen/thing_dp_10" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_layout" />
+    </FrameLayout>
+</LinearLayout>

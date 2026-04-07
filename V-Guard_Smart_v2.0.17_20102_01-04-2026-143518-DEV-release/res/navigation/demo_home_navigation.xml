@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/home_navigation" app:startDestination="@id/navigation_my_products"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:graph="@navigation/demo_home_my_products_navigation" />
+    <include app:graph="@navigation/home_settings_navigation" />
+    <include app:graph="@navigation/home_support_navigation" />
+    <include app:graph="@navigation/home_profile_navigation" />
+    <include app:graph="@navigation/home_more_navigation" />
+</navigation>

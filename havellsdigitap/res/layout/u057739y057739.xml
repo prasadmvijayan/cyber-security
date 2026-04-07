@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_arrow" android:layout_width="@dimen/thing_dp_18" android:layout_height="@dimen/thing_dp_6" android:layout_marginLeft="@dimen/thing_theme_dimen_p3" android:layout_marginRight="@dimen/thing_theme_dimen_p3" android:src="@drawable/b057739a057739e057739" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/thing_theme_color_b4" app:tintMode="src_in" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/a05773970577397057739" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_arrow">
+        <com.thingclips.smart.familylist.ui.widget.PHRecyclerView android:id="@id/rv_func" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include android:id="@id/rl_family_manager" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" layout="@layout/v057739_057739" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

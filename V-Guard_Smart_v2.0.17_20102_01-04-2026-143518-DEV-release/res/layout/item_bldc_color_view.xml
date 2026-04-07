@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_mode_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_color_bg" android:focusable="false" android:clickable="false" android:layout_width="@dimen/looper_size" android:layout_height="@dimen/looper_size" android:layout_margin="@dimen/size_8" android:src="@drawable/bldc_fan_moode_color_bg_selector" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_color_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_bldc_fan" app:layout_constraintBottom_toBottomOf="@id/iv_color_bg" app:layout_constraintEnd_toEndOf="@id/iv_color_bg" app:layout_constraintStart_toStartOf="@id/iv_color_bg" app:layout_constraintTop_toTopOf="@id/iv_color_bg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

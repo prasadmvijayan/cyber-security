@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/thing_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/thing_theme_color_b3_n1" android:gravity="center_horizontal" android:id="@id/markerInfoView" android:background="@drawable/b057739a0577397057739" android:padding="@dimen/thing_theme_dimen_p3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/thing_dp_50" />
+    <View android:layout_gravity="center_horizontal" android:background="@color/thing_theme_color_b3" android:layout_width="@dimen/thing_dp_15" android:layout_height="@dimen/thing_dp_15" android:translationY="-8.0dip" android:rotation="45.0" />
+</LinearLayout>

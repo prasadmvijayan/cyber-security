@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/stabilizer_navigation" app:startDestination="@id/fragment_verano_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.view.heater.verano.VeranoDashboardFragment" android:id="@id/fragment_verano_dashboard">
+        <action android:id="@id/action_fragment_heater_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+        <action android:id="@id/action_fragment_verano_dashboard_to_veranoCreateScheduleFragment" app:destination="@id/veranoCreateScheduleFragment" />
+    </fragment>
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="@string/create_schedule" android:name="com.vguard.smart.view.heater.verano.VeranoCreateScheduleFragment" android:id="@id/veranoCreateScheduleFragment" />
+</navigation>

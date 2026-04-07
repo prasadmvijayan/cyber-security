@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/im_welcome" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/welcome_first_illustration" app:layout_constraintBottom_toTopOf="@id/tv_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tv_description" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/im_welcome" style="@style/VGWelcomeTitle" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineHeight="@dimen/desc_text_line_height_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/VGWelcomeDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

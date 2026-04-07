@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_panel_multi_switch_iv" android:background="@drawable/b05773970577395057739" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_20" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_panel_multi_switch_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" android:text="" android:maxEms="6" android:singleLine="true" />
+</LinearLayout>

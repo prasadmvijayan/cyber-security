@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/browser_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.thingclips.stencil.component.webview.BrowserHybridWebView android:id="@id/hybridWebView" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_44" />
+</androidx.cardview.widget.CardView>

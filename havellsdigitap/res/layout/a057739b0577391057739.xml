@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739a057739y057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b1_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_8" android:text="@string/thing_share_account" android:layout_marginStart="@dimen/thing_dp_16" />
+            <com.thingclips.smart.sharedevice.widget.MenuTextSubItem android:id="@id/menu_app_share" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_contact_person" android:background="@color/themed_toolbar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View style="@style/line_long" />
+            <include layout="@layout/a0577391057739q057739" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_share_type" android:background="@color/themed_toolbar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_dp_10" />
+            <include android:id="@id/ll_matter_share" android:visibility="visible" layout="@layout/a0577391057739n057739" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top" android:bottom="@dimen/thing_dp_72">
+        <shape>
+            <gradient android:startColor="@color/transparent" android:endColor="@color/thing_theme_color_b1" android:angle="270.0" android:type="linear" android:centerX="0.5" android:centerY="0.8" />
+        </shape>
+    </item>
+    <item android:top="@dimen/thing_dp_24">
+        <shape>
+            <solid android:color="@color/thing_theme_color_b1" />
+        </shape>
+    </item>
+</layer-list>

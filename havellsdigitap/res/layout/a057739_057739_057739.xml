@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/content" android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar_top_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionName="toolbar" app:contentInsetStart="0.0dip" style="@style/toolbar_action_text">
+        <com.thingclips.smart.uibizcomponents.scenesnav.wrapper.SceneNavWrapper android:layout_gravity="left" android:id="@id/nav_home_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cmp_stub_id="@id/nav_home_name" app:componentName="sceneNav" app:id="@id/nav_home_name" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/drawee_view_head" android:visibility="gone" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_34" android:layout_marginStart="@dimen/thing_theme_dimen_p4" />
+        <ImageView android:layout_gravity="right" android:id="@id/iv_menu_add_smart" android:visibility="visible" android:layout_width="@dimen/thing_theme_dimen_i4" android:layout_height="fill_parent" android:src="@drawable/a057739d057739i057739" android:scaleType="fitCenter" android:contentDescription="@string/auto_test_smart_add" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" app:tint="@color/thing_theme_color_b1_n2" />
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

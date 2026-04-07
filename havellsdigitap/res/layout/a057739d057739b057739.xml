@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/thing_theme_color_b4" app:cardCornerRadius="@dimen/thing_theme_dimen_c2" app:cardElevation="@dimen/thing_dp_0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4_f" android:textColor="@color/thing_theme_color_b4_n3" android:ellipsize="end" android:gravity="center" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_theme_dimen_p4" android:lines="1" android:singleLine="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/optionsView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls" />
+        <View android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="@dimen/thing_theme_dimen_p2" />
+        <com.thingclips.smart.widget.ThingButton android:id="@id/cancelButton" android:text="@string/thing_cancel" style="@style/ThingCommonActionSheetButtonStyle.Secondary" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

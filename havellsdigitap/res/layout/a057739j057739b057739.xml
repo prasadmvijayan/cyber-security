@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b057739g057739r057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/theme_dialog_description" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" />
+    <View android:background="@color/theme_dialog_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:id="@id/fl_content" android:background="@color/theme_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

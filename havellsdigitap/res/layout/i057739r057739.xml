@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/n057739z057739" android:padding="@dimen/thing_mg_10" android:layout_width="@dimen/thing_dp_327" android:layout_height="@dimen/thing_dp_207"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/black_22242C" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/wh_22" android:layout_marginLeft="@dimen/thing_mg_24" android:layout_marginTop="@dimen/thing_mg_24" android:layout_marginRight="@dimen/thing_mg_24" android:text="@string/ipc_ai_fr_list_person_delete_confirm" />
+    <TextView android:textSize="@dimen/ts_13" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/thing_dp_279" android:layout_height="@dimen/wh_80" android:layout_marginTop="@dimen/thing_mg_6" android:text="@string/ipc_ai_fr_list_person_delete_warn" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+        <TextView android:textColor="@color/black_30" android:gravity="center" android:id="@id/tv_camera_conceal_delete_warning" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/blue_097" android:gravity="center" android:id="@id/tv_camera_affirm_delete" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/operation_delete" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

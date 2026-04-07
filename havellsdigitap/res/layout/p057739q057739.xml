@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_scene_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_scene_no_related_scenes" android:drawablePadding="@dimen/thing_theme_dimen_p3" app:drawableTint="@color/thing_theme_color_b1_n4" app:drawableTopCompat="@drawable/b057739_057739y057739" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/thing_sp_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tv_manual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p2" android:layout_marginBottom="@dimen/thing_theme_dimen_p2" android:text="@string/thing_scene" android:layout_marginVertical="@dimen/thing_theme_dimen_p2" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_device_manual" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/thing_sp_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tv_automation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p2" android:layout_marginBottom="@dimen/thing_theme_dimen_p2" android:text="@string/thing_automatic" android:layout_marginVertical="@dimen/thing_theme_dimen_p2" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_device_automation" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

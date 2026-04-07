@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739h057739j057739" />
+    <com.thingclips.smart.widget.common.searchview.ThingCommonSearchView android:id="@id/thing_common_sv" android:layout_width="fill_parent" android:layout_height="wrap_content" app:thing_common_sv_paddingBottom="@dimen/thing_theme_dimen_p2" app:thing_common_sv_paddingTop="@dimen/thing_theme_dimen_p2" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/is_default_recyclerview" android:background="@color/thing_theme_color_b2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.thingclips.smart.widget.ThingTextView android:textSize="?isOverlayTextSize" android:textColor="?isOverlayTextColor" android:gravity="center" android:id="@id/is_overlay" android:background="?isOverlayBackground" android:visibility="gone" android:layout_width="?isOverlayWidth" android:layout_height="?isOverlayHeight" android:layout_centerInParent="true" />
+        <com.thingclips.smart.index.select.view.SideIndexBar android:id="@id/is_side_index_bar" android:layout_width="?isIndexBarWidth" android:layout_height="fill_parent" android:layout_marginTop="?isIndexBarVerticalPadding" android:layout_marginBottom="?isIndexBarVerticalPadding" android:layout_marginEnd="?isIndexBarHorizontalPadding" android:layout_alignParentEnd="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/is_selected_recyclerview" android:background="@color/thing_theme_color_b2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

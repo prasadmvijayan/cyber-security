@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_device_icon" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="11.0dip" android:scaleType="fitXY" android:layout_marginStart="11.0dip" app:roundedCornerRadius="@dimen/thing_dp_10" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b4_n3" android:ellipsize="end" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/img_alarm_icon" android:background="@drawable/a0577397057739w057739" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_20" android:src="@drawable/a0577397057739o057739" android:scaleType="fitXY" />
+</LinearLayout>

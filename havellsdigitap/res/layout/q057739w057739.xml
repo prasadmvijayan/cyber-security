@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_popview" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.popover.ThingCommonListPopover android:id="@id/b057739" android:layout_width="wrap_content" android:layout_height="wrap_content" app:thing_common_clp_arrowDirection="right" app:thing_common_clp_arrowRightMargin="@dimen/thing_dp_10" app:thing_common_clp_showIcon="true" />
+</FrameLayout>

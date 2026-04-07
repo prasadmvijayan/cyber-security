@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fl_content" android:background="@color/thing_theme_color_b_activator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ll_wifi_accessory_title" layout="@layout/a057739h057739j057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ll_wifi_accessory_title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/view_phone" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_144" />
+            <View android:id="@id/view_pad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72" />
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/img_icon" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:layout_centerHorizontal="true" fresco:failureImage="@drawable/z057739o057739" fresco:failureImageScaleType="centerCrop" fresco:placeholderImage="@drawable/z057739o057739" fresco:placeholderImageScaleType="centerCrop" />
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b_activator_n2" android:gravity="left" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_below="@id/img_icon" android:layout_marginStart="@dimen/thing_theme_dimen_p8" android:layout_marginEnd="@dimen/thing_theme_dimen_p8" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b_activator_n2" android:gravity="center" android:id="@id/tv_help" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_82" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/thing_theme_dimen_p8" android:layout_marginEnd="@dimen/thing_theme_dimen_p8" />
+</RelativeLayout>

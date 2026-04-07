@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:background="@color/thing_theme_color_b_login" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p5" android:layout_marginStart="@dimen/thing_mg_40" android:layout_marginEnd="@dimen/thing_mg_40">
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_screen_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/thing_theme_dimen_t12_f" android:textStyle="bold" android:textColor="@color/thing_theme_color_b_login_n1" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/a057739m057739m057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p6" android:divider="@drawable/a057739m057739q057739" android:showDividers="middle" android:dividerPadding="@dimen/thing_mg_16">
+                    <com.thingclips.smart.login.ui.widget.RegionView android:id="@id/region_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.thingclips.smart.login.ui.widget.AccountView android:id="@id/account_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/thing_theme_dimen_t2_f" android:textColor="@color/thing_theme_color_m2" android:id="@id/tv_error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_10" />
+                <com.thingclips.smart.login.ui.widget.AgreementView android:layout_gravity="center_horizontal" android:id="@id/agreement_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" />
+                <com.thingclips.smart.login.ui.widget.LoadingButton android:id="@id/loading_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" app:text="@string/login_getcode_button" app:textColor="@color/thing_theme_color_m1_n1" app:textDisableColor="@color/thing_theme_color_m1_n6" style="@style/loadingButton_styles" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

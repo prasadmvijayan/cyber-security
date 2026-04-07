@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingRight="@dimen/miniapp_dp_12" android:layout_width="wrap_content" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_miniapp_drop_down_more_icon" android:clickable="false" android:layout_width="@dimen/ts_24" android:layout_height="@dimen/ts_24" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/miniapp_dp_12" />
+    <View android:id="@id/iv_miniapp_drop_down_more_red_bot_icon" android:background="@drawable/a057739p0577393057739" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_centerVertical="true" android:layout_marginStart="@dimen/miniapp_dp_12" android:layout_toEndOf="@id/tv_miniapp_drop_down_more_title" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/wrapper_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_miniapp_drop_down_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_miniapp_drop_down_more_icon" />
+</RelativeLayout>

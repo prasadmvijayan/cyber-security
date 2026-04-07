@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_12" android:layout_marginRight="@dimen/thing_dp_12" android:layout_marginBottom="@dimen/thing_dp_18"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/iv_arrow" android:layout_width="@dimen/thing_dp_18" android:layout_height="@dimen/thing_dp_6" android:layout_marginLeft="@dimen/thing_theme_dimen_p3" android:layout_marginRight="@dimen/thing_theme_dimen_p3" android:src="@drawable/b057739_0577391057739" android:layout_alignStart="@id/rcv" app:tint="@color/thing_theme_color_b4" app:tintMode="src_in" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/iv_arrow" />
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/iv_arrow_down" android:visibility="gone" android:layout_width="@dimen/thing_dp_18" android:layout_height="@dimen/thing_dp_6" android:layout_marginLeft="@dimen/thing_theme_dimen_p3" android:layout_marginRight="@dimen/thing_theme_dimen_p3" android:src="@drawable/b0577399057739y057739" android:layout_below="@id/rcv" app:tint="@color/thing_theme_color_b4" app:tintMode="src_in" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.reactnativesweeper.view.sweepercommon.ScaleLayout android:id="@id/panel_visual_map_scale_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.reactnativesweeper.view.visionmap.VisionMapView android:id="@id/panel_visual_map_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.sticker.StickerLayout android:id="@id/panel_visual_sticker_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.virtualwall.VirtualWallLayout android:id="@id/panel_visual_virtual_wall_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.AppointView android:id="@id/panel_visual_appoint_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.thingclips.reactnativesweeper.view.sweepercommon.ScaleLayout>

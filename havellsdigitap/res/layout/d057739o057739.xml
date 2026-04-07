@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/camera_panelmore_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <LinearLayout android:orientation="vertical" android:id="@id/lv_mechanical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50" android:layout_marginTop="@dimen/thing_mg_40">
+        <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/ts_15" android:textColor="@color/text_color8" android:layout_gravity="center_vertical" android:id="@id/cb_mechanical" android:padding="@dimen/thing_mg_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_24" android:text="@string/ipc_chime_type_mechanical" android:layout_weight="1.0" style="@style/chime_checkbox" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lv_digital" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+        <View android:layout_marginLeft="@dimen/thing_mg_20" style="@style/line_normal" />
+        <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/ts_15" android:textColor="@color/black_03" android:layout_gravity="center_vertical" android:id="@id/cb_digital" android:padding="@dimen/thing_mg_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_24" android:text="@string/ipc_chime_type_digital" style="@style/chime_checkbox" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_chime_run_time" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wh_40">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black_03" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_52" android:text="@string/ipc_digital_chime_time" />
+        <ImageView android:id="@id/iv_add_time" android:layout_width="@dimen/bell_select_wh_13" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_mg_28" android:src="@drawable/l057739s057739" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black_03" android:gravity="center_vertical" android:id="@id/tv_run_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_mg_20" android:text="@string/ipc_chime_run_time" android:layout_toLeftOf="@id/iv_add_time" />
+        <ImageView android:id="@id/iv_minus_time" android:layout_width="@dimen/bell_select_wh_13" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_mg_20" android:src="@drawable/l057739t057739" android:layout_toLeftOf="@id/tv_run_time" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lv_without" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+        <View android:layout_marginLeft="@dimen/thing_mg_20" style="@style/line_normal" />
+        <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/ts_15" android:textColor="@color/text_color8" android:layout_gravity="center_vertical" android:id="@id/cb_without" android:padding="@dimen/thing_mg_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_24" android:text="@string/ipc_chime_type_without" style="@style/chime_checkbox" />
+    </LinearLayout>
+</LinearLayout>

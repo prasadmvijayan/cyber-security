@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/thing_dp_13" android:paddingBottom="@dimen/thing_dp_13" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_scan_find_dev_icon" android:layout_width="@dimen/thing_dp_46" android:layout_height="@dimen/thing_dp_46" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_12" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tv_scan_find_dev_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_70" android:maxLines="2" android:layout_toRightOf="@id/iv_scan_find_dev_icon" android:layout_centerVertical="true" style="@style/TextView.Normal" />
+    <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/cb_scan_find_dev_select_icon" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_mg_16" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_devices_choose" />
+</RelativeLayout>

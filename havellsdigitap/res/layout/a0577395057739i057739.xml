@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_room_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:maxWidth="255.0dip" android:maxLines="1" android:layout_centerVertical="true" style="@style/TextView.Normal" />
+    <ImageView android:id="@id/iv_room_icon" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:layout_marginRight="@dimen/thing_mg_17" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_location_room" />
+</RelativeLayout>

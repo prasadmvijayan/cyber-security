@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/thing_theme_color_b2" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_back_arrow" android:paddingLeft="@dimen/thing_theme_dimen_p2" android:paddingRight="@dimen/thing_theme_dimen_p2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/b0577399057739a057739" android:paddingHorizontal="@dimen/thing_theme_dimen_p2" app:layout_constraintBottom_toBottomOf="@id/tab_choose_device" app:tint="@color/thing_theme_color_b2_n2" app:tintMode="src_in" />
+            <com.thingclips.smart.widget.common.tab.ThingCommonTabs android:id="@id/tab_choose_device" android:layout_width="fill_parent" android:layout_height="wrap_content" app:thing_common_tabs_indicatorMode="scrollable_match" app:thing_common_tabs_lineScrollType="auto" />
+        </LinearLayout>
+        <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/vp_choose_device" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_device_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_home_tip_add_device" app:drawableTopCompat="@drawable/b057739_057739y057739" />
+</FrameLayout>

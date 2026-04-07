@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="44.0dip" app:contentInsetStart="0.0dip">
+        <com.thingclips.smart.uibizcomponents.home.nav.UHomeNav android:layout_gravity="left" android:id="@id/toolbar_left_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_theme_dimen_p4" app:id="@id/toolbar_left_title" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/avatar" android:visibility="visible" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_34" android:layout_marginStart="@dimen/thing_theme_dimen_p4" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

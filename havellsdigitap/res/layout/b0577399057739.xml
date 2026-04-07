@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:thing_common_toolbar_background="@android:color/transparent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDeviceList" android:background="@color/thing_theme_color_b1" android:paddingBottom="@dimen/thing_dp_96" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_below="@id/toolbar" />
+    <LinearLayout android:id="@id/bottomlayout" android:background="@drawable/a05773930577396057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_96" android:layout_alignParentBottom="true">
+        <com.thingclips.smart.widget.common.button.ThingCommonButton android:enabled="false" android:id="@id/btnDone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_32" android:layout_marginTop="@dimen/thing_theme_dimen_p6" android:layout_marginRight="@dimen/thing_dp_32" android:layout_marginBottom="@dimen/thing_theme_dimen_p6" android:text="@string/action_done" android:layout_alignParentBottom="true" app:thing_common_button_type="primary" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <ImageView android:id="@id/remote_unlock_img" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_210" android:src="@drawable/o057739h057739" android:scaleType="fitXY" android:layout_below="@id/action_bar_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/remote_unlock_ll" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/remote_unlock_img">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:layout_gravity="center" android:id="@id/remote_unlock_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_40" android:text="@string/ipc_settings_remote_unlock_title" />
+        <TextView android:textSize="@dimen/thing_sp_12" android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center" android:id="@id/remote_unlock_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_20" android:text="@string/ipc_settings_remote_unlock_hint" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/remote_lock_bind_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/remote_unlock_img">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginBottom="@dimen/thing_dp_12" android:text="@string/ipc_settings_remote_unlock_sup_dev" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_lock" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/thing_sp_16" android:textColor="@color/white" android:id="@id/bind_door_lock" android:background="@drawable/v057739i057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_16" android:text="@string/ipc_settings_remote_unlock_bind" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_search_expanded_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.searchview.ThingCommonSearchView android:id="@id/thing_common_sv" android:paddingTop="@dimen/thing_dp_8" android:paddingBottom="@dimen/thing_dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_marginHorizontal="@dimen/thing_dp_16" app:thing_common_cet_backgroundColor="@color/thing_theme_color_b1" app:thing_common_sv_background="@drawable/b057739f057739e057739" />
+    <View android:id="@id/v_title_down_line" style="@style/line_normal" />
+</LinearLayout>

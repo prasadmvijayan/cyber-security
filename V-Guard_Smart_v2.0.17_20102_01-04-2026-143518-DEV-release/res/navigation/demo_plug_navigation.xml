@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/demo_plug_navigation" app:startDestination="@id/fragment_plug_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.plug.DemoPlugDashboardFragment" android:id="@id/fragment_plug_dashboard">
+        <action android:id="@id/action_fragment_plug_dashboard_to_productInfoFragment" app:destination="@id/demoProductInfoFragment" />
+        <action android:id="@id/action_fragment_plug_dashboard_to_plugCreateScheduleFragment" app:destination="@id/plugCreateScheduleFragment" />
+        <action android:id="@id/action_fragment_plug_dashboard_to_plugLoopTimerFragment" app:destination="@id/plugLoopTimerFragment" />
+        <action android:id="@id/action_fragment_plug_dashboard_to_energyMonitoringFragment" app:destination="@id/plugEnergyMonitoringFragment" />
+    </fragment>
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.demo.dashboard.inverter.DemoProductInfoFragment" android:id="@id/demoProductInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.plug.DemoPlugCreateScheduleFragment" android:id="@id/plugCreateScheduleFragment" />
+    <fragment android:label="@string/loop_timer" android:name="com.vguard.smart.demo.dashboard.plug.DemoPlugLoopTimerFragment" android:id="@id/plugLoopTimerFragment" />
+    <fragment android:label="@string/plug_energy_monitoring" android:name="com.vguard.smart.demo.dashboard.plug.DemoPlugEnergyMonitoringFragment" android:id="@id/plugEnergyMonitoringFragment" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivGround" android:background="@drawable/a05773900577399057739" android:layout_width="@dimen/thing_dp_116" android:layout_height="@dimen/thing_dp_116" android:backgroundTint="@color/primary_button_bg_color" />
+    <ImageView android:id="@id/ivMiddle" android:background="@drawable/a0577390057739_057739" android:layout_width="@dimen/thing_dp_116" android:layout_height="@dimen/thing_dp_116" />
+    <ImageView android:layout_gravity="center" android:id="@id/ivTop" android:background="@drawable/a0577390057739a057739" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_44" />
+</merge>

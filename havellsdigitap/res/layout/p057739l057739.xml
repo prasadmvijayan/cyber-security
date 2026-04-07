@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="false" android:textSize="@dimen/ts_12" android:textColor="@color/homepage_device_management_remove_device_text_color" android:gravity="center" android:id="@id/tvRemoveDevices" android:background="@color/thing_theme_color_b4" android:padding="@dimen/thing_dp_15" android:paddingTop="@dimen/thing_dp_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel_connect" android:drawableTop="@drawable/a0577392057739h057739" android:layout_alignParentBottom="true" android:drawableTint="@color/thing_theme_color_b4_n6" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/dragRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tvRemoveDevices" />
+    <RelativeLayout android:id="@id/rlEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b057739_057739y057739" />
+            <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/thing_theme_color_b1_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:text="@string/family_device_empty_tips" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

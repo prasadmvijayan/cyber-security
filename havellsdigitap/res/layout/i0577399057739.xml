@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/m057739g057739" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/camera_list_item_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:layout_marginTop="@dimen/thing_sp_12" android:text="@string/ipc_settings_switch_wf_current" />
+    <RelativeLayout android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:layout_marginTop="@dimen/wh_16">
+        <ImageView android:id="@id/iv_signal" android:layout_width="@dimen/thing_dp_25" android:layout_height="@dimen/thing_dp_25" android:layout_marginLeft="@dimen/wh_16" android:src="@drawable/y0577395057739" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:ellipsize="end" android:id="@id/tv_wifi_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:layout_marginRight="@dimen/thing_dp_55" android:text="@string/timer" android:singleLine="true" android:layout_toRightOf="@id/iv_signal" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/wh_16" android:src="@drawable/y0577392057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/camera_list_item_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:layout_marginTop="@dimen/thing_dp_15" android:text="@string/ipc_settings_switch_wf_list" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_wifi_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/wh_16" />
+</LinearLayout>

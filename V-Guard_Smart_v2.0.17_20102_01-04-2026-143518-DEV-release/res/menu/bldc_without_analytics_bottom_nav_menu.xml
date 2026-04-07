@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_bldc_fan" android:id="@id/fragment_bldc_fan" android:title="@string/bldc_fan" />
+    <item android:icon="@drawable/ic_bldc_smart" android:id="@id/fragment_bldc_smart" android:title="@string/bldc_smart" />
+    <item android:icon="@drawable/ic_bldc_scheduler" android:id="@id/fragment_bldc_scheduler" android:title="@string/bldc_scheduler" />
+</menu>

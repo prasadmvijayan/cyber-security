@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_my_products" app:startDestination="@id/my_products_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/my_products" android:name="com.vguard.smart.view.home.myproducts.MyProductsFragment" android:id="@id/my_products_fragment">
+        <action android:id="@id/action_my_products_fragment_to_productDetailsFragment" app:destination="@id/productDetailsFragment" />
+        <action android:id="@id/action_my_products_fragment_to_add_address_fragment" app:destination="@id/add_address_fragment" />
+        <action android:id="@id/action_my_products_fragment_to_foreign_address_fragment" app:destination="@id/foreign_address_fragment" />
+        <action android:id="@id/action_my_products_fragment_to_edit_profile_fragment" app:destination="@id/edit_profile_fragment" />
+    </fragment>
+    <fragment android:label="@string/my_address" android:name="com.vguard.smart.view.home.profile.ForeignAddressFragment" android:id="@id/foreign_address_fragment" />
+    <fragment android:label="@string/profile" android:name="com.vguard.smart.view.home.profile.EditProfileFragment" android:id="@id/edit_profile_fragment">
+        <action android:id="@id/action_edit_profile_fragment_to_change_phone_email_fragment" app:destination="@id/change_phone_email_fragment" />
+    </fragment>
+    <fragment android:label="@string/change_mobile_number" android:name="com.vguard.smart.view.home.profile.ChangePhoneEmailFragment" android:id="@id/change_phone_email_fragment" />
+    <fragment android:name="com.vguard.smart.view.home.myproducts.ProductDetailsFragment" android:id="@id/productDetailsFragment">
+        <action android:id="@id/action_productDetailsFragment_to_productEditFragment" app:destination="@id/productEditFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productShareFragment" app:destination="@id/productShareFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_voiceAssistanceFragment" app:destination="@id/voiceAssistanceFragment" />
+    </fragment>
+    <fragment android:label="@string/edit_prod_details" android:name="com.vguard.smart.view.home.myproducts.edit.ProductEditFragment" android:id="@id/productEditFragment" />
+    <fragment android:label="@string/product_settings" android:name="com.vguard.smart.view.home.myproducts.ProductSettingsFragment" android:id="@id/productSettingsFragment">
+        <action android:id="@id/action_productSettingsFragment_to_stabilizerAcFilterReminderFragment" app:destination="@id/stabilizerAcFilterReminderFragment" />
+        <action android:id="@id/action_productSettingsFragment_to_ConfigurationFragment" app:destination="@id/reconfigurationFragment" />
+        <action android:id="@id/action_productSettingsFragment_to_ConfigurationInstructionFragment" app:destination="@id/configurationInstructionFragment" />
+        <action android:id="@id/action_productSettingsFragment_to_WifiConfigurationFragment" app:destination="@id/wifiConfiguration" />
+        <action android:id="@id/action_productSettingsFragment_to_InternetSettingsWifiDirectFragment" app:destination="@id/internetSettingsWifiDirect" />
+    </fragment>
+    <fragment android:label="@string/reconfiguration" android:name="com.vguard.smart.view.configuration.ConfigurationInstructionFragment" android:id="@id/configurationInstructionFragment">
+        <action android:id="@id/action_ConfigurationInstructionFragment_to_ConfigurationFragment" app:destination="@id/reconfigurationFragment" />
+        <action android:id="@id/action_ConfigurationInstructionFragment_to_AddProductVeranoConfigurationFragment" app:destination="@id/addProductVeranoConfigurationFragment" />
+        <action android:id="@id/action_configurationInstructionFragment_to_IrisConfigurationFragment" app:destination="@id/irisConfigurationFragment" />
+    </fragment>
+    <fragment android:label="@string/wifi_settings" android:name="com.vguard.smart.view.wifi.WiFiSettingsFragment" android:id="@id/wifiConfiguration" />
+    <fragment android:label="@string/available_devices" android:name="com.vguard.smart.view.configuration.ReconfigurationFragment" android:id="@id/reconfigurationFragment" />
+    <fragment android:label="@string/ac_filter_clean" android:name="com.vguard.smart.view.stabilizer.StabilizerAcFilterReminderFragment" android:id="@id/stabilizerAcFilterReminderFragment">
+        <action android:id="@id/action_acFilterSettingsFragment_to_WifiConfigurationFragment" app:destination="@id/wifiConfiguration" />
+    </fragment>
+    <fragment android:label="@string/share_product" android:name="com.vguard.smart.view.home.myproducts.ProductShareFragment" android:id="@id/productShareFragment" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="@string/add_address" android:name="com.vguard.smart.view.home.support.EditAddressFragment" android:id="@id/add_address_fragment" />
+    <fragment android:label="@string/wifi_settings" android:name="com.vguard.smart.view.wifi.WiFiSettingsVeranoIrisFragment" android:id="@id/internetSettingsWifiDirect" />
+    <fragment android:label="Iris Configuration" android:name="com.vguard.smart.view.configuration.IrisConfigurationFragment" android:id="@id/irisConfigurationFragment" />
+    <fragment android:label="@string/verano_configuration" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductVeranoConfigurationFragment" android:id="@id/addProductVeranoConfigurationFragment" />
+    <fragment android:label="@string/voice_assistance" android:name="com.vguard.smart.assistance.VoiceAssistanceInstructionFragment" android:id="@id/voiceAssistanceFragment" />
+</navigation>

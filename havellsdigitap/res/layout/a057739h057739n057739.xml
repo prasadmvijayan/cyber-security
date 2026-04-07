@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.SearchViewLayout2 android:orientation="horizontal" android:id="@id/search_view_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:defaultPadding="@dimen/thing_dp_0" app:ismoveExpandedY="true" app:moveFromHeight="@dimen/thing_dp_104" app:moveToHeight="@dimen/thing_dp_62" app:searchViewBackground="@color/searchbox_background_color2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/a057739h057739p057739" />
+    <include layout="@layout/a057739h057739s057739" />
+</com.thingclips.smart.uispecs.component.SearchViewLayout2>

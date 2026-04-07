@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/camera_network_tip_close" android:padding="@dimen/thing_mg_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/y057739i057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/camera_network_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_12" android:text="@string/ipc_play_mobileplay_tips" android:layout_toLeftOf="@id/camera_network_tip_close" android:layout_centerVertical="true" />
+</RelativeLayout>

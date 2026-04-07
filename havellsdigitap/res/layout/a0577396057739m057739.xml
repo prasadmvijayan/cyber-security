@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_i3" android:layout_gravity="right" android:id="@id/tv_menu_scan" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:contentDescription="@string/auto_test_smart_add" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" app:layout_goneMarginEnd="@dimen/thing_theme_dimen_p4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a0577395057739o057739" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_device_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_8">
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_sync_control_choose_tips" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_m4" android:id="@id/tv_clear_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_sync_control_choose_clear" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ry_devices" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_empty_list" android:paddingLeft="@dimen/thing_mg_68" android:paddingRight="@dimen/thing_mg_68" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_empty" android:background="@drawable/b057739_057739y057739" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b1_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_9" android:text="@string/thing_sync_control_empty" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" android:text="@string/thing_sync_control_empty_tips" />
+    </LinearLayout>
+</LinearLayout>

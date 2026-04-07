@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/login_navigation" app:startDestination="@id/phoneLoginFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_phone_login" android:name="com.vguard.smart.view.login.PhoneLoginFragment" android:id="@id/phoneLoginFragment" />
+    <fragment android:label="fragment_email_login" android:name="com.vguard.smart.view.login.EmailLoginFragment" android:id="@id/emailLoginFragment">
+        <action android:id="@id/action_emailLoginFragment_to_resetPasswordFragment" app:destination="@id/resetPasswordFragment" />
+    </fragment>
+    <fragment android:label="ResetPasswordFragment" android:name="com.vguard.smart.view.login.ResetPasswordFragment" android:id="@id/resetPasswordFragment">
+        <action android:id="@id/action_resetPasswordFragment_to_emailLoginFragment" app:destination="@id/emailLoginFragment" app:popUpTo="@id/emailLoginFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="@string/user_assistance" android:name="com.vguard.smart.view.home.profile.UserAssistanceFragment" android:id="@id/user_assistance_fragment">
+        <action android:id="@id/action_user_assistance_fragment_to_user_assistance_model_fragment" app:destination="@id/user_assistance_model_fragment" />
+    </fragment>
+    <fragment android:label="@string/fan" android:name="com.vguard.smart.view.home.profile.UserAssistanceModelFragment" android:id="@id/user_assistance_model_fragment" />
+    <fragment android:label="@string/calculator" android:name="com.vguard.smart.view.home.more.calculator.CalculatorFragment" android:id="@id/calculator_fragment">
+        <action android:id="@id/action_calculatorFragment_to_on_grid_solar_calculator_fragment" app:destination="@id/on_grid_solar_calculator_fragment" />
+    </fragment>
+    <fragment android:label="@string/on_grid_calculator" android:name="com.vguard.smart.view.home.more.calculator.OnGridSolarCalculatorFragment" android:id="@id/on_grid_solar_calculator_fragment">
+        <action android:id="@id/action_on_grid_solar_calculator_fragment_to_on_grid_solar_calculator_enquiry_fragment" app:destination="@id/on_grid_solar_calculator_enquiry_fragment" />
+    </fragment>
+    <fragment android:label="@string/on_grid_calculator" android:name="com.vguard.smart.view.home.more.calculator.OnGridSolarCalculatorEnquiryFragment" android:id="@id/on_grid_solar_calculator_enquiry_fragment" />
+</navigation>

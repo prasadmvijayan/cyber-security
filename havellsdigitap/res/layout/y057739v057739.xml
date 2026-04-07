@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivShadow" android:background="@drawable/a057739j057739r057739" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:background="@drawable/a057739j057739p057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_60">
+        <ImageView android:id="@id/iv_light_no_action" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j057739e057739" />
+        <ImageView android:id="@id/iv_light_bright" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j0577398057739" />
+        <ImageView android:id="@id/iv_light_temp" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j057739g057739" />
+        <ImageView android:id="@id/iv_light_colour" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j0577399057739" />
+        <ImageView android:id="@id/iv_light_scene" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j057739f057739" />
+        <ImageView android:id="@id/iv_light_custom" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j057739_057739" android:scaleType="centerInside" />
+        <ImageView android:id="@id/iv_light_music" android:paddingTop="@dimen/thing_dp_8" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_10" android:src="@drawable/a057739j057739c057739" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,117 @@
+.class public final Lq1/d;
+.super Ljava/lang/Object;
+.source "UnitTranscoder.java"
+
+# interfaces
+.implements Lq1/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<Z:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lq1/b<",
+        "TZ;TZ;>;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lq1/d;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lq1/d<",
+            "*>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lq1/d;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lq1/d;->a:Lq1/d;
+
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+
+# virtual methods
+.method public final c(Le1/s;Lc1/h;)Le1/s;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Le1/s<",
+            "TZ;>;",
+            "Lc1/h;",
+            ")",
+            "Le1/s<",
+            "TZ;>;"
+        }
+    .end annotation
+
+    .line 1
+    return-object p1
+    .line 2
+    .line 3
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+.end method

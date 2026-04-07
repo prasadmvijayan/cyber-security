@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/activator_wifi_input_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="InputWifiHomeFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.InputWifiHomeFragment" android:id="@id/fragment_wifiinput_home">
+        <action android:id="@id/action_ble_activator_tip" app:destination="@id/fragment_ble_activator_tip" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifiinput_home" />
+        <action android:id="@id/action_go_wifi_freq" app:destination="@id/fragment_wifi_freq_list" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifiinput_home" />
+        <action android:id="@id/action_go_hotspot_list" app:destination="@id/fragment_ap_hotspot_list" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifiinput_home" />
+        <action android:id="@id/action_go_matter_wifi_list" app:destination="@id/fragment_matter_wifi_list" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+    <fragment android:label="BlueActivatorTipFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.BlueActivatorTipFragment" android:id="@id/fragment_ble_activator_tip">
+        <action android:id="@id/action_ble_activator_tip_back" app:destination="@id/fragment_wifiinput_home" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+    <fragment android:label="WifiListFailureTipFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.WifiListFailureTipFragment" android:id="@id/fragment_wifilist_failure_tip" />
+    <fragment android:label="DeviceWifiListFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.DeviceWifiListFragment" android:id="@id/fragment_wifi_list">
+        <action android:id="@id/action_fragment_wifi_list_to_fragment_pwd_input" app:destination="@id/fragment_pwd_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+        <action android:id="@id/action_fragment_wifi_list_to_ble_active_tip" app:destination="@id/fragment_ble_activator_tip" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+        <action android:id="@id/action_fragment_wifi_list_to_wifi_freq_list" app:destination="@id/fragment_wifi_freq_list" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+    <fragment android:label="WifiFreqTypeListFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.WifiFreqTypeListFragment" android:id="@id/fragment_wifi_freq_list">
+        <action android:id="@id/action_fragment_freq_list_to_fragment_pwd_input" app:destination="@id/fragment_pwd_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_list" />
+        <action android:id="@id/action_fragment_freq_list_to_fragment_manual_input" app:destination="@id/fragment_manual_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_list" />
+    </fragment>
+    <fragment android:label="WifiFreqTypeListFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.MatterWifiListFragment" android:id="@id/fragment_matter_wifi_list">
+        <action android:id="@id/action_fragment_matter_wifi_list_to_fragment_pwd_input" app:destination="@id/fragment_pwd_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_list" />
+        <action android:id="@id/action_fragment_matter_wifi_list_to_fragment_manual_input" app:destination="@id/fragment_manual_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_list" />
+    </fragment>
+    <fragment android:label="WifiManualInputFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.WifiManualInputFragment" android:id="@id/fragment_manual_input" />
+    <fragment android:label="ApHotSpotListFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.ApHotSpotListFragment" android:id="@id/fragment_ap_hotspot_list" />
+    <fragment android:label="WifiPasswordInputFragment" android:name="com.thingclips.smart.activator.input.wifi.fragment.WifiPasswordInputFragment" android:id="@id/fragment_pwd_input" />
+</navigation>

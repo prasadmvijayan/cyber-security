@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/network_disconnect_guide_title_ios" />
+    <TextView android:id="@id/tv_network_unavailable_guide" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/thing_theme_dimen_p4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.common.button.ThingCommonButton android:id="@id/positiveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

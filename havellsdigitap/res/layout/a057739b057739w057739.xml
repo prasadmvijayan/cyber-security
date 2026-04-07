@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/thing_dp_4" android:paddingBottom="@dimen/thing_dp_24" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/thing_dp_10" android:paddingEnd="@dimen/thing_dp_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/shortcut_device_iv_icon" android:layout_width="@dimen/thing_mg_44" android:layout_height="@dimen/thing_mg_44" fresco:failureImageScaleType="fitXY" fresco:placeholderImageScaleType="fitXY" />
+    <TextView android:textSize="@dimen/thing_sp_15" android:textColor="@color/thing_theme_color_b4_n2" android:ellipsize="end" android:id="@id/shortcut_device_tv_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="@dimen/thing_dp_12" />
+</LinearLayout>

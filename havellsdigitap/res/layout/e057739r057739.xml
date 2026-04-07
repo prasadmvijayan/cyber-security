@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.arm.plugin.view.ActivityToolBar android:id="@id/protection_tool_bar" android:background="@color/theme_toolbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Space style="@style/protection_mode_setting_space_style" />
+            <RelativeLayout android:id="@id/mode_setting_24hour_rl" android:background="@color/theme_list_background" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:text="@string/home_security_protect_allhours" style="@style/protection_mode_setting_text_style" />
+                    <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b6_n3" android:text="@string/hs_arm_all_hours_subTitle" style="@style/protection_mode_setting_text_style" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <ImageView android:src="@drawable/a057739x057739m057739" android:tintMode="src_in" app:tint="@color/theme_list_arrow" style="@style/protection_mode_setting_tab_arrow_style" />
+            </RelativeLayout>
+            <Space style="@style/protection_mode_setting_space_style" />
+            <RelativeLayout android:id="@id/mode_setting_home_rl" android:background="@color/theme_list_background" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:text="@string/home_security_protect_staying" style="@style/protection_mode_setting_text_style" />
+                <ImageView android:src="@drawable/a057739x057739m057739" android:tintMode="src_in" app:tint="@color/theme_list_arrow" style="@style/protection_mode_setting_tab_arrow_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/mode_setting_away_rl" android:background="@color/theme_list_background" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:text="@string/home_security_protect_leaving" style="@style/protection_mode_setting_text_style" />
+                <ImageView android:src="@drawable/a057739x057739m057739" android:tintMode="src_in" app:tint="@color/theme_list_arrow" style="@style/protection_mode_setting_tab_arrow_style" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

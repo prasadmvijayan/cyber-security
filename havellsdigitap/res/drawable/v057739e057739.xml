@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/camera_list_item_time_range" />
+    <size android:height="@dimen/thing_dp_6" android:width="@dimen/thing_dp_6" />
+</shape>

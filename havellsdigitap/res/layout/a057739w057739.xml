@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:paddingTop="@dimen/thing_dp_14" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_back" android:padding="@dimen/thing_dp_6" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:src="@drawable/b057739d057739w057739" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:tint="@color/thing_theme_color_b6_n5" app:tintMode="src_in" />
+        <TextView android:textSize="@dimen/thing_dp_17" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_10" android:text="@string/thing_activator_pairing_more_device" android:maxLines="1" android:layout_toLeftOf="@id/tvCancel" android:layout_toRightOf="@id/iv_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b6_n2" android:layout_gravity="right" android:id="@id/tvCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_8" android:text="@string/cancel" android:layout_alignParentRight="true" android:paddingStart="@dimen/thing_theme_dimen_p2" android:paddingEnd="@dimen/thing_theme_dimen_p2" />
+    </RelativeLayout>
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/viewpager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/camera_list_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/menu_list_layout" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_44">
+        <ProgressBar android:id="@id/progressBar1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:indeterminateDrawable="@drawable/r057739q057739" android:progressDrawable="@drawable/r057739q057739" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/camera_list_primary_color" android:gravity="center" android:id="@id/menu_list_title" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

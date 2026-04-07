@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="72.0dip" android:contentDescription="@string/auto_test_linked_device"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sd_dev_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/a057739s057739s057739" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_toRightOf="@id/sd_dev_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0dip" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_dev_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_30" android:maxLines="1" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/thing_theme_color_b6_n3" android:gravity="center" android:id="@id/tv_dev_room" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@id/tv_dev_name" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_item_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/h057739n057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/cb_choose_dev" android:visibility="gone" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginRight="17.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CheckBoxStyle" />
+    <View android:id="@id/btn_choose_dev" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingPicker android:layout_gravity="center_vertical" android:id="@id/picker_ampm" android:background="@color/thing_theme_color_b3" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_120" android:layout_weight="1.0" app:showItemCount="3" />
+    <com.thingclips.smart.widget.ThingPicker android:id="@id/picker_hour" android:background="@color/thing_theme_color_b3" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_200" android:layout_weight="1.0" app:showItemCount="5" />
+    <com.thingclips.smart.widget.ThingPicker android:id="@id/picker_minute" android:background="@color/thing_theme_color_b3" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_200" android:layout_weight="1.0" app:showItemCount="5" />
+</LinearLayout>

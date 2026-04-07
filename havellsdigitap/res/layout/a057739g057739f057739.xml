@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@drawable/b057739f057739a057739" android:layout_width="@dimen/thing_dp_110" android:layout_height="@dimen/thing_dp_110" android:minWidth="@dimen/thing_dp_110" android:minHeight="@dimen/thing_dp_110" android:alpha="0.8" xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/pb_upgrade_device_cut_off" android:layout_width="@dimen/thing_dp_40" android:layout_height="@dimen/thing_dp_40" android:indeterminateTint="@color/thing_theme_color_b4" android:indeterminateTintMode="src_atop" />
+    <TextView android:textSize="@dimen/uispecs_text_desc_normal" android:textColor="@color/thing_theme_color_b4" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_upgrade_device_cut_off" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/thing_dp_16" android:maxWidth="@dimen/thing_dp_140" android:minWidth="@dimen/thing_dp_110" android:text="" android:maxLines="2" />
+</FrameLayout>

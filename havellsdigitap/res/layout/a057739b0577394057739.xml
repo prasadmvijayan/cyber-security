@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <RelativeLayout android:id="@id/top_des" android:background="@color/thing_theme_color_m4_alpha_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n2" android:id="@id/device_share_des_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_16" android:text="@string/thing_sharedevice_blewifi_tip" android:lineSpacingMultiplier="1.25" android:layout_marginStart="@dimen/thing_common_margin" android:layout_marginEnd="@dimen/thing_common_margin" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center|left" android:id="@id/tv_share_list_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:text="@string/thing_sharedevice_shared_note_title" android:layout_below="@id/top_des" />
+    <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_8" android:layout_marginBottom="@dimen/thing_dp_12" android:layout_above="@id/btn_add_share" android:layout_below="@id/tv_share_list_tip">
+        <RelativeLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.thingclips.smart.uispecs.component.recyclerView.swipe.SwipeMenuRecyclerView android:id="@id/smrv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/auto_test_share_list" style="@style/THING_RecyclerView_Normal" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_dev_user_empty_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_83" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/tv_none_image" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b0577395057739u057739" />
+                <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_none_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:text="@string/personal_device_no_share" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include android:id="@id/swipe_refresh_header" layout="@layout/a057739g057739v057739" />
+        <View android:id="@id/swipe_load_more_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_10" />
+    </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/btn_add_share" android:background="@drawable/b0577395057739o057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_48" android:layout_marginLeft="@dimen/thing_mg_24" android:layout_marginRight="@dimen/thing_mg_24" android:layout_marginBottom="@dimen/thing_mg_42" android:text="@string/new_share" android:layout_alignParentBottom="true" android:contentDescription="@string/auto_test_addshare_button" />
+</RelativeLayout>

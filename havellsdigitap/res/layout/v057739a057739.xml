@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uibizcomponents.homeRoomTab.UHomeRoomTab android:id="@id/pager_sliding_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/auto_test_homepage_roomlist" app:cmp_stub_id="@id/pager_sliding_tab" />
+</FrameLayout>

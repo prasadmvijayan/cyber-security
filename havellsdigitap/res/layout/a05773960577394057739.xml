@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?app_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:src="@drawable/a057739u057739u057739" />
+    <TextView android:textColor="?list_primary_color" android:gravity="center_horizontal" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/thing_creat_gesture_key_info" />
+    <Button android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginTop="32.0dip" android:layout_marginRight="@dimen/thing_mg_15" android:text="@string/thing_creat_gesture_key" android:onClick="onCreateGesturePw" android:contentDescription="@string/auto_test_gesture_password" style="@style/Button.Normal" />
+</LinearLayout>

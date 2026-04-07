@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.thingclips.smart.uispecs.component.tab.PagerTab android:layout_gravity="center" android:id="@id/pager_sliding_tab" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_52" android:layout_centerVertical="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_layout" />
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/vp_line_device_viewpager" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/pager_sliding_tab" />
+</androidx.constraintlayout.widget.ConstraintLayout>

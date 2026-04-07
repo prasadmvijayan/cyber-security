@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/l057739k057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_camera_close_add_person_page" android:layout_width="@dimen/wh_16" android:layout_height="@dimen/wh_16" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_34" android:src="@drawable/l057739v057739" />
+    <ImageView android:layout_gravity="start|bottom|center" android:id="@id/iv_camera_refuse_add_person" android:background="@drawable/k057739q057739" android:padding="@dimen/thing_mg_20" android:layout_width="@dimen/wh_68" android:layout_height="@dimen/wh_68" android:layout_marginLeft="@dimen/thing_mg_72" android:layout_marginBottom="@dimen/thing_mg_40" android:src="@drawable/p0577398057739" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_camera_agree_add_person" android:background="@drawable/k057739p057739" android:padding="@dimen/thing_mg_18" android:layout_width="@dimen/wh_68" android:layout_height="@dimen/wh_68" android:layout_marginRight="@dimen/thing_mg_72" android:layout_marginBottom="@dimen/thing_mg_40" android:src="@drawable/p0577396057739" />
+    <TextView android:textSize="@dimen/ts_12" android:gravity="center" android:layout_gravity="top" android:id="@id/tv_tip_cur_location" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_17" android:layout_marginTop="@dimen/thing_dp_436" />
+    <TextView android:textSize="@dimen/ts_26" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_37" android:layout_marginBottom="@dimen/thing_mg_128" android:text="@string/ipc_ai_fr_tag_tip2" />
+    <com.thingclips.smart.ipc.recognition.widget.AddFaceItemViewPager android:id="@id/vpg_add_item" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/wh_300" android:layout_marginTop="@dimen/thing_mg_100" />
+    <com.thingclips.smart.camera.uiview.view.ProgressLine android:id="@id/pl_item_progress" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="@dimen/thing_dp_420" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_theme_dimen_p5" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t3" android:textColor="@color/thing_theme_color_b1_n2" android:id="@id/tv_timer_option_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginBottom="@dimen/thing_theme_dimen_p2" android:text="@string/scene_repeat_default_once" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_timer_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

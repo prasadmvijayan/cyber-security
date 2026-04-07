@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="@dimen/family_align_left" android:paddingRight="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_family_member" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_72">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_head_icon" android:layout_width="@dimen/wh_36" android:layout_height="@dimen/wh_36" app:placeholderImage="@drawable/a057739w057739s057739" app:placeholderImageScaleType="focusCrop" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="18.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_12" android:layout_marginRight="@dimen/thing_mg_10" android:layout_weight="1.0" android:layout_toRightOf="@id/iv_head_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/family_themed_list_item_title_color" android:ellipsize="end" android:id="@id/member_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" android:singleLine="true" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/family_themed_list_item_subtitle_color" android:ellipsize="end" android:id="@id/member_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_5" android:text="account" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/family_themed_list_item_subtitle_color" android:ellipsize="end" android:gravity="right" android:id="@id/tv_admin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_8" android:text="@string/thing_manager" android:maxLines="2" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="@dimen/thing_dp_8" android:layout_height="@dimen/thing_dp_13" android:src="@drawable/a05773960577393057739" app:tint="@color/family_themed_list_item_arrow_color" app:tintMode="src_in" />
+    </LinearLayout>
+</RelativeLayout>

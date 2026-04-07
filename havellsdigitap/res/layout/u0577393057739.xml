@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/header" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/container_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gzl.smart.gzlminiapp.core.difflayer.widget.MaskedCardView android:theme="@style/Theme.GZLMiniApp_Android" android:id="@id/diffview_border" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="0.0dip" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip" app:cardPreventCornerOverlap="false">
+            <com.gzl.smart.gzlminiapp.core.difflayer.widget.MaskedCardView android:theme="@style/Theme.GZLMiniApp_Android" android:id="@id/container_diffview" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="0.0dip" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip" app:cardPreventCornerOverlap="false" />
+        </com.gzl.smart.gzlminiapp.core.difflayer.widget.MaskedCardView>
+    </FrameLayout>
+    <Space android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</merge>

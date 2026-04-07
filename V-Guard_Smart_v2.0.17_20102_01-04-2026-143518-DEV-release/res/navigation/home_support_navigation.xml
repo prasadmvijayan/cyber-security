@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_support" app:startDestination="@id/support_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/support" android:name="com.vguard.smart.view.home.support.SupportFragment" android:id="@id/support_fragment">
+        <action android:id="@id/action_support_fragment_to_create_request_step_1_fragment" app:destination="@id/create_request_step_1_fragment" />
+        <action android:id="@id/action_support_fragment_to_create_request_step_2_fragment" app:destination="@id/create_request_step_2_fragment" />
+        <action android:id="@id/action_support_fragment_to_support_details_fragment" app:destination="@id/support_details_fragment" />
+    </fragment>
+    <fragment android:label="@string/create_request" android:name="com.vguard.smart.view.home.support.CreateRequestStep1Fragment" android:id="@id/create_request_step_1_fragment">
+        <action android:id="@id/action_create_request_step_1_fragment_to_create_request_step_2_fragment" app:destination="@id/create_request_step_2_fragment" />
+    </fragment>
+    <fragment android:label="@string/create_request" android:name="com.vguard.smart.view.home.support.CreateRequestStep2Fragment" android:id="@id/create_request_step_2_fragment">
+        <action android:id="@id/action_create_request_step_2_fragment_to_create_request_step_3_fragment" app:destination="@id/create_request_step_3_fragment" />
+    </fragment>
+    <fragment android:label="@string/create_request" android:name="com.vguard.smart.view.home.support.CreateRequestStep3Fragment" android:id="@id/create_request_step_3_fragment">
+        <action android:id="@id/action_create_request_step_3_fragment_to_edit_address_fragment" app:destination="@id/edit_address_fragment" />
+        <action android:id="@id/action_create_request_step_3_fragment_to_submit_request_fragment" app:destination="@id/submit_request_fragment" />
+    </fragment>
+    <fragment android:label="@string/review_request" android:name="com.vguard.smart.view.home.support.SubmitRequestFragment" android:id="@id/submit_request_fragment" />
+    <fragment android:label="@string/support_details" android:name="com.vguard.smart.view.home.support.SupportDetailsFragment" android:id="@id/support_details_fragment" />
+    <fragment android:label="@string/edit_address" android:name="com.vguard.smart.view.home.support.EditAddressFragment" android:id="@id/edit_address_fragment" />
+</navigation>

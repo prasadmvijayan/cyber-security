@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/a057739h0577396057739" />
+    <include android:layout_gravity="bottom" android:id="@id/view_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/a0577398057739_057739" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

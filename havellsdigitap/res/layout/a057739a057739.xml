@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:thing_common_toolbar_background="@android:color/transparent" />
+    <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/nav_host_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" />
+</LinearLayout>

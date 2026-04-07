@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.SearchViewLayout android:orientation="horizontal" android:id="@id/search_view_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/rl_search_box_collapsed" android:layout_width="fill_parent" android:layout_height="@dimen/search_box_height" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:contentDescription="@string/auto_test_timezone_search">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/b057739f057739c057739" android:paddingLeft="@dimen/search_box_left_padding" android:paddingRight="@dimen/search_box_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_search_magnifying_glass" android:background="@null" android:padding="@dimen/search_box_search_icon_padding" android:layout_width="@dimen/search_box_icon_size" android:layout_height="@dimen/search_box_icon_size" android:layout_margin="@dimen/search_box_icon_margin" android:src="@drawable/a057739d057739f057739" android:tint="@color/searchbox_icon_tint" android:importantForAccessibility="no" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ll_search_box_start_search" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/search_collapsed_text_size" android:textColor="@color/searchbox_text_color" android:textColorHint="@color/searchbox_hint_text_color" android:gravity="center_vertical" android:id="@id/tv_search_box_collapsed_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/search" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/a057739h057739r057739" />
+</com.thingclips.smart.uispecs.component.SearchViewLayout>

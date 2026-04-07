@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" app:cardCornerRadius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/a057739t0577399057739" android:layout_width="fill_parent" android:layout_height="160.0dip">
+            <com.thingclips.smart.control.view.LinkSwitch android:id="@id/ls_link_dev" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginLeft="54.0dip" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739t0577398057739" android:layout_centerInParent="true" />
+            <com.thingclips.smart.control.view.LinkSwitch android:id="@id/ls_main_dev" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginRight="54.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.thingclips.smart.uispecs.component.AdaptiveItemView android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_dpName" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:contentDescription="@string/auto_test_schedule_state" app:adapterSubtitle="未关联" app:adapterTitle="@string/link_main" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.thingclips.smart.uispecs.component.GifLoadingView android:id="@id/iv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_m1" android:gravity="center" android:id="@id/tv_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/thing_dp_105" android:text="" android:layout_centerInParent="true" />
+    </LinearLayout>
+</RelativeLayout>

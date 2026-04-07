@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_48"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginStart="@dimen/thing_mg_15" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:gravity="left" android:id="@id/tv_list_sub_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_m4" android:gravity="right" android:id="@id/tv_list_operation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_15" android:text="@string/thing_copy" android:singleLine="true" />
+</LinearLayout>

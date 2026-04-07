@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/thing_theme_dimen_p5" android:paddingTop="@dimen/thing_theme_dimen_p5" android:paddingRight="@dimen/thing_theme_dimen_p5" android:paddingBottom="@dimen/thing_theme_dimen_p5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/b057739b057739r057739" android:showDividers="middle" android:paddingHorizontal="@dimen/thing_theme_dimen_p5" android:paddingVertical="@dimen/thing_theme_dimen_p5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/iv_widget_thing_icon_toast_icon" android:layout_width="@dimen/thing_theme_dimen_i6" android:layout_height="@dimen/thing_theme_dimen_i6" android:scaleType="center" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_widget_thing_icon_toast_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:minWidth="84.0dip" android:maxLines="2" />
+</LinearLayout>

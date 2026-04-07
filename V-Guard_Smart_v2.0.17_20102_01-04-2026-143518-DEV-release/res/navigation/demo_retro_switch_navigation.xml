@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/demo_retro_switch_navigation" app:startDestination="@id/fragment_retro_switch_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.retroswitch.DemoRetroSwitchDashboardFragment" android:id="@id/fragment_retro_switch_dashboard">
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_retroSwitchDetailsFragment" app:destination="@id/demoRetroSwitchDetailsFragment" />
+    </fragment>
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.retroswitch.DemoRetroSwitchDetailsFragment" android:id="@id/demoRetroSwitchDetailsFragment">
+        <action android:id="@id/action_retroSwitchDetailsFragment_to_retroSwitchSchedulerFragment" app:destination="@id/demoRetroSwitchSchedulerFragment" />
+    </fragment>
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.retroswitch.DemoRetroSwitchSchedulerFragment" android:id="@id/demoRetroSwitchSchedulerFragment">
+        <action android:id="@id/action_retroSwitchSchedulerFragment_to_retroSwitchCreateScheduleFragment" app:destination="@id/demoRetroSwitchCreateScheduleFragment" />
+    </fragment>
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.demo.dashboard.inverter.DemoProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.retroswitch.DemoRetroSwitchCreateScheduleFragment" android:id="@id/demoRetroSwitchCreateScheduleFragment" />
+</navigation>

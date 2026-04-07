@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivShadow" android:background="@drawable/a057739j057739r057739" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/a057739j057739q057739" android:paddingBottom="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_6">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20">
+            <ImageView android:id="@id/iv_back" android:background="@drawable/a057739h057739b057739" android:layout_width="@dimen/thing_dp_28" android:layout_height="@dimen/thing_dp_28" android:layout_marginLeft="@dimen/thing_dp_20" android:src="@drawable/a057739j0577397057739" app:tint="@color/thing_theme_color_b1_n1" />
+            <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n2" android:layout_gravity="center" android:id="@id/tv_panel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </FrameLayout>
+        <com.thingclips.smart.uispecs.component.seekbar.LightRangeSeekBar android:id="@id/light_range_seek_bar" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginLeft="@dimen/thing_dp_18" android:layout_marginTop="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_18" app:light_max="100.0" app:light_min="0.0" />
+    </LinearLayout>
+</merge>

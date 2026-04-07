@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:layout_constraintLeft_toLeftOf="parent" fresco:layout_constraintTop_toTopOf="parent">
+        <TextureView android:layout_gravity="center" android:id="@id/mg_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent" fresco:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mg_video_cover" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" fresco:actualImageScaleType="fitCenter" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent" fresco:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/mg_controller" android:background="@drawable/a057739l0577398057739" android:clickable="false" android:layout_width="@dimen/thing_dp_60" android:layout_height="@dimen/thing_dp_60" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent" fresco:layout_constraintTop_toTopOf="parent" />
+</merge>

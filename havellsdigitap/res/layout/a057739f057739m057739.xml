@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/thing_theme_dimen_p4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_ic3" android:textColor="#ff888b8d" android:gravity="center" android:id="@id/iconView" android:layout_width="@dimen/thing_theme_dimen_ic3" android:layout_height="@dimen/thing_theme_dimen_ic3" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t3" android:textColor="@color/thing_theme_color_b3_n1" android:ellipsize="end" android:gravity="center" android:id="@id/titleView" android:layout_width="wrap_content" android:layout_height="@dimen/thing_theme_dimen_t3_h" android:layout_marginTop="@dimen/thing_theme_dimen_p1" android:lines="1" android:layout_marginStart="@dimen/thing_theme_dimen_p2" android:layout_marginEnd="@dimen/thing_theme_dimen_p2" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t1" android:textColor="@color/thing_theme_color_b3_n1" android:ellipsize="end" android:id="@id/statusView" android:layout_width="wrap_content" android:layout_height="@dimen/thing_theme_dimen_t1_h" android:lines="1" android:layout_marginStart="@dimen/thing_theme_dimen_p2" android:layout_marginEnd="@dimen/thing_theme_dimen_p2" />
+</LinearLayout>

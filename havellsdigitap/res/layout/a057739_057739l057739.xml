@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/vp_situation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_20" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_white" android:layout_width="@dimen/thing_dp_8" android:layout_height="@dimen/thing_dp_8" android:src="@drawable/b0577393057739b057739" />
+        <ImageView android:id="@id/iv_color" android:layout_width="@dimen/thing_dp_8" android:layout_height="@dimen/thing_dp_8" android:layout_marginLeft="@dimen/thing_mg_12" android:src="@drawable/b0577393057739b057739" android:alpha="0.2" />
+    </LinearLayout>
+</RelativeLayout>

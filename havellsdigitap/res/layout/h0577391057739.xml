@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/m057739g057739" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/camera_list_item_tip" android:id="@id/tv_input_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:layout_marginTop="@dimen/thing_dp_15" android:layout_marginBottom="@dimen/thing_dp_12" android:text="@string/ipc_settings_switch_wf_connect_content" android:layout_marginStart="@dimen/wh_16" />
+    <RelativeLayout android:id="@id/rl_wifi_name" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:id="@id/tv_wifi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:text="@string/thing_wifi_name" android:layout_centerVertical="true" />
+        <com.thingclips.smart.uispecs.component.edittext.CleanEditText android:textColor="?camera_panelmore_item_subtitle_text_color" android:id="@id/et_wifi_name" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/wh_16" android:layout_marginRight="@dimen/thing_dp_42" android:layout_toRightOf="@id/tv_wifi_name" />
+    </RelativeLayout>
+    <RelativeLayout android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_panelmore_item_title_text_color" android:id="@id/tv_wifi_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:text="@string/wifi_ssid_hint_password" android:layout_centerVertical="true" />
+        <com.thingclips.smart.uispecs.component.edittext.CleanEditText android:textColor="?camera_panelmore_item_subtitle_text_color" android:id="@id/et_wifi_password" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/wh_16" android:layout_toLeftOf="@id/iv_password_status" android:layout_toRightOf="@id/tv_wifi_password" android:inputType="textPassword" />
+        <ImageView android:id="@id/iv_password_status" android:layout_width="@dimen/thing_dp_30" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_12" android:src="@drawable/t0577397057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/camera_list_item_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_16" android:layout_marginTop="@dimen/thing_dp_20" android:text="@string/ipc_settings_switch_wf_connect_tip" />
+    <RelativeLayout android:id="@id/rl_wifi_link" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:layout_marginTop="@dimen/wh_16">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_settings_switch_wf_connect_action" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

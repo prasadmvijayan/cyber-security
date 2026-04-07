@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <TextView android:textSize="@dimen/uispecs_text_title_normal" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/tv" android:background="@drawable/b057739d0577396057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57" android:text="@string/thing_cancel" android:contentDescription="@string/auto_test_dialog_cancel" />
+</LinearLayout>

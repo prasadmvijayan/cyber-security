@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gzl.smart.gzlminiapp.core.view.navigatorbar.GZLNavigationBar android:id="@id/gzl_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/mini_app_navbar_height" />
+        <FrameLayout android:id="@id/webview_container" android:background="@color/wrapper_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:swipe_style="classic">
+                <include android:id="@id/swipe_refresh_header" layout="@layout/a05773920577393057739" />
+                <View android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress_webview_loading" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/g0577394057739" />
+            <com.gzl.smart.gzlminiapp.core.loading.CustomLoadingView android:id="@id/fragment_container_custom_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include android:id="@id/miniapp_layout_exception" android:visibility="gone" layout="@layout/u0577391057739" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.gzl.smart.gzlminiapp.core.view.navigatorbar.GZLCapsuleView android:layout_gravity="end" android:id="@id/gzl_capsule_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mini_app_navbar_height" />
+    <com.gzl.smart.gzlminiapp.core.view.navigatorbar.CustomLongClickView android:layout_gravity="end" android:id="@id/gzl_more_view" android:background="#00000000" android:visibility="gone" android:layout_width="@dimen/miniapp_caps_height" android:layout_height="@dimen/miniapp_caps_height" android:layout_marginTop="@dimen/miniapp_caps_margin_ver" android:layout_marginRight="20.0dip" android:src="@drawable/a057739b057739q057739" android:scaleType="centerCrop" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/tv_experience_tag" android:background="#4d818181" android:layout_width="140.0dip" android:layout_height="20.0dip" android:layout_marginTop="15.0dip" android:text="@string/mini_app_experience" android:rotation="-45.0" android:layout_marginStart="-45.0dip" />
+    <include android:id="@id/miniapp_layout_skeleton" android:visibility="gone" layout="@layout/u0577398057739" />
+</FrameLayout>

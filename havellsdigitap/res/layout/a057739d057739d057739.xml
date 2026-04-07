@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:padding="@dimen/thing_theme_dimen_p4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_64"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.cell.CellFunctionButtonWrapper android:id="@id/mainFunctionButton" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:layout_marginEnd="@dimen/thing_theme_dimen_p3" />
+    <com.thingclips.smart.widget.ThingSimpleDraweeView android:id="@id/iconView" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i5" android:layout_height="@dimen/thing_theme_dimen_i5" android:layout_marginEnd="@dimen/thing_theme_dimen_p3" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6_f" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/titleView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t2_f" android:textColor="@color/thing_theme_color_b6_n3" android:id="@id/captionView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_1" />
+    </LinearLayout>
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t5_f" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:gravity="right" android:id="@id/infoTextView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p6" android:maxLines="1" android:layout_weight="0.67" />
+    <com.thingclips.smart.widget.ThingSwitch android:id="@id/infoSwitchButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.thingclips.smart.widget.common.button.ThingCommonButton android:id="@id/infoCommonButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:thing_common_button_size="small" />
+    <com.thingclips.smart.widget.common.cell.CellFunctionButtonWrapper android:id="@id/infoFunctionButton" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" />
+    <FrameLayout android:id="@id/infoCustomViewWrapper" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/arrowView" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_i3" android:layout_height="@dimen/thing_theme_dimen_i3" android:layout_marginStart="@dimen/thing_theme_dimen_p1" />
+</LinearLayout>

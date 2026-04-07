@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_name" android:paddingTop="@dimen/thing_dp_10" android:paddingBottom="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_theme_dimen_p4" android:paddingEnd="@dimen/thing_theme_dimen_p4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h057739n057739" android:tint="@color/thing_theme_color_b6_n7" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <FrameLayout android:id="@id/top_bar" android:background="@color/sharedevice_device_share_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="#ff22242c" android:id="@id/device_share_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_16" android:text="@string/device_share_des" android:lineSpacingMultiplier="1.25" android:layout_marginStart="@dimen/thing_common_margin" android:layout_marginEnd="@dimen/thing_common_margin" />
+        <com.thingclips.smart.uispecs.component.PagerSlidingTabStrip android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b2_n1" android:layout_gravity="center" android:id="@id/pager_sliding_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" app:pstsDividerColor="@android:color/transparent" app:pstsIndicatorColor="@color/thing_theme_color_m1" app:pstsIndicatorHeight="2.0dip" app:pstsShouldExpand="true" app:pstsTabPaddingLeftRight="10.0dip" app:pstsTextAllCaps="false" app:pstsUnderlineColor="@android:color/transparent" app:pstsUnderlineHeight="0.0dip" />
+    </FrameLayout>
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_bar" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_scene_content" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title" android:background="@color/thing_theme_color_b2" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_44">
+        <ImageView android:layout_width="@dimen/thing_dp_25" android:layout_height="@dimen/thing_mg_25" android:src="@drawable/a057739c0577390057739" android:layout_marginStart="@dimen/thing_dp_12" android:layout_marginEnd="@dimen/thing_dp_12" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_widget_app_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:lines="1" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_widget_connector" android:paddingLeft="@dimen/thing_dp_4" android:paddingRight="@dimen/thing_dp_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_scene_widget_connector" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_widget_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/widget_scene_CFBundleDisplayName" android:lines="1" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_line" android:background="@color/thing_theme_color_b2_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_0.6" />
+    <FrameLayout android:id="@id/fl_widget_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/thing_theme_color_b1_n2" android:gravity="center" android:id="@id/tv_widget_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <GridView android:gravity="center" android:id="@id/gv_widget_scene" android:paddingTop="@dimen/thing_mg_8" android:paddingBottom="@dimen/thing_mg_8" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:verticalSpacing="@dimen/thing_mg_8" android:numColumns="4" />
+    </FrameLayout>
+</LinearLayout>

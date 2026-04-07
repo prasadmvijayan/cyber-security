@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="450.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_not_support_title" android:background="@drawable/b05773960577391057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:text="@string/devices_cant_share" android:singleLine="true" />
+    <View android:id="@id/v_line" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/tv_not_support_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_not_support_share_dev_list" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/v_line2" android:layout_below="@id/v_line" />
+    <View android:id="@id/v_line2" android:background="@color/thing_theme_color_b6_n7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/ll_confirm_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_confirm_content" android:background="@drawable/b05773960577390057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/tv_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_alert_confirm" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_horizontal" android:background="@color/thing_theme_color_b4_n7" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:gravity="center" android:id="@id/tv_help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_ez_help" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llEmpty" android:background="@color/thing_theme_color_b1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:src="@drawable/b057739_057739w057739" />
+    <TextView android:textColor="@color/thing_theme_color_b1_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p2" android:text="@string/custom_role_no_permission" />
+</LinearLayout>

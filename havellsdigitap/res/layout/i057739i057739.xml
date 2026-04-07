@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_add_list_dialog" android:background="@drawable/k057739o057739" android:layout_width="330.0dip" android:layout_height="84.0dip" android:layout_marginBottom="@dimen/thing_mg_15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon_add_list" android:layout_width="@dimen/wh_50" android:layout_height="@dimen/wh_50" android:layout_margin="@dimen/thing_mg_15" android:src="@drawable/p0577397057739" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/black_30" android:id="@id/tv_add_list_title" android:layout_width="wrap_content" android:layout_height="@dimen/wh_20" android:layout_marginTop="@dimen/thing_mg_15" android:text="@string/ipc_ai_fr_message_title" android:layout_toRightOf="@id/iv_icon_add_list" />
+    <TextView android:textSize="@dimen/ts_11" android:textColor="@color/text_color6" android:id="@id/tv_add_face_list" android:layout_width="@dimen/thing_dp_188" android:layout_height="@dimen/wh_32" android:text="@string/ipc_ai_fr_message_content" android:maxLines="2" android:layout_toRightOf="@id/iv_icon_add_list" android:layout_below="@id/tv_add_list_title" />
+    <ImageView android:id="@id/iv_conceal_dialog" android:layout_width="@dimen/wh_28" android:layout_height="@dimen/wh_28" android:layout_margin="@dimen/thing_mg_5" android:src="@drawable/p057739l057739" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/a057739f057739i057739" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/action_bar_layout">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_empty" android:visibility="visible" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b0577398057739_057739" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b1_n3" android:layout_gravity="center" android:id="@id/tv_no_devices" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_device_detail_accessory_list_empty" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recycler_accessories" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:dividerHeight="0.0px" android:layout_below="@id/action_bar_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_layout" style="@style/THING_RecyclerView_Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ListView android:id="@id/feedback_qa_list" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="20.0dip" android:layout_above="@id/feedback_qa_btn" android:layout_below="@id/action_bar_layout" />
+    <Button android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_m1" android:gravity="center" android:id="@id/feedback_qa_btn" android:background="@drawable/a057739u057739o057739" android:layout_width="fill_parent" android:layout_height="@dimen/wh_44" android:text="@string/feedback_edit_title" android:layout_alignParentBottom="true" />
+</RelativeLayout>

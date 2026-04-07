@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_left" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_left" android:clickable="false" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/b057739d057739c057739" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/wh_30" android:textColor="@color/thing_theme_color_b6_n2" android:id="@id/tv_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:id="@id/rl_right" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_right" android:clickable="false" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/b057739d057739d057739" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

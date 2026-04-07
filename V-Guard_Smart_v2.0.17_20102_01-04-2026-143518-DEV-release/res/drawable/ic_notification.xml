@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="22.0dip" android:width="22.0dip" android:viewportWidth="22.0" android:viewportHeight="22.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/imagina_notification_pair_color" android:pathData="M11.231,18.677C10.095,18.677 9.167,17.815 9.041,16.713H13.42C13.293,17.815 12.366,18.677 11.231,18.677ZM19.039,16.713L17.36,12.195V8.079C17.36,4.698 14.609,1.948 11.23,1.948C7.849,1.948 5.099,4.698 5.099,8.079V12.195L3.42,16.713H7.666C7.797,18.573 9.337,20.052 11.231,20.052C13.123,20.052 14.663,18.573 14.795,16.713H19.039Z" android:fillType="evenOdd" />
+</vector>

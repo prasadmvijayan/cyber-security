@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/a057739u0577399057739" android:id="@id/action_qrcode" android:title="@string/thing_add_scancode" app:showAsAction="always" />
+</menu>

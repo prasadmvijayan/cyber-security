@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_content" android:background="@drawable/b057739c057739n057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:gravity="center" android:id="@id/tv_validate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scene_validated" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ts_11" android:textColor="@color/thing_theme_color_b4_n3" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_scene_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scene_added" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/view_divider_1" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" android:layout_below="@id/ll_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_scene_task" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_5" android:maxHeight="@dimen/thing_dp_300" android:minHeight="@dimen/thing_dp_150" android:layout_below="@id/view_divider_1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <View android:id="@id/view_divider" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" android:layout_below="@id/rv_scene_task" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57" android:layout_below="@id/view_divider">
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/retry" android:layout_weight="1.0" />
+        <View android:id="@id/v_line_vertical" android:background="@color/thing_theme_color_b4_n7" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m2" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_known" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/thing_smart_scene_pop_know" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/a057739h0577399057739" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" android:src="@drawable/a057739k057739_057739" />
+            <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" android:text="@string/thing_light_rhythm_scene_guide_title" android:layout_marginStart="@dimen/thing_mg_28" android:layout_marginEnd="@dimen/thing_mg_28" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_bottom" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_60" android:layout_alignParentBottom="true" android:paddingStart="@dimen/thing_dp_20" android:paddingEnd="@dimen/thing_dp_13">
+        <com.thingclips.smart.uispecs.component.button.ShadowButton android:layout_gravity="center_vertical" android:id="@id/btn_next" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" app:shadowButton_backgroundColor="@color/uispecs_lighting_main_color" app:shadowButton_radius="@dimen/thing_theme_dimen_c1_2" app:shadowButton_text="@string/got_it" app:shadowButton_textColor="@color/thing_theme_color_m1_n1" app:shadowButton_textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

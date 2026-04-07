@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_12" android:gravity="center_vertical" android:id="@id/tvTitle" android:paddingLeft="@dimen/thing_dp_16" android:paddingTop="@dimen/thing_dp_9" android:paddingBottom="@dimen/thing_dp_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/imgClose" android:padding="@dimen/thing_dp_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_16" android:src="@drawable/a057739w057739j057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</LinearLayout>

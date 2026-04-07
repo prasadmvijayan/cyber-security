@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/thing_dp_20" android:paddingRight="@dimen/thing_dp_20" android:paddingBottom="@dimen/thing_dp_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="#ff81828b" android:id="@id/tv_auto_start_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hometab_auto_start_tip" />
+    <CheckBox android:id="@id/cb_ignore_tip" android:padding="@dimen/thing_dp_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_6" android:button="@drawable/a057739_057739m057739" android:layout_below="@id/tv_auto_start_tip" android:buttonTint="@color/primary_button_bg_color" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="#ff81828b" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hometab_ignore_tip" android:layout_toRightOf="@id/cb_ignore_tip" android:layout_below="@id/tv_auto_start_tip" android:layout_alignTop="@id/cb_ignore_tip" android:layout_alignBottom="@id/cb_ignore_tip" />
+</RelativeLayout>

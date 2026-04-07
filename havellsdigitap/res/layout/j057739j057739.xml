@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/wh_300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:layout_width="@dimen/cameraUI_wh_290" android:layout_height="fill_parent" fresco:cardBackgroundColor="@color/white" fresco:cardCornerRadius="@dimen/thing_mg_8">
+        <com.thingclips.drawee.view.DecryptImageView android:id="@id/iv_face_item_viewpager_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_194" />
+        <com.thingclips.drawee.view.DecryptImageView android:layout_gravity="center_horizontal" android:id="@id/iv_face_item_viewpager_profile" android:layout_width="@dimen/thing_dp_82" android:layout_height="@dimen/thing_dp_82" android:layout_marginTop="@dimen/thing_dp_149" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/whiteThree" fresco:roundingBorderWidth="1.0dip" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black_30" android:gravity="center" android:id="@id/tv_face_item_vipager_time" android:layout_width="fill_parent" android:layout_height="@dimen/wh_21" android:layout_marginTop="@dimen/thing_dp_238" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black_30" android:gravity="center" android:id="@id/tv_face_item_vipager_location" android:layout_width="fill_parent" android:layout_height="@dimen/wh_21" android:layout_marginTop="@dimen/thing_dp_259" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

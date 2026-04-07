@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/wh_10" android:paddingTop="@dimen/wh_8" android:paddingRight="@dimen/wh_10" android:paddingBottom="@dimen/wh_8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/wh_70" android:layout_height="@dimen/wh_70" android:src="@drawable/p057739n057739" />
+    <com.thingclips.drawee.view.DecryptImageView android:layout_gravity="center" android:id="@id/iv_face_item_aver" android:layout_width="@dimen/wh_60" android:layout_height="@dimen/wh_60" fresco:failureImage="@color/image_default_color" fresco:placeholderImage="@color/image_default_color" />
+    <View android:layout_gravity="bottom" android:background="@color/black" android:layout_width="@dimen/wh_70" android:layout_height="@dimen/thing_dp_18" android:alpha="0.8" />
+    <TextView android:textSize="@dimen/thing_sp_10" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_date" android:layout_width="@dimen/wh_70" android:layout_height="@dimen/thing_dp_18" />
+    <ImageView android:layout_gravity="right" android:id="@id/iv_face_item_undetermined" android:visibility="gone" android:layout_width="@dimen/wh_22" android:layout_height="@dimen/wh_22" android:layout_marginTop="@dimen/thing_mg_48" android:src="@drawable/p057739m057739" />
+    <ImageView android:layout_gravity="right" android:id="@id/iv_face_item_selected" android:visibility="gone" android:layout_width="@dimen/wh_22" android:layout_height="@dimen/wh_22" android:layout_marginTop="@dimen/thing_mg_48" android:src="@drawable/p057739o057739" />
+</FrameLayout>

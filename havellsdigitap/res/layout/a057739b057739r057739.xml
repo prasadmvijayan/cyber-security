@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_ble_wifi_tip" android:background="@color/thing_theme_color_m4_alpha_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b1_n2" android:id="@id/device_share_des_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_16" android:text="@string/thing_sharedevice_blewifi_tip" android:lineSpacingMultiplier="1.25" android:layout_marginStart="@dimen/thing_common_margin" android:layout_marginEnd="@dimen/thing_common_margin" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_shared_manager_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_8" android:layout_marginStart="@dimen/thing_dp_16" />
+    <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.thingclips.smart.uispecs.component.recyclerView.swipe.SwipeMenuRecyclerView android:id="@id/smrv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/auto_test_share_list" style="@style/THING_RecyclerView_Normal" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_shared_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_83" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_shared_empty" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b0577395057739u057739" />
+                <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_shared_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginStart="@dimen/thing_dp_40" android:layout_marginEnd="@dimen/thing_dp_40" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/a057739f057739i057739" />
+    <TextView android:id="@id/tvTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/galaxy_link_management_list_caption" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:autoLink="all" android:layout_gravity="center" android:id="@id/tvGatewayTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_30" android:text="@string/galaxy_link_management_list_help_link_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

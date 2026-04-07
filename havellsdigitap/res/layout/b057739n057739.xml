@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/thing_dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:gravity="center" android:id="@id/tvTag" android:background="@drawable/f057739e057739" android:paddingLeft="@dimen/thing_dp_12" android:paddingTop="@dimen/thing_dp_8" android:paddingRight="@dimen/thing_dp_12" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/thing_dp_220" android:singleLine="true" />
+</FrameLayout>

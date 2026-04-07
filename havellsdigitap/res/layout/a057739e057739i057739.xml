@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/thing_dp_15" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.common.button.ThingCommonButton android:id="@id/selectLocationButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选择位置" />
+    <com.thingclips.smart.widget.common.button.ThingCommonButton android:id="@id/setGeofenceButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_15" android:text="设置地理围栏" />
+</LinearLayout>

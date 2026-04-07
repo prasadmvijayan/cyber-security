@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_20" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_19" android:layout_marginBottom="@dimen/thing_dp_19" />
+    <ImageView android:layout_width="@dimen/thing_dp_21" android:layout_height="@dimen/thing_dp_21" android:layout_marginRight="@dimen/thing_dp_15" android:src="@drawable/a057739s057739u057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

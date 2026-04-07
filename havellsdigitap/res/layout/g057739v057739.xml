@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_264"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.camera.middleware.widget.ThingCameraView android:id="@id/camera_playback_video_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/n057739k057739" android:layout_centerInParent="true" android:contentDescription="thing_ipc_cloud_play" />
+    <com.thingclips.smart.camera.blackpanel.view.ScaleButtonView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/camera_playback_scale_button" android:background="@drawable/v057739q057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_38" android:layout_height="@dimen/thing_dp_38" android:layout_marginLeft="@dimen/thing_dp_8" android:layout_marginBottom="@dimen/thing_dp_74" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/rl_opera" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44" android:layout_marginTop="@dimen/thing_dp_44">
+        <TextView android:textSize="@dimen/thing_sp_10" android:textColor="@color/white" android:id="@id/tv_camera_video_osd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_16" />
+    </RelativeLayout>
+    <com.thingclips.smart.ipc.camera.panel.ui.playback.widget.QuickPlayView android:id="@id/portrait_quick_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_60" android:layout_marginBottom="@dimen/thing_dp_60" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.thingclips.smart.camera.uiview.loading.LoadingImageView android:id="@id/camera_loading_img" android:background="@color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/view_selected" android:background="@drawable/k057739c057739" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_stroke" android:layout_width="@dimen/thing_dp_51" android:layout_height="@dimen/thing_dp_51" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_fill" android:layout_width="@dimen/thing_dp_40" android:layout_height="@dimen/thing_dp_40" android:src="@drawable/b057739e057739b057739" android:layout_centerInParent="true" android:contentDescription="@string/auto_test_dialog_smart_colour" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/camera_panelmore_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height">
+        <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/black" android:layout_gravity="center|right" android:id="@id/tv_edit_face" android:layout_width="wrap_content" android:layout_height="@dimen/wh_22" android:layout_marginRight="@dimen/thing_mg_16" android:text="@string/edit" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_toolbar">
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_switch_tip" />
+        <RelativeLayout android:id="@id/menu_list_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+            <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_switch" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+            <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_open_face_detect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" app:kswBackDrawable="@drawable/x0577398057739" app:kswThumbColor="#ffffffff" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/value_added_service" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+            <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_service_status" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+            <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_gravity="center" android:id="@id/value_added_service_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:drawableRight="@drawable/h057739n057739" android:drawablePadding="@dimen/thing_dp_5" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_dp_25" android:text="@string/ipc_ai_fr_tab1" android:layout_marginStart="@dimen/thing_mg_16" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/face_recognition_record" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:minHeight="@dimen/thing_dp_100" android:layout_above="@id/tv_tips" android:layout_below="@id/ll_top">
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/text_color8" android:id="@id/tv_no_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_ai_fr_list_empty" android:layout_centerInParent="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/record_face_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:gravity="center" android:id="@id/tv_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_policy" android:lines="2" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/rl_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <androidx.cardview.widget.CardView android:id="@id/cv_merge" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_marginLeft="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_dp_24" app:cardBackgroundColor="#ffdedee0" app:cardCornerRadius="@dimen/thing_dp_8">
+            <TextView android:textSize="@dimen/thing_sp_16" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_ai_fr_list_person_merge" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textColor="@color/text_color8" android:id="@id/tv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:layout_marginBottom="@dimen/thing_dp_22" android:text="@string/ipc_ai_fr_list_person_more_delete" android:layout_below="@id/cv_merge" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

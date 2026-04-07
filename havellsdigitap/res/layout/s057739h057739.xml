@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/family_themed_primary_color" android:gravity="center_vertical" android:id="@id/tv_add_item" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="@dimen/family_align_left" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:layout_marginTop="@dimen/thing_mg_16" android:text="@string/add_family" />
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/family_themed_primary_color" android:gravity="center_vertical" android:id="@id/tv_join_family" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="@dimen/family_align_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:layout_marginTop="@dimen/thing_mg_16" android:text="@string/family_join_new_family" android:layout_below="@id/tv_add_item" />
+</RelativeLayout>

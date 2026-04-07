@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <RelativeLayout android:id="@id/rl_net_state_start" android:background="@drawable/a057739s057739f057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_300" app:layout_constraintTop_toBottomOf="@id/action_bar_layout">
+        <RelativeLayout android:id="@id/rl_checking" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_17" android:text="@string/network_check_tip" android:layout_centerHorizontal="true" />
+            <FrameLayout android:layout_width="@dimen/thing_mg_120" android:layout_height="@dimen/thing_mg_120" android:layout_centerInParent="true">
+                <ImageView android:id="@id/iv_rorate_line" android:background="@drawable/a057739t0577396057739" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center" android:background="@drawable/a057739u057739a057739" android:layout_width="@dimen/thing_mg_88" android:layout_height="@dimen/thing_mg_88" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/ts_12" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_12" android:text="@string/thing_device_network_detecting" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_check_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/iv_panel_check_net_result_iv" android:background="@drawable/a057739s057739k057739" android:layout_width="@dimen/thing_mg_60" android:layout_height="@dimen/thing_mg_42" android:layout_marginTop="@dimen/thing_mg_90" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/ts_20" android:textColor="@color/white" android:id="@id/tv_net_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:text="@string/thing_dndr_good" android:layout_below="@id/iv_panel_check_net_result_iv" android:layout_centerHorizontal="true" />
+            <Button android:textSize="@dimen/thing_mg_10" android:textColor="@color/white" android:id="@id/btn_check_again" android:background="@drawable/k0577396057739" android:layout_width="@dimen/thing_mg_88" android:layout_height="@dimen/thing_mg_30" android:layout_marginTop="@dimen/thing_mg_54" android:text="@string/thing_device_network_detect_retry" android:layout_below="@id/tv_net_state" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recycler_net_check" android:background="@drawable/a057739s057739b057739" android:layout_width="fill_parent" android:layout_height="0.0dip" android:dividerHeight="0.0px" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_net_state_start" style="@style/THING_RecyclerView_Normal" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center" android:id="@id/tv_upload_log" android:background="@drawable/a057739q057739i057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_150" android:layout_height="@dimen/thing_dp_48" android:layout_marginBottom="@dimen/thing_dp_42" android:text="@string/action_upload_log" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

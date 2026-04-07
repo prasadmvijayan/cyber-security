@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/thing_mg_16" android:paddingTop="@dimen/thing_dp_20" android:paddingRight="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_17" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_6" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_20">
+        <com.thingclips.smart.uispecs.component.edittext.AlignTextVIew android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+    </ScrollView>
+    <View android:id="@id/view_line" android:background="@color/thing_theme_color_b4_n7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_0.5" />
+</LinearLayout>

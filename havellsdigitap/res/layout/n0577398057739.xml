@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:cardBackgroundColor="@color/thing_theme_color_b4" app:cardCornerRadius="@dimen/thing_theme_dimen_c2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/ts_18" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:layout_gravity="center" android:id="@id/tv_popup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_25" />
+        <HorizontalScrollView android:layout_gravity="center" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rlContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <View android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_0.5" />
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:layout_gravity="left" android:id="@id/tv_add_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:text="@string/thing_activator_dialog_cancel" android:drawablePadding="@dimen/thing_mg_6" android:layout_weight="1.0" />
+            <View android:background="@color/thing_theme_color_b4_n7" android:layout_width="@dimen/thing_dp_0.5" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:layout_gravity="left" android:id="@id/tv_add_device" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:text="@string/thing_activator_dialog_confirm" android:drawablePadding="@dimen/thing_mg_6" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

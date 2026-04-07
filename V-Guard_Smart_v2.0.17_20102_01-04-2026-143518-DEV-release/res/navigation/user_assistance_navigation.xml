@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_profile" app:startDestination="@id/user_assistance_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/user_assistance" android:name="com.vguard.smart.view.home.profile.UserAssistanceFragment" android:id="@id/user_assistance_fragment">
+        <action android:id="@id/action_user_assistance_fragment_to_user_assistance_model_fragment" app:destination="@id/user_assistance_model_fragment" />
+    </fragment>
+    <fragment android:label="@string/fan" android:name="com.vguard.smart.view.home.profile.UserAssistanceModelFragment" android:id="@id/user_assistance_model_fragment" />
+</navigation>

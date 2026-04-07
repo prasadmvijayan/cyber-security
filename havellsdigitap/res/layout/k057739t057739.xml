@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:layout_gravity="center" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

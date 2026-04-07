@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_np" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_10" android:layout_marginBottom="@dimen/thing_mg_10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_centerVertical="true">
+        <View android:id="@id/v_line_up" android:background="#ff9b9b9b" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginRight="@dimen/thing_mg_15" android:layout_alignParentTop="true" style="@style/line_long" />
+        <View android:id="@id/v_line_down" android:background="#ff9b9b9b" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginRight="@dimen/thing_mg_15" android:layout_alignParentBottom="true" style="@style/line_long" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/np_meridiem" android:background="@null" android:layout_width="40.0dip" android:layout_height="180.0dip" android:layout_marginRight="@dimen/thing_mg_10" internalLayout="@layout/a05773940577392057739" />
+        <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/np_hour" android:background="@null" android:layout_width="40.0dip" android:layout_height="180.0dip" internalLayout="@layout/a05773940577392057739" />
+        <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/np_minute" android:background="@null" android:layout_width="40.0dip" android:layout_height="180.0dip" internalLayout="@layout/a05773940577392057739" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha android:interpolator="@android:anim/bounce_interpolator" android:duration="450" android:startOffset="450" android:repeatCount="infinite" android:repeatMode="restart" android:zAdjustment="normal" android:fromAlpha="0.0" android:toAlpha="1.0" android:fillEnabled="true" android:detachWallpaper="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

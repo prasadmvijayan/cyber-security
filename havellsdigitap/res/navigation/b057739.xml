@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/activator_search_result_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SearchLoadingFragment" android:name="com.thingclips.smart.activator.search.result.ui.fragment.SearchLoadingFragment" android:id="@id/fragment_search_loading">
+        <action android:id="@id/action_loading_to_list" app:destination="@id/fragment_search_device_list" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_search_loading" app:popUpToInclusive="true" />
+        <action android:id="@id/action_loading_to_search_failure" app:destination="@id/fragment_search_failure" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_search_loading" app:popUpToInclusive="true" />
+        <action android:id="@id/action_loading_to_activator_failure" app:destination="@id/fragment_activator_failure" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_search_loading" app:popUpToInclusive="true" />
+        <action android:id="@id/action_loading_to_search_device_exist" app:destination="@id/fragment_search_device_exist" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_search_loading" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="SearchDeviceListFragment" android:name="com.thingclips.smart.activator.search.result.ui.fragment.SearchDeviceListFragment" android:id="@id/fragment_search_device_list" />
+    <fragment android:label="SearchFailureFragment" android:name="com.thingclips.smart.activator.search.result.ui.fragment.SearchFailureFragment" android:id="@id/fragment_search_failure" />
+    <fragment android:label="ActivatorFailureFragment" android:name="com.thingclips.smart.activator.search.result.ui.fragment.ActivatorFailureFragment" android:id="@id/fragment_activator_failure" />
+    <fragment android:label="SearchDeviceExistFragment" android:name="com.thingclips.smart.activator.search.result.ui.fragment.SearchDeviceExistFragment" android:id="@id/fragment_search_device_exist" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.map.generalmap.widget.ThingMapDraggableGeofenceCircle android:id="@id/geofenceCircleView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/fixedInMapCenterMarker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/b057739a0577395057739" />
+    <com.thingclips.smart.map.generalmap.widget.ThingMapMarkerInfoWindow android:id="@id/markerInfoWindow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_above="@id/fixedInMapCenterMarker" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p4" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_m1" android:background="@drawable/a057739z057739p057739" android:paddingLeft="@dimen/thing_theme_dimen_p3" android:paddingTop="@dimen/thing_theme_dimen_p2" android:paddingRight="@dimen/thing_theme_dimen_p3" android:paddingBottom="@dimen/thing_theme_dimen_p2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scene_buy" android:paddingHorizontal="@dimen/thing_theme_dimen_p3" android:paddingVertical="@dimen/thing_theme_dimen_p2" />
+</FrameLayout>

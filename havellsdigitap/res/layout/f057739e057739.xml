@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:id="@id/tv_title" android:paddingTop="@dimen/thing_dp_20" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/thing_dp_16" android:paddingEnd="@dimen/thing_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

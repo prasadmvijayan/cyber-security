@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_content" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar_top_view" android:background="@color/black_16" android:paddingLeft="2.0dip" android:paddingTop="0.0dip" android:paddingRight="2.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" android:minHeight="?actionBarSize" app:titleMarginTop="10.0dip" style="@style/toolbar_action_text" />
+    <com.thingclips.smart.camera.uiview.view.ToolBarTitleView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/tb_title_view" android:layout_width="fill_parent" android:layout_height="@dimen/wh_20" />
+</FrameLayout>

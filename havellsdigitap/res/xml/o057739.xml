@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="300">
+        <KeyFrameSet />
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_add_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="@id/btn_complete" motion:layout_constraintLeft_toLeftOf="parent" motion:layout_constraintRight_toRightOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_add_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" motion:layout_constraintLeft_toLeftOf="parent" motion:layout_constraintRight_toRightOf="parent" motion:layout_constraintTop_toBottomOf="@id/relativeLayout" />
+        <Constraint android:id="@id/top_divide_view" android:background="@color/thing_theme_color_b4_n7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/thing_dp_10" motion:layout_constraintLeft_toLeftOf="parent" motion:layout_constraintRight_toRightOf="parent" motion:layout_constraintTop_toBottomOf="@id/tv_add_tip" />
+        <Constraint android:id="@id/list_add_device" android:background="@drawable/j057739n057739" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_dp_11" motion:layout_constraintBottom_toTopOf="@id/divide_view" motion:layout_constraintLeft_toLeftOf="parent" motion:layout_constraintRight_toRightOf="parent" motion:layout_constraintTop_toBottomOf="@id/top_divide_view" />
+    </ConstraintSet>
+</MotionScene>

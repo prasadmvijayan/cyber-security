@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar_top_view" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="44.0dip" android:transitionName="toolbar" app:contentInsetStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

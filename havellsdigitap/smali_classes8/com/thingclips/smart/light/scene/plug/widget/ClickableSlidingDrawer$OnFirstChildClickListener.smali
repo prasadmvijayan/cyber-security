@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/thingclips/smart/light/scene/plug/widget/ClickableSlidingDrawer$OnFirstChildClickListener;
+.super Ljava/lang/Object;
+.source "ClickableSlidingDrawer.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/light/scene/plug/widget/ClickableSlidingDrawer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnFirstChildClickListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onClick()V
+.end method

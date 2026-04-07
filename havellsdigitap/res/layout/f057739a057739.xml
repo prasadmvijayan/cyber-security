@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@drawable/g057739q057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_12" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/protection_item_root_view" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/protection_include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/f057739_057739" />
+        <View android:id="@id/view_cut_line" android:background="@color/thing_theme_color_b3_n7" android:layout_width="0.0dip" android:layout_height="@dimen/thing_dp_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/protection_include" app:layout_constraintStart_toStartOf="@id/protection_include" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/placeholder_view" android:layout_width="@dimen/thing_dp_36" android:layout_height="1.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/protection_item_root_view" />
+    <View android:id="@id/device_list_padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_6" app:layout_constraintTop_toBottomOf="@id/protection_item_root_view" />
+    <com.thingclips.security.arm.plugin.view.ModeDeviceListView android:orientation="vertical" android:id="@id/device_list" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/placeholder_view" app:layout_constraintTop_toBottomOf="@id/device_list_padding_top" />
+    <View android:id="@id/device_list_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_6" app:layout_constraintTop_toBottomOf="@id/device_list" />
+    <androidx.constraintlayout.widget.Group android:id="@id/exclude_cloud_ipc_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="placeholder_view,protection_item_root_view ,device_list_padding_top,device_list_padding_bottom" />
+    <androidx.constraintlayout.widget.Group android:id="@id/only_gateway_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="device_list_padding_top,device_list_padding_bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_10" android:textColor="#ffffffff" android:id="@id/time" android:background="@drawable/a057739u057739j057739" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time">
+        <RelativeLayout android:id="@id/user" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="#ffffffff" android:id="@id/user_text" android:background="@drawable/a057739u057739k057739" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="18.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/user_headpic" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_headpic" android:background="@drawable/a057739w057739s057739" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" fresco:roundAsCircle="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/admin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="#ff484848" android:id="@id/admin_text" android:background="@drawable/a057739u057739h057739" android:paddingLeft="18.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="50.0dip" android:layout_toRightOf="@id/admin_headpic" />
+            <ImageView android:id="@id/admin_headpic" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/a057739u057739i057739" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.thingclips.smart.uispecs.light.LightColorPickCircleView android:layout_gravity="center_horizontal" android:id="@id/cpv" android:layout_width="@dimen/thing_dp_270" android:layout_height="@dimen/thing_dp_270" android:layout_centerHorizontal="true" app:center_radius="@dimen/thing_dp_16" app:circle_bg="@drawable/b0577392057739l057739" app:circle_radius="@dimen/thing_dp_135" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginTop="@dimen/thing_dp_30" android:layout_marginRight="@dimen/thing_dp_20">
+            <ImageView android:id="@id/iv_left" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/b0577392057739g057739" />
+            <com.thingclips.smart.uispecs.component.seekbar.TextThumbSeekBar android:id="@id/sb_brightness" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="@dimen/thing_dp_100" android:maxHeight="@dimen/thing_dp_10" android:max="100" android:progress="50" android:progressDrawable="@drawable/b057739d057739q057739" android:thumb="@drawable/b057739d057739s057739" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_17_minus" android:layout_marginEnd="@dimen/thing_dp_17_minus" android:splitTrack="false" android:min="1" />
+            <ImageView android:id="@id/iv_right" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/b0577392057739f057739" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

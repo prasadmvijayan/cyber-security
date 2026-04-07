@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="#ff1b1b1b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cruise_model_all" android:background="@color/BC_3" android:padding="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_70">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_cruise_mode_full" />
+        <TextView android:textSize="@dimen/thing_sp_11" android:textColor="@color/TC_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_cruise_mode_full_tips" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cruise_model_all_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_5" android:src="@drawable/m057739k057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/cruise_model_pre" android:background="@color/BC_3" android:padding="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_70" android:layout_marginTop="@dimen/thing_dp_6">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_cruse_mode_memory" />
+        <TextView android:textSize="@dimen/thing_sp_11" android:textColor="@color/TC_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:text="@string/ipc_cruise_mode_memory_tips" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cruise_model_pre_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_5" android:src="@drawable/m057739k057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/thing_dp_160" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/TC_12" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ipc_confirm_cancel" android:layout_weight="1.0" />
+        <View android:background="#19ffffff" android:layout_width="1.0px" android:layout_height="@dimen/thing_dp_40" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/TC_1" android:gravity="center" android:id="@id/confirm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ipc_confirm_sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

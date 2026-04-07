@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_15" android:textColor="@color/text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48" android:text="@string/ipc_motion_tracking_settings" />
+    <View style="@style/line_normal" />
+    <View android:layout_marginTop="@dimen/thing_mg_20" style="@style/line_normal" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/text_color" android:gravity="center" android:id="@id/btn_motion_tracking_open" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48" android:text="@string/ipc_settings_status_on" />
+    <View style="@style/line_normal" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/text_color" android:gravity="center" android:id="@id/btn_motion_tracking_close" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48" android:text="@string/ipc_settings_status_off" />
+    <View style="@style/line_normal" />
+    <View android:layout_marginTop="@dimen/thing_mg_20" style="@style/line_normal" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/text_color" android:gravity="center" android:id="@id/btn_cancel_motion_tracking" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48" android:text="@string/ipc_confirm_cancel" />
+    <View style="@style/line_normal" />
+</LinearLayout>

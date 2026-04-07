@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/thingclips/smart/sharedevice/adapter/MatterShareManagerAdapter$OnItemClickListener;
+.super Ljava/lang/Object;
+.source "MatterShareManagerAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/sharedevice/adapter/MatterShareManagerAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnItemClickListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Landroid/view/View;Lcom/thingclips/smart/sdk/bean/OperationalFabricInfo;)V
+.end method

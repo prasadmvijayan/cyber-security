@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/a057739h0577396057739" />
+    <com.thingclips.smart.scene.home.optimize.view.SkeletonLottieAnimationView android:id="@id/manual_iv_load" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

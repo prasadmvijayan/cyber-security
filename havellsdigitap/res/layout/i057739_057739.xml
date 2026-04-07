@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_item" android:background="?camera_aicloud_tag_bg" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_tag_icon" android:layout_width="@dimen/thing_dp_32" android:layout_height="@dimen/thing_dp_32" android:layout_centerVertical="true" app:roundedCornerRadius="@dimen/thing_dp_16" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_tab_text_color" android:gravity="center_vertical" android:id="@id/tv_tag_name" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_32" android:layout_marginLeft="@dimen/thing_dp_9" android:layout_marginRight="@dimen/thing_dp_10" android:layout_toRightOf="@id/iv_tag_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_checked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/x057739g057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="?camera_tab_text_color" android:gravity="center_horizontal" android:id="@id/tv_ipc_ai_video_ability_des" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/ipc_ai_video_ability_des" app:layout_constraintLeft_toLeftOf="@id/rv_ai_detect_list" app:layout_constraintTop_toBottomOf="@id/rv_ai_detect_list" />
+</LinearLayout>

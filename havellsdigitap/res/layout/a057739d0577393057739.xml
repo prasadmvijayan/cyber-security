@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.cell.ThingCommonCell android:id="@id/commoncell_location_auth" android:layout_width="0.0dip" android:layout_height="@dimen/thing_dp_56" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:thing_common_cell_info_type="funcButton" app:thing_common_cell_show_arrow="false" app:thing_common_cell_show_icon="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

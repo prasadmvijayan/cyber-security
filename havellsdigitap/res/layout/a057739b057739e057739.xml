@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_sheet" android:background="@drawable/b0577395057739s057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_26">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_cancel" android:paddingLeft="@dimen/thing_dp_16" android:paddingTop="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_cancel" />
+        <TextView android:textSize="@dimen/ts_17" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/thing_sharedevice_valid_date" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:id="@id/tv_finish" android:paddingLeft="@dimen/thing_dp_16" android:paddingTop="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/finish" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_valid_forever" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72">
+        <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/cb_valid_forever" android:clickable="false" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" app:cb_solidColor="@color/thing_theme_color_m1" app:cb_strokeColor="@color/thing_theme_color_b6_n7" app:cb_strokeWidth="@dimen/thing_dp_1" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_13" android:text="@string/thing_sharedevice_valid_forever" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_valid_date" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72">
+        <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/cb_valid_date" android:clickable="false" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" app:cb_solidColor="@color/thing_theme_color_m1" app:cb_strokeColor="@color/thing_theme_color_b6_n7" app:cb_strokeWidth="@dimen/thing_dp_1" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_13" android:text="@string/thing_sharedevice_valid_limit" android:layout_toRightOf="@id/cb_valid_date" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b6_n3" android:id="@id/tv_valid_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_sharedevice_valid_to" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b0577395057739x057739" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_date_pick" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_169" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_30">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <View android:background="@color/thing_theme_color_b6_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" />
+            <View android:background="@color/thing_theme_color_b6_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" android:layout_marginTop="@dimen/thing_dp_37" />
+        </LinearLayout>
+        <DatePicker android:theme="@android:style/Theme.Holo.Light" android:id="@id/datePicker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:calendarViewShown="false" />
+    </RelativeLayout>
+</LinearLayout>

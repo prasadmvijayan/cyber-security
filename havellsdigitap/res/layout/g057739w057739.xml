@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/playback_no_sdcard" android:background="?camera_playback_no_sdcard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?camera_playback_no_sdcard_nvr" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_69" android:layout_marginTop="@dimen/thing_dp_30" android:layout_marginRight="@dimen/thing_dp_69">
+        <TextView android:textSize="@dimen/thing_sp_17" android:textColor="?ipc_sdcard_page_none_text_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nvr_storage_page_none" />
+        <TextView android:textSize="@dimen/thing_sp_12" android:textColor="?ipc_sdcard_page_none_help_tip_color" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:text="@string/nvr_storage_page_none_help_tip" android:layout_below="@id/tv_title" android:lineSpacingExtra="@dimen/thing_dp_5" />
+    </RelativeLayout>
+</LinearLayout>

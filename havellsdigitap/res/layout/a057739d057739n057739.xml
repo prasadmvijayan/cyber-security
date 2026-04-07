@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.widget.ThingButton android:id="@id/positiveButton" style="@style/ThingCommonDialogButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

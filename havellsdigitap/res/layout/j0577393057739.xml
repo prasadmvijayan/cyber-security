@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/moving_track_rl" android:background="#07ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44">
+                <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_15" android:text="@string/ipc_motion_tracking_settings" android:layout_centerVertical="true" />
+                <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/moving_track_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_10" app:kswBackDrawable="@drawable/x0577398057739" app:kswThumbColor="#ffffffff" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/cruise_rl" android:background="#07ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44" android:layout_marginTop="@dimen/thing_dp_6">
+                <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_15" android:text="@string/ipc_cruise_settings" android:layout_centerVertical="true" />
+                <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/cruise_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_10" app:kswBackDrawable="@drawable/x0577398057739" app:kswThumbColor="#ffffffff" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/cruise_ll" android:background="#07ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cruise_panorama" android:paddingTop="@dimen/thing_dp_10" android:paddingBottom="@dimen/thing_dp_20" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ccffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_cruise_mode_settings" android:drawableTop="@drawable/m057739h057739" android:drawablePadding="@dimen/thing_dp_5" />
+                    <TextView android:textSize="@dimen/thing_sp_10" android:textColor="#66ffffff" android:gravity="center" android:id="@id/cruise_model_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_5" android:text="@string/ipc_cruise_mode_full" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="#19ffffff" android:layout_width="@dimen/thing_dp_1" android:layout_height="@dimen/thing_dp_60" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cruise_time" android:paddingTop="@dimen/thing_dp_10" android:paddingBottom="@dimen/thing_dp_20" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ccffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_cruise_time_mode_settings" android:drawableTop="@drawable/m057739l057739" android:drawablePadding="@dimen/thing_dp_5" />
+                    <TextView android:textSize="@dimen/thing_sp_10" android:textColor="#66ffffff" android:gravity="center" android:id="@id/cruise_time_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_5" android:text="@string/ipc_cruise_time_mode_allday" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

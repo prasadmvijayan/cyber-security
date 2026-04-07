@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_style_icon_and_color" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_style_color_bg" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a057739z0577397057739" android:layout_centerInParent="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_style_icon" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a057739z0577397057739" android:layout_centerInParent="true" />
+</RelativeLayout>

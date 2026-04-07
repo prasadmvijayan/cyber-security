@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/stabilizer_navigation" app:startDestination="@id/fragment_stabilizer_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.view.stabilizer.StabilizerDashboardFragment" android:id="@id/fragment_stabilizer_dashboard">
+        <action android:id="@id/action_fragment_stabilizer_dashboard_to_createScheduleFragment" app:destination="@id/createScheduleFragment" />
+        <action android:id="@id/action_fragment_stabilizer_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.view.home.myproducts.ProductDetailsFragment" android:id="@id/productDetailsFragment">
+        <action android:id="@id/action_productDetailsFragment_to_productEditFragment" app:destination="@id/productEditFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productShareFragment" app:destination="@id/productShareFragment" />
+    </fragment>
+    <fragment android:label="@string/edit_prod_details" android:name="com.vguard.smart.view.home.myproducts.edit.ProductEditFragment" android:id="@id/productEditFragment" />
+    <fragment android:label="@string/product_settings" android:name="com.vguard.smart.view.home.myproducts.ProductSettingsFragment" android:id="@id/productSettingsFragment">
+        <action android:id="@id/action_productSettingsFragment_to_stabilizerAcFilterReminderFragment" app:destination="@id/stabilizerAcFilterReminderFragment" />
+        <action android:id="@id/action_productSettingsFragment_to_ConfigurationInstructionFragment" app:destination="@id/configurationInstructionFragment" />
+        <action android:id="@id/action_productSettingsFragment_to_WifiConfigurationFragment" app:destination="@id/wifiConfiguration" />
+    </fragment>
+    <fragment android:label="@string/share_product" android:name="com.vguard.smart.view.home.myproducts.ProductShareFragment" android:id="@id/productShareFragment" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.stabilizer.StabilizerCreateScheduleFragment" android:id="@id/createScheduleFragment" />
+    <fragment android:label="@string/ac_filter_clean" android:name="com.vguard.smart.view.stabilizer.StabilizerAcFilterReminderFragment" android:id="@id/stabilizerAcFilterReminderFragment" />
+    <fragment android:label="@string/reconfiguration" android:name="com.vguard.smart.view.configuration.ConfigurationInstructionFragment" android:id="@id/configurationInstructionFragment">
+        <action android:id="@id/action_ConfigurationInstructionFragment_to_ConfigurationFragment" app:destination="@id/reconfigurationFragment" />
+    </fragment>
+    <fragment android:label="@string/available_devices" android:name="com.vguard.smart.view.configuration.ReconfigurationFragment" android:id="@id/reconfigurationFragment" />
+    <fragment android:label="@string/wifi_settings" android:name="com.vguard.smart.view.wifi.WiFiSettingsFragment" android:id="@id/wifiConfiguration" />
+</navigation>

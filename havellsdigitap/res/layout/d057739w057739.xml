@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44">
+        <TextView android:textSize="@dimen/thing_sp_17" android:textStyle="bold" android:textColor="@color/black" android:id="@id/thing_web_url_tv_title_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/thing_web_url_iv_back" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_marginLeft="@dimen/thing_dp_16" android:src="@drawable/b057739c0577393057739" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/thing_web_url_image" android:layout_width="300.0dip" android:layout_height="300.0dip" android:src="@drawable/b057739b057739q057739" />
+        <com.thingclips.smart.jsbridge.view.CenterTextView android:textSize="@dimen/thing_sp_16" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/thing_web_url_intercept_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_24" android:layout_marginTop="28.0dip" android:layout_marginRight="@dimen/thing_dp_24" />
+        <com.thingclips.smart.jsbridge.view.CenterTextView android:textSize="@dimen/thing_sp_12" android:layout_gravity="center_horizontal" android:id="@id/thing_web_url_intercept_tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_dp_24" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/thing_web_url_intercept_confirm" android:background="@drawable/b0577398057739o057739" android:layout_width="200.0dip" android:layout_height="48.0dip" android:layout_marginTop="33.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/dialog_content" android:background="@drawable/b0577394057739i057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_dp_32" android:layout_marginEnd="@dimen/thing_dp_32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b3_2_n1" android:ellipsize="end" android:gravity="center" android:id="@id/armed_gateway_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20" android:maxLines="1" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/armed_gateway_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_12" />
+    <View android:background="@color/thing_theme_color_b2_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_0.5" />
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/thing_theme_color_b3_2_n1" android:ellipsize="end" android:gravity="center" android:id="@id/tv_close" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_52" android:text="@string/close" android:maxLines="1" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" />
+</androidx.appcompat.widget.LinearLayoutCompat>

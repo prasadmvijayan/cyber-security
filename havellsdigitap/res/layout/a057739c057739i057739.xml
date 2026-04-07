@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/sl_privacy" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_20" android:layout_marginRight="@dimen/thing_mg_20">
+        <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/thing_theme_color_b4_n2" android:id="@id/tv_privacy_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_mg_10" android:text="@string/login_privacy_content" android:maxLines="10" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/thing_mg_5" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:id="@id/tv_privacy_link" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_10" android:layout_marginBottom="@dimen/thing_mg_20" />
+    </LinearLayout>
+</LinearLayout>

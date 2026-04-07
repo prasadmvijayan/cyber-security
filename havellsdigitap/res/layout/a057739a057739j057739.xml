@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tv_camera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hs_camera_title" android:layout_marginStart="@dimen/thing_dp_16" />
+        <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b1_n3" android:layout_gravity="end|center" android:id="@id/tv_camera_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs_quick_all" android:layout_marginEnd="@dimen/thing_dp_16" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:paddingStart="@dimen/thing_dp_11" android:paddingEnd="@dimen/thing_dp_11" android:nestedScrollingEnabled="true" />
+</LinearLayout>

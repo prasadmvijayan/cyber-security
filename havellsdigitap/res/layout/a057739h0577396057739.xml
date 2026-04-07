@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:swipe_style="classic"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/swipe_refresh_header" layout="@layout/a057739g057739v057739" />
+    <View android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_10" />
+</com.thingclips.smart.uispecs.component.SwipeToLoadLayout>

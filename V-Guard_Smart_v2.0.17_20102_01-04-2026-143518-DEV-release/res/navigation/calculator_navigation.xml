@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/calculator_navigation" app:startDestination="@id/calculator_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/calculator" android:name="com.vguard.smart.view.home.more.calculator.CalculatorFragment" android:id="@id/calculator_fragment">
+        <action android:id="@id/action_calculatorFragment_to_on_grid_solar_calculator_fragment" app:destination="@id/on_grid_solar_calculator_fragment" />
+    </fragment>
+    <fragment android:label="@string/on_grid_calculator" android:name="com.vguard.smart.view.home.more.calculator.OnGridSolarCalculatorFragment" android:id="@id/on_grid_solar_calculator_fragment">
+        <action android:id="@id/action_on_grid_solar_calculator_fragment_to_on_grid_solar_calculator_enquiry_fragment" app:destination="@id/on_grid_solar_calculator_enquiry_fragment" />
+    </fragment>
+    <fragment android:label="@string/on_grid_calculator" android:name="com.vguard.smart.view.home.more.calculator.OnGridSolarCalculatorEnquiryFragment" android:id="@id/on_grid_solar_calculator_enquiry_fragment" />
+</navigation>

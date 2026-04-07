@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/a057739_057739_057739" />
+    <com.thingclips.smart.uibizcomponents.scenesTab.wrapper.SceneScenesTabWrapper android:id="@id/tab_scene" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cmp_stub_id="@id/tab_scene" app:componentName="sceneSceneTab" app:id="@id/tab_scene" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/vp_scene_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

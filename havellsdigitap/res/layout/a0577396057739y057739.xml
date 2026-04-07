@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/scrollview" android:background="@drawable/a057739u057739l057739" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="parent">
+        <TextView android:textSize="@dimen/ts_18" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tvTilte" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_21" android:text="@string/head_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/ts_17" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:id="@id/tvConfirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_marginEnd="@dimen/thing_mg_20" app:layout_constraintBottom_toBottomOf="@id/tvTilte" app:layout_constraintEnd_toEndOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_theme_dimen_p6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTilte" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

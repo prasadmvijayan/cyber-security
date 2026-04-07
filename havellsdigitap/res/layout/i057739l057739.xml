@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/k057739v057739" android:layout_width="@dimen/wh_120" android:layout_height="@dimen/wh_120"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/wh_36" android:layout_height="@dimen/wh_36" android:layout_marginTop="@dimen/wh_32" android:src="@drawable/k057739u057739" />
+    <TextView android:textSize="@dimen/ts_13" android:textColor="@color/white" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_18" android:layout_marginBottom="@dimen/thing_mg_20" android:text="@string/ipc_settings_switch_wf_connecting_success" />
+</FrameLayout>

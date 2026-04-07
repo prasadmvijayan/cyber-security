@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root" android:background="@color/thing_theme_color_b4" android:paddingTop="@dimen/thing_theme_dimen_p6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44">
+        <ImageView android:id="@id/img_close" android:paddingTop="@dimen/thing_theme_dimen_p3" android:paddingBottom="@dimen/thing_theme_dimen_p1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739e057739d057739" android:layout_centerVertical="true" android:paddingStart="@dimen/thing_theme_dimen_p3" android:paddingEnd="@dimen/thing_theme_dimen_p3" android:layout_alignParentEnd="true" android:tintMode="src_in" app:tint="@color/thing_theme_color_b4_n6" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_bottom" android:paddingBottom="@dimen/thing_dp_60" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p8" android:layout_marginRight="@dimen/thing_theme_dimen_p8" android:layout_alignParentBottom="true" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p8">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_cb" android:paddingBottom="@dimen/thing_theme_dimen_p6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="@dimen/thing_dp_16" android:layout_height="@dimen/thing_dp_16" app:cb_strokeColor="@color/thing_theme_color_b3_n4" />
+            <TextView android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/thing_theme_color_b4_n2" android:id="@id/tv_cb_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_theme_dimen_p5" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="@dimen/thing_dp_400" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/thing_sp_16" android:textStyle="bold" android:textColor="@drawable/z057739t057739" android:gravity="center" android:id="@id/tv_back" android:background="@drawable/a0577390057739p057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" android:text="@string/config_reset_go_back" android:layout_weight="1.0" />
+            <View android:id="@id/view_middle" android:visibility="gone" android:layout_width="@dimen/thing_theme_dimen_p6" android:layout_height="@dimen/thing_dp_48" />
+            <TextView android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/tv_next" android:background="@drawable/a0577390057739q057739" android:layout_width="@dimen/thing_dp_400" android:layout_height="@dimen/thing_dp_48" android:text="@string/config_reset_go_next" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_theme_dimen_p8" android:layout_marginRight="@dimen/thing_theme_dimen_p8" android:layout_above="@id/rl_bottom" android:layout_below="@id/rl_top" android:layout_marginHorizontal="@dimen/thing_theme_dimen_p8" />
+</RelativeLayout>

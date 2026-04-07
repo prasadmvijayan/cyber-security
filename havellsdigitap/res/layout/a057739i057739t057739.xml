@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:isScrollContainer="true" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:background="@color/thing_theme_color_b6" android:paddingTop="@dimen/thing_mg_18" android:paddingBottom="@dimen/thing_mg_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" android:paddingStart="@dimen/thing_mg_16" android:paddingEnd="@dimen/thing_mg_16">
+                <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b1_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/thing_dp_180" android:text="@string/hs_geo_current_location" android:layout_marginEnd="@dimen/thing_mg_8" />
+                <TextView android:textSize="@dimen/ts_14" android:gravity="end" android:id="@id/view_location_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:background="@color/thing_theme_color_b6" android:paddingTop="@dimen/thing_mg_18" android:paddingBottom="@dimen/thing_mg_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_12" android:paddingStart="@dimen/thing_mg_16" android:paddingEnd="@dimen/thing_mg_14">
+                <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b1_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/thing_dp_180" android:text="@string/hs_location_country_region" android:layout_marginEnd="@dimen/thing_mg_8" />
+                <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n3" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/tv_country" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/thing_mg_2" />
+                <ImageView android:id="@id/iv_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b057739g057739c057739" app:tint="@color/thing_theme_color_b6_n6" />
+            </LinearLayout>
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_address" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_unit_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_city" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_province" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_zip_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_12" />
+            <com.thingclips.security.vas.setting.hosting.location.activity.LocationSettingItemView android:id="@id/view_area" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_12" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

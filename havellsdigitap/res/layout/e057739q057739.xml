@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.arm.plugin.view.ActivityToolBar android:id="@id/protection_tool_bar" android:background="@color/thing_theme_color_b2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Space style="@style/protection_mode_setting_space_style" />
+    <RelativeLayout android:id="@id/rl_arm_choose_device" android:background="@color/theme_list_background" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+        <TextView android:text="@string/hs_arm_choose_device" style="@style/protection_mode_setting_text_style" />
+        <ImageView android:src="@drawable/a057739x057739m057739" android:tintMode="src_in" app:tint="@color/theme_list_arrow" style="@style/protection_mode_setting_tab_arrow_style" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space style="@style/protection_mode_setting_space_style" />
+        <RelativeLayout android:id="@id/mode_setting_disarmed_rl" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+            <TextView android:text="@string/home_security_mode_arm_delay" style="@style/protection_mode_setting_text_style" />
+            <TextView android:id="@id/mode_setting_armed_delay_tv" android:text="0s" style="@style/protection_mode_setting_tab_text_count_style" />
+            <ImageView android:src="@drawable/h0577396057739" android:tintMode="src_in" app:tint="@color/thing_theme_color_b6_n6" style="@style/protection_mode_setting_tab_arrow_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mode_setting_alarm_rl" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+            <TextView android:text="@string/home_security_mode_alarm_delay" style="@style/protection_mode_setting_text_style" />
+            <TextView android:id="@id/mode_setting_alarm_delay_tv" android:text="0s" style="@style/protection_mode_setting_tab_text_count_style" />
+            <ImageView android:src="@drawable/h0577396057739" android:tintMode="src_in" app:tint="@color/thing_theme_color_b6_n6" style="@style/protection_mode_setting_tab_arrow_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="havells_siri_add_temperature_code">Set the temperature of</string>
+    <string name="havells_siri_cannot_lessthan">Only 16 to 30 degree supported</string>
+    <string name="havells_siri_cannot_minus">Only 16 to 30 degrees supported</string>
+    <string name="havells_siri_cannot_morethan">Only 16 to 30 degrees supported</string>
+    <string name="havells_siri_fan_speed_code">Set fan speed of</string>
+    <string name="havells_siri_fanspeed_keyword_1">1,low,Low</string>
+    <string name="havells_siri_fanspeed_keyword_2">2,mid,middle,Mid,Middle,medium,Medium</string>
+    <string name="havells_siri_fanspeed_keyword_3">3,high,High</string>
+    <string name="havells_siri_fanspeed_keyword_4">4,auto,Auto</string>
+    <string name="havells_siri_mode_code">Change the mode of</string>
+    <string name="havells_siri_mode_keyword_auto">auto,Auto</string>
+    <string name="havells_siri_mode_keyword_cold">cool,cold,Cool,Cold</string>
+    <string name="havells_siri_mode_keyword_hot">hot,heat,Hot,Heat</string>
+    <string name="havells_siri_mode_keyword_wet">dry,Dry</string>
+    <string name="havells_siri_mode_keyword_wind">fan,wind,Fan,Wind</string>
+    <string name="thing_avg_prefix">Avg</string>
+    <string name="thing_devices_pid">uolf0tsyolqovnk9,u9iz2xrkmd9eingy,di6f7nj0iq2mzq5f,cmbrsqfbk6jmzs0v,frmo1i5ub7bpxvcg,y6xqbcfeasjyhj2z,yykvj58gg0aikvst,gw0dv5drzxwp5dov,yykvj58gg0aikvst,u1ntfinhagyrgia9,ybhdfzffar6c4poo,dzp4jyarhlr3aabc,dzp4jyarhlr3aabc,6fkjivdsynaf9vrp</string>
+    <string name="thing_max_prefix">Max</string>
+    <string name="thing_min_prefix">Min</string>
+    <string name="thing_network_unavailable_dialog_tip">Network is unavailable, please check the network</string>
+</resources>

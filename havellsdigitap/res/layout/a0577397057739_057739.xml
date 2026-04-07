@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginBottom="@dimen/thing_dp_5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_24" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_18" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="" android:alpha="0.5" app:layout_constraintBaseline_toBaselineOf="@id/tv_day" app:layout_constraintLeft_toRightOf="@id/tv_day" />
+</androidx.constraintlayout.widget.ConstraintLayout>

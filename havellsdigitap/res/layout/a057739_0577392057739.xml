@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/b0577393057739w057739" android:layout_width="@dimen/thing_dp_175" android:layout_height="@dimen/thing_dp_183">
+        <ImageView android:id="@id/iv_validate" android:layout_width="@dimen/thing_dp_68" android:layout_height="@dimen/thing_dp_68" android:layout_marginTop="@dimen/thing_mg_26" android:src="@drawable/b0577394057739d057739" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_validate_anim" android:layout_width="@dimen/thing_dp_68" android:layout_height="@dimen/thing_dp_68" android:layout_marginTop="@dimen/thing_mg_26" android:src="@drawable/b0577394057739e057739" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_is_validating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_16" android:text="@string/scene_is_validating" android:layout_below="@id/iv_validate" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_scene_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_6" android:text="" android:layout_below="@id/tv_is_validating" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

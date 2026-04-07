@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/demo_inverter_navigation" app:startDestination="@id/fragment_inverter_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.inverter.DemoInverterDashboardFragment" android:id="@id/fragment_inverter_dashboard">
+        <action android:id="@id/action_fragment_inverter_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+    </fragment>
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.demo.dashboard.inverter.DemoProductInfoFragment" android:id="@id/productInfoFragment" />
+</navigation>

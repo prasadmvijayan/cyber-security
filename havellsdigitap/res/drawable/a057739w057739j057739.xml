@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/thing_theme_color_b1_n6" />
+            <size android:height="@dimen/thing_dp_15" android:width="@dimen/thing_dp_15" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/b057739d057739h057739" android:tint="@color/thing_theme_color_m1_n1" />
+    </item>
+</layer-list>

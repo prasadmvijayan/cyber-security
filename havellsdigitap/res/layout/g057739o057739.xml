@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="90.0dip" android:minHeight="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/j057739o057739" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_device_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_device_list_dot" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/iv_device_list_dot" android:layout_toRightOf="@id/iv_device_icon">
+            <TextView android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textColor="@color/thing_theme_color_b6_n3" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

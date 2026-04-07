@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.camera.uiview.view.CameraFullToolBar android:background="@drawable/x057739j057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_46"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

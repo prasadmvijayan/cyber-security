@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_sp_22" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_dp_16" />
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/llButtons" android:background="@drawable/a057739h057739l057739" android:layout_width="@dimen/thing_dp_72" android:layout_height="@dimen/thing_dp_32" android:layout_marginEnd="@dimen/thing_dp_16">
+        <ImageView android:id="@id/ivMore" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a057739j0577396057739" android:scaleType="centerInside" android:layout_weight="1.0" android:tintMode="src_in" app:tint="@color/thing_theme_color_b2_n1" />
+        <View android:id="@id/vLine" android:background="@color/thing_theme_color_b2_n6" android:layout_width="1.0px" android:layout_height="@dimen/thing_dp_14" />
+        <ImageView android:id="@id/ivClose" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a057739j0577395057739" android:scaleType="centerInside" android:layout_weight="1.0" android:tintMode="src_in" app:tint="@color/thing_theme_color_b2_n1" />
+    </LinearLayout>
+</LinearLayout>

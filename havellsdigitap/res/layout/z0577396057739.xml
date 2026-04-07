@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/thing_dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdvBg" android:layout_width="@dimen/thing_dp_84" android:layout_height="@dimen/thing_dp_84" android:layout_centerInParent="true" app:roundAsCircle="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavAnimation" android:visibility="gone" android:layout_width="@dimen/thing_dp_84" android:layout_height="@dimen/thing_dp_84" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/vSelected" android:layout_width="@dimen/thing_dp_76" android:layout_height="@dimen/thing_dp_76" android:layout_centerInParent="true" app:srcCompat="@drawable/b0577392057739r057739" app:tint="@color/thing_theme_color_b4" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_12" android:maxEms="15" android:singleLine="true" android:shadowColor="#1affffff" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@id/rl_situation" android:layout_centerHorizontal="true" />
+</LinearLayout>

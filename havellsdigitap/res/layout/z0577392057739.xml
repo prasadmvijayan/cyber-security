@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivExpired" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a057739h057739h057739" android:scaleType="centerCrop" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/flContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/llExpired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_30">
+            <TextView android:textSize="@dimen/thing_sp_32" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_guide_title" android:layout_marginStart="@dimen/thing_dp_24" android:layout_marginEnd="@dimen/thing_dp_24" />
+            <TextView android:textSize="@dimen/thing_sp_15" android:textColor="#b3ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/thing_light_scene_expired_hint" android:layout_marginStart="@dimen/thing_dp_24" android:layout_marginEnd="@dimen/thing_dp_24" />
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvExpiredBack" android:background="@drawable/a057739h057739c057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginTop="@dimen/thing_dp_34" android:text="@string/action_back" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/llExperience" android:background="@drawable/a057739h057739g057739" android:paddingTop="@dimen/thing_dp_10" android:paddingBottom="@dimen/thing_dp_10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_74" android:paddingStart="@dimen/thing_dp_16" android:paddingEnd="@dimen/thing_dp_16" android:layout_marginStart="@dimen/thing_dp_12" android:layout_marginEnd="@dimen/thing_dp_12">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739j057739i057739" />
+            <TextView android:textColor="#ffff5d37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_trial_tips" android:layout_weight="1.0" android:layout_marginStart="@dimen/thing_dp_8" android:layout_marginEnd="@dimen/thing_dp_8" />
+            <ImageView android:id="@id/ivExpClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739j057739h057739" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

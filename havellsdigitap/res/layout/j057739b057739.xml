@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="@dimen/thing_dp_300" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_20" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/cloud_platform_control" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/cloud_platform_full_control_enlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/t057739i057739" />
+        <ImageView android:id="@id/cloud_platform_full_control_shrink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:src="@drawable/t057739j057739" />
+    </LinearLayout>
+    <com.thingclips.smart.camera.uiview.view.NewUIPTZControlView android:id="@id/camera_full_ptz" android:layout_width="@dimen/thing_mg_160" android:layout_height="@dimen/thing_mg_160" android:layout_marginLeft="@dimen/thing_mg_20" android:layout_marginBottom="@dimen/thing_mg_20" android:layout_centerHorizontal="true" app:bgDrawable="@drawable/p0577399057739" app:bottomDrawable3="@drawable/r057739m057739" app:leftDrawable3="@drawable/r057739n057739" app:rightDrawable3="@drawable/r057739o057739" app:topDrawable3="@drawable/r057739p057739" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorForeground">@color/thing_theme_color_m1</item>
+        <item name="android:textColorPrimary">@color/thing_theme_color_b1_n1</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+        <item name="android:popupBackground">@color/transparent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:actionMenuTextColor">@color/thing_theme_color_b2_n1</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="actionMenuTextAppearance">@style/toolbar_action_text</item>
+        <item name="actionMenuTextColor">@color/thing_theme_color_b2_n1</item>
+        <item name="actionModeBackground">@color/thing_theme_color_m1</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorPrimary">?status_bg_color</item>
+        <item name="colorPrimaryDark">?status_bg_color</item>
+        <item name="colorSwitchThumbNormal">@color/thing_theme_color_b1_n1</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_item" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_logo" android:layout_width="@dimen/thing_dp_40" android:layout_height="@dimen/thing_dp_40" android:layout_centerVertical="true" fresco:roundAsCircle="true" />
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_14" android:maxLines="1" android:layout_toRightOf="@id/iv_logo" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_14" android:layout_toStartOf="@id/checkbox" android:layout_toEndOf="@id/iv_logo" />
+        <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/checkbox" android:clickable="false" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

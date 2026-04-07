@@ -1,0 +1,181 @@
+.class public abstract Lkshark/ValueHolder;
+.super Ljava/lang/Object;
+.source "ValueHolder.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkshark/ValueHolder$ReferenceHolder;,
+        Lkshark/ValueHolder$BooleanHolder;,
+        Lkshark/ValueHolder$CharHolder;,
+        Lkshark/ValueHolder$FloatHolder;,
+        Lkshark/ValueHolder$DoubleHolder;,
+        Lkshark/ValueHolder$ByteHolder;,
+        Lkshark/ValueHolder$ShortHolder;,
+        Lkshark/ValueHolder$IntHolder;,
+        Lkshark/ValueHolder$LongHolder;,
+        Lkshark/ValueHolder$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u00086\u0018\u0000 \u00042\u00020\u0001:\n\u0005\u0006\u0007\u0008\t\n\u000b\u000c\r\u000eB\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u0082\u0001\t\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u00a8\u0006\u0018"
+    }
+    d2 = {
+        "Lkshark/ValueHolder;",
+        "",
+        "<init>",
+        "()V",
+        "a",
+        "BooleanHolder",
+        "ByteHolder",
+        "CharHolder",
+        "Companion",
+        "DoubleHolder",
+        "FloatHolder",
+        "IntHolder",
+        "LongHolder",
+        "ReferenceHolder",
+        "ShortHolder",
+        "Lkshark/ValueHolder$ReferenceHolder;",
+        "Lkshark/ValueHolder$BooleanHolder;",
+        "Lkshark/ValueHolder$CharHolder;",
+        "Lkshark/ValueHolder$FloatHolder;",
+        "Lkshark/ValueHolder$DoubleHolder;",
+        "Lkshark/ValueHolder$ByteHolder;",
+        "Lkshark/ValueHolder$ShortHolder;",
+        "Lkshark/ValueHolder$IntHolder;",
+        "Lkshark/ValueHolder$LongHolder;",
+        "shark"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x1
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lkshark/ValueHolder$Companion;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lkshark/ValueHolder$Companion;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lkshark/ValueHolder$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lkshark/ValueHolder;->a:Lkshark/ValueHolder$Companion;
+
+    .line 8
+    .line 9
+    return-void
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Lkshark/ValueHolder;-><init>()V
+
+    return-void
+.end method

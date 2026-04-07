@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_theme_dimen_p2" android:text="标题文字" />
+    <com.thingclips.smart.widget.common.paragraphedittext.ThingCommonParagraphEditText android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/pet" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_32" android:maxLength="16" android:digits="@string/thing_common_digits" android:inputType="number" android:textCursorDrawable="@drawable/b05773990577392057739" app:thing_common_pet_textboxMaxNum="3" app:thing_common_pet_textboxMaxTextNum="4" app:thing_common_pet_textboxSpacing="@dimen/thing_dp_15" app:thing_common_pet_textboxWidth="@dimen/thing_dp_63" />
+</LinearLayout>

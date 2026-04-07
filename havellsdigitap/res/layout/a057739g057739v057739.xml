@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.uispecs.component.CustomRefreshHeadLayout android:layout_width="fill_parent" android:layout_height="@dimen/uispecs_refresh_pull_offset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_load" android:layout_width="@dimen/wh_30" android:layout_height="@dimen/wh_50" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.5" />
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center|top" android:id="@id/tvRefresh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/iv_load" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.thingclips.smart.uispecs.component.CustomRefreshHeadLayout>

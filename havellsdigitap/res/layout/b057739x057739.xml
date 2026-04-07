@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.thingclips.smart.message.base.activity.remind.view.ServiceTipTextView android:textSize="@dimen/ts_12" android:gravity="center_vertical" android:id="@id/tvServiceTip" android:paddingLeft="@dimen/thing_dp_16" android:paddingTop="@dimen/thing_dp_9" android:paddingBottom="@dimen/thing_dp_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/thing_dp_8" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:id="@id/tvFamily" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_dp_16" android:maxLines="1" android:singleLine="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRemindList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:id="@id/tvDeviceTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginRight="@dimen/thing_dp_16" android:maxLines="1" android:singleLine="true" />
+    <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipeLayoutContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_8" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDeviceList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptyLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b057739_057739y057739" />
+                <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_current_family_no_devices" android:drawablePadding="@dimen/thing_dp_10" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_refresh_footer_refreshing" />
+    </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutServer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_20">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n2" android:gravity="center" android:id="@id/tvAudition" android:background="@drawable/a057739w057739h057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" android:text="@string/thing_try_listen" android:layout_weight="1.0" />
+        <View android:id="@id/view_middle" android:layout_width="@dimen/thing_theme_dimen_p2" android:layout_height="@dimen/thing_dp_48" />
+        <TextView android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/tvOpenServer" android:background="@drawable/a057739w057739i057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" android:text="@string/thing_open_service" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

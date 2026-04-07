@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/actionSendEmail" android:title="@string/action_send_email" app:showAsAction="never" />
+    <item android:id="@id/actionSendWechat" android:visible="true" android:title="@string/action_send_wechat" app:showAsAction="never" />
+    <item android:id="@id/actionCopyLog" android:title="@string/action_copy_log" app:showAsAction="never" />
+</menu>

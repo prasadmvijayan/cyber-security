@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_sp_17" android:textStyle="bold" android:textColor="@color/TC_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_live_page_cstorage" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="#4cffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginBottom="@dimen/thing_dp_20" android:text="@string/ipc_live_page_cstorage_instructions" />
+    <Button android:textSize="@dimen/thing_sp_15" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_purchase" android:background="@drawable/m057739y057739" android:paddingLeft="@dimen/thing_dp_40" android:paddingTop="@dimen/thing_dp_5" android:paddingRight="@dimen/thing_dp_40" android:paddingBottom="@dimen/thing_dp_5" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_40" android:text="@string/ipc_cstorage_button_open" />
+</LinearLayout>

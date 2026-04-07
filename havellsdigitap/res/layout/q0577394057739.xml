@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/choose_image_title" android:text="@string/discover_choose_pic_source" style="@style/choose_image_dialog_title" />
+    <View style="@style/line_long" />
+    <TextView android:id="@id/choose_from_camera" android:visibility="gone" android:text="@string/my_profile_choose_pic_from_camera" style="@style/choose_image_dialog_options" />
+    <View style="@style/line_long" />
+    <TextView android:id="@id/choose_from_local" android:text="@string/my_profile_choose_pic_from_local" style="@style/choose_image_dialog_options" />
+    <View android:background="#ffd6d6de" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <TextView android:id="@id/choose_cancel" android:text="@string/cancel" style="@style/choose_image_dialog_options" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/demo_pump_navigation" app:startDestination="@id/fragment_pump_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.pump.DemoPumpDashboardFragment" android:id="@id/fragment_pump_dashboard">
+        <action android:id="@id/action_fragment_pump_dashboard_to_productInfoFragment" app:destination="@id/demoProductInfoFragment" />
+        <action android:id="@id/action_fragment_pump_dashboard_to_pumpCreateScheduleFragment" app:destination="@id/demoPumpCreateScheduleFragment" />
+    </fragment>
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.demo.dashboard.inverter.DemoProductInfoFragment" android:id="@id/demoProductInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.demo.dashboard.pump.DemoPumpCreateScheduleFragment" android:id="@id/demoPumpCreateScheduleFragment" />
+</navigation>

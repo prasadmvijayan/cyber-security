@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a05773930577393057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_18" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_biometric_finger_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_24" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginStart="@dimen/thing_mg_24" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_biometric_finger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@drawable/j057739_057739" android:layout_below="@id/tv_biometric_finger_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_biometric_finger_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_8" android:layout_below="@id/img_biometric_finger" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_biometric_finger_negative" android:padding="@dimen/thing_mg_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_10" android:layout_below="@id/tv_biometric_finger_hint" />
+</RelativeLayout>

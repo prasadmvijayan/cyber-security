@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/config_device_img_sv" android:layout_width="@dimen/thing_mg_48" android:layout_height="@dimen/thing_mg_48" android:layout_marginLeft="@dimen/thing_dp_16" fresco:failureImage="@drawable/z057739o057739" fresco:failureImageScaleType="fitXY" fresco:placeholderImage="@drawable/z057739o057739" fresco:placeholderImageScaleType="fitXY" />
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_config_device_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_12" android:maxLines="2" android:layout_weight="1.0" />
+    <ImageView android:layout_width="@dimen/thing_mg_8" android:layout_height="@dimen/thing_mg_13" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_15" android:src="@drawable/b057739_057739k057739" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/guide_imageview">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/tv_guide_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_16" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/ts_24" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_57" android:layout_marginRight="@dimen/thing_dp_16" android:layout_centerHorizontal="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/guide_imageview" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_258" android:adjustViewBounds="true" />
+</RelativeLayout>

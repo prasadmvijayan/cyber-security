@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_17" android:layout_marginRight="@dimen/thing_dp_17" android:layout_centerVertical="true">
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_16" />
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b4_n4" android:gravity="center" android:layout_gravity="right" android:id="@id/tv_title" android:paddingLeft="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:drawableRight="@drawable/a057739m057739d057739" android:drawablePadding="@dimen/thing_dp_6" android:contentDescription="@string/auto_test_toolbar_right_save" android:drawableTint="@color/thing_theme_color_b4_n4" />
+    </LinearLayout>
+</RelativeLayout>

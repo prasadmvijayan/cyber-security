@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:background="@color/thing_theme_color_b_login" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p5" android:layout_marginBottom="@dimen/thing_theme_dimen_p4" android:layout_marginStart="@dimen/thing_mg_32" android:layout_marginEnd="@dimen/thing_mg_32">
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_screen_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/thing_theme_dimen_t10_f" android:textStyle="bold" android:textColor="@color/thing_theme_color_b_login_n1" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_set_password" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                    <TextView android:textSize="@dimen/thing_theme_dimen_t3_f" android:textColor="@color/thing_theme_color_b_login_n3" android:id="@id/tv_change_account_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <com.thingclips.smart.login.ui.widget.AccountView android:id="@id/password_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" />
+                <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_m2" android:id="@id/tv_error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_5" />
+                <com.thingclips.smart.login.ui.widget.LoadingButton android:textSize="@dimen/ts_16" android:id="@id/loading_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" app:text="@string/action_done" app:textColor="@color/thing_theme_color_m1_n1" app:textDisableColor="@color/thing_theme_color_m1_n6" style="@style/loadingButton_styles" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

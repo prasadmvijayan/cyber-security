@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.thingclips.smart.widget.ThingTabs android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ptSelectTextColor="@color/thing_theme_color_b1_n1" app:ptSelectTextSize="@dimen/thing_theme_dimen_t7" app:ptSelectTextStyle="bold" app:ptUnSelectTextColor="@color/thing_theme_color_b1_n3" app:ptUnSelectTextSize="@dimen/thing_theme_dimen_t7" app:ptUnSelectTextStyle="normal" />
+        <View android:layout_gravity="end" android:id="@id/mask" android:layout_width="@dimen/thing_theme_dimen_p6" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_ic3" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:layout_gravity="end" android:id="@id/action" android:layout_width="@dimen/thing_theme_dimen_ic3" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/thing_theme_dimen_p5" />
+</LinearLayout>

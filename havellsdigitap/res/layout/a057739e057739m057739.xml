@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b3_n3" android:gravity="center" android:background="@drawable/b057739a0577399057739" android:padding="@dimen/thing_theme_dimen_p3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

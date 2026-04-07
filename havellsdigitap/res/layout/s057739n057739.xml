@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a0577396057739s057739" android:paddingLeft="@dimen/family_align_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_12" android:src="@drawable/a05773960577390057739" android:layout_centerVertical="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_device" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="@dimen/thing_mg_12" android:layout_toRightOf="@id/iv_add" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/a0577396057739f057739" fresco:placeholderImageScaleType="fitCenter" fresco:roundBottomLeft="true" fresco:roundBottomRight="true" fresco:roundTopLeft="true" fresco:roundTopRight="true" fresco:roundedCornerRadius="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_device" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/family_themed_list_item_title_color" android:id="@id/tv_device" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/family_themed_list_item_subtitle_color" android:id="@id/tv_belong_room" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="" />
+    </LinearLayout>
+</RelativeLayout>

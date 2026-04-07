@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_content_ly" android:layout_width="wrap_content" android:layout_height="fill_parent" android:translationY="-60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/b057739l057739g057739" android:layout_width="@dimen/thing_dp_72" android:layout_height="@dimen/thing_dp_72" android:src="@drawable/a0577393057739n057739" android:scaleType="centerInside" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/error_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/load_failed_check_network" />
+    <TextView android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/reload_tv" android:background="@drawable/a0577393057739c057739" android:paddingLeft="28.0dip" android:paddingTop="10.0dip" android:paddingRight="28.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/webview_reload" />
+</LinearLayout>

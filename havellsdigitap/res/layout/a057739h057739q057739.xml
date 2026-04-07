@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/rl_search_box_collapsed" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_66" android:contentDescription="@string/auto_test_timezone_search"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.searchview.ThingCommonSearchViewSupernatant android:id="@id/thing_common_sv_collaped" android:paddingLeft="@dimen/thing_theme_dimen_p4" android:paddingRight="@dimen/thing_theme_dimen_p4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:thing_common_cet_backgroundColor="@color/thing_theme_color_b1" app:thing_common_sv_background="@drawable/b057739f057739e057739" />
+    <RelativeLayout android:id="@id/view_collaped_rl" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_66" />
+</RelativeLayout>

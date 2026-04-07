@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rl_widget_item" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_widget_item" android:background="@drawable/b0577394057739y057739" android:layout_width="@dimen/thing_mg_54" android:layout_height="@dimen/thing_mg_54" android:src="@drawable/b057739_0577392057739" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/iv_item_mask" android:background="@drawable/b0577395057739m057739" android:visibility="invisible" android:layout_width="@dimen/thing_mg_54" android:layout_height="@dimen/thing_mg_54" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ts_10" android:textColor="#b3ffffff" android:gravity="center" android:id="@id/tv_item_offline_tip" android:background="@drawable/b0577395057739l057739" android:layout_width="@dimen/thing_mg_54" android:layout_height="@dimen/thing_mg_54" android:text="@string/widget_device_offline" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ts_10" android:textColor="@color/thing_theme_color_b1_n2" android:ellipsize="end" android:gravity="center" android:id="@id/tv_widget_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_10" android:layout_marginTop="@dimen/thing_mg_3" android:layout_marginRight="@dimen/thing_mg_10" android:lines="1" android:layout_below="@id/iv_widget_item" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@drawable/b05773950577394057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_360" app:cardBackgroundColor="@color/thing_theme_color_b4" app:cardCornerRadius="@dimen/thing_theme_dimen_c2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/iv_prepare_close" android:background="@drawable/b05773950577398057739" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:src="@drawable/z057739k057739" app:tint="@color/thing_theme_color_b4" />
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/device_icon_view" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_120" android:layout_marginLeft="@dimen/thing_dp_26" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_26" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/ts_18" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:layout_gravity="center" android:id="@id/tv_device_name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_22" android:layout_marginBottom="@dimen/thing_dp_55" />
+        <com.thingclips.smart.uispecs.component.loadingButton.LoadingButton android:id="@id/confirm_next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_60" android:layout_marginRight="@dimen/thing_mg_60" android:layout_marginBottom="@dimen/thing_dp_40" app:text="@string/thing_device_to_add" style="@style/loadingButton_style" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

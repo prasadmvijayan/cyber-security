@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.arm.plugin.view.armedview.ArmedView android:id="@id/view_away" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wh_40" app:layout_constraintEnd_toStartOf="@id/view_disarmed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.thingclips.security.arm.plugin.view.armedview.ArmedView android:id="@id/view_disarmed" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/view_stay" app:layout_constraintStart_toEndOf="@id/view_away" app:layout_constraintTop_toTopOf="@id/view_away" />
+    <com.thingclips.security.arm.plugin.view.armedview.ArmedView android:id="@id/view_stay" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/view_disarmed" app:layout_constraintTop_toTopOf="@id/view_away" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_dp_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/view_stay" app:layout_goneMarginTop="@dimen/thing_dp_40" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.thingclips.smart.uispecs.component.AdaptiveItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aiv_family_name" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" android:layout_marginTop="@dimen/thing_mg_16" />
+        <com.thingclips.smart.uispecs.component.AdaptiveItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aiv_room_manage" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" />
+        <com.thingclips.smart.uispecs.component.AdaptiveItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aiv_family_location" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" />
+        <com.thingclips.smart.uispecs.component.AdaptiveItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aiv_family_permission" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64" />
+        <TextView android:textColor="@color/family_themed_page_section_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/family_align_left" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_mg_10" android:text="@string/family_member" />
+    </LinearLayout>
+</RelativeLayout>

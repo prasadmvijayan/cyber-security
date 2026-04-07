@@ -1,0 +1,31 @@
+.class public final Lcom/thingclips/smart/home/theme/api/R$menu;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/home/theme/api/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "menu"
+.end annotation
+
+
+# static fields
+.field public static final toolbar_default:I = 0x7f0e0018
+
+.field public static final toolbar_top_back_done:I = 0x7f0e0019
+
+.field public static final toolbar_top_refresh:I = 0x7f0e001a
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

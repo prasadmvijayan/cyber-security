@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.widget.ThingImageView android:layout_gravity="center" android:id="@id/iv_menu_left" android:visibility="visible" android:layout_width="@dimen/thing_theme_dimen_ic3" android:layout_height="@dimen/thing_theme_dimen_ic3" android:scaleType="centerInside" android:maxWidth="@dimen/thing_theme_dimen_ic3" android:maxHeight="@dimen/thing_theme_dimen_ic3" app:tint="@color/thing_theme_color_b2_n2" app:tintMode="src_in"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

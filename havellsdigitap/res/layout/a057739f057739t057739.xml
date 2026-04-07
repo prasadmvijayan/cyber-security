@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:paddingLeft="@dimen/thing_mg_20" android:paddingRight="@dimen/thing_mg_20" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:contentDescription="@string/auto_test_dialog_switch_list_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="@dimen/thing_mg_56" android:layout_marginRight="30.0dip" android:maxLines="2" android:layout_centerVertical="true" />
+    <com.thingclips.smart.uispecs.component.CheckBoxWithAnim android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

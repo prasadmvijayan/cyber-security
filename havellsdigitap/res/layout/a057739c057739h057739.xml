@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar_top_view" android:background="@color/thing_theme_color_b6" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" android:minHeight="?actionBarSize" style="@style/toolbar_action_text" />
+    <ScrollView android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/toolbar_top_view">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/ts_30" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center" android:id="@id/statementTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_25" android:layout_marginBottom="@dimen/thing_dp_25" android:text="@string/debug_alert_title" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n2" android:id="@id/statementContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_25" android:layout_marginBottom="@dimen/thing_dp_25" android:text="@string/debug_alert_content" android:layout_below="@id/statementTitle" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/bottomLayout" android:background="@color/thing_theme_color_b5" android:paddingLeft="@dimen/thing_dp_15" android:paddingRight="@dimen/thing_dp_15" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:id="@id/tvDisagree" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_disagree_logoff" android:contentDescription="disagree_privacy" />
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:id="@id/tvAgree" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_agree" android:layout_alignParentRight="true" android:contentDescription="agree_privacy" />
+    </RelativeLayout>
+</RelativeLayout>

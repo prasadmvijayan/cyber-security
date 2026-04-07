@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginBottom="@dimen/thing_dp_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textStyle="bold" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_adv_filter_control_header" android:lines="1" android:singleLine="true" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/imvArrow" android:padding="@dimen/wh_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/wh_4" android:src="@drawable/a057739e0577391057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tint="@color/thing_theme_color_b6_n1" />
+</RelativeLayout>

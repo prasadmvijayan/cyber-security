@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:paddingTop="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_panel_edit_device_rl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/panel_device_img_sv" android:layout_width="@dimen/thing_mg_48" android:layout_height="@dimen/thing_mg_48" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_centerVertical="true" app:failureImage="@drawable/a057739s057739r057739" app:failureImageScaleType="fitXY" app:placeholderImage="@drawable/a057739s057739r057739" app:placeholderImageScaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_12" android:layout_marginRight="@dimen/thing_mg_64" android:layout_toRightOf="@id/panel_device_img_sv" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/thing_sp_20" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_panel_device_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_panel_device_location_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_4" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_edit" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_30" android:layout_marginRight="@dimen/thing_mg_16" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_21" android:src="@drawable/a057739s057739c057739" android:scaleType="fitXY" android:tintMode="src_in" app:tint="@color/thing_theme_color_b6_n5" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/thing_dp_7" android:layout_height="@dimen/thing_dp_12" android:layout_marginLeft="@dimen/thing_mg_4" android:src="@drawable/h057739n057739" android:scaleType="fitXY" android:tintMode="src_in" app:tint="@color/thing_theme_color_b6_n6" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_16" style="@style/line_normal" />
+</LinearLayout>

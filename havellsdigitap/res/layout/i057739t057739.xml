@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/o057739a057739" android:minWidth="@dimen/thing_dp_64" android:minHeight="@dimen/thing_dp_64" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_icon_src" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/o0577396057739" android:layout_centerInParent="true" />
+</RelativeLayout>

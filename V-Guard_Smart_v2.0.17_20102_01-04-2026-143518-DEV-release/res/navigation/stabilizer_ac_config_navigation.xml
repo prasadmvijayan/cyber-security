@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/stabilizer_ac_config_navigation" app:startDestination="@id/stabilizerAcRemoteConfigurationFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.vguard.smart.view.stabilizer.StabilizerAcRemoteConfigurationFragment" android:id="@id/stabilizerAcRemoteConfigurationFragment">
+        <action android:id="@id/action_stabilizerAcRemoteConfigurationFragment_to_stabilizerAcCustomRemoteConfiguration" app:destination="@id/stabilizerAcCustomRemoteConfiguration" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.view.stabilizer.StabilizerCustomAcRemoteFragment" android:id="@id/stabilizerAcCustomRemoteConfiguration" />
+</navigation>

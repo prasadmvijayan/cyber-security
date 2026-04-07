@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/colorLightDark" android:id="@id/tv_title" android:paddingLeft="@dimen/thing_mg_15" android:paddingTop="@dimen/thing_mg_24" android:paddingBottom="@dimen/thing_mg_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/rl_feedback_type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wh_44">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/colorDark" android:id="@id/tv_feedback_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_15" android:src="@drawable/h057739n057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line_long" android:background="@color/list_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/line_dip" />
+    <View android:id="@id/line_long_medium" android:background="@color/list_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/line_dip" android:layout_marginLeft="@dimen/thing_mg_15" />
+</LinearLayout>

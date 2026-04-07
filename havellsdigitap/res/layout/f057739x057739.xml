@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/frameContent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.security.base.calendarview.MonthViewPager android:id="@id/vp_month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" />
+        <com.thingclips.security.base.calendarview.WeekViewPager android:id="@id/vp_week" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="41.0dip" />
+        <ImageView android:layout_marginTop="@dimen/thing_dp_30" style="@style/base_gray_line_horizontal_style" />
+        <View android:id="@id/line" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="16.0dip" />
+    </FrameLayout>
+    <com.thingclips.security.base.calendarview.YearViewPager android:id="@id/selectLayout" android:background="@color/thing_theme_color_b4" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

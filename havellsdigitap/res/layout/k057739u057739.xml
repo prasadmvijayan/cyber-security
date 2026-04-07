@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/menu_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_checked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/x057739g057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_14" android:layout_marginRight="@dimen/thing_mg_2" android:layout_marginBottom="@dimen/thing_mg_14" android:layout_toLeftOf="@id/iv_checked" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:layout_gravity="center_vertical" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/ts_12" android:textColor="?camera_panelmore_item_subtitle_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/menu_list_sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:maxLines="2" android:layout_below="@id/menu_list_title" />
+            <ImageView android:id="@id/menu_list_title_alert" android:background="@drawable/o057739x057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_18" android:layout_height="@dimen/thing_dp_18" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_5" android:layout_toEndOf="@id/menu_list_title" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

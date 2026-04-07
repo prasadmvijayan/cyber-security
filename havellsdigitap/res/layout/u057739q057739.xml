@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_page_subtitle" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" />
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_color_accent" android:ellipsize="end" android:id="@id/v_expansion" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</merge>

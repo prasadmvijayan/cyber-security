@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/rl_content" android:background="@color/theme_list_background" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" app:kswBackDrawable="@drawable/b057739i057739a057739" app:kswThumbColor="@color/white" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/theme_list_title" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_16" android:layout_toLeftOf="@id/switch_btn" />
+</RelativeLayout>

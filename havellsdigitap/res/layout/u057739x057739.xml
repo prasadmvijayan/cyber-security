@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a05773970577394057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.familylist.ui.widget.PHRecyclerView android:id="@id/rv_func" android:background="@color/thing_theme_color_b4" android:paddingTop="@dimen/thing_theme_dimen_p2" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_25" />
+    <include android:id="@id/rl_family_manager" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" layout="@layout/v057739_057739" />
+</LinearLayout>

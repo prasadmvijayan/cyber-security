@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_message" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_message" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/THING_RecyclerView_Normal" />
+            <TextView android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_message_none" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_scene_log_empty" android:drawablePadding="@dimen/thing_theme_dimen_p5" app:drawableTopCompat="@drawable/a057739z057739d057739" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

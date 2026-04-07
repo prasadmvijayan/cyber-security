@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/heater_smart_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_border" android:background="@color/top_border" android:layout_width="fill_parent" android:layout_height="@dimen/top_border_width" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_border">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tl_tariff_rate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:hint="@string/bldc_tariff_title" android:layout_marginEnd="@dimen/size_10" app:endIconDrawable="@drawable/ic_down_arrow" app:endIconMode="custom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/VGTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/et_tariff_rate" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select" android:inputType="text" style="@style/VGTextInputEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_analytics_list" android:paddingTop="@dimen/size_20" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tl_tariff_rate" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

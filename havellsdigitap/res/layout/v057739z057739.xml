@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/thing_dp_24" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_refresh" android:layout_width="@dimen/thing_dp_16" android:layout_height="@dimen/thing_dp_16" android:src="@drawable/f0577396057739" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_m4" android:layout_gravity="center_vertical" android:id="@id/tv_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toolbar_menu_refresh" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_m4" android:gravity="right" android:id="@id/tv_no_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_find_wifi" android:layout_toRightOf="@id/ll_left" android:layout_alignParentRight="true" />
+</RelativeLayout>

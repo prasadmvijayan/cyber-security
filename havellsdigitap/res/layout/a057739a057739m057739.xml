@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/title_item_ll" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_44"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_date_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/security_message_center_selector_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/date_selector_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/thing_dp_150" android:text="@string/ipc_ai_fr_detect_time" android:singleLine="true" android:drawableRight="@drawable/b0577394057739f057739" android:drawablePadding="@dimen/thing_dp_5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_class_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/security_message_center_selector_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/class_selector_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/push_alarm_event_type" android:singleLine="true" android:drawableRight="@drawable/b0577394057739f057739" android:drawablePadding="@dimen/thing_dp_5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_device_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/security_message_center_selector_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/device_selector_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/device_title" android:singleLine="true" android:drawableRight="@drawable/b0577394057739f057739" android:drawablePadding="@dimen/thing_dp_5" />
+    </LinearLayout>
+</LinearLayout>

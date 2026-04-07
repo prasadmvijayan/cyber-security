@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.login.ui.widget.InputView android:id="@id/input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/auto_test_verification_enter" app:icv_et_bg_focus="@drawable/a057739n0577395057739" app:icv_et_bg_normal="@drawable/a057739n0577397057739" app:icv_et_main_axis_alignment="space_between" app:icv_et_number="6" app:icv_et_text_color="@color/thing_theme_color_b_login_n1" app:icv_et_text_size="@dimen/thing_theme_dimen_t11_f" app:icv_et_width="@dimen/wh_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

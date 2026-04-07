@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/fl_item" android:background="@color/themed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginRight="@dimen/thing_dp_82" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_82">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/themed_list_item_title_color" android:layout_gravity="center_vertical" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="right" android:layout_gravity="right" android:id="@id/menu_list_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_dp_15" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackDrawable="@drawable/b0577397057739p057739" app:kswThumbColor="@color/themed_switch_thumb_color" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.camera.middleware.widget.ThingCameraView android:id="@id/camera_video_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <com.thingclips.smart.doorlock.ipc.videodoorbell.widget.LoadingImageView android:gravity="center" android:id="@id/camera_loading_img" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_30" android:textColor="@color/white" android:id="@id/tv_doorbell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_55" android:text="@string/ipc_video_call_doorbell_ringing" />
+    <com.thingclips.smart.doorlock.ipc.videodoorbell.widget.CameraWaitingTextView android:id="@id/doorbell_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_10" android:layout_below="@id/tv_doorbell_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/speaker_opera_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_100" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/speaker_reject" android:background="@drawable/a0577392057739v057739" android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/speaker_accept_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/speaker_accept" android:background="@drawable/a0577392057739o057739" android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/white" android:id="@id/speaker_failed_txt" android:background="@drawable/a0577392057739w057739" android:paddingLeft="@dimen/thing_dp_15" android:paddingTop="@dimen/thing_dp_5" android:paddingRight="@dimen/thing_dp_15" android:paddingBottom="@dimen/thing_dp_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_15" android:text="@string/ipc_video_call_audio_failed" android:layout_centerHorizontal="true" />
+</RelativeLayout>

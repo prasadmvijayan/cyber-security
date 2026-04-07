@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/imagina_navigation" app:startDestination="@id/fragment_imagina_network_password"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/network_password" android:name="com.vguard.smart.view.fan.imagina.ImaginaNetworkPasswordFragment" android:id="@id/fragment_imagina_network_password">
+        <action android:id="@id/action_fragment_imagina_network_password_to_fragment_imagina_fan" app:destination="@id/fragment_imagina_fan" app:popUpTo="@id/fragment_imagina_network_password" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="@string/available_fans" android:name="com.vguard.smart.view.fan.imagina.ImaginaFanFragment" android:id="@id/fragment_imagina_fan">
+        <action android:id="@id/action_fragment_imagina_fan_to_fragment_imagina_fan_dashboard" app:destination="@id/fragment_imagina_fan_dashboard" />
+        <action android:id="@id/action_fragment_imagina_fan_group_to_fragment_imagina_fan_dashboard" app:destination="@id/fragment_imagina_fan_dashboard" />
+    </fragment>
+    <fragment android:label="@string/fan_group" android:name="com.vguard.smart.view.fan.imagina.ImaginaFanGroupFragment" android:id="@id/fragment_imagina_fan_group" />
+    <fragment android:name="com.vguard.smart.view.fan.imagina.ImaginaDashboardFragment" android:id="@id/fragment_imagina_fan_dashboard">
+        <action android:id="@id/action_fragment_imagina_fan_dashboard_to_fragment_imagina_fan_mood_light" app:destination="@id/fragment_imagina_fan_mood_light" />
+        <action android:id="@id/action_fragment_imagina_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.view.fan.imagina.ImaginaMoodLightFragment" android:id="@id/fragment_imagina_fan_mood_light" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/stabilizer_navigation" app:startDestination="@id/fragment_retro_switch_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.vguard.smart.view.retroswitch.RetroSwitchDashboardFragment" android:id="@id/fragment_retro_switch_dashboard">
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_plugCreateScheduleFragment" app:destination="@id/plugCreateScheduleFragment" />
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_productInfoFragment" app:destination="@id/productInfoFragment" />
+        <action android:id="@id/action_fragment_retro_switch_dashboard_to_retroSwitchDetailsFragment" app:destination="@id/retroSwitchDetailsFragment" />
+        <action android:id="@id/action_retroSwitchSchedulerFragment_to_retroSwitchCreateScheduleFragment" app:destination="@id/retroSwitchCreateScheduleFragment" />
+        <action android:id="@id/action_retroSwitchSmartTabFragment_to_retroLoopTimerFragment" app:destination="@id/retroLoopTimerFragment" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.view.home.myproducts.ProductDetailsFragment" android:id="@id/productDetailsFragment">
+        <action android:id="@id/action_productDetailsFragment_to_productEditFragment" app:destination="@id/productEditFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+        <action android:id="@id/action_productDetailsFragment_to_productShareFragment" app:destination="@id/productShareFragment" />
+    </fragment>
+    <fragment android:label="@string/edit_prod_details" android:name="com.vguard.smart.view.home.myproducts.edit.ProductEditFragment" android:id="@id/productEditFragment" />
+    <fragment android:label="@string/product_settings" android:name="com.vguard.smart.view.home.myproducts.ProductSettingsFragment" android:id="@id/productSettingsFragment" />
+    <fragment android:label="@string/share_product" android:name="com.vguard.smart.view.home.myproducts.ProductShareFragment" android:id="@id/productShareFragment" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.retroswitch.RetroSwitchDetailsFragment" android:id="@id/retroSwitchDetailsFragment">
+        <action android:id="@id/action_retroSwitchDetailsFragment_to_retroSwitchSchedulerFragment" app:destination="@id/retroSwitchSchedulerFragment" />
+        <action android:id="@id/action_retroSwitchDetailsFragment_to_retroLoopTimerFragment" app:destination="@id/retroLoopTimerFragment" />
+    </fragment>
+    <fragment android:label="" android:name="com.vguard.smart.view.retroswitch.RetroSwitchCreateScheduleFragment" android:id="@id/retroSwitchCreateScheduleFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.retroswitch.RetroLoopTimerFragment" android:id="@id/retroLoopTimerFragment" />
+    <fragment android:label="" android:name="com.vguard.smart.view.retroswitch.RetroSwitchSchedulerFragment" android:id="@id/retroSwitchSchedulerFragment">
+        <action android:id="@id/action_retroSwitchSchedulerFragment_to_retroSwitchCreateScheduleFragment" app:destination="@id/retroSwitchCreateScheduleFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_dp_13" android:textColor="@color/thing_theme_color_b4_n3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/logUploadChoose" android:paddingLeft="@dimen/thing_dp_20" android:paddingRight="@dimen/thing_dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_15" android:text="@string/action_upload_log_choose" android:lineSpacingMultiplier="1.3" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_26">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btnMail" android:padding="@dimen/thing_dp_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/btnMailImg" android:background="@drawable/a057739q057739_057739" android:padding="@dimen/thing_dp_10" android:layout_width="@dimen/thing_dp_60" android:layout_height="@dimen/thing_dp_60" android:src="@drawable/a057739q057739g057739" app:tint="@color/thing_theme_color_b4_n5" app:tintMode="src_in" />
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b4_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/action_send_email" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btnWechat" android:padding="@dimen/thing_dp_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/btnWechatImg" android:background="@drawable/a057739q057739_057739" android:padding="@dimen/thing_dp_10" android:layout_width="@dimen/thing_dp_60" android:layout_height="@dimen/thing_dp_60" android:src="@drawable/a057739q057739h057739" app:tint="@color/thing_theme_color_b4_n5" app:tintMode="src_in" />
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b4_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/action_send_wechat" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btnCopy" android:padding="@dimen/thing_dp_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/btnCopyImg" android:background="@drawable/a057739q057739_057739" android:padding="@dimen/thing_dp_10" android:layout_width="@dimen/thing_dp_60" android:layout_height="@dimen/thing_dp_60" android:src="@drawable/a057739q057739e057739" app:tint="@color/thing_theme_color_b4_n5" app:tintMode="src_in" />
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b4_n3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/action_copy_log" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/thing_dp_15" android:textColor="@color/thing_theme_color_b6_n2" android:gravity="center" android:id="@id/btnCancel" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_marginTop="@dimen/thing_dp_22" android:text="@android:string/cancel" />
+</LinearLayout>

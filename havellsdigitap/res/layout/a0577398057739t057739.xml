@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/a057739x057739_057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_12" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_10" android:layout_marginBottom="@dimen/thing_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

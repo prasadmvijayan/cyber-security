@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <FrameLayout android:background="?camera_panelmore_item_bg" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginTop="@dimen/thing_dp_28">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ipc_ai_fr_service_name" />
+        <TextView android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/camera_cloud_disk_txt_service_name" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:background="?camera_panelmore_item_bg" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ipc_ai_fr_service_status" />
+        <TextView android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/camera_cloud_disk_txt_service_status" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:background="?camera_panelmore_item_bg" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ipc_ai_fr_expried_date" />
+        <TextView android:textColor="?camera_panelmore_item_subtitle_text_color" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/camera_cloud_disk_txt_expried_date" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:id="@id/camera_cloud_disk_txt_order_check" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginTop="@dimen/thing_dp_40" android:text="@string/ipc_cloud_disk_order_check" />
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:id="@id/camera_cloud_disk_txt_renew" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:text="@string/ipc_ai_fr_subscribe_now" />
+</LinearLayout>

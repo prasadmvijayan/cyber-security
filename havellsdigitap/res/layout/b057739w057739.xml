@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1_n8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_alarm_layout" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/a057739y057739e057739" android:layout_width="276.0dip" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/rl_top" android:background="@drawable/a057739y057739d057739" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_150" android:layout_marginTop="-25.0dip">
+                        <ImageView android:gravity="center" android:id="@id/push_alarm_icon" android:layout_width="@dimen/thing_dp_35" android:layout_height="@dimen/thing_dp_35" android:src="@drawable/a057739y0577397057739" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/push_alarm_c1" android:layout_width="@dimen/thing_dp_100" android:layout_height="@dimen/thing_dp_100" android:src="@drawable/a057739y057739a057739" android:layout_alignBaseline="@id/push_alarm_icon" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/push_alarm_c2" android:layout_width="@dimen/thing_dp_214" android:layout_height="@dimen/thing_dp_214" android:src="@drawable/a057739y057739b057739" android:layout_centerInParent="true" />
+                        <TextView android:textSize="@dimen/thing_dp_17" android:textColor="@color/thing_theme_color_m2_n2" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_5" android:layout_below="@id/push_alarm_icon" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <com.thingclips.smart.pushcenter.view.adapter.AlarmItemRecyclerView android:id="@id/id_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_20" android:layout_below="@id/rl_top" app:maxHeight="190.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_alarm_recycler_mask" android:background="@drawable/a057739y057739_057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_20" android:layout_alignBottom="@id/id_recycler" />
+            </RelativeLayout>
+            <Button android:textSize="@dimen/thing_dp_18" android:textColor="@color/thing_theme_color_m1_n1" android:layout_gravity="center" android:id="@id/btn_jump" android:background="@drawable/a057739y0577395057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" android:layout_marginLeft="@dimen/thing_dp_40" android:layout_marginTop="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_40" android:layout_marginBottom="@dimen/thing_dp_20" android:text="@string/push_alarm_view" android:textAllCaps="false" android:stateListAnimator="@null" />
+            <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_more_alarms" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_24" android:includeFontPadding="false" android:drawableRight="@drawable/a057739y0577398057739" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/close" android:layout_width="@dimen/thing_dp_30" android:layout_height="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_40" android:src="@drawable/a057739y0577396057739" android:layout_below="@id/ll_alarm_layout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

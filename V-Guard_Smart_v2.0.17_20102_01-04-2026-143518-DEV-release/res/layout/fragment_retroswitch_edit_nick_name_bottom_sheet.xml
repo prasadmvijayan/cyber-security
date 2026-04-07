@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/logout_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/card_corner_radius" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/inc_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_bottom_sheet_top" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/nick_name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/switch_name" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" android:layout_marginVertical="@dimen/activity_vertical_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/inc_top" style="@style/VGTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/et_nick_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="@integer/nickname_limit" android:inputType="textCapCharacters|textNoSuggestions" android:imeOptions="actionNext" android:textAllCaps="true" style="@style/VGTextInputEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button android:gravity="center" android:id="@id/btn_save" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/save" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/nick_name_layout" style="@style/VGButtonOrange" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

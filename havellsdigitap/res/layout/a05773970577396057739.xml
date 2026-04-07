@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/head_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginRight="@dimen/thing_dp_15">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/head_icon" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:ellipsize="end" android:gravity="right" android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_6" android:maxLines="1" android:maxEms="12" android:singleLine="true" android:drawableRight="@drawable/a057739u057739p057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_6" android:layout_alignParentEnd="true" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_head_icon" android:layout_width="@dimen/thing_dp_36" android:layout_height="@dimen/thing_dp_36" android:layout_marginRight="@dimen/thing_dp_6" android:layout_toLeftOf="@id/iv_arrow" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_6" android:layout_toStartOf="@id/iv_arrow" fresco:placeholderImage="@drawable/a057739w057739s057739" fresco:placeholderImageScaleType="fitCenter" fresco:roundAsCircle="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/a057739h057739j057739" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_light_scene" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_empty" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_110" android:src="@drawable/b057739_057739y057739" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="#ffa2a3aa" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_no_manual" android:layout_below="@id/iv_empty" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n1" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_step_tip" android:paddingTop="@dimen/thing_dp_24" android:paddingBottom="@dimen/thing_dp_24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_light_scene_add_area_tip" android:paddingStart="@dimen/thing_dp_32" android:paddingEnd="@dimen/thing_dp_32"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</FrameLayout>

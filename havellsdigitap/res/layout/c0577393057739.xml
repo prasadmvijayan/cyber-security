@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_ap_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout">
+        <ImageView android:id="@id/img_ap_mode_status" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_210" android:src="@drawable/k057739y057739" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_start_ap_model" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/img_ap_mode_status">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_ssid" android:background="?camera_ap_password_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:textSize="@dimen/thing_dp_16" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:layout_width="@dimen/thing_dp_75" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_14" android:text="@string/thing_wifi_name" />
+                <TextView android:textSize="@dimen/thing_dp_12" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:id="@id/txt_ssid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_password" android:background="?camera_ap_password_bg" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:textSize="@dimen/thing_dp_14" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center_vertical" android:layout_width="@dimen/thing_dp_75" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_14" android:text="@string/input_password" />
+                <EditText android:textSize="@dimen/thing_dp_12" android:textColor="?camera_panelmore_item_title_text_color" android:textColorHint="@color/gray" android:id="@id/camera_ap_password_et" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/input_password" android:layout_weight="1.0" android:inputType="textPassword" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/camera_img_show_password" android:padding="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/l0577391057739" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="?camera_panelmore_item_title_text_color" android:id="@id/txt_ap_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_14" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginRight="@dimen/thing_dp_14" android:text="@string/ipc_settings_ap_enable_hint" android:layout_below="@id/ll_password" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ts_18" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:id="@id/camera_txt_ap_online" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20" android:text="@string/ipc_settings_ap_started" android:layout_below="@id/img_ap_mode_status" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="?camera_panelmore_item_title_text_color" android:gravity="center" android:id="@id/camera_txt_ap_online_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:layout_below="@id/camera_txt_ap_online" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/white" android:gravity="center" android:id="@id/camera_ap_action" android:background="@drawable/b05773950577390057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_marginLeft="@dimen/thing_dp_14" android:layout_marginRight="@dimen/thing_dp_14" android:layout_marginBottom="@dimen/thing_dp_18" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+</RelativeLayout>

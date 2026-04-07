@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.fragment.app.FragmentContainerView android:id="@id/fcv_normal_manual_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.fragment.app.FragmentContainerView android:id="@id/fcv_recommend_manual_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

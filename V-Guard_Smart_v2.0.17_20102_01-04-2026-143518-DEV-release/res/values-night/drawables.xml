@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="app_info_logo">@drawable/ic_about_logo_dark</item>
+    <item type="drawable" name="deactivate_question_mark">@drawable/ic_deactivate_question_mark_dark</item>
+    <item type="drawable" name="minus_icon_disable">@drawable/ic_minus_disable</item>
+    <item type="drawable" name="minus_icon_enable">@drawable/ic_minus_button</item>
+    <item type="drawable" name="plus_icon_disable">@drawable/ic_plus_disable</item>
+    <item type="drawable" name="plus_icon_enable">@drawable/ic_plus_button</item>
+    <item type="drawable" name="pump_water_level_bg">@drawable/ic_pump_water_level_bg_dark</item>
+    <item type="drawable" name="retro_switch_off_icon">@drawable/ic_retro_switch_off_dark</item>
+    <item type="drawable" name="retro_switch_on_icon">@drawable/ic_retro_switch_on_dark</item>
+</resources>

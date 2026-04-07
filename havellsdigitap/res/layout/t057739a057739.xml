@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/half_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:background="@drawable/b057739_057739n057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_44" android:layout_alignParentTop="true" app:thing_common_toolbar_background="@android:color/transparent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRecyclerView" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="-16.0dip" android:layout_marginRight="@dimen/thing_dp_16" android:minHeight="@dimen/thing_dp_320" />
+        <com.thingclips.smart.widget.common.button.ThingCommonButton android:enabled="true" android:id="@id/btnDone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_mg_24" android:text="@string/action_done" app:thing_common_button_type="primary" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/layoutEmpty" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_320" android:text="@string/home_adv_card_filter_condition_empty" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layOut" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rootLayout" />
+</RelativeLayout>

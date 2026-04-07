@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/camera_cloud_storage_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/tv_camera_cloud_tip" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_55" android:layout_marginLeft="@dimen/thing_dp_10" android:text="@string/ipc_live_page_cstorage_motion_detected" android:drawableLeft="@drawable/u057739u057739" android:drawablePadding="@dimen/thing_dp_7" />
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_camera_cloud_tip" android:overScrollMode="never">
+            <com.thingclips.smart.camera.uiview.view.PullRefreshRecyclerView android:id="@id/camera_cloud_more_motion" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:layout_marginBottom="@dimen/thing_dp_5" android:overScrollMode="never" />
+        </ScrollView>
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/camera_cloud_over_warning" android:background="#f3202020" android:padding="@dimen/thing_dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ipc_live_page_cstorage_expired_txt" android:maxLines="2" android:drawableLeft="@drawable/n0577394057739" android:drawablePadding="@dimen/thing_dp_10" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <include android:id="@id/camera_cloud_storage_empty" android:visibility="gone" layout="@layout/j0577395057739" />
+    <include android:id="@id/camera_cloud_storage_null" android:visibility="gone" layout="@layout/j0577396057739" />
+</RelativeLayout>

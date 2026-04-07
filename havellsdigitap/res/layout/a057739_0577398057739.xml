@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/thing_theme_dimen_c3_1" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdv_guide_icon" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_258" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t5" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/tv_guide_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_20" android:layout_marginRight="@dimen/thing_mg_16" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

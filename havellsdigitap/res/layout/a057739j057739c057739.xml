@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" app:swipe_style="classic">
+        <include android:id="@id/swipe_refresh_header" layout="@layout/a057739j0577395057739" />
+        <View android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_10" />
+    </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

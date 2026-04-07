@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/swipe_target" android:background="@color/transparent" android:paddingTop="@dimen/thing_dp_9" android:paddingBottom="@dimen/thing_dp_9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <RelativeLayout android:id="@id/rl_empty" android:background="?fragment_bg_color" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/family_themed_page_section_title_color" android:gravity="center" android:id="@id/tv_no_scene" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/family_scene_empty_tip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_empty" android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/a0577396057739n057739" android:layout_above="@id/tv_no_scene" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/ts_14" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_add_scene" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="wrap_content" android:layout_height="@dimen/wh_36" android:layout_marginTop="20.0dip" android:minWidth="@dimen/thing_mg_120" android:lines="1" android:layout_below="@id/tv_no_scene" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

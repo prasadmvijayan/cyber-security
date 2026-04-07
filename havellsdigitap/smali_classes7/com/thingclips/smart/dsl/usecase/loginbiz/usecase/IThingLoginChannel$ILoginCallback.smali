@@ -1,0 +1,14 @@
+.class public interface abstract Lcom/thingclips/smart/dsl/usecase/loginbiz/usecase/IThingLoginChannel$ILoginCallback;
+.super Ljava/lang/Object;
+.source "IThingLoginChannel.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/dsl/usecase/loginbiz/usecase/IThingLoginChannel;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ILoginCallback"
+.end annotation

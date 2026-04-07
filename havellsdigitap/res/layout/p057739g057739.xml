@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/ns_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/errorView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739_057739b057739" android:scaleType="centerInside" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

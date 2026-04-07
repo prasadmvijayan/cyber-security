@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_cloud_delete_today" android:background="@drawable/w0577390057739" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?camera_cloud_delete_today" />
+        <TextView android:textSize="@dimen/thing_sp_10" android:textColor="?camera_photo_layout_button_textColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/ipc_cloud_delete_today" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_cloud_download" android:background="@drawable/w0577390057739" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?camera_cloud_download" />
+        <TextView android:textSize="@dimen/thing_sp_10" android:textColor="?camera_photo_layout_button_textColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_2" android:text="@string/ipc_cloud_download" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_cloud_delete" android:background="@drawable/w0577390057739" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?camera_cloud_storage_delete" />
+        <TextView android:textSize="@dimen/thing_sp_10" android:textColor="?camera_photo_layout_button_textColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_2" android:text="@string/ipc_cloud_delete" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_cloud_delete_select" android:background="@drawable/w0577390057739" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?camera_cloud_delete_select" />
+        <TextView android:textSize="@dimen/thing_sp_10" android:textColor="?camera_photo_layout_button_textColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/ipc_cloud_delete_selected" />
+    </LinearLayout>
+</LinearLayout>

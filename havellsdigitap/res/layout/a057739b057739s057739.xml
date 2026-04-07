@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="gone" style="@style/line_long" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56">
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:gravity="center|right" android:id="@id/phone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:lines="1" android:singleLine="true" android:drawableRight="@drawable/h057739n057739" android:drawablePadding="@dimen/thing_mg_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:drawableEnd="@drawable/h057739n057739" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/ts_15" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:gravity="center|left" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:maxWidth="@dimen/thing_mg_200" android:lines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+    </RelativeLayout>
+    <View android:id="@id/line" android:visibility="gone" android:layout_alignParentBottom="true" style="@style/line_long" />
+    <View android:visibility="gone" android:layout_alignParentBottom="true" style="@style/line_long" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_fan_bottom" android:id="@id/fragment_imagina_fan" android:title="@string/fan" />
+    <item android:icon="@drawable/ic_bldc_smart" android:id="@id/fragment_imagina_smart" android:title="@string/smart" />
+</menu>

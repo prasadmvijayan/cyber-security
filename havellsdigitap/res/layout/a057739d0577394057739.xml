@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.RoundAngleFrameLayout android:id="@id/root_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:thing_bottom_left_radius="4.0dip" app:thing_top_right_radius="4.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/pop_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/thing_base_ui_cancel_default_color" android:gravity="center" android:id="@id/tv_cancel" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57" android:text="@string/thing_base_ui_cancel" />
+        </LinearLayout>
+    </com.thingclips.smart.widget.RoundAngleFrameLayout>
+</RelativeLayout>

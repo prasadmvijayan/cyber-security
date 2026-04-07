@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a057739j057739v057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_rhythm_node" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_theme_dimen_p4" android:layout_marginStart="@dimen/thing_theme_dimen_p4" android:layout_marginEnd="@dimen/thing_theme_dimen_p4" app:layout_constraintTop_toTopOf="parent" />
+    <com.thingclips.smart.light.scene.plug.widget.LightRhythmView android:id="@id/light_rhythm_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_24" android:layout_marginStart="@dimen/thing_theme_dimen_p5" android:layout_marginEnd="@dimen/thing_theme_dimen_p5" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/thing_theme_color_b3_n9" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_0.5" android:layout_marginTop="@dimen/thing_mg_24" />
+    <TextView android:enabled="false" android:textSize="@dimen/thing_theme_dimen_t4" android:textColor="@color/light_scene_rhythm_reset_text_color" android:gravity="center" android:id="@id/tv_reset" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50" android:text="@string/light_scene_reset" />
+</LinearLayout>

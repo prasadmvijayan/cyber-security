@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/light_scene_location_choose_area" app:startDestination="@id/step_area"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.thingclips.smart.light.scene.plug.location.fragment.LightSceneAreaFragment" android:id="@id/step_area">
+        <action android:id="@id/action_next_step" app:destination="@id/step_area" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+</navigation>

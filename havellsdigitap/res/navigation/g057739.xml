@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_activator_reset"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="WifiInputFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.WifiInputFragment" android:id="@id/fragment_wifi_input">
+        <action android:id="@id/action_wifi_to_reset" app:destination="@id/fragment_device_reset" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_input" app:popUpToInclusive="true" />
+        <action android:id="@id/action_wifi_to_hotspot" app:destination="@id/fragment_hotspot_connect" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_wifi_input" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="DeviceResetFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.DeviceResetFragment" android:id="@id/fragment_device_reset">
+        <action android:id="@id/action_reset_to_wifi" app:destination="@id/fragment_wifi_input" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_device_reset" app:popUpToInclusive="true" />
+        <action android:id="@id/action_reset_to_hotspot" app:destination="@id/fragment_hotspot_connect" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_device_reset" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="HotspotConnectFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.HotspotConnectFragment" android:id="@id/fragment_hotspot_connect" />
+</navigation>

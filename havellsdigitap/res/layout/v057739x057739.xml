@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_item_circle" android:background="@drawable/y057739e057739" android:layout_width="@dimen/thing_dp_32" android:layout_height="@dimen/thing_dp_32" android:scaleType="fitXY" android:layout_marginEnd="@dimen/thing_mg_8" fresco:failureImage="@drawable/z057739o057739" fresco:failureImageScaleType="centerCrop" fresco:placeholderImage="@drawable/z057739o057739" fresco:roundAsCircle="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" />

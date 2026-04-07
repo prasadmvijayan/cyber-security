@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_switch_panel_content" android:background="@drawable/b057739l057739h057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_title" android:background="@drawable/b057739l057739i057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_44">
+        <ImageView android:layout_width="@dimen/thing_dp_25" android:layout_height="@dimen/thing_dp_25" android:layout_marginLeft="@dimen/thing_dp_12" android:layout_marginRight="@dimen/thing_dp_12" android:src="@drawable/a057739c0577390057739" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title_appname" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:lines="1" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title1" android:paddingLeft="@dimen/thing_dp_4" android:paddingRight="@dimen/thing_dp_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/widget_CFBundleDisplayName" android:lines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_line" android:background="@color/thing_theme_color_b2_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_0.6" />
+    <RelativeLayout android:id="@id/layout_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressbar_loading_devices" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" android:progressTint="@color/thing_theme_color_m1" android:progressTintMode="src_in" android:indeterminateTint="@color/thing_theme_color_m1" />
+    </RelativeLayout>
+    <GridView android:gravity="center" android:id="@id/gridview" android:background="@color/thing_theme_color_b1" android:paddingTop="@dimen/thing_mg_8" android:paddingBottom="@dimen/thing_mg_8" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:verticalSpacing="@dimen/thing_mg_8" android:numColumns="4" />
+    <LinearLayout android:gravity="center" android:id="@id/layout_tip" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/thing_theme_color_b1_n2" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_device_no_home" />
+    </LinearLayout>
+</LinearLayout>

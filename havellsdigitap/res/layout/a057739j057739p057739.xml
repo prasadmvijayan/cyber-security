@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/hsv_tag" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_dialog_title" android:gravity="center" android:id="@id/tv_province" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" />
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_dialog_title" android:gravity="center" android:id="@id/tv_city" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" />
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_dialog_title" android:gravity="center" android:id="@id/tv_district" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" />
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/theme_color_accent" android:gravity="center" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/hs_please_choose" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:id="@id/line" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_dp_16" android:paddingEnd="@dimen/thing_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/hsv_tag" />
+</LinearLayout>

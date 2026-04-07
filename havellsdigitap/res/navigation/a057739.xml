@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/activator_router_connect_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="RouterActivateTypeFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.router_activate.RouterActivateTypeFragment" android:id="@id/fragment_activate_router_type">
+        <action android:id="@id/action_type_to_staticIp" app:destination="@id/fragment_activate_static_ip" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_activate_router_type" app:popUpToInclusive="true" />
+        <action android:id="@id/action_type_to_board_band" app:destination="@id/fragment_activate_board_band" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577398057739" app:popEnterAnim="@anim/e0577394057739" app:popExitAnim="@anim/e0577399057739" app:popUpTo="@id/fragment_activate_router_type" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="RouterPPPoEInfoFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.router_activate.RouterPPPoEInfoFragment" android:id="@id/fragment_activate_board_band" />
+    <fragment android:label="RouterStaticIPInfoFragment" android:name="com.thingclips.smart.activator.device.guide.ui.fragment.router_activate.RouterStaticIPInfoFragment" android:id="@id/fragment_activate_static_ip" />
+</navigation>

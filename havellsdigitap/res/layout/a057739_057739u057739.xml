@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/b0577392057739w057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_room_name" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b6_n1" android:gravity="center|left" android:id="@id/tv_room_name" android:layout_width="0.0dip" android:layout_height="@dimen/thing_dp_58" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="@dimen/thing_dp_56" android:layout_height="fill_parent" android:src="@drawable/b0577393057739e057739" android:scaleType="center" app:tint="@color/thing_theme_color_b1_n3" />
+    </LinearLayout>
+    <com.thingclips.smart.uispecs.component.recyclerView.swipe.LightSwipeMenuRecyclerView android:id="@id/rcv" android:background="@drawable/b0577392057739w057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_room_name" />
+</RelativeLayout>

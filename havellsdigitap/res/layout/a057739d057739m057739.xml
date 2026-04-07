@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingButton android:id="@id/positiveButton" style="@style/ThingCommonDialogButtonStyle" />
+    <View android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" />
+    <com.thingclips.smart.widget.ThingButton android:id="@id/negativeButton" style="@style/ThingCommonDialogButtonStyle.Secondary" />
+</LinearLayout>

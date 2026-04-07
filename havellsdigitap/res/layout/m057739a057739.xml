@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/thing_dp_102" android:layout_height="@dimen/thing_dp_57" android:layout_margin="@dimen/thing_dp_6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.drawee.view.DecryptImageView android:id="@id/iv_time_range_snapshot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" fresco:actualImageScaleType="fitXY" fresco:placeholderImage="@color/image_default" fresco:roundedCornerRadius="@dimen/thing_dp_4" />
+    <ImageView android:id="@id/iv_time_range_snapshot_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/m0577397057739" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/thing_dp_12" android:textColor="#ffffffff" android:id="@id/time_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_2" android:layout_marginTop="@dimen/thing_dp_2" />
+</RelativeLayout>

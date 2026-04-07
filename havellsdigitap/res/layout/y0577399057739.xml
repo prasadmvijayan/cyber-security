@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/action_bar_layout" layout="@layout/y057739m057739" />
+        <com.thingclips.smart.uibizcomponents.scenesTab.wrapper.SceneScenesTabWrapper android:layout_gravity="center" android:id="@id/scene_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout" android:layout_centerVertical="true" app:cmp_stub_id="@id/scene_tab" app:componentName="sceneSceneTab" app:id="@id/scene_tab" />
+        <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/scene_tab" app:swipe_style="classic">
+            <include android:id="@id/swipe_refresh_header" layout="@layout/a057739g057739v057739" />
+            <FrameLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+    </LinearLayout>
+    <com.thingclips.smart.light.scene.plug.widget.LightMusicFloatView android:layout_gravity="bottom" android:id="@id/vMusicFloat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.thingclips.smart.light.scene.plug.widget.LightTrialLayout android:id="@id/ltlTrialLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_34" layout="@layout/a057739e057739_057739" />
+</FrameLayout>

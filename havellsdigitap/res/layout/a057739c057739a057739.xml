@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/app_screen" android:layout_width="@dimen/thing_dp_326" android:layout_height="@dimen/thing_dp_212" android:src="@drawable/a057739a057739s057739" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/speech_icon" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginTop="@dimen/thing_dp_56" android:src="@drawable/a057739a057739w057739" android:layout_marginStart="@dimen/thing_dp_168" app:layout_constraintStart_toStartOf="@id/app_screen" app:layout_constraintTop_toTopOf="@id/app_screen" />
+</androidx.constraintlayout.widget.ConstraintLayout>

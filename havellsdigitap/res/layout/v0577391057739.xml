@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.device.list.widget.HomePageEmptyViewContainer android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="60.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:src="@drawable/b057739_057739y057739" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_no_devices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_home_tip_add_device" />
+    <TextView android:textSize="@dimen/ts_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:ellipsize="end" android:gravity="center" android:id="@id/tv_add_device" android:background="@drawable/a0577399057739t057739" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="wrap_content" android:layout_height="@dimen/wh_40" android:layout_marginTop="20.0dip" android:minWidth="@dimen/thing_mg_120" android:text="@string/home_add_device" android:lines="1" android:contentDescription="@string/auto_test_homepage_emptyadd" />
+</com.thingclips.smart.device.list.widget.HomePageEmptyViewContainer>

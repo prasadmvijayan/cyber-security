@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/ts_14" android:textColor="#ffff9024" android:gravity="center" android:id="@id/tv_network_tip" android:background="#fffff6e3" android:padding="@dimen/thing_mg_15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_mg_52" android:text="@string/thing_no_net_info"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

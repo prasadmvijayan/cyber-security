@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b6_n2" android:gravity="center" android:id="@id/netDiagnosisTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_diagnosis_tip" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.4" />
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_32" android:src="@drawable/a057739q057739d057739" android:layout_above="@id/netDiagnosisTip" android:layout_centerHorizontal="true" app:tint="@color/thing_theme_color_b6_n4" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/netDiagnosis" android:background="@drawable/a057739q0577396057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_50" android:layout_marginLeft="@dimen/thing_dp_50" android:layout_marginTop="@dimen/thing_dp_50" android:layout_marginRight="@dimen/thing_dp_50" android:text="@string/network_diagnosis_begin" android:layout_below="@id/netDiagnosisTip" />
+</RelativeLayout>

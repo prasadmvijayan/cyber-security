@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/keep_alive_check_list" android:padding="@dimen/thing_dp_16" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/thing_sp_15" android:textColor="@color/thing_theme_color_m4" android:gravity="center" android:id="@id/keep_alive_view_tutorial" android:padding="@dimen/thing_dp_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/keep_alive_view_tutorial" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/keep_alive_check_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_status_light_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginRight="@dimen/thing_dp_30" android:layout_marginHorizontal="@dimen/thing_dp_30" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/thing_theme_color_b4" app:cardCornerRadius="@dimen/thing_theme_dimen_c2" app:cardElevation="0.0dip">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/thing_dp_30" android:paddingRight="@dimen/thing_dp_30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/thing_dp_30">
+                <TextView android:textSize="@dimen/thing_sp_18" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20" android:text="@string/thing_speech_assisant_widget_guide_title" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_circle_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_20" />
+                <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/svp_content" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_212" />
+                <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b4_n1" android:gravity="center" android:id="@id/guideInfoView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:lineSpacingExtra="@dimen/thing_dp_4" />
+                <Button android:textSize="@dimen/thing_sp_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:layout_gravity="center_horizontal" android:id="@id/addWidgetButton" android:background="@drawable/a057739a057739h057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" android:layout_marginTop="@dimen/thing_dp_32" android:layout_marginBottom="@dimen/thing_dp_20" android:text="@string/thing_speech_assisant_widget_guide_add" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_action_button" android:layout_width="@dimen/thing_dp_34" android:layout_height="@dimen/thing_dp_34" android:layout_marginTop="@dimen/thing_dp_30" android:src="@drawable/a057739_057739u057739" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

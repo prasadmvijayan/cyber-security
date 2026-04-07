@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:padding="@dimen/thing_mg_10" android:layout_width="@dimen/thing_mg_40" android:layout_height="@dimen/thing_mg_40" style="@style/ThingCameraProgressBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

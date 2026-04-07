@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_16" android:text="@string/hs_bypass_device_title" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" />
+</FrameLayout>

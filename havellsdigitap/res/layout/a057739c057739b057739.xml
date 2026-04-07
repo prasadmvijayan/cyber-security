@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/largeWidgetLayout" android:background="@drawable/a057739a057739i057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/assistantIcon1" android:layout_width="@dimen/thing_dp_75" android:layout_height="@dimen/thing_dp_75" android:src="@drawable/a057739a057739w057739" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_30" />
+    <TextView android:textSize="@dimen/thing_sp_18" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/assistantName1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speech_desktop" android:layout_centerVertical="true" android:layout_toEndOf="@id/assistantIcon1" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/leftLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentStart="true">
+            <ImageView android:id="@id/assistantIcon2" android:layout_width="@dimen/thing_dp_75" android:layout_height="@dimen/thing_dp_75" android:layout_marginTop="@dimen/thing_dp_8" android:src="@drawable/a057739a057739w057739" />
+            <TextView android:textSize="@dimen/thing_sp_12" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/assistantName2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginTop="@dimen/thing_dp_8" android:layout_marginRight="@dimen/thing_dp_10" android:text="@string/speech_desktop" android:layout_marginHorizontal="@dimen/thing_dp_10" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cmdsLayout" android:background="@drawable/a057739a057739k057739" android:paddingLeft="@dimen/thing_dp_8" android:paddingRight="@dimen/thing_dp_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentEnd="true" android:paddingHorizontal="@dimen/thing_dp_8">
+            <RelativeLayout android:id="@id/cmdLayout1" style="@style/SpeechAssistantWidgetCmdLayoutStyle">
+                <TextView android:gravity="end" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toStartOf="@id/cmdView1" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+                <TextView android:id="@id/cmdView1" style="@style/SpeechAssistantWidgetCmdViewStyle" />
+                <TextView android:gravity="start" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toEndOf="@id/cmdView1" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/cmdLayout2" android:visibility="gone" android:layout_marginTop="@dimen/thing_dp_8" style="@style/SpeechAssistantWidgetCmdLayoutStyle">
+                <TextView android:gravity="end" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toStartOf="@id/cmdView2" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+                <TextView android:id="@id/cmdView2" style="@style/SpeechAssistantWidgetCmdViewStyle" />
+                <TextView android:gravity="start" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toEndOf="@id/cmdView2" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/cmdLayout3" android:visibility="gone" android:layout_marginTop="@dimen/thing_dp_8" style="@style/SpeechAssistantWidgetCmdLayoutStyle">
+                <TextView android:gravity="end" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toStartOf="@id/cmdView3" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+                <TextView android:id="@id/cmdView3" style="@style/SpeechAssistantWidgetCmdViewStyle" />
+                <TextView android:gravity="start" android:text="@string/thing_speech_assistant_cmd_left_quote" android:layout_toEndOf="@id/cmdView3" style="@style/SpeechAssistantWidgetCmdQuoteStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

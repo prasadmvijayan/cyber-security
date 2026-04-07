@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.uispecs.component.AnimCardView android:id="@id/itemLay" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_90" android:layout_marginTop="@dimen/thing_dp_7" android:layout_marginBottom="@dimen/thing_dp_7" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" android:elevation="0.0dip" app:cardCornerRadius="@dimen/thing_mg_12" app:cardPreventCornerOverlap="false">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/scene_bg" android:layout_width="fill_parent" android:layout_height="194.0dip" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="8.0dip" />
+            <View android:id="@id/view_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.9" />
+            <View android:id="@id/view_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/iv_check" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:layout_marginRight="@dimen/thing_dp_16" android:src="@drawable/a0577396057739o057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_16" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:maxLines="2" android:layout_toLeftOf="@id/iv_check" android:paddingStart="@dimen/thing_dp_16" android:paddingEnd="@dimen/thing_dp_16" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/iv_check" />
+        </RelativeLayout>
+    </com.thingclips.smart.uispecs.component.AnimCardView>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/a057739m057739u057739" android:layout_width="@dimen/wh_80" android:layout_height="@dimen/wh_80"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_icon" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:src="@drawable/a057739l057739q057739" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="@dimen/thing_mg_20" android:layout_height="@dimen/thing_mg_20" android:indeterminate="false" android:indeterminateTint="@color/themed_primary_btn_text_color" />
+</FrameLayout>

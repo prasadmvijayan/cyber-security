@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/add_room_footer_line" android:background="@color/family_themed_page_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginStart="@dimen/thing_dp_16" />
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/family_themed_primary_color" android:gravity="center_vertical" android:id="@id/tv_add_other_room" android:background="@color/family_themed_list_item_bg_color" android:paddingLeft="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:text="@string/add_other_room" android:layout_below="@id/add_room_footer_line" android:contentDescription="@string/auto_test_room_add" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b057739c057739x057739" android:layout_width="@dimen/thing_dp_110" android:layout_height="@dimen/thing_dp_122" android:minWidth="@dimen/thing_dp_110" android:minHeight="@dimen/thing_dp_122"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uispecs_text_progress_larger" android:textColor="@color/thing_theme_color_b4" android:gravity="center_horizontal" android:id="@id/tv_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_30" android:text="" />
+    <TextView android:textSize="@dimen/uispecs_text_desc_normal" android:textColor="@color/thing_theme_color_b4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="" />
+</LinearLayout>

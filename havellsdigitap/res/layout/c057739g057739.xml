@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recycler_device_info" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerHeight="0.0px" android:overScrollMode="never" style="@style/THING_RecyclerView_Normal" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_advert" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f057739r057739" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

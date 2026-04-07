@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_conn_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/line_1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_grey_tick" app:tint="@color/tv_label" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_14" android:textColor="@color/tv_label" android:id="@id/tv_steps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_user_manual" android:layout_marginStart="@dimen/size_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_tick" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

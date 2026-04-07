@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/thing_theme_color_b6" />
+    </item>
+    <item android:gravity="top" android:height="1.0dip">
+        <color android:color="@color/thing_theme_color_b6_n9" />
+    </item>
+    <item android:gravity="bottom" android:height="1.0dip">
+        <color android:color="@color/thing_theme_color_b6_n9" />
+    </item>
+</layer-list>

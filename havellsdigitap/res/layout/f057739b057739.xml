@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_name" android:paddingLeft="@dimen/thing_dp_16" android:paddingTop="@dimen/thing_dp_8" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hs_event_recording_link_desc" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="200.0dip" android:width="200.0dip">
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="#55ffc107" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/ring_1" android:height="199.0dip" android:width="199.0dip" android:drawable="@drawable/bg_circle_gradient_ring" />
+    <item android:gravity="center" android:height="230.0dip" android:width="230.0dip">
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="#33ffc107" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/ring_2" android:height="229.0dip" android:width="229.0dip" android:drawable="@drawable/bg_circle_gradient_outer_ring" />
+    <item android:gravity="center" android:height="265.0dip" android:width="265.0dip">
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="#22ffc107" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/ring_3" android:height="264.0dip" android:width="264.0dip" android:drawable="@drawable/bg_circle_gradient_outer_ring" />
+    <item android:gravity="center" android:height="295.0dip" android:width="295.0dip">
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="#11ffc107" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/ring_4" android:height="294.0dip" android:width="294.0dip" android:drawable="@drawable/bg_circle_gradient_outer_ring" />
+</layer-list>

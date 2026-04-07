@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recycler_available_control" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_107" />
+    <RelativeLayout android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip">
+        <com.thingclips.smart.device_detail.adapter.horizontalPage.CircleIndicator android:id="@id/indicator_available_control" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/thing_mg_21" android:layout_marginBottom="@dimen/thing_mg_8" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,395 @@
+.class public interface abstract Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;
+.super Ljava/lang/Object;
+.source "MemberScope.kt"
+
+# interfaces
+.implements Lkotlin/reflect/jvm/internal/impl/resolve/scopes/ResolutionScope;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Empty;,
+        Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$DefaultImpls;,
+        Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Companion;
+    }
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Companion;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 48
+    .line 49
+    .line 50
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 57
+    .line 58
+    .line 59
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 63
+    .line 64
+    .line 65
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 66
+    .line 67
+    .line 68
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 75
+    .line 76
+    .line 77
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 78
+    .line 79
+    .line 80
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 87
+    .line 88
+    .line 89
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 90
+    .line 91
+    .line 92
+    sget-object v1, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Companion;->$$INSTANCE:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Companion;
+
+    .line 93
+    .line 94
+    sput-object v1, Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope;->Companion:Lkotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScope$Companion;
+
+    .line 95
+    .line 96
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 97
+    .line 98
+    .line 99
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 100
+    .line 101
+    .line 102
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 103
+    .line 104
+    .line 105
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 106
+    .line 107
+    .line 108
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 109
+    .line 110
+    .line 111
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 112
+    .line 113
+    .line 114
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 115
+    .line 116
+    .line 117
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 118
+    .line 119
+    .line 120
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 121
+    .line 122
+    .line 123
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 124
+    .line 125
+    .line 126
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 127
+    .line 128
+    .line 129
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 130
+    .line 131
+    .line 132
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 133
+    .line 134
+    .line 135
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 136
+    .line 137
+    .line 138
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 139
+    .line 140
+    .line 141
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 142
+    .line 143
+    .line 144
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 145
+    .line 146
+    .line 147
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 148
+    .line 149
+    .line 150
+    invoke-static {v0}, Lcom/ai/ct/Tz;->b(I)V
+
+    .line 151
+    .line 152
+    .line 153
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 154
+    .line 155
+    .line 156
+    invoke-static {}, Lcom/ai/ct/Tz;->a()V
+
+    .line 157
+    .line 158
+    .line 159
+    return-void
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+.end method
+
+
+# virtual methods
+.method public abstract getContributedFunctions(Lkotlin/reflect/jvm/internal/impl/name/Name;Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;)Ljava/util/Collection;
+    .param p1    # Lkotlin/reflect/jvm/internal/impl/name/Name;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/reflect/jvm/internal/impl/name/Name;",
+            "Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;",
+            ")",
+            "Ljava/util/Collection<",
+            "+",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/SimpleFunctionDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method
+
+.method public abstract getContributedVariables(Lkotlin/reflect/jvm/internal/impl/name/Name;Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;)Ljava/util/Collection;
+    .param p1    # Lkotlin/reflect/jvm/internal/impl/name/Name;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/reflect/jvm/internal/impl/name/Name;",
+            "Lkotlin/reflect/jvm/internal/impl/incremental/components/LookupLocation;",
+            ")",
+            "Ljava/util/Collection<",
+            "+",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/PropertyDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method
+
+.method public abstract getFunctionNames()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Lkotlin/reflect/jvm/internal/impl/name/Name;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method
+
+.method public abstract getVariableNames()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Lkotlin/reflect/jvm/internal/impl/name/Name;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method

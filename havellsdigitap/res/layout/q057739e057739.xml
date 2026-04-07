@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/a057739o057739t057739" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="321.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/wrapper_theme_color_b4_n1" android:id="@id/miniapp_personal_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/wrapper_theme_color_b4_n3" android:id="@id/miniapp_personal_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" />
+        <View android:background="@color/wrapper_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <ImageView android:id="@id/miniapp_image_personal_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textColor="@color/wrapper_theme_color_b4_n2" android:gravity="center_vertical" android:id="@id/miniapp_personal_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/miniapp_image_personal_icon" android:layout_alignTop="@id/miniapp_image_personal_icon" />
+            <TextView android:textColor="@color/wrapper_theme_color_b4_n3" android:gravity="center_vertical" android:id="@id/miniapp_personal_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/miniapp_image_personal_icon" android:layout_alignBottom="@id/miniapp_image_personal_icon" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_weight="1.0">
+            <TextView android:textColor="@drawable/a057739o057739o057739" android:gravity="center" android:id="@id/miniapp_personal_btnno" android:background="@drawable/a057739o057739n057739" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" />
+            <TextView android:textColor="@drawable/a057739o057739o057739" android:gravity="center" android:id="@id/miniapp_personal_btnyes" android:background="@drawable/a057739o057739n057739" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

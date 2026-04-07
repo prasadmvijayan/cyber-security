@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivShadow" android:background="@drawable/a057739j057739r057739" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/a057739j057739q057739" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_6">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_32" android:layout_marginTop="@dimen/thing_dp_18">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_back" android:background="@drawable/a057739h057739b057739" android:layout_width="@dimen/thing_dp_28" android:layout_height="@dimen/thing_dp_28" android:layout_marginLeft="@dimen/thing_dp_20" android:src="@drawable/a057739j0577397057739" app:tint="@color/thing_theme_color_b1_n1" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/thing_dp_6" android:paddingEnd="@dimen/thing_dp_20">
+                <com.thingclips.smart.uispecs.component.tab.LightPagerTab android:layout_gravity="center" android:id="@id/pt_scene" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_32" app:ptBgMode="true" app:ptHasIndicator="false" app:ptSelectTextColor="@color/thing_theme_color_m1_n1" app:ptTabToTab="@dimen/thing_mg_2" app:ptUnSelectTextColor="@color/thing_theme_color_b4_n2" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/vp_scene" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/thing_theme_color_b4_n3" android:layout_gravity="center" android:id="@id/tvError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_net_error" android:drawableTop="@drawable/a057739j057739b057739" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

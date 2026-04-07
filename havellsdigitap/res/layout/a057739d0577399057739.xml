@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/rl_rv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+            <com.thingclips.smart.widget.ThingSimpleDraweeView android:id="@id/icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tv_iconfont" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.thingclips.smart.widget.ThingTextView android:gravity="center" android:id="@id/tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_dot" android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="-1.0dip" android:src="@drawable/b0577398057739m057739" android:layout_toRightOf="@id/ll_top" />
+    <ImageView android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:src="@drawable/b0577398057739m057739" android:layout_toLeftOf="@id/ll_top" />
+</RelativeLayout>

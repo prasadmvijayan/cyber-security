@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739h0577399057739" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="17.0dip" android:layout_marginBottom="@dimen/thing_dp_56" android:layout_below="@id/action_bar_layout" />
+    <RelativeLayout android:id="@id/rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout">
+        <ImageView android:id="@id/iv_empty" android:layout_width="@dimen/thing_dp_100" android:layout_height="@dimen/thing_dp_100" android:src="@drawable/b0577392057739t057739" android:layout_above="@id/v_center" android:layout_centerHorizontal="true" />
+        <View android:id="@id/v_center" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/thing_theme_color_b1_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_manage_empty" android:layout_below="@id/v_center" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_alignParentBottom="true">
+        <com.thingclips.smart.uispecs.component.button.ShadowButton android:layout_gravity="center" android:id="@id/btn_done" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" app:shadowButton_backgroundColor="@color/thing_theme_color_m1" app:shadowButton_radius="@dimen/thing_theme_dimen_c1_2" app:shadowButton_shadowSize="@dimen/thing_dp_0" app:shadowButton_text="@string/done" app:shadowButton_textColor="@color/thing_theme_color_m1_n1" app:shadowButton_textStyle="bold" />
+    </FrameLayout>
+</RelativeLayout>

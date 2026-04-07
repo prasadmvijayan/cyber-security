@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/thing_dp_48" android:width="@dimen/thing_dp_48" />
+            <stroke android:width="@dimen/thing_dp_1" android:color="?camera_doorbell_list_record_edge" />
+        </shape>
+    </item>
+    <item android:left="@dimen/thing_dp_4" android:top="@dimen/thing_dp_4" android:right="@dimen/thing_dp_4" android:bottom="@dimen/thing_dp_4">
+        <shape android:shape="oval">
+            <solid android:color="#ffdc4f34" />
+        </shape>
+    </item>
+</layer-list>

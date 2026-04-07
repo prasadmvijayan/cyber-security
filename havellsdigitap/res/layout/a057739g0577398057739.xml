@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_line_bottom" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/b057739d0577397057739" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/auto_test_dialog_cancel" />
+        <View android:id="@id/view_line" android:background="@color/thing_theme_color_b4_n7" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/uispecs_text_color_title" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/b057739d0577398057739" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/auto_test_dialog_confirm" />
+    </LinearLayout>
+</LinearLayout>

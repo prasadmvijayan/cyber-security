@@ -1,0 +1,14 @@
+.class synthetic Lcom/thingclips/smart/privacy/setting/utils/TextParser$1;
+.super Ljava/lang/Object;
+.source "TextParser.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/privacy/setting/utils/TextParser;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

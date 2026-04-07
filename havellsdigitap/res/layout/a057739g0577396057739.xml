@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/thing_theme_color_b4_n4" android:gravity="center" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.thingclips.smart.uispecs.component.ScrollWrapContentViewPager android:layout_gravity="center_vertical" android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivArrow" android:paddingBottom="@dimen/thing_mg_12" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/b057739c057739j057739" android:tint="@color/thing_theme_color_b4_n3" />
+</LinearLayout>

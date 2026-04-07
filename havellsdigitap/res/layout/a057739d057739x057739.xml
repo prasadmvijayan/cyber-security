@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/thing_dp_94" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingTabsVertical android:id="@id/thing_tabs_vertical" android:background="@color/thing_theme_color_b1" android:layout_width="@dimen/thing_dp_94" android:layout_height="fill_parent" app:ptHasIndicator="false" app:ptSelectBackgroundColor="@color/thing_theme_color_b2" app:ptSelectTextColor="@color/thing_theme_color_m1" app:ptSelectTextSize="@dimen/thing_theme_dimen_t2" app:ptSelectTextStyle="bold" app:ptUnSelectBackgroundColor="@color/thing_theme_color_b1" app:ptUnSelectTextColor="@color/thing_theme_color_b1_n3" app:ptUnSelectTextSize="@dimen/thing_theme_dimen_t2" app:ptUnSelectTextStyle="normal" app:thingThemeID="" />
+</RelativeLayout>

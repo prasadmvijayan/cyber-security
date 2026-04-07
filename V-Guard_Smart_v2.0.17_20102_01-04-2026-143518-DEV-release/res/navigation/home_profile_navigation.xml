@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_profile" app:startDestination="@id/profile_main_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label=" " android:name="com.vguard.smart.view.home.profile.ProfileFragment" android:id="@id/profile_main_fragment">
+        <action android:id="@id/action_navigation_profile_to_profileSettingsFragment" app:destination="@id/profile_settings_fragment" />
+        <action android:id="@id/action_navigation_profile_to_editProfileFragment" app:destination="@id/edit_profile_fragment" />
+        <action android:id="@id/action_profile_main_fragment_to_my_address_fragment" app:destination="@id/my_address_fragment" />
+        <action android:id="@id/action_profile_main_fragment_to_foreign_address_fragment" app:destination="@id/foreign_address_fragment" />
+    </fragment>
+    <fragment android:label="@string/profile_settings" android:name="com.vguard.smart.view.home.profile.ProfileSettingsFragment" android:id="@id/profile_settings_fragment" />
+    <fragment android:label="@string/my_address" android:name="com.vguard.smart.view.home.profile.ForeignAddressFragment" android:id="@id/foreign_address_fragment" />
+    <fragment android:label="@string/my_addresses" android:name="com.vguard.smart.view.home.profile.MyAddressFragment" android:id="@id/my_address_fragment">
+        <action android:id="@id/action_my_address_fragment_to_edit_address_fragment" app:destination="@id/edit_address_fragment" />
+    </fragment>
+    <fragment android:label="@string/edit_address" android:name="com.vguard.smart.view.home.support.EditAddressFragment" android:id="@id/edit_address_fragment" />
+    <fragment android:label="@string/edit_details" android:name="com.vguard.smart.view.home.profile.EditProfileFragment" android:id="@id/edit_profile_fragment">
+        <action android:id="@id/action_edit_profile_fragment_to_change_phone_email_fragment" app:destination="@id/change_phone_email_fragment" />
+        <action android:id="@id/action_edit_profile_fragment_to_change_login_password_fragment" app:destination="@id/change_login_password_fragment" />
+    </fragment>
+    <fragment android:label="@string/change_mobile_number" android:name="com.vguard.smart.view.home.profile.ChangePhoneEmailFragment" android:id="@id/change_phone_email_fragment" />
+    <fragment android:label="@string/change_login_password" android:name="com.vguard.smart.view.home.profile.ChangeLoginPasswordFragment" android:id="@id/change_login_password_fragment" />
+</navigation>

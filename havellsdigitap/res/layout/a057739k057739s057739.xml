@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ll" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="200.0dip">
+        <com.thingclips.smart.video.weiget.draweeview.ZoomableDraweeViewSupport android:layout_gravity="center" android:id="@id/iv_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" fresco:actualImageScaleType="fitCenter" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/ll_pics" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.thingclips.smart.video.weiget.ThingCirclePageIndicator android:id="@id/indicator" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:src="@drawable/b057739d057739z057739" />
+</FrameLayout>

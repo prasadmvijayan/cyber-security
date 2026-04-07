@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/x057739a057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/camera_iv_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/r057739d057739" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="thing_ipc_mute" />
+        <ProgressBar android:id="@id/camera_progressBar" android:visibility="gone" android:layout_width="@dimen/thing_mg_20" android:layout_height="@dimen/thing_mg_20" android:layout_centerInParent="true" style="@style/ThingCameraProgressBar" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/camera_iv_snapshot" android:background="@drawable/x057739a057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/w057739e057739" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="thing_ipc_snap" />
+    <ImageView android:layout_gravity="center" android:id="@id/camera_iv_speaker" android:background="@drawable/x057739a057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/w057739g057739" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="thing_ipc_talk" />
+    <ImageView android:layout_gravity="center" android:id="@id/camera_iv_record" android:background="@drawable/x057739a057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v057739_057739" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="thing_ipc_record_off" />
+    <ImageView android:layout_gravity="center" android:id="@id/camera_iv_fullscreen" android:background="@drawable/x057739a057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/p057739_057739" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="thing_ipc_full" />
+    <ImageView android:layout_gravity="center" android:id="@id/camera_iv_setting" android:background="@drawable/x057739a057739" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/x057739c057739" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="thing_ipc_setting" />
+</LinearLayout>

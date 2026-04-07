@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/thing_theme_color_b1" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/wh_56" android:minHeight="@dimen/wh_56">
+        <RelativeLayout android:id="@id/rlTouch" android:paddingRight="@dimen/wh_20" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/iv_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739f057739_057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tint="@color/thing_theme_color_b6_n4" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:ellipsize="end" android:id="@id/tvRoomTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_20" android:layout_marginRight="@dimen/thing_mg_12" android:lines="1" android:singleLine="true" android:layout_toLeftOf="@id/rlTouch" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/thing_theme_dimen_p5" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tvNoRooms" android:paddingLeft="@dimen/thing_dp_22" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" android:text="@string/room_empty_room_subtitle" android:layout_below="@id/rlTouch" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRcvList" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

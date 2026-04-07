@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_touch_root" android:background="@drawable/a0577396057739s057739" android:paddingLeft="@dimen/family_align_left" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_touch" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/family_align_right" android:layout_width="50.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/wh_56" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/iv_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773960577393057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tint="@color/family_themed_list_item_arrow_color" app:tintMode="src_in" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/family_themed_page_subtitle_color" android:id="@id/tv_device_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl_touch" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_12" android:src="@drawable/a0577396057739h057739" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/family_themed_list_item_title_color" android:ellipsize="end" android:id="@id/tv_room" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_27" android:singleLine="true" android:layout_toLeftOf="@id/tv_device_count" android:layout_toRightOf="@id/iv_remove" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

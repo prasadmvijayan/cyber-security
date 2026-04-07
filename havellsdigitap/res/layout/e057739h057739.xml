@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/tab_divider" android:background="@color/appshell_tab_divider" android:layout_width="fill_parent" android:layout_height="@dimen/thing_appshell_tab_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_widget" android:background="@color/appshell_tab_bg" android:paddingTop="@dimen/thing_tab_icon_padding_bottom" android:paddingBottom="@dimen/thing_tab_icon_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/appshell_min_tab_height" />
+</LinearLayout>

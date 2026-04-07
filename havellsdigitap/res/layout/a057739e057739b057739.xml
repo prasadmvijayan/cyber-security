@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.light.scene.tab.view.LightMiniAppTitleBar android:id="@id/tbTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:swipe_style="classic">
+        <include android:id="@id/swipe_refresh_header" layout="@layout/a057739g057739v057739" />
+        <FrameLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_empty" android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/b057739_057739y057739" android:scaleType="centerInside" android:layout_above="@id/tv_no_scene_lighting" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_no_scene_lighting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_list_empty_tip" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1_n1" android:ellipsize="end" android:gravity="center" android:id="@id/tv_add_scene_lighting" android:background="@drawable/f057739q057739" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="wrap_content" android:layout_height="@dimen/wh_40" android:layout_marginTop="20.0dip" android:minWidth="@dimen/thing_mg_120" android:text="@string/thing_light_scene_create" android:lines="1" android:layout_below="@id/tv_no_scene_lighting" android:layout_centerHorizontal="true" android:contentDescription="@string/thing_light_scene_list_empty_tip" />
+            </RelativeLayout>
+        </FrameLayout>
+    </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+</LinearLayout>

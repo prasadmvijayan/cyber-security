@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/thing_mg_15" android:paddingRight="@dimen/thing_mg_15" android:layout_width="fill_parent" android:layout_height="@dimen/wh_60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/wh_23" android:layout_height="@dimen/wh_23" android:src="@drawable/v057739n057739" />
+    <com.thingclips.smart.ipc.old.panelmore.widget.TouchSeekBar android:layout_gravity="center_vertical" android:id="@id/camera_ring_volume_seekBar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:pointStrokeColor="@color/text_colorA2" />
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/wh_23" android:layout_height="@dimen/wh_23" android:src="@drawable/v057739o057739" />
+</LinearLayout>

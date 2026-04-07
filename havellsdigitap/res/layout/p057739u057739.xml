@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/dialog_action_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/THING_List_Normal" />
+    <View android:background="#ffd6d6de" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/colorDark" android:gravity="center" android:id="@id/dialog_action_sheet_cancel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/cancel" />
+</LinearLayout>

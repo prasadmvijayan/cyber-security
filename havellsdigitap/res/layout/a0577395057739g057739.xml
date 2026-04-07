@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/rl_panel_device_switch" android:paddingLeft="@dimen/thing_mg_12" android:paddingRight="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_icon" android:layout_width="@dimen/thing_mg_24" android:layout_height="@dimen/thing_mg_24" android:layout_centerVertical="true" android:contentDescription="@null" fresco:placeholderImage="@drawable/a057739z057739t057739" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_12" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b3_n1" android:id="@id/tv_panel_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b3_n1" android:gravity="right" android:id="@id/tv_panel_switch_name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b3_n3" android:id="@id/tv_panel_switch_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_3" android:layout_below="@id/tv_panel_device_name" />
+    </RelativeLayout>
+</RelativeLayout>

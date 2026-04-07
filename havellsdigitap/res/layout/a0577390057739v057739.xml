@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_sp_24" android:textStyle="bold" android:textColor="@color/thing_theme_color_b_login_n1" android:id="@id/tv_experience_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_guide_mode" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/thing_theme_color_b_login_n3" android:id="@id/tv_experience_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_6" android:text="@string/login_anonymous_subtitle" />
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_10" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/thing_dp_56" android:drawable="@drawable/a057739h0577393057739" />
+    <item android:gravity="bottom|center|right" android:height="@dimen/thing_dp_18" android:width="@dimen/thing_dp_18" android:drawable="@drawable/a057739h0577390057739" />
+    <item android:gravity="bottom|center|right" android:height="@dimen/thing_dp_9" android:width="@dimen/thing_dp_12" android:drawable="@drawable/a057739h0577391057739" android:right="@dimen/thing_dp_3" android:bottom="@dimen/thing_dp_5" />
+</layer-list>

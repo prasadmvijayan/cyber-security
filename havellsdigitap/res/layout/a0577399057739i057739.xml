@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n1" android:ellipsize="end" android:id="@id/tvNoTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wh_20" android:layout_marginTop="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_12" android:layout_marginBottom="@dimen/thing_mg_16" android:text="@string/room_no_tag_room_name" android:lines="1" android:singleLine="true" android:layout_toLeftOf="@id/rlTouch" android:layout_marginStart="@dimen/thing_theme_dimen_p5" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRcvList" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

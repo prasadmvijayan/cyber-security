@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/iv_weather" android:layout_width="@dimen/thing_mg_99" android:layout_height="@dimen/thing_mg_99" android:layout_marginTop="@dimen/thing_mg_20" android:tint="@color/thing_theme_color_b1_n1" />
+            <TextView android:textSize="@dimen/ts_30" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:gravity="center" android:id="@id/tv_condition" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_mg_5" android:layout_marginRight="@dimen/thing_dp_16" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_temp_unit_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_9">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n3" android:gravity="center" android:id="@id/tv_temp_info" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" app:drawableTint="@color/homepage_text_color" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_select_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_4" android:src="@drawable/a057739_0577392057739" android:scaleType="centerInside" app:tint="@color/thing_theme_color_b1_n3" />
+            </LinearLayout>
+            <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.thingclips.smart.uispecs.component.recyclerView.swipe.SwipeMenuRecyclerView android:id="@id/rv_device_sort" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_30" android:layout_marginBottom="@dimen/thing_dp_40" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/dtools_miniapp_main_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="100.0dip" android:text="@string/dtools_miniapp_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_jssdk" android:background="@drawable/a057739o057739s057739" android:layout_width="fill_parent" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_jssdk" android:drawableTop="@drawable/a057739c057739f057739" style="@style/miniapp_dtools_item" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_jssdk_selected" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a057739c057739l057739" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_change_pre" android:background="@drawable/a057739o057739s057739" android:layout_width="fill_parent" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_change_pre" android:drawableTop="@drawable/a057739c057739j057739" style="@style/miniapp_dtools_item" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_pre_change_selected" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a057739c057739l057739" />
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_scan" android:background="@drawable/a057739o057739s057739" android:layout_margin="2.0dip" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_scan" android:drawableTop="@drawable/a057739c057739k057739" style="@style/miniapp_dtools_item" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_link" android:background="@drawable/a057739o057739s057739" android:layout_width="fill_parent" android:layout_margin="2.0dip" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_link" android:drawableTop="@drawable/a057739c057739h057739" style="@style/miniapp_dtools_item" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_link_selected" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a057739c057739l057739" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip" android:weightSum="4.0" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip">
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_info" android:background="@drawable/a057739o057739s057739" android:layout_margin="2.0dip" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_info" android:drawableTop="@drawable/a057739c057739g057739" style="@style/miniapp_dtools_item" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_setting" android:background="@drawable/a057739o057739s057739" android:layout_width="fill_parent" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_setting" android:drawableTop="@drawable/a057739c057739m057739" style="@style/miniapp_dtools_item" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_setting_selected" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a057739c057739l057739" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/dtools_btn_smart_api_test" android:background="@drawable/a057739o057739s057739" android:layout_width="fill_parent" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_miniapp_smart_api_test" android:drawableTop="@drawable/a057739c057739i057739" style="@style/miniapp_dtools_item" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_smart_api_test_selected" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a057739c057739l057739" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatButton android:textColor="@color/white" android:gravity="center" android:id="@id/dtools_clear_all_setting" android:background="@drawable/a05773930577399057739" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground" android:text="@string/dtools_clear_all_reboot" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffcccccc" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="20.0dip" android:text="@string/dtools_qa_tips" />
+</LinearLayout>

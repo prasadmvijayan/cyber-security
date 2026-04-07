@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_default_option" android:background="?isListItemBg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.ThingTextView android:textSize="?isListItemMainTextSize" android:textColor="?isListItemMainTextColor" android:id="@id/is_list_item_name" android:paddingTop="?isListItemVerticalPadding" android:paddingBottom="?isListItemVerticalPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/thing_theme_dimen_p4" android:paddingEnd="@dimen/thing_theme_dimen_p4" android:layout_alignParentStart="true" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="?isListItemSubTextSize" android:textColor="?isListItemSubTextColor" android:id="@id/is_list_item_sub_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_theme_dimen_p8" android:layout_alignParentEnd="true" />
+</RelativeLayout>

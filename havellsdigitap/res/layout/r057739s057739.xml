@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/actionBarLayout" layout="@layout/a057739f057739i057739" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcvFamilyPmsList" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBarLayout" />
+    <include android:id="@id/layoutEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBarLayout" layout="@layout/s057739b057739" />
+</androidx.constraintlayout.widget.ConstraintLayout>

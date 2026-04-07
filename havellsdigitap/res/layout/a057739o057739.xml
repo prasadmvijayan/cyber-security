@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/llSearching" android:paddingTop="@dimen/thing_dp_8" android:paddingBottom="@dimen/thing_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginTop="@dimen/thing_dp_8" android:layout_marginRight="@dimen/thing_theme_dimen_p4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivSearchingIcon" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:src="@drawable/a057739f057739v057739" />
+    <com.thingclips.smart.activator.ui.kit.widgets.EPromotionTitleTextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b_activator_n1" android:gravity="center_vertical" android:autoLink="web" android:layout_gravity="center_vertical" android:id="@id/tvSearchingTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:text="@string/thing_activator_auto_search_text" android:lineHeight="@dimen/thing_dp_24" />
+</LinearLayout>

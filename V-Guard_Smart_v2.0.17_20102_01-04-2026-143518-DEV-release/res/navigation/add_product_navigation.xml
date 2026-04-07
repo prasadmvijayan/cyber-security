@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/add_product_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductSelectProductFragment" android:id="@id/addProductSelectProductFragment">
+        <action android:id="@id/action_AddProductSelectProductFragment_to_AddProductScanFragment" app:destination="@id/addProductScanFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductScanFragment" android:id="@id/addProductScanFragment">
+        <action android:id="@id/action_AddProductScanFragment_to_AddProductDetailsFragment" app:destination="@id/addProductDetailsFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductDetailsFragment" android:id="@id/addProductDetailsFragment">
+        <action android:id="@id/action_AddProductDetailsFragment_to_AddProductConfigurationInstructionFragment" app:destination="@id/addProductConfigurationInstructionFragment" />
+        <action android:id="@id/action_AddProductDetailsFragment_to_AddProductCrmSubmissionFragment" app:destination="@id/addProductCrmSubmissionFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductConfigurationInstructionFragment" android:id="@id/addProductConfigurationInstructionFragment">
+        <action android:id="@id/action_AddProductConfigurationInstructionFragment_to_AddProductConfigurationFragment" app:destination="@id/addProductConfigurationFragment" />
+        <action android:id="@id/action_AddProductConfigurationInstructionFragment_to_AddProductVeranoConfigurationFragment" app:destination="@id/addProductVeranoConfigurationFragment" />
+        <action android:id="@id/action_AddProductConfigurationInstructionFragment_to_IrisConfigurationFragment" app:destination="@id/irisConfigurationFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductConfigurationFragment" android:id="@id/addProductConfigurationFragment">
+        <action android:id="@id/action_AddProductConfigurationFragment_to_AddProductCrmSubmissionFragment" app:destination="@id/addProductCrmSubmissionFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductCrmSubmissionFragment" android:id="@id/addProductCrmSubmissionFragment">
+        <action android:id="@id/action_addProductCrmSubmissionFragment_to_my_products_fragment" app:popUpTo="@id/my_products_fragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.home.myproducts.addproduct.AddProductVeranoConfigurationFragment" android:id="@id/addProductVeranoConfigurationFragment">
+        <action android:id="@id/action_addProductVeranoConfigurationFragment_to_addProductCrmSubmissionFragment" app:destination="@id/addProductCrmSubmissionFragment" />
+    </fragment>
+    <fragment android:label="@string/add_new_prod" android:name="com.vguard.smart.view.configuration.IrisConfigurationFragment" android:id="@id/irisConfigurationFragment">
+        <action android:id="@id/action_irisConfigurationFragment_to_addProductCrmSubmissionFragment" app:destination="@id/addProductCrmSubmissionFragment" />
+    </fragment>
+</navigation>

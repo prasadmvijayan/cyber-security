@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_settings" app:startDestination="@id/settings_main_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/settings" android:name="com.vguard.smart.view.home.settings.SettingsFragment" android:id="@id/settings_main_fragment">
+        <action android:id="@id/action_settings_main_fragment_to_switch_settings_fragment" app:destination="@id/settings_switch_fragment" />
+        <action android:id="@id/action_settings_main_fragment_to_appInfoFragment" app:destination="@id/appInfoFragment" />
+    </fragment>
+    <fragment android:label="@string/settings" android:name="com.vguard.smart.view.home.settings.CommonProductSettingsFragment" android:id="@id/settings_switch_fragment" />
+    <fragment android:label="@string/app_info" android:name="com.vguard.smart.view.home.settings.AppInfoFragment" android:id="@id/appInfoFragment" />
+</navigation>

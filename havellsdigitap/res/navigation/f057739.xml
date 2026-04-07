@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/light_scene_navigation_create"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneStepAreaFragment" android:id="@id/step_area">
+        <action android:id="@id/action_step_area_to_step_scene_type" app:destination="@id/step_scene_type" />
+        <action android:id="@id/action_step_area_to_step_normal_scene" app:destination="@id/step_normal_scene" />
+    </fragment>
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneStepSceneTypeFragment" android:id="@id/step_scene_type">
+        <action android:id="@id/action_step_scene_type_to_step_normal_scene" app:destination="@id/step_normal_scene" />
+        <action android:id="@id/action_step_scene_type_to_step_rhythm_scene" app:destination="@id/step_rhythm_scene" />
+        <action android:id="@id/action_step_scene_type_to_rhythm_faq" app:destination="@id/rhythm_faq" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577396057739" app:popEnterAnim="@anim/e0577396057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneStepNormalSceneFragment" android:id="@id/step_normal_scene">
+        <action android:id="@id/action_step_normal_scene_to_step_save_scene" app:destination="@id/step_save_scene" />
+    </fragment>
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneStepRhythmSceneFragment" android:id="@id/step_rhythm_scene">
+        <action android:id="@id/action_step_rhythm_scene_to_step_save_scene" app:destination="@id/step_save_scene" />
+        <action android:id="@id/action_step_rhythm_scene_to_rhythm_faq" app:destination="@id/rhythm_faq" app:enterAnim="@anim/e0577395057739" app:exitAnim="@anim/e0577396057739" app:popEnterAnim="@anim/e0577396057739" app:popExitAnim="@anim/e0577399057739" />
+    </fragment>
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneStepSaveFragment" android:id="@id/step_save_scene" />
+    <fragment android:name="com.thingclips.smart.light.scene.plug.fragment.LightSceneRhythmFaqFragment" android:id="@id/rhythm_faq" />
+</navigation>

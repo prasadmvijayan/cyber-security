@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/thing_theme_color_b4_n7" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" />
+    <TextView android:textSize="@dimen/uispecs_text_title_normal" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="middle" android:gravity="center" android:id="@id/tv" android:background="@drawable/b057739d057739_057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_54" android:singleLine="true" android:contentDescription="@string/auto_test_dialog_confirm" />
+</LinearLayout>

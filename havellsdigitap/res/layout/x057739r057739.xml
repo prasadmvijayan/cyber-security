@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" app:layout_constraintTop_toTopOf="parent" layout="@layout/a057739h0577399057739" />
+    <com.thingclips.smart.uispecs.component.recyclerView.swipe.LightSwipeMenuRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/thing_mg_16" app:layout_constraintBottom_toTopOf="@id/layout_action" app:layout_constraintTop_toBottomOf="@id/action_bar_layout" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/layout_action" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <TextView android:enabled="false" android:textSize="@dimen/ts_12" android:textColor="@color/light_scene_home_action_item_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_delete" android:background="@color/thing_theme_color_b4" android:padding="@dimen/thing_dp_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/thing_dp_108" android:text="@string/thing_light_scene_delete" android:drawableTop="@drawable/a057739j057739a057739" android:drawablePadding="@dimen/thing_dp_8" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_empty" android:background="@color/thing_theme_color_b1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_layout">
+        <ImageView android:id="@id/iv_empty" android:layout_width="@dimen/thing_dp_100" android:layout_height="@dimen/thing_dp_100" android:src="@drawable/b0577392057739t057739" android:layout_above="@id/v_center" android:layout_centerHorizontal="true" />
+        <View android:id="@id/v_center" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/thing_theme_color_b1_n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_light_scene_manage_empty" android:layout_below="@id/v_center" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/thing_sp_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_current_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_8" android:text="@string/thing_net_pool_current_net_tip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_dev_current_wifi_wrapper" android:background="@color/thing_theme_color_b6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <ImageView android:id="@id/iv_checked" android:layout_width="@dimen/thing_dp_24" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_11" android:src="@drawable/a057739q057739m057739" app:tint="@color/thing_theme_color_m1" />
+                <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_current_ssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_intensity" android:layout_width="@dimen/thing_mg_18" android:layout_height="@dimen/thing_mg_19" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginRight="@dimen/thing_dp_15" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/thing_sp_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_standby_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_8" android:text="@string/thing_net_pool_device_net_standby" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recycler_device_standby_net" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerHeight="0.0px" />
+            <TextView android:textSize="@dimen/thing_sp_13" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_current_phone_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_8" android:text="@string/thing_net_pool_phone_wifi" />
+            <RelativeLayout android:id="@id/rl_phone_wifi_wrapper" android:background="@color/thing_theme_color_b6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_phone_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_51" android:layout_marginRight="@dimen/thing_dp_51" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_26" />
+            <RelativeLayout android:id="@id/rl_other" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56">
+                <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_m4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_51" android:layout_marginRight="@dimen/thing_dp_51" android:text="@string/thing_net_pool_other" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/thing_theme_dimen_p2" android:paddingTop="@dimen/thing_theme_dimen_p3" android:paddingRight="@dimen/thing_theme_dimen_p2" android:paddingBottom="@dimen/thing_theme_dimen_p3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/thing_theme_dimen_p2" android:paddingVertical="@dimen/thing_theme_dimen_p3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/searchIcon" android:layout_width="@dimen/thing_theme_dimen_ic3" android:layout_height="@dimen/thing_theme_dimen_ic3" app:srcCompat="@drawable/b057739a0577396057739" />
+    <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b3_n1" android:ellipsize="end" android:id="@id/searchTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/thing_theme_dimen_p2" />
+</LinearLayout>

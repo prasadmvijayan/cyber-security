@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_11" android:textColor="@color/bottom_dialog_title_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48" />
+    <View style="@style/line_long" />
+    <RelativeLayout android:id="@id/rl_np" android:background="@color/white" android:paddingTop="@dimen/thing_mg_10" android:paddingBottom="@dimen/thing_mg_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/np_choose" android:background="@null" android:layout_width="200.0dip" android:layout_height="108.0dip" android:layout_marginLeft="@dimen/thing_mg_10" internalLayout="@layout/a05773940577392057739" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/wh_36" android:layout_centerVertical="true">
+            <View android:background="@color/line_grey" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginRight="@dimen/thing_mg_15" android:layout_alignParentTop="true" style="@style/line_long" />
+            <View android:background="@color/line_grey" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginRight="@dimen/thing_mg_15" android:layout_alignParentBottom="true" style="@style/line_long" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ffd6d6de" android:layout_width="fill_parent" android:layout_height="@dimen/wh_6" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/wh_48">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/colorDark" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_cancel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/colorDark" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_sure" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/thing_confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/llRoot" android:background="@drawable/a057739i057739r057739" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739i057739x057739" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lavAnimation" android:layout_width="@dimen/thing_dp_16" android:layout_height="@dimen/thing_dp_13" android:layout_marginTop="@dimen/thing_dp_12" android:layout_marginStart="@dimen/thing_dp_2" app:lottie_fileName="light_lottie_music.json" app:lottie_loop="true" app:lottie_renderMode="hardware" app:lottie_repeatMode="restart" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/rl_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_empty" android:layout_width="@dimen/thing_dp_180" android:layout_height="@dimen/thing_dp_180" android:layout_marginTop="@dimen/thing_dp_150" android:src="@drawable/b057739_057739y057739" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b1_n3" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_no_manual" android:layout_below="@id/iv_empty" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_choose_linkage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+.class synthetic Lcom/thingclips/smart/android/tangram/model/ConfigPath$1;
+.super Ljava/lang/Object;
+.source "ConfigPath.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/android/tangram/model/ConfigPath;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

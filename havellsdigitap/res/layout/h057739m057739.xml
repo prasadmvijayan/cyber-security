@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <include android:id="@id/ll_wake_device" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginTop="@dimen/thing_dp_20" layout="@layout/l0577396057739" />
+    <TextView android:textSize="@dimen/ts_12" android:textColor="?camera_panelmore_item_subtitle_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_2" android:text="@string/ipc_multi_view_settings_wake_up_hint" android:maxLines="2" android:layout_marginStart="@dimen/thing_mg_16" />
+</LinearLayout>

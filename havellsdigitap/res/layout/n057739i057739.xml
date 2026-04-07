@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/iv_device_icon" android:layout_width="@dimen/thing_mg_70" android:layout_height="@dimen/thing_mg_70" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/ts_15" android:textColor="@color/thing_theme_color_b4_n3" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_device_name" android:paddingLeft="@dimen/thing_dp_5" android:paddingRight="@dimen/thing_dp_5" android:layout_width="@dimen/thing_dp_105" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_15" android:lines="2" />
+</LinearLayout>

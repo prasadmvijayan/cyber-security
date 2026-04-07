@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.uispecs.component.PagerSlidingTabStrip android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b2_n1" android:layout_gravity="center" android:id="@id/pager_sliding_tab" android:background="@color/thing_theme_color_b2" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_40" app:pstsDividerColor="@android:color/transparent" app:pstsIndicatorColor="@color/thing_theme_color_m1" app:pstsIndicatorHeight="2.0dip" app:pstsTabMarginRight="0.0dip" app:pstsTabPaddingLeftRight="@dimen/thing_mg_16" app:pstsUnderlineColor="@android:color/transparent" />
+    <com.thingclips.smart.uispecs.component.ScrollViewPager android:id="@id/viewpager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

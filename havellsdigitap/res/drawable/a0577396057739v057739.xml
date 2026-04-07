@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/thing_dp_42" android:width="@dimen/thing_dp_115" />
+    <corners android:radius="@dimen/thing_dp_21" />
+    <stroke android:width="@dimen/thing_dp_1" android:color="@color/family_themed_page_divider_color" />
+</shape>

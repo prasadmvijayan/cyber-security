@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.smart.light.scene.plug.widget.ClickableSlidingDrawer android:id="@id/slidingdrawer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/b0577392057739s057739" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/handle" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_6" android:src="@drawable/b0577392057739_057739" app:tint="@color/thing_theme_color_b4_n6" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.thingclips.smart.uispecs.component.tab.LightPagerTab android:id="@id/pt_scene" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" app:ptBgMode="true" app:ptHasIndicator="false" app:ptSelectTextColor="@color/thing_theme_color_m1_n1" app:ptTabToTab="@dimen/thing_mg_2" app:ptUnSelectTextColor="@color/thing_theme_color_b4_n2" />
+            <View android:id="@id/v_tab_mask" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_48" />
+        </FrameLayout>
+        <RelativeLayout android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/vp_scene" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_add_function" />
+            <FrameLayout android:id="@id/fl_loading" android:background="@color/thing_theme_color_b4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_add_function" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_80" android:layout_alignParentBottom="true">
+                <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/tv_cancel_fucntion" android:paddingLeft="@dimen/thing_dp_10" android:paddingRight="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_40" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_16" android:minWidth="@dimen/thing_dp_60" android:text="@string/cancel" />
+                <com.thingclips.smart.uispecs.component.button.ShadowButton android:layout_gravity="center_vertical" android:id="@id/btn_save" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginRight="@dimen/thing_dp_13" app:shadowButton_backgroundColor="@color/uispecs_lighting_main_color" app:shadowButton_radius="@dimen/thing_theme_dimen_c1_2" app:shadowButton_shadowSize="@dimen/thing_dp_0" app:shadowButton_text="@string/save" app:shadowButton_textColor="@color/thing_theme_color_m1_n1" app:shadowButton_textStyle="bold" />
+            </LinearLayout>
+            <View android:id="@id/view_shadow_line" android:background="@drawable/b05773950577392057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_10" android:layout_above="@id/ll_add_function" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.thingclips.smart.light.scene.plug.widget.ClickableSlidingDrawer>

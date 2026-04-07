@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/root_view" android:paddingLeft="@dimen/thing_mg_4" android:paddingRight="@dimen/thing_mg_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_50" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:id="@id/tv_1" android:background="@drawable/b057739f057739l057739" android:layout_width="@dimen/thing_dp_108" android:layout_height="42.0dip" />
+    <TextView android:textColor="@color/thing_theme_color_m1_n2" android:gravity="center" android:id="@id/tv_2" android:layout_width="@dimen/thing_dp_108" android:layout_height="42.0dip" />
+    <TextView android:textColor="@color/thing_theme_color_m1_n2" android:gravity="center" android:id="@id/tv_3" android:layout_width="@dimen/thing_dp_108" android:layout_height="42.0dip" />
+</LinearLayout>

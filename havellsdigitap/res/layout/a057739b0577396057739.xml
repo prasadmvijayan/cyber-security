@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/thing_theme_color_b6" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_marginTop="@dimen/thing_dp_16">
+                <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b1_n1" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_matter_shared_app_logo" android:singleLine="true" android:layout_weight="1.0" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_app_logo" android:layout_width="@dimen/thing_mg_40" android:layout_height="@dimen/thing_mg_40" android:layout_marginLeft="@dimen/thing_mg_16" fresco:roundAsCircle="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/thing_theme_color_b6" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56">
+                <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b1_n1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/family_menber_name" android:singleLine="true" />
+                <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:gravity="right" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_57" android:text="" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b6_n3" android:gravity="center" android:id="@id/tv_remove_share" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_56" android:layout_marginTop="@dimen/thing_dp_16" android:text="@string/thing_delete" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

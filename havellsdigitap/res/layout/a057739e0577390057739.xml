@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p3" android:layout_marginRight="@dimen/thing_theme_dimen_p3" app:cardCornerRadius="@dimen/thing_theme_dimen_c2" app:cardElevation="@dimen/thing_dp_0" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b3_n2" android:id="@id/thing_tv_cancel" android:paddingLeft="@dimen/thing_theme_dimen_p4" android:paddingTop="@dimen/thing_theme_dimen_p3" android:paddingRight="@dimen/thing_theme_dimen_p4" android:paddingBottom="@dimen/thing_theme_dimen_p3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.thingclips.smart.widget.ThingTextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_m1" android:id="@id/thing_tv_done" android:paddingLeft="@dimen/thing_theme_dimen_p4" android:paddingTop="@dimen/thing_theme_dimen_p3" android:paddingRight="@dimen/thing_theme_dimen_p4" android:paddingBottom="@dimen/thing_theme_dimen_p3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <com.thingclips.smart.widget.common.timepicker.ThingCommonTimePicker android:id="@id/thing_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p4" android:layout_marginRight="@dimen/thing_theme_dimen_p4" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

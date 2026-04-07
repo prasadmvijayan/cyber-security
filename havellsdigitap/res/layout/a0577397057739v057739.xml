@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/themed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/menu_list_above_item" android:paddingBottom="@dimen/thing_mg_18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_72">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginTop="@dimen/thing_mg_18" android:layout_marginRight="@dimen/thing_dp_82" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_82">
+            <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/themed_list_item_title_color" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/themed_list_item_subtitle_color" android:id="@id/menu_list_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_8" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="right" android:layout_gravity="right" android:id="@id/menu_list_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/thing_dp_21" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/thing_dp_21">
+            <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_21" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:kswBackDrawable="@drawable/b0577397057739p057739" app:kswThumbColor="@color/themed_switch_thumb_color" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_list_bottom_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_marginStart="@dimen/thing_dp_15" android:layout_marginEnd="@dimen/thing_dp_15" style="@style/line_normal" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40">
+            <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/themed_list_item_subtitle_color" android:id="@id/menu_list_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_15" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/i0577391057739" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_21" android:layout_alignParentEnd="true" app:tint="@color/themed_list_item_arrow_color" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

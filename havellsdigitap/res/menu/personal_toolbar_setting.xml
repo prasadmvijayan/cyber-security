@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/a057739w0577397057739" android:textSize="@dimen/ts_18" android:id="@id/setting" android:title="@string/activity_title_setting" app:contentDescription="@string/auto_test_message_menu_setting" app:showAsAction="ifRoom" />
+</menu>

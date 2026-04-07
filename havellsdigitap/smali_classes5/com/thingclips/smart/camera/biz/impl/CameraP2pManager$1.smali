@@ -1,0 +1,14 @@
+.class synthetic Lcom/thingclips/smart/camera/biz/impl/CameraP2pManager$1;
+.super Ljava/lang/Object;
+.source "CameraP2pManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/thingclips/smart/camera/biz/impl/CameraP2pManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

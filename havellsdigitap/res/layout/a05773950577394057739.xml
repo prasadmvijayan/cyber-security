@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thingclips.reactnativesweeper.view.sweepercommon.ScaleLayout android:id="@id/panel_laser_map_scale_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.reactnativesweeper.view.laserMap.LaserMapView android:id="@id/panel_laser_virtual_map_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.texture.TextureLayout android:id="@id/panel_laser_texture_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.map.MapSplitView android:id="@id/spit_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.sticker.StickerLayout android:id="@id/sticker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.polygon.sticker.StickerLayout android:id="@id/polygon_sticker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.laserMap.LaserLayerView android:id="@id/panel_laser_virtual_path_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:showType="path" />
+    <com.thingclips.reactnativesweeper.view.laserMap.LaserLayerView android:id="@id/panel_laser_virtual_pile_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:showType="pile" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.virtualwall.VirtualWallLayout android:id="@id/panel_laser_virtual_wall_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.sticker.StickerLayout android:id="@id/forbidden_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.polygon.sticker.StickerLayout android:id="@id/polygon_forbidden_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.AppointView android:id="@id/panel_laser_appoint_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.materials.MaterialsView android:id="@id/panel_laser_materials_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.thingclips.reactnativesweeper.view.sweepercommon.property.RoomPropertyView android:id="@id/panel_laser_room_property_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.thingclips.reactnativesweeper.view.sweepercommon.ScaleLayout>

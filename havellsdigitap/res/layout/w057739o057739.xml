@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.dpcore.provider.view.CustomLottieAnimationView android:id="@id/animation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_repeatCount="-1" app:lottie_repeatMode="restart" />
+    <FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/layoutLoading" android:background="@color/thing_theme_color_b1_n5" android:visibility="gone" android:layout_width="@dimen/thing_dp_110" android:layout_height="@dimen/thing_dp_110" android:minWidth="@dimen/thing_dp_110" android:minHeight="@dimen/thing_dp_110">
+        <ProgressBar android:layout_gravity="center" android:id="@id/pb_upgrade_device_cut_off" android:layout_width="@dimen/thing_dp_40" android:layout_height="@dimen/thing_dp_40" android:indeterminateTint="@color/thing_theme_color_b4" android:indeterminateTintMode="src_atop" />
+    </FrameLayout>
+</FrameLayout>

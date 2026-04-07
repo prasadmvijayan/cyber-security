@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wrapper_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.3" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/miniapp_exception_icon" android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/a05773980577394057739" />
+    <TextView android:textSize="@dimen/wrapper_theme_dimen_t6" android:textColor="@color/wrapper_theme_color_b1_n1" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/miniapp_exception_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:maxLines="2" />
+    <TextView android:textSize="@dimen/wrapper_theme_dimen_t4" android:textColor="@color/wrapper_theme_color_b1_n3" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/miniapp_exception_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="32.0dip" android:maxLines="4" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.39" />
+    <TextView android:textSize="@dimen/wrapper_theme_dimen_t6" android:textColor="@color/wrapper_theme_color_m1_n1" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/miniapp_exception_button" android:background="@drawable/a057739o057739q057739" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxWidth="312.0dip" android:minWidth="140.0dip" android:maxLines="1" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.28" />
+</LinearLayout>

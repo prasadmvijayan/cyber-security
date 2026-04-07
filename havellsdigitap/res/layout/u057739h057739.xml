@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b4_n4" android:ellipsize="end" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_8" android:text="yilou" android:lines="1" android:singleLine="true" />
+    <com.thingclips.smart.home.adv.widget.TextTagLayout android:id="@id/mTagLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontal_size="3" app:horizontal_space="@dimen/thing_dp_8" app:vertical_space="@dimen/thing_dp_8" />
+</LinearLayout>

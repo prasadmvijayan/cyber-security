@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/emergency_order_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.thingclips.smart.uispecs.component.recyclerView.swipe.SwipeMenuRecyclerView android:id="@id/emergency_order_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_16" />
+</LinearLayout>

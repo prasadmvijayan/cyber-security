@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_resume_factory_reset" android:title="@string/thing_control_panel_factory_reset" app:showAsAction="never" />
+    <item android:id="@id/action_single_unconnect" android:title="@string/cancel_connect" app:showAsAction="never" />
+    <item android:id="@id/action_close" android:title="@string/action_close" app:showAsAction="never" />
+    <item android:id="@id/action_show_dev_img" android:title="@string/thing_activator_dev_img" app:showAsAction="never" />
+    <item android:id="@id/action_rename" android:title="@string/rename_device" app:showAsAction="never" />
+    <item android:id="@id/action_location_access" android:title="@string/thing_device_detail_location_auth_manage" app:showAsAction="never" />
+    <item android:id="@id/action_feedback" android:title="@string/feedback_title" app:showAsAction="never" />
+    <item android:id="@id/action_check_update" android:title="@string/check_update" app:showAsAction="never" />
+    <item android:id="@id/action_show_control" android:title="@string/thing_device_detail_display_remote_control" app:showAsAction="never" />
+    <item android:id="@id/action_connect_cloud_activation" android:title="@string/thing_device_connect_cloud_activation" app:showAsAction="never" />
+    <item android:id="@id/action_cellular_manage" android:title="@string/thing_device_detail_iot_card_recharge" app:showAsAction="never" />
+    <item android:id="@id/action_smart_and_auto" android:title="@string/thing_scene_and_automation" app:showAsAction="never" />
+    <item android:id="@id/action_sync_control" android:title="@string/thing_sync_control_item" app:showAsAction="never" />
+    <item android:id="@id/action_add_shortcut" android:title="@string/panel_add_shortcut" app:showAsAction="never" />
+    <item android:id="@id/action_accessories_manager" android:title="@string/panel_accessories_manager" app:showAsAction="never" />
+    <item android:id="@id/action_link" android:title="@string/menu_title_link" app:showAsAction="never" />
+    <item android:id="@id/action_unconnect" android:title="@string/cancel_connect" app:showAsAction="never" />
+    <item android:id="@id/action_goto_web" android:title="" app:showAsAction="never" />
+    <item android:id="@id/action_mutil_switch_link" android:title="@string/thing_device_mutil_switch_link" app:showAsAction="never" />
+    <item android:id="@id/action_dev_from" android:title="@string/thing_share_beshared" app:showAsAction="never" />
+    <item android:id="@id/action_add_group" android:title="@string/group_create" app:showAsAction="never" />
+    <item android:id="@id/action_edit_group" android:title="@string/group_edit_devices" app:showAsAction="never" />
+    <item android:id="@id/action_recommend_goods" android:title="@string/thing_device_detail_iot_card_tm" app:showAsAction="never" />
+    <item android:id="@id/action_migration" android:title="@string/thing_migration_toolbar_title" app:showAsAction="never" />
+    <item android:id="@id/action_evaluate" android:title="@string/thing_device_detail_evaluation_entry_title" app:showAsAction="never" />
+    <item android:id="@id/action_device_net_info" android:title="@string/thing_net_pool_set_device_net" app:showAsAction="never" />
+    <item android:id="@id/action_show_group_img" android:title="@string/thing_activator_dev_img" app:showAsAction="never" />
+    <item android:id="@id/action_group_rename" android:title="@string/cancel_connect" android:showAsAction="never" />
+</menu>

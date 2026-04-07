@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/thing_mg_20" android:paddingBottom="@dimen/thing_mg_20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_start_day_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_3" android:layout_marginBottom="@dimen/thing_mg_4" android:text="" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/ts_32" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_start_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/themed_picker_title_color" android:layout_gravity="center_vertical" android:id="@id/tv_start_mh" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/ts_32" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_start_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/themed_picker_tip_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_6" android:text="@string/scene_start_time" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/themed_picker_divider_color" android:layout_width="24.0dip" android:layout_height="2.0dip" android:layout_marginLeft="@dimen/thing_mg_32" android:layout_marginRight="@dimen/thing_mg_32" android:layout_marginBottom="@dimen/thing_dp_5" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_4">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_3" android:text="@string/scene_today" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_end_day_mode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_3" android:text="@string/timer_am" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/ts_32" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_end_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/themed_picker_title_color" android:layout_gravity="center_vertical" android:id="@id/tv_end_mh" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/ts_32" android:textColor="@color/themed_picker_title_color" android:id="@id/tv_end_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/themed_picker_tip_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_6" android:text="@string/scene_end_time" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_np" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:layout_below="@id/ll_time">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_40" android:layout_centerVertical="true">
+            <View android:id="@id/v_line_up" android:background="@color/themed_picker_divider_color" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:layout_alignParentTop="true" style="@style/line_long" />
+            <View android:id="@id/v_line_down" android:background="@color/themed_picker_divider_color" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:layout_alignParentBottom="true" style="@style/line_long" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/start_time_mode" android:background="@null" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginLeft="25.0dip" app:internalLayout="@layout/a057739h057739a057739" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/start_hour" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" app:internalLayout="@layout/a057739h057739a057739" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/start_minute" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginRight="@dimen/thing_mg_40" app:internalLayout="@layout/a057739h057739a057739" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/end_time_mode" android:background="@null" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" app:internalLayout="@layout/a057739h057739a057739" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/end_hour" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" android:layout_marginLeft="@dimen/thing_dp_40" app:internalLayout="@layout/a057739h057739a057739" />
+            <com.thingclips.smart.uispecs.component.NumberPicker android:theme="@style/SampleTheme" android:id="@id/end_minute" android:background="@null" android:layout_width="40.0dip" android:layout_height="@dimen/wh_140" app:internalLayout="@layout/a057739h057739a057739" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

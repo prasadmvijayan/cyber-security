@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white_9ea7ac_0d" />
+    <stroke android:width="@dimen/size_1" android:color="@color/pump_settings_dropdown_stroke" />
+    <corners android:radius="@dimen/size_38" />
+</shape>

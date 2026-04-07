@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_dashboard_status" android:id="@id/fragment_status" android:title="@string/status" />
+    <item android:icon="@drawable/ic_dashboard_smart" android:id="@id/fragment_smart" android:title="@string/smart" />
+    <item android:icon="@drawable/ic_dashboard_scheduler" android:id="@id/fragment_scheduler" android:title="@string/scheduler" />
+    <item android:icon="@drawable/ic_limit_set" android:id="@id/fragment_usage" android:title="@string/limit_set" />
+</menu>

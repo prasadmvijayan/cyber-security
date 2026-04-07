@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/wh_60" android:layout_height="@dimen/thing_dp_86"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:airbnb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/config_scan_img" android:layout_width="@dimen/wh_60" android:layout_height="@dimen/wh_60" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/ts_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_b1_n2" android:gravity="center" android:id="@id/tv_config_count" android:layout_width="@dimen/wh_60" android:layout_height="@dimen/wh_60" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/config_lottieAnimator" android:layout_width="@dimen/wh_60" android:layout_height="@dimen/wh_60" airbnb:lottie_autoPlay="false" airbnb:lottie_fileName="config_net_progress_lottie.json" airbnb:lottie_loop="false" />
+    <TextView android:textSize="@dimen/ts_10" android:textColor="@color/thing_theme_color_b1_n2" android:ellipsize="end" android:gravity="center" android:id="@id/tv_config_scan_name" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_26" android:maxWidth="@dimen/wh_60" android:maxLines="2" android:layout_below="@id/config_scan_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

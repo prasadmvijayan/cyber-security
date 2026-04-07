@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mRootView" android:paddingTop="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tvAddAll" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_24" android:maxLines="1" android:layout_alignParentLeft="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/loadingView" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:layout_toRightOf="@id/tvContent" app:lottie_autoPlay="true" app:lottie_fileName="activator_search_device_loading.json" app:lottie_imageAssetsFolder="images" app:lottie_loop="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_m4" android:gravity="center_vertical" android:id="@id/tvAddAll" android:paddingLeft="@dimen/thing_dp_4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_24" android:layout_marginLeft="@dimen/thing_dp_24" android:text="@string/config_nearby_device_add_all" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_dismiss" android:background="@color/uispecs_lighting_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rl_lighting_layout" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_122" android:layout_marginTop="@dimen/thing_dp_200">
+        <androidx.cardview.widget.CardView android:id="@id/cv_lighting" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_14" android:layout_marginLeft="@dimen/thing_dp_13" android:layout_marginRight="@dimen/thing_dp_13" android:layout_alignParentBottom="true" app:cardBackgroundColor="@color/uispecs_lighting_bg" app:cardCornerRadius="@dimen/thing_dp_12">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/icon_lighting1" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_500" android:alpha="0.3" app:srcCompat="@drawable/b05773930577393057739" />
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/icon_lighting2" android:layout_width="@dimen/thing_dp_211" android:layout_height="@dimen/thing_dp_211" android:alpha="0.3" app:srcCompat="@drawable/b05773930577393057739" />
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/icon_lighting3" android:layout_width="@dimen/thing_dp_108" android:layout_height="@dimen/thing_dp_108" android:alpha="0.3" app:srcCompat="@drawable/b05773930577393057739" />
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/icon_lighting4" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_44" android:alpha="0.8" app:srcCompat="@drawable/b05773930577392057739" />
+                <com.thingclips.smart.uispecs.component.text.LightIconTextView android:textSize="@dimen/thing_sp_48" android:textColor="@color/white" android:layout_gravity="center|right" android:id="@id/tv_bright_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_24" />
+                <androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="center" android:id="@id/sb_lighting" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:thumb="@null" android:layout_centerInParent="true" android:min="1" style="@style/TransparentSeekbarStyle" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

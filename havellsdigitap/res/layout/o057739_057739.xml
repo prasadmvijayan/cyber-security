@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/load_state_loading" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/middle_line" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintGuide_percent="0.5" />
+    <ProgressBar android:layout_width="@dimen/thing_dp_35" android:layout_height="@dimen/thing_dp_35" android:layout_marginBottom="@dimen/thing_dp_8" android:indeterminateTint="@color/thing_theme_color_m1" app:layout_constraintBottom_toTopOf="@id/middle_line" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/theme_page_hint" android:id="@id/message_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs_default_load_state_loading" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/middle_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <RelativeLayout android:id="@id/rv_config_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_16" app:layout_constraintTop_toBottomOf="@id/action_bar_layout">
+        <TextView android:textSize="@dimen/thing_sp_16" android:textColor="?camera_tab_text_color" android:id="@id/tv_config_switch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipc_ai_video_analyse" />
+        <TextView android:textSize="@dimen/thing_sp_12" android:textColor="?camera_tab_text_color" android:id="@id/tv_config_switch_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_4" android:text="@string/ipc_ai_video_des" android:layout_below="@id/tv_config_switch_title" />
+        <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_ai_detect_config" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="?camera_tab_text_color" android:id="@id/tv_ai_detect_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_28" android:text="@string/ipc_ai_recognition_item" app:layout_constraintLeft_toLeftOf="@id/rv_config_switch" app:layout_constraintTop_toBottomOf="@id/rv_config_switch" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ai_detect_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_4" app:layout_constraintTop_toBottomOf="@id/tv_ai_detect_list_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

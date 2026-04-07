@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ptz_title_layout" layout="@layout/i057739j057739" />
+    <LinearLayout android:gravity="center" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.camera.uiview.view.PTZControlView android:id="@id/ptz_control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ptz_title_layout" app:bgDrawable="@drawable/v057739p057739" app:bottomDrawable1="@drawable/l0577394057739" app:bottomDrawable2="@drawable/l0577395057739" app:bottomDrawable3="@drawable/l0577396057739" app:leftDrawable1="@drawable/l0577397057739" app:leftDrawable2="@drawable/l0577398057739" app:leftDrawable3="@drawable/l0577399057739" app:ptzTitle="" app:rightDrawable1="@drawable/l057739a057739" app:rightDrawable2="@drawable/l057739b057739" app:rightDrawable3="@drawable/l057739c057739" app:topDrawable1="@drawable/l057739d057739" app:topDrawable2="@drawable/l057739e057739" app:topDrawable3="@drawable/l057739f057739" />
+    </LinearLayout>
+</LinearLayout>

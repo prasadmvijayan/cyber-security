@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdv_video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:placeholderImage="@drawable/a057739g057739d057739" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_5" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/thing_dp_3">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a057739d057739p057739" />
+        <TextView android:textSize="@dimen/ts_12" android:textColor="@color/white" android:id="@id/tv_video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

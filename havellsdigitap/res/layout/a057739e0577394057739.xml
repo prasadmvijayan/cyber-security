@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_container_et" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" android:showDividers="middle" />
+    <com.thingclips.smart.widget.common.verifycodeview.ThingCommonCustomEditText android:textColor="@android:color/transparent" android:id="@id/et" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" android:textCursorDrawable="@drawable/b05773990577392057739" />
+</RelativeLayout>

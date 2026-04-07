@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/theme_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_content" android:paddingTop="@dimen/thing_mg_12" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <TextView android:textSize="@dimen/ts_14" android:textColor="@color/thing_theme_color_b1_n4" android:gravity="center_horizontal" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/thing_home_empty_tip" android:drawableTop="@drawable/b057739g057739u057739" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <androidx.constraintlayout.widget.Group android:id="@id/group_content" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="rv_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

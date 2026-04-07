@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/camera_panelmore_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_20" layout="@layout/a057739f057739i057739" />
+    <com.thingclips.smart.ipc.recognition.widget.AdaptiveDecryptImageView android:id="@id/div_face" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_marginTop="@dimen/thing_dp_24" android:text="@string/ipc_ai_fr_record_detail" />
+    <RelativeLayout android:id="@id/service_name_rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50" android:layout_marginTop="@dimen/thing_dp_12">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_tagged_name" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_gravity="center" android:id="@id/tv_face_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/service_statue_rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_detect_device" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_gravity="center" android:id="@id/tv_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/service_valid_rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/wh_50">
+        <TextView android:textSize="@dimen/ts_15" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:text="@string/ipc_ai_fr_detect_time" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/text_color8" android:layout_gravity="center" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+</LinearLayout>

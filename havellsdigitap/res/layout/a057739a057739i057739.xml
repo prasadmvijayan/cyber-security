@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:paddingTop="@dimen/thing_dp_16" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:id="@id/fl_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b1_n1" android:id="@id/tv_device" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hs_security_device" android:layout_marginStart="@dimen/thing_dp_16" />
+            <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b1_n3" android:layout_gravity="end|center" android:id="@id/tv_device_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs_quick_all" android:layout_marginEnd="@dimen/thing_dp_16" app:layout_constraintBaseline_toBaselineOf="@id/tv_camera" app:layout_constraintEnd_toEndOf="parent" />
+        </FrameLayout>
+        <include android:id="@id/cl_device_content" android:visibility="gone" layout="@layout/f0577397057739" />
+        <include android:id="@id/cl_device_empty" layout="@layout/f0577398057739" />
+        <FrameLayout android:id="@id/fl_camera" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

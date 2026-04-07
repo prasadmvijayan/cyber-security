@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="20.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_foot" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/iv_check" android:visibility="gone" android:layout_width="@dimen/thing_dp_22" android:layout_height="@dimen/thing_dp_22" android:src="@drawable/b057739f057739o057739" />
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_foot" android:paddingRight="@dimen/thing_dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_1" android:paddingEnd="@dimen/thing_dp_8" />
+            <ImageView android:id="@id/iv_foot" android:visibility="gone" android:layout_width="@dimen/thing_dp_8" android:layout_height="@dimen/thing_dp_13" android:src="@drawable/a05773960577393057739" app:tint="@color/thing_theme_color_b4_n6" app:tintMode="src_in" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ll_foot" android:layout_toStartOf="@id/ll_foot">
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tv_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_1" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

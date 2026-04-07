@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.camera.middleware.widget.ThingCameraView android:id="@id/camera_video_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <com.thingclips.smart.camera.uiview.loading.LoadingImageView android:gravity="center" android:id="@id/camera_loading_img" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_30" android:textColor="@color/white" android:id="@id/tv_doorbell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_55" android:text="@string/ipc_video_call_doorbell_ringing" />
+    <com.thingclips.smart.camera.uiview.view.CameraWaitingTextView android:id="@id/doorbell_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginTop="@dimen/thing_dp_10" android:layout_below="@id/tv_doorbell_title" />
+    <include android:id="@id/doorbell_other" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:layout_marginTop="@dimen/thing_dp_25" android:layout_marginRight="@dimen/thing_dp_5" layout="@layout/h0577396057739" />
+    <com.thingclips.smart.ipc.camera.doorbellpanel.widget.HrLayout android:id="@id/doorbell_dragView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" app:defaultHeight="@dimen/thing_dp_236" app:realHeight="600.0dip">
+        <RelativeLayout android:id="@id/touch_view" android:background="@drawable/o057739y057739" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_voice_effect" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/scroll_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_10" android:layout_marginTop="@dimen/thing_dp_5" android:layout_marginBottom="@dimen/thing_dp_20" android:src="@drawable/p0577390057739" />
+            </LinearLayout>
+            <TextView android:ellipsize="middle" android:gravity="center" android:id="@id/tv_single_talk" android:background="@drawable/o057739p057739" android:paddingLeft="@dimen/wh_30" android:paddingTop="@dimen/wh_14" android:paddingRight="@dimen/wh_30" android:paddingBottom="@dimen/wh_14" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/wh_50" android:layout_marginBottom="@dimen/thing_dp_45" android:maxWidth="@dimen/wh_250" android:text="@string/ipc_basic_hold_to_talk" android:singleLine="true" android:drawableLeft="@drawable/o057739s057739" android:drawablePadding="@dimen/wh_10" android:layout_above="@id/voice_recycler" android:layout_centerHorizontal="true" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ll_voice_answer" android:background="@drawable/o057739t057739" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_55" android:layout_marginLeft="@dimen/thing_dp_40" android:layout_marginTop="@dimen/thing_dp_20" android:layout_marginRight="@dimen/thing_dp_40" android:layout_below="@id/ll_voice_effect" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:src="@drawable/o0577398057739" android:scaleType="center" />
+                <TextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_12" android:layout_marginRight="@dimen/thing_dp_30" android:text="@string/doorbell_call_answer_voice_reply" android:maxLines="2" android:layout_weight="1.0" />
+                <ImageView android:layout_width="@dimen/thing_dp_8" android:layout_height="@dimen/thing_dp_13" android:src="@drawable/o0577397057739" android:scaleType="center" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/voice_recycler" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginBottom="@dimen/wh_10" android:layout_above="@id/rl_speaker_content" />
+            <Space android:id="@id/space_speaker_content" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_40" android:layout_marginTop="@dimen/thing_dp_105" />
+            <RelativeLayout android:id="@id/rl_speaker_content" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_166" android:layout_below="@id/space_speaker_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lock_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_30" android:layout_marginRight="@dimen/thing_dp_30">
+                    <com.thingclips.smart.camera.uiview.slideunlock.SlideUnlockView android:id="@id/doorbell_unlock_suv" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_80" />
+                    <TextView android:textSize="@dimen/ts_16" android:textColor="@color/white" android:id="@id/close_lock_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_25" android:text="@string/close" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/speaker_opera_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                    <LinearLayout android:gravity="center" android:id="@id/voice_change_ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.thingclips.smart.ipc.camera.doorbellpanel.widget.MenuItem android:id="@id/speaker_change" android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" app:menu_bg="@drawable/o057739a057739" app:menu_icon="@drawable/a0577391057739v057739" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.thingclips.smart.ipc.camera.doorbellpanel.widget.MenuItem android:id="@id/speaker_reject" android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" app:menu_bg="@drawable/o057739g057739" app:menu_icon="@drawable/o057739c057739" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/speaker_accept_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.thingclips.smart.ipc.camera.doorbellpanel.widget.MenuItem android:id="@id/speaker_accept" android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" app:menu_bg="@drawable/o057739a057739" app:menu_icon="@drawable/o0577396057739" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/speaker_open_ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.thingclips.smart.ipc.camera.doorbellpanel.widget.MenuItem android:layout_width="@dimen/thing_dp_64" android:layout_height="@dimen/thing_dp_64" app:menu_bg="@drawable/o057739b057739" app:menu_icon="@drawable/o057739d057739" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/bottom_rl" android:background="@color/color_262626_90p" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_271" android:layout_below="@id/rl_speaker_content">
+                <View android:id="@id/v_line" android:background="#26ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_1" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/ryLocks" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_25" android:layout_below="@id/v_line" android:overScrollMode="never" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.thingclips.smart.ipc.camera.doorbellpanel.widget.HrLayout>
+    <com.thingclips.smart.camera.uiview.view.RippleGroupView android:id="@id/camera_rgv_single_speaking" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/thing_mg_60" android:layout_height="@dimen/thing_mg_60" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/white" android:id="@id/speaker_failed_txt" android:background="@drawable/w057739j057739" android:paddingLeft="@dimen/thing_dp_15" android:paddingTop="@dimen/thing_dp_5" android:paddingRight="@dimen/thing_dp_15" android:paddingBottom="@dimen/thing_dp_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_15" android:text="@string/ipc_video_call_audio_failed" android:layout_above="@id/doorbell_dragView" android:layout_centerHorizontal="true" />
+</RelativeLayout>

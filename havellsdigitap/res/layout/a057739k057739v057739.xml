@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_cloud_record" android:background="@drawable/w0577390057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/n057739o057739" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_cloud_snapshot" android:background="@drawable/w0577390057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/n057739r057739" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_cloud_delete" android:background="@drawable/w0577390057739" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/n057739e057739" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_cloud_download" android:background="@drawable/w0577390057739" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/n057739g057739" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_cloud_full_screen" android:background="@drawable/w0577390057739" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/n057739i057739" android:scaleType="centerInside" android:layout_weight="1.0" />
+</LinearLayout>

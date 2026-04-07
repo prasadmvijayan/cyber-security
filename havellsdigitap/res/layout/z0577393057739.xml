@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/thing_dp_6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_102">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdvBg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundedCornerRadius="@dimen/thing_dp_15" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lavAnimation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/thing_dp_12" android:shadowColor="#1affffff" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </FrameLayout>
+    <View android:id="@id/vSelected" android:background="@drawable/a057739j057739l057739" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_102" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.smart.widget.common.verifycodeview.ThingCommonPwdTextView android:textSize="@dimen/thing_theme_dimen_t11" android:textColor="@color/thing_theme_color_b3_n1" android:gravity="center" android:id="@id/tv_pwd" android:background="@drawable/b0577399057739p057739" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_44" android:layout_centerInParent="true" />
+    <com.thingclips.smart.widget.ThingImageView android:id="@id/iv_curso" android:layout_width="@dimen/thing_dp_2" android:layout_height="@dimen/thing_dp_18" android:src="@drawable/b05773990577392057739" android:layout_centerInParent="true" />
+</RelativeLayout>

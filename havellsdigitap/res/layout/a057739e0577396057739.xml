@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText android:textColor="@color/black" android:id="@id/dialog_simple_input" android:paddingLeft="@dimen/thing_mg_24" android:paddingTop="@dimen/thing_mg_18" android:paddingRight="@dimen/thing_mg_24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_24" android:hint="?app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

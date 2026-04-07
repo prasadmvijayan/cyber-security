@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b057739c057739n057739" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_23" android:layout_marginBottom="@dimen/thing_dp_6">
+        <TextView android:textColor="@color/thing_theme_color_b5_2_n2" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_16" />
+        <TextView android:textSize="@dimen/ts_17" android:textStyle="bold" android:textColor="@color/thing_theme_color_b4_n1" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thing_share_more_contacts_title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/ll_rv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.thingclips.smart.uispecs.component.SwipeToLoadLayout android:id="@id/sw_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_20" app:swipe_style="classic">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/swipe_target" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/auto_test_dialog_list" />
+            <View android:id="@id/swipe_load_more_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_10" />
+        </com.thingclips.smart.uispecs.component.SwipeToLoadLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_m1_n1" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_add" android:background="@drawable/b0577395057739o057739" android:paddingTop="@dimen/thing_dp_12" android:paddingBottom="@dimen/thing_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_24" android:layout_marginBottom="@dimen/thing_dp_24" android:text="@string/device_share" android:layout_marginStart="@dimen/thing_dp_24" android:layout_marginEnd="@dimen/thing_dp_24" />
+</LinearLayout>

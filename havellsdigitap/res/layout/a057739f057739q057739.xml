@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_cover" android:background="@drawable/b057739d0577391057739" android:layout_width="@dimen/thing_dp_73" android:layout_height="@dimen/thing_dp_49" android:layout_centerInParent="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sdv_device" android:layout_width="@dimen/thing_dp_66" android:layout_height="@dimen/thing_dp_41" android:layout_centerInParent="true" android:contentDescription="@string/auto_test_dialog_smart_picture" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="@dimen/thing_mg_3" />
+    <View android:id="@id/view_cover_back" android:background="@drawable/b057739d0577390057739" android:layout_width="@dimen/thing_dp_66" android:layout_height="@dimen/thing_dp_41" android:layout_centerInParent="true" android:contentDescription="@string/auto_test_dialog_smart_picture" />
+</RelativeLayout>

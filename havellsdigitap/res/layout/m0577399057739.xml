@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/doorbell_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_17" android:textColor="@color/white" android:id="@id/waiting_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/waiting_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_5" android:src="@drawable/x057739w057739" android:layout_toRightOf="@id/waiting_tv" android:layout_alignBaseline="@id/waiting_tv" />
+</RelativeLayout>

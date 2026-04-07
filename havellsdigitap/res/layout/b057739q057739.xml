@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b4_n9" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_64"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b4_n1" android:ellipsize="end" android:id="@id/tvWifiName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginRight="@dimen/thing_mg_16" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/iconLock" android:layout_marginHorizontal="@dimen/thing_mg_16" />
+    <ImageView android:id="@id/iconLock" android:layout_width="@dimen/thing_dp_16" android:layout_height="@dimen/thing_dp_16" android:src="@drawable/a0577391057739c057739" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_mg_16" android:layout_toStartOf="@id/iconWifi" android:tintMode="src_in" app:tint="@color/thing_theme_color_b1_n1" />
+    <ImageView android:id="@id/iconWifi" android:layout_width="@dimen/thing_dp_16" android:layout_height="@dimen/thing_dp_16" android:src="@drawable/a0577391057739e057739" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_mg_16" android:layout_alignParentEnd="true" android:tintMode="src_in" app:tint="@color/thing_theme_color_b1_n1" />
+</RelativeLayout>

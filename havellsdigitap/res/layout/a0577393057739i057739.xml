@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <View android:background="#ffc8c7cc" android:layout_width="fill_parent" android:layout_height="0.5px" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/netDiagnosisEntrance" android:background="@color/colorGrey" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_diagnosis_entrance" />
+    </LinearLayout>
+</LinearLayout>

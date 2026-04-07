@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/container_et" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:showDividers="middle" />
+    <com.thingclips.security.vas.setting.password.widget.CustomEditText android:id="@id/et" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+</RelativeLayout>

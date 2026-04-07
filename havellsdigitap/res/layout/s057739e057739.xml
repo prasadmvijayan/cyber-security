@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/family_manage_rootview" android:background="@drawable/a0577396057739s057739" android:paddingLeft="@dimen/family_align_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_touch" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="50.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/wh_56" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773960577393057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tint="@color/family_themed_list_item_arrow_color" app:tintMode="src_in" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl_touch" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/family_themed_list_item_title_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_family" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/themed_list_item_subtitle_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/family_manage_dealstatus_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_6" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

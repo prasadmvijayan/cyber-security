@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/room_manager_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="roomListManagementFragment" android:name="com.thingclips.smart.family.roomwithtag.fragement.RoomsListManagementFragment" android:id="@id/fragment_roomlist_managent">
+        <action android:id="@id/action_roomlist_managent_to_sort" app:destination="@id/fragment_room_sort" app:enterAnim="@anim/d057739z057739" app:exitAnim="@anim/e0577397057739" app:popEnterAnim="@anim/e0577397057739" app:popExitAnim="@anim/e057739b057739" app:popUpTo="@id/fragment_roomlist_managent" />
+    </fragment>
+    <fragment android:label="roomManagementFragment" android:name="com.thingclips.smart.family.roomwithtag.fragement.RoomTagsSortFragment" android:id="@id/fragment_room_sort" />
+    <fragment android:label="roomChooseHomeFragment" android:name="com.thingclips.smart.family.roomwithtag.fragement.DevChooseRoomFragment" android:id="@id/fragment_choose_room" />
+</navigation>

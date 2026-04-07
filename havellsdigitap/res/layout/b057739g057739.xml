@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_b1_n3" android:ellipsize="end" android:gravity="bottom" android:id="@id/tvContent" android:paddingTop="@dimen/thing_dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</FrameLayout>

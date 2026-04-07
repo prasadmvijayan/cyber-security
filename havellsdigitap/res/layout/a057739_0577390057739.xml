@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.thingclips.smart.widget.common.cell.ThingCommonCell android:id="@id/thing_device_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:thing_common_cell_caption="@string/thing_smart_scene_device_offline" app:thing_common_cell_show_icon="true" app:thing_common_cell_title="device" />
+</RelativeLayout>

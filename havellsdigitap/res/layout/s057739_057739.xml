@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/thing_theme_color_b4" android:paddingBottom="@dimen/thing_dp_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcvShareWay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t3" android:textColor="@color/thing_theme_color_b4_n3" android:id="@id/tvRoleTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:text="@string/family_perms_role" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/rcvShareWay" />
+    <TextView android:textSize="@dimen/thing_theme_dimen_t3" android:textColor="@color/thing_theme_color_m4" android:ellipsize="end" android:id="@id/tvRoleName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" app:layout_constraintBottom_toBottomOf="@id/tvRoleTitle" app:layout_constraintLeft_toRightOf="@id/tvRoleTitle" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/tvRoleTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

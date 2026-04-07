@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/app_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_message" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_layout" style="@style/THING_RecyclerView_Normal" />
+    <FrameLayout android:id="@id/fl_operation" android:background="@drawable/i0577393057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wh_44" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/color_303030" android:gravity="center_vertical" android:id="@id/tv_select_all" android:paddingLeft="@dimen/thing_mg_15" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/thing_ez_select_all" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="#fffe3824" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/tv_delete" android:paddingRight="@dimen/thing_mg_15" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/operation_delete" android:contentDescription="@string/auto_test_news_delete" />
+    </FrameLayout>
+    <TextView android:textColor="#808a8e91" android:id="@id/iv_message_none" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_common_margin" android:layout_marginRight="@dimen/thing_common_margin" android:text="@string/thing_no_news" android:drawableTop="@drawable/a057739v057739o057739" android:drawablePadding="@dimen/thing_mg_20" android:layout_centerInParent="true" />
+</RelativeLayout>

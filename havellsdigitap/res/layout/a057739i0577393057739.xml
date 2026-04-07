@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.thingclips.security.base.toolbar.ActivityToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/rl_action" android:padding="@dimen/thing_dp_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/theme_color_accent" android:id="@id/tv_disagree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs_alarm_platform_not_agree" />
+        <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/theme_color_accent" android:id="@id/tv_agree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs_alarm_platform_agree" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_my_products" app:startDestination="@id/my_products_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/my_products" android:name="com.vguard.smart.demo.myproducts.DemoMyProductsFragment" android:id="@id/my_products_fragment">
+        <action android:id="@id/action_my_products_fragment_to_productDetailsFragment" app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment android:name="com.vguard.smart.demo.myproducts.DemoProductDetailsFragment" android:id="@id/productDetailsFragment">
+        <action android:id="@id/action_productDetailsFragment_to_productSettingsFragment" app:destination="@id/productSettingsFragment" />
+    </fragment>
+    <fragment android:label="@string/product_settings" android:name="com.vguard.smart.demo.myproducts.DemoProductSettingsFragment" android:id="@id/productSettingsFragment" />
+    <fragment android:label="@string/product_info" android:name="com.vguard.smart.view.home.myproducts.ProductInfoFragment" android:id="@id/productInfoFragment" />
+</navigation>

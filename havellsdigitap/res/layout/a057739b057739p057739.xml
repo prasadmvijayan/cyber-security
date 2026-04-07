@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_60"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_devs_icon" android:layout_width="@dimen/wh_48" android:layout_height="@dimen/wh_48" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_toRightOf="@id/iv_devs_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_devs_name" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_4" android:layout_marginRight="@dimen/thing_mg_60" android:layout_marginBottom="@dimen/thing_mg_2" android:maxWidth="@dimen/thing_mg_214" android:maxLines="1" style="@style/TextView.Normal" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:id="@id/tv_devs_room" android:layout_width="wrap_content" android:layout_height="20.0dip" android:maxWidth="@dimen/thing_mg_214" android:maxLines="1" android:layout_alignLeft="@id/tv_devs_name" android:layout_alignParentBottom="true" android:layout_alignStart="@id/tv_devs_name" style="@style/TextView.Normal" />
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/thing_theme_color_b6_n1" android:ellipsize="end" android:id="@id/tv_devs_name_bak" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dip" android:maxWidth="@dimen/thing_mg_214" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" style="@style/TextView.Normal" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/b057739b0577390057739" android:layout_width="@dimen/wh_120" android:layout_height="@dimen/wh_120" android:alpha="0.85">
+        <ImageView android:layout_width="@dimen/wh_36" android:layout_height="@dimen/wh_36" android:layout_marginTop="29.0dip" android:src="@drawable/b057739b0577391057739" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_suc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_mg_20" android:text="@string/save_success" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a05773930577394057739" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_45">
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b4_n3" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_45" android:text="@string/thing_gateway_selection_title" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/thing_theme_color_b4_n3" android:gravity="center" android:id="@id/tvSkip" android:paddingLeft="@dimen/thing_dp_10" android:paddingRight="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_45" android:text="@string/thing_splash_skip_ad" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:paddingLeft="@dimen/thing_dp_16" android:paddingRight="@dimen/thing_dp_16" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_9" />
+    <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b4_n2" android:gravity="center" android:id="@id/cancelTv" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_57" android:text="@string/cancel" />
+</LinearLayout>

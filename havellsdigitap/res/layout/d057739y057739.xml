@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/player_view_exo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:controller_layout_id="@layout/a057739l0577397057739" app:show_timeout="0" app:use_controller="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b6_n1" android:layout_gravity="center" android:id="@id/toast_msg_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_17" />
+        <com.thingclips.smart.thingsmart_videocutter.ui.ClipContainer android:id="@id/clipContainer" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="@dimen/thing_dp_20">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/recyclerview" android:paddingLeft="@dimen/clip_recyclerview_padding_left" android:paddingRight="@dimen/clip_recyclerview_padding_left" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" app:layoutManager="LinearLayoutManager" />
+            <RelativeLayout android:layout_gravity="start" android:id="@id/ll_frame_left" android:layout_width="@dimen/clip_frame_bar_width_outer" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_frame_left" android:background="@color/clip_shadow_color" android:layout_width="@dimen/clip_frame_bar_width" android:layout_height="fill_parent" android:src="@drawable/a057739b0577392057739" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="end" android:id="@id/ll_frame_right" android:layout_width="@dimen/thing_dp_40" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_frame_right" android:background="@color/clip_shadow_color" android:layout_width="@dimen/clip_frame_bar_width" android:layout_height="fill_parent" android:src="@drawable/a057739b0577393057739" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_play_progress" android:paddingTop="@dimen/thing_dp_1" android:paddingBottom="@dimen/thing_dp_1" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_play_progress" android:background="@color/white" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </com.thingclips.smart.thingsmart_videocutter.ui.ClipContainer>
+        <com.thingclips.smart.uispecs.component.loadingButton.LoadingButton android:gravity="center" android:id="@id/tv_next" android:background="@drawable/i057739p057739" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_22" android:layout_marginBottom="@dimen/thing_dp_17" android:layout_marginStart="@dimen/thing_dp_28" android:layout_marginEnd="@dimen/thing_dp_28" app:state="normal" app:text="@string/done" app:textColor="@color/thing_theme_color_b6_alpha_90" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ts_15" android:textColor="@color/color_8A8E91" android:layout_gravity="right" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_14" android:layout_marginRight="@dimen/thing_mg_15" />
+    <TextView android:textSize="@dimen/ts_17" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tv_message_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginTop="@dimen/thing_mg_14" android:layout_marginRight="@dimen/thing_mg_60" android:lines="1" android:singleLine="true" android:layout_marginStart="@dimen/thing_mg_15" />
+    <TextView android:textSize="@dimen/ts_15" android:textColor="@color/color_8A8E91" android:gravity="left" android:id="@id/tv_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_15" android:layout_marginTop="37.0dip" android:layout_marginRight="@dimen/thing_mg_18" android:layout_marginBottom="@dimen/thing_mg_15" />
+    <View android:layout_gravity="bottom" android:id="@id/line_long" android:background="@color/list_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/line_dip" android:layout_marginLeft="@dimen/item_margin_left" />
+</FrameLayout>

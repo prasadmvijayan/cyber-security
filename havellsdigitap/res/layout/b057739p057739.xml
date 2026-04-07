@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cd_no_device_find" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/thing_sp_14" android:textColor="@color/thing_theme_color_b_activator_n1" android:gravity="center_vertical" android:id="@id/tv_no_device_find" android:padding="@dimen/thing_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thing_activator_pairing_not_found_device" />
+</androidx.cardview.widget.CardView>

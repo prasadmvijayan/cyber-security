@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/e057739w057739" android:paddingLeft="@dimen/thing_theme_dimen_p4" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_88" android:layout_marginTop="@dimen/thing_dp_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_icon" android:layout_width="@dimen/thing_dp_56" android:layout_height="@dimen/thing_dp_56" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/successView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_42" android:layout_marginTop="@dimen/thing_dp_30">
+        <ImageView android:background="@drawable/e057739v057739" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/thing_dp_10" android:layout_height="@dimen/thing_dp_10" android:src="@drawable/e057739u057739" app:tint="@color/thing_theme_color_m3_n1" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_theme_dimen_p3" android:layout_toLeftOf="@id/deviceStateView" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/thing_theme_dimen_t6" android:textColor="@color/thing_theme_color_b3_n1" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t1" android:textColor="@color/thing_theme_color_b3_n4" android:ellipsize="end" android:id="@id/tv_roomName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_2" android:layout_marginBottom="@dimen/thing_dp_8" android:singleLine="true" />
+        <TextView android:textSize="@dimen/thing_theme_dimen_t2" android:textColor="@color/thing_theme_color_b3_n3" android:ellipsize="end" android:id="@id/tv_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_2" android:singleLine="true" />
+    </LinearLayout>
+    <com.thingclips.smart.activator.search.result.ui.view.ThingDeviceStateView android:gravity="center" android:id="@id/deviceStateView" android:padding="@dimen/thing_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_theme_dimen_p4" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/k057739q057739" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_layout">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_receiver_disturb_switch" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16">
+                <TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_mg_8" android:layout_marginStart="@dimen/thing_mg_16" />
+                <com.thingclips.smart.uispecs.component.SwitchButton android:id="@id/sb_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" app:kswBackDrawable="@drawable/x0577398057739" app:kswThumbColor="#ffffffff" />
+                <TextView android:textSize="@dimen/ts_13" android:textColor="?camera_panelmore_item_subtitle_text_color" android:ellipsize="end" android:id="@id/menu_list_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginBottom="@dimen/thing_dp_8" android:maxLines="2" android:layout_toLeftOf="@id/sb_switch" android:layout_below="@id/menu_list_title" android:layout_marginStart="@dimen/thing_mg_16" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_disturb_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_below="@id/rl_receiver_disturb_switch" />
+            <RelativeLayout android:id="@id/rl_add" android:background="?camera_panelmore_item_bg" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/thing_mg_16" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_56" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_mg_20" android:layout_below="@id/rv_disturb_list">
+                <TextView android:textSize="@dimen/ts_16" android:textStyle="bold" android:textColor="@color/thing_theme_color_m1" android:id="@id/tv_add_no_disturb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_dnd_add" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

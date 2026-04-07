@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/j057739g057739" android:paddingTop="@dimen/thing_dp_14" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/thing_dp_14">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b_activator_n3" android:gravity="center|left" android:id="@id/tvCancel" android:padding="@dimen/thing_dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_10" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_27" android:text="@string/cancel" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="@color/thing_theme_color_b_activator_n3" android:gravity="center|right" android:id="@id/tvSkip" android:padding="@dimen/thing_dp_6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_10" android:layout_marginBottom="@dimen/thing_dp_27" android:text="@string/skip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/ts_18" android:textStyle="bold" android:textColor="@color/thing_theme_color_b_activator_n1" android:gravity="center" android:id="@id/tvWifiTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_60" android:text="@string/thing_activator_input_wifi_title" />
+                <com.thingclips.smart.activator.ui.kit.viewutil.WifiChooseAndInputPasswordView android:gravity="center_horizontal" android:id="@id/chooseAndInputWifiView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_40" android:layout_marginRight="@dimen/thing_dp_40" />
+                <com.thingclips.smart.uispecs.component.loadingButton.LoadingButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvConfirm" android:layout_width="@dimen/thing_dp_200" android:layout_height="@dimen/thing_dp_48" android:layout_marginTop="@dimen/thing_dp_32" android:layout_marginBottom="@dimen/thing_dp_40" android:contentDescription="@string/auto_test_add_device_confirm" app:text="@string/go_next" app:textDisableColor="@color/white" style="@style/loadingButton_style" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

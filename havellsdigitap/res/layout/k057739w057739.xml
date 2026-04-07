@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/menu_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_56">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_mg_16" android:layout_marginTop="@dimen/thing_dp_14" android:layout_marginRight="@dimen/thing_dp_64" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16">
+            <TextView android:textSize="@dimen/ts_16" android:textColor="?camera_panelmore_item_title_text_color" android:layout_gravity="center_vertical" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/ts_12" android:textColor="?camera_panelmore_item_subtitle_text_color" android:layout_gravity="center_vertical" android:id="@id/item_list_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ts_14" android:textColor="?camera_panelmore_item_subtitle_text_color" android:ellipsize="end" android:gravity="right" android:id="@id/menu_list_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:lines="1" android:singleLine="true" android:drawableRight="@drawable/l057739_057739" android:drawablePadding="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_10" android:layout_toLeftOf="@id/menu_list_sub_title" android:layout_centerVertical="true">
+            <ImageView android:id="@id/iv_camera_item_icon" android:layout_width="@dimen/thing_dp_25" android:layout_height="@dimen/thing_dp_25" android:layout_margin="@dimen/thing_dp_3" android:layout_alignParentRight="true" />
+            <View android:id="@id/iv_camera_item_red_dot" android:background="@drawable/v057739j057739" android:visibility="gone" android:layout_width="@dimen/thing_dp_10" android:layout_height="@dimen/thing_dp_10" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

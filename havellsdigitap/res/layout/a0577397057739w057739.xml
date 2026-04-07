@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/auth_item_card" android:paddingTop="@dimen/thing_mg_16" android:paddingBottom="@dimen/thing_mg_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_8" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16">
+        <ImageView android:id="@id/auth_item_radio" android:clickable="false" android:layout_width="@dimen/thing_dp_20" android:layout_height="@dimen/thing_dp_20" android:layout_marginStart="@dimen/thing_mg_16" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_mg_16" android:layout_marginEnd="@dimen/thing_mg_16">
+            <TextView android:textSize="@dimen/ts_14" android:textStyle="bold" android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/auth_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/ts_12" android:textColor="@color/thing_theme_color_b6_n3" android:ellipsize="end" android:id="@id/auth_item_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_4" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

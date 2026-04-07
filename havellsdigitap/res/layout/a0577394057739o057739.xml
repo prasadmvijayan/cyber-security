@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <RelativeLayout android:id="@id/rl_panel_choose_switch_rl" android:background="@drawable/a057739t057739d057739" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/thing_mg_200" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.thingclips.smart.control.view.ClipViewPager android:id="@id/panel_choose_switch" android:clipChildren="false" android:layout_width="@dimen/thing_mg_100" android:layout_height="@dimen/thing_mg_100" android:layout_marginTop="@dimen/thing_dp_30" android:layout_centerHorizontal="true" android:overScrollMode="never" />
+        <TextView android:textSize="@dimen/ts_14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_panel_multi_switch_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_20" android:layout_marginTop="@dimen/thing_mg_12" android:layout_marginRight="@dimen/thing_dp_20" android:text="" android:maxLines="2" android:layout_below="@id/panel_choose_switch" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="@dimen/thing_mg_25" android:layout_height="@dimen/thing_mg_12" android:layout_marginBottom="-1.0dip" android:src="@drawable/a057739t057739e057739" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:tint="@color/thing_theme_color_b1" />
+    </RelativeLayout>
+    <com.thingclips.smart.uispecs.component.NoScrollViewPager android:id="@id/panel_current_switch_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

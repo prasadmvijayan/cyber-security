@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_layout" layout="@layout/a057739f057739i057739" />
+    <View android:id="@id/space_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_below="@id/action_bar_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dev_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/space_line" android:contentDescription="@string/auto_test_link_dev_list" />
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/a057739e0577395057739" />
+</RelativeLayout>

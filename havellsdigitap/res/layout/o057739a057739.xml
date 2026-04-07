@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.thingclips.smart.widget.common.toolbar.ThingCommonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:background="@color/thing_theme_color_b6" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_195">
+            <com.thingclips.smart.widget.ThingPicker android:id="@id/picker_hour" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/picker_minute" app:layout_constraintStart_toStartOf="parent" />
+            <com.thingclips.smart.widget.ThingPicker android:id="@id/picker_minute" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/picker_second" app:layout_constraintStart_toEndOf="@id/picker_hour" />
+            <com.thingclips.smart.widget.ThingPicker android:id="@id/picker_second" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/picker_minute" />
+            <TextView android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_hour_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scene_time_unit_hour" android:layout_marginStart="-10.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/picker_minute" app:layout_constraintStart_toEndOf="@id/picker_hour" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_minute_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scene_time_unit_minute" android:layout_marginStart="-10.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/picker_second" app:layout_constraintStart_toEndOf="@id/picker_minute" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textColor="@color/thing_theme_color_b6_n1" android:id="@id/tv_second_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scene_time_unit_second" android:layout_marginStart="-10.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/picker_second" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

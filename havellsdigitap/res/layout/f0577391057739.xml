@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thing_theme_color_b1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/mArmedToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_setting" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a0577399057739i057739" android:layout_alignTop="@id/linearLayout" android:layout_alignBottom="@id/linearLayout" android:layout_marginEnd="@dimen/thing_dp_16" android:layout_alignParentEnd="true" app:tint="@color/thing_theme_color_b2_n1" app:tintMode="src_in" />
+            <ImageView android:id="@id/iv_sos" android:layout_width="@dimen/thing_dp_24" android:layout_height="@dimen/thing_dp_24" android:src="@drawable/a0577399057739f057739" android:layout_alignTop="@id/linearLayout" android:layout_alignBottom="@id/linearLayout" android:layout_marginEnd="@dimen/thing_dp_16" android:layout_toStartOf="@id/iv_setting" app:tint="@color/thing_theme_color_b2_n1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="@dimen/thing_dp_44" android:paddingStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" android:layout_toStartOf="@id/iv_sos" android:layout_alignParentStart="true">
+                <TextView android:textSize="@dimen/ts_18" android:textStyle="bold" android:textColor="@color/themed_toolbar_title_color" android:ellipsize="end" android:gravity="start" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/thing_dp_10" android:drawableEnd="@drawable/a0577399057739g057739" android:drawableTint="@color/themed_toolbar_title_color" android:drawableTintMode="src_in" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.thingclips.security.armed.widget.marquee.VerticalScrollTextView android:id="@id/mArmedLoopVts" android:background="@drawable/b0577394057739g057739" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_40" android:layout_marginTop="@dimen/thing_dp_10" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" app:vst_textColor="@color/thing_theme_color_m2" app:vst_textSize="@dimen/thing_dp_11" />
+            <LinearLayout android:id="@id/ll_sticky_msg" android:background="@drawable/b0577394057739h057739" android:paddingTop="@dimen/thing_dp_9" android:paddingBottom="@dimen/thing_dp_9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_10" android:minHeight="@dimen/thing_dp_40" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16">
+                <ImageView android:background="@drawable/a0577399057739j057739" android:layout_width="@dimen/thing_dp_14" android:layout_height="@dimen/thing_dp_14" android:layout_marginTop="@dimen/thing_dp_3" android:layout_marginStart="@dimen/thing_dp_16" />
+                <TextView android:textSize="@dimen/thing_dp_13" android:textColor="@color/thing_theme_color_m2" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_tip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="@dimen/thing_dp_8" android:layout_marginEnd="@dimen/thing_dp_8" />
+                <ImageView android:id="@id/iv_close" android:visibility="gone" android:layout_width="@dimen/thing_dp_14" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_3" android:layout_marginEnd="@dimen/thing_dp_12" android:tintMode="src_in" app:srcCompat="@drawable/a0577399057739h057739" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.thingclips.security.armed.component.SwipeToLoadLayout android:id="@id/swipe_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:swipe_style="classic">
+            <include android:id="@id/swipe_refresh_header" layout="@layout/f057739h057739" />
+        </com.thingclips.security.armed.component.SwipeToLoadLayout>
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_62" android:layout_marginBottom="@dimen/thing_dp_18" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16" layout="@layout/f057739q057739" />
+</FrameLayout>

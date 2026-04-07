@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?camera_panelmore_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/setting_item_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginTop="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_4" android:max="100" android:progress="0" android:progressDrawable="@drawable/p057739z057739" android:minHeight="@dimen/thing_dp_32" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textSize="@dimen/thing_sp_12" android:textColor="@color/text_color6" android:layout_gravity="center" android:id="@id/setting_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_marginRight="@dimen/thing_dp_16" android:layout_marginBottom="@dimen/thing_dp_16" />
+</LinearLayout>

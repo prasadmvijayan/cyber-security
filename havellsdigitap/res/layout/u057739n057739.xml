@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/thing_dp_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/armed_gateway_iv" android:layout_width="@dimen/thing_dp_44" android:layout_height="@dimen/thing_dp_44" android:layout_marginLeft="@dimen/thing_dp_16" android:layout_centerVertical="true" fresco:actualImageScaleType="centerCrop" fresco:failureImage="@color/color_f1f1f1" fresco:placeholderImage="@color/color_f1f1f1" fresco:placeholderImageScaleType="centerCrop" fresco:roundBottomLeft="true" fresco:roundBottomRight="true" fresco:roundTopLeft="true" fresco:roundTopRight="true" fresco:roundedCornerRadius="@dimen/thing_dp_4" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/armed_gateway_iv" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/thing_theme_color_b2_n1" android:ellipsize="end" android:id="@id/armed_gateway_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_12" android:text="DeviceDevice 1" android:maxLines="1" android:singleLine="true" android:layout_marginStart="@dimen/thing_dp_12" />
+        <TextView android:textSize="@dimen/thing_dp_12" android:textColor="@color/thing_theme_color_m1" android:ellipsize="end" android:id="@id/armed_gateway_room_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/thing_dp_12" android:layout_marginRight="@dimen/thing_dp_12" android:text="@string/hs_device_abnormal" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/armed_gateway_white_iv" android:background="@color/color_88ffffff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

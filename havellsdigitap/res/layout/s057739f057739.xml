@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a0577396057739s057739" android:paddingLeft="@dimen/family_align_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wh_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_touch" android:paddingLeft="@dimen/thing_mg_16" android:paddingRight="@dimen/family_align_right" android:layout_width="50.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/wh_56" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773960577396057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/auto_test_room_sort" app:tint="@color/family_themed_list_item_arrow_color" app:tintMode="src_in" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_mg_12" android:src="@drawable/a0577396057739h057739" android:layout_centerVertical="true" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_device" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="@dimen/thing_mg_12" android:layout_toRightOf="@id/iv_remove" android:layout_centerVertical="true" app:placeholderImage="@drawable/a0577396057739f057739" app:placeholderImageScaleType="fitCenter" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl_touch" android:layout_toRightOf="@id/iv_device" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ts_16" android:textColor="@color/family_themed_list_item_title_color" android:id="@id/tv_device" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ts_13" android:textColor="@color/family_themed_warning_color" android:ellipsize="end" android:id="@id/tv_room" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

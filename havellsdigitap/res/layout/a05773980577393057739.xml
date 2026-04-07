@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/fl_item" android:background="@color/themed_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/thing_dp_48"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_15" android:layout_toLeftOf="@id/menu_list_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_15">
+        <TextView android:textSize="@dimen/thing_dp_16" android:textColor="@color/themed_list_item_title_color" android:layout_gravity="center" android:id="@id/menu_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/menu_list_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_dp_5" android:layout_marginRight="@dimen/thing_dp_15" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/thing_dp_5" android:layout_marginEnd="@dimen/thing_dp_15" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_5" android:src="@drawable/i0577390057739" />
+        <TextView android:textSize="@dimen/thing_dp_14" android:textColor="@color/themed_list_item_subtitle_color" android:ellipsize="end" android:gravity="right" android:id="@id/iv_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/thing_dp_6" android:maxLines="1" android:maxEms="12" android:singleLine="true" android:drawableRight="@drawable/i0577391057739" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/thing_dp_6" android:layout_alignParentEnd="true" />
+    </LinearLayout>
+</RelativeLayout>

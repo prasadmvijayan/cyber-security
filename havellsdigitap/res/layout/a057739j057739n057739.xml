@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b057739g057739f057739" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/thing_dp_16" android:layout_marginEnd="@dimen/thing_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/thing_dp_16" android:textStyle="bold" android:textColor="@color/theme_card_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.thingclips.security.vas.base.widget.ExpandableTextView android:id="@id/etv_remark" android:background="@drawable/b057739g057739d057739" android:padding="@dimen/thing_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_dp_16" />
+</LinearLayout>

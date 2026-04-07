@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="#cc000000" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/guide_tv_activator_close" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/guide_draw_ll1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773980577392057739" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="#e6ffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_15" android:text="@string/ipc_multi_view_hint_swipe" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/guide_draw_ll2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_20" android:layout_below="@id/guide_draw_ll1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773980577391057739" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="#e6ffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_15" android:text="@string/ipc_multi_view_hint_double_tap" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/guide_draw_ll3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thing_mg_35" android:layout_below="@id/guide_draw_ll2">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a05773980577393057739" />
+            <TextView android:textSize="@dimen/thing_sp_16" android:textColor="#e6ffffff" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/thing_mg_15" android:text="@string/ipc_multi_view_hint_long_press" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/thing_sp_16" android:textColor="#ff5583f5" android:gravity="center" android:id="@id/guide_tv_activator_close" android:background="@drawable/l057739w057739" android:layout_width="@dimen/thing_dp_310" android:layout_height="@dimen/thing_dp_48" android:layout_marginBottom="@dimen/thing_dp_15" android:text="@string/thing_activator_feedback_close" android:layout_above="@id/guide_ch_show" app:layout_constraintBottom_toTopOf="@id/guide_ch_show" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <CheckBox android:textSize="@dimen/thing_sp_12" android:textColor="#80ffffff" android:gravity="center" android:id="@id/guide_ch_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thing_dp_50" android:text="@string/hometab_ignore_tip" android:drawablePadding="@dimen/thing_mg_5" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/camera_multi_checkbox_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>
